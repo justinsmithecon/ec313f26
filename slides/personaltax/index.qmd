@@ -1,5 +1,5 @@
 ---
-format: 
+format:
   revealjs:
     theme: [default, hygge.scss]
     css: captions.css
@@ -23,40 +23,33 @@ editor: visual
 
 <h2>Wilfrid Laurier University</h2>
 
-<h2>Fall 2025</h2>
+<h2>Fall 2026</h2>
 
-![](/files/img/hexEC313.png){.absolute top="300" left="900" width="550"}
+![](/files/img/hexEC313.png){.absolute top="275" left="900" width="550"}
 
 # Goals of This Section
 
 ## Goals of This Section
 
--   Outline history of personal income taxes in Canada
+In this section we will:
 
--   Describe how taxes are calculated
-
--   Discuss different concepts of income
-
--   Discuss tax rates
-
--   Explore other issues in income taxation
+- Outline history of personal income taxes in Canada
+- Describe how taxes are calculated
+- Discuss different concepts of income
+- Discuss tax rates
+- Explore other issues in income taxation
 
 # History
 
 ## Origins
 
--   Income tax first introduced federally in Canada in 1917 to help finance WWI
-
-    -   Initially a temporary measure, but became permanent in 1949
-
--   Provinces began introducing income taxes earlier, in the late 1800s (BC, PEI)
-
-    -   Most others followed after the Great Depression
-    -   Newfoundland was last to introduce income tax in 1949
-
--   Currently, both federal and provincial governments levy personal income taxes
-
-    -   Authority comes from Constitution Act
+- Income tax first introduced federally in Canada in 1917 to help finance WWI
+  - Initially a temporary measure, but became permanent in 1949
+- Provinces began introducing income taxes earlier, in the late 1800s (BC, PEI)
+  - Most others followed after the Great Depression
+  - Newfoundland was last to introduce income tax in 1949
+- Currently, both federal and provincial governments levy personal income taxes
+  - Authority comes from Constitution Act
 
 ## Revenues
 
@@ -68,73 +61,52 @@ editor: visual
 
 ## Other Details
 
--   Canada Revenue Agency (CRA) administers federal and most provincial income taxes
-
-    -   Quebec administers its own provincial income tax
-
--   Because of this integration, people fill out one tax return for both federal and provincial taxes
-
-    -   Except in Quebec, where two returns are filed
-
--   Up to 2000 provincial taxes operated on a "tax on tax" system
-
-    -   Provincial taxes were a fraction of federal taxes owed
-
--   Since then provinces have moved to a "tax on income" system
-
-    -   Provincial taxes are calculated on income before federal taxes are deducted
+- [Canada Revenue Agency (CRA)]{.fg style="color: #2780e3;"} administers federal and most provincial income taxes
+  - Quebec administers its own provincial income tax
+- Because of this integration, people fill out one tax return for both federal and provincial taxes
+  - Except in Quebec, where two returns are filed
+- Up to 2000 provincial taxes operated on a ["tax on tax"]{.fg style="color: #2780e3;"} system
+  - Provincial taxes were a fraction of federal taxes owed
+- Since then provinces have moved to a ["tax on income"]{.fg style="color: #2780e3;"} system
+  - Provincial taxes are calculated on income before federal taxes are deducted
 
 ## Other Details
 
--   System based on self-assessment
-
-    -   Taxpayers are responsible for reporting their income and calculating their taxes owed
-
--   Taxpayers have until April 30 of the following year to file their tax returns
-
-    -   Penalties apply if taxes are owed
-
--   If you don't earn income, you don't have to file a tax return
-
-    -   But strong incentive to file to claim benefits or credits
-    -   About 12% of working age Canadians do not file a tax return
+- System based on [self-assessment]{.fg style="color: #2780e3;"}
+  - Taxpayers are responsible for reporting their income and calculating their taxes owed
+- Taxpayers have until April 30 of the following year to file their tax returns
+  - [Penalties apply if taxes are owed]{.fg style="color: #c7254e;"}
+- If you don't earn income, you don't have to file a tax return
+  - But strong incentive to file to claim benefits or credits
+  - About [12% of working age Canadians do not file]{.fg style="color: #c7254e;"} a tax return
 
 # Computing Personal Income Tax
 
 ## Tax Forms
 
--   The computation of your tax liability can be complicated
-
-    -   Income comes from many sources
-    -   Many deductions and credits are available
-
--   The CRA provides tax forms to help you compute your taxes
-
-    -   Forms are available online or in paper format
-    -   Many people use tax software to help with the process
-
--   The main federal tax form is the T1
-
-    -   There are many additional forms (schedules) for specific types of income or deductions
-    -   These forms are federal and provincial
-
--   Packages available here: <https://www.canada.ca/en/revenue-agency/services/forms-publications/tax-packages-years.html>
+- The computation of your tax liability can be complicated
+  - Income comes from many sources
+  - Many deductions and credits are available
+- The CRA provides tax forms to help you compute your taxes
+  - Forms are available online or in paper format
+  - Many people use tax software to help with the process
+- The main federal tax form is the [T1]{.fg style="color: #2780e3;"}
+  - There are many additional forms (schedules) for specific types of income or deductions
+  - These forms are federal and provincial
+- Packages available here: <https://www.canada.ca/en/revenue-agency/services/forms-publications/tax-packages-years.html>
 
 ## Calculating Taxes
 
--   The tax forms guide you through a series of steps to calculate your taxes
-
--   The process is algorithmic, and can be summarized in six main steps outlined in the next slides
-
--   Some key things to note
-
-    -   Not all income sources are taxable
-        -   Gifts, inheritances, lottery winnings, strike pay, legal settlements, first nations income on reserve, capital gains on principal residence, refundable tax credits are not taxable
-    -   Not all income from taxable sources is subject to tax
-        -   Certain income is deducted
-        -   Deductions happen for different reasons
-    -   Taxes are remitted to the government through withholding at source
-        -   So at end of the year you pay the difference or get a refund
+- The tax forms guide you through a series of steps to calculate your taxes
+- The process is algorithmic, and can be summarized in six main steps outlined in the next slides
+- Some key things to note
+  - [Not all income sources are taxable]{.fg style="color: #2780e3;"}
+    - Gifts, inheritances, lottery winnings, strike pay, legal settlements, first nations income on reserve, capital gains on principal residence, refundable tax credits are not taxable
+  - [Not all income from taxable sources is subject to tax]{.fg style="color: #2780e3;"}
+    - Certain income is deducted
+    - Deductions happen for different reasons
+  - Taxes are remitted to the government through [withholding at source]{.fg style="color: #2780e3;"}
+    - So at end of the year you pay the difference or get a refund
 
 ## Step 1: Calculate Total Income
 
@@ -164,136 +136,120 @@ editor: visual
 
 ## Haig-Simons Income
 
--   No definition of income in the Income Tax Act
+- No definition of income in the Income Tax Act
 
--   **Haig-Simons definition** is often used in public finance
+::: {.callout-important}
+## Haig-Simons Definition
+Net increase in ability to consume during a period
 
-    -   Net increase in ability to consume during a period
-    -   Income = Consumption + Additions to Net Wealth
+Income = Consumption + Additions to Net Wealth
+:::
 
--   Includes actual and potential increase in consumption ability
-
-    -   E.g., unrealized capital gains are included
-
--   Also means decreases in consumption ability are negative income
-
-    -   E.g., losses on investments are deductible
-
-## Included Items
-
--   Employer pension contributions
-
-    -   Adds to pension fund
-    -   Increases ability to consume (in the future)
-
--   Transfer payments
-
-    -   Retirement benefits, unemployment insurance, social assistance, workers' compensation
-    -   All increase ability to consume
-
--   Capital gains/losses
-
-    -   Increase in wealth from assets
-    -   Realized (value gained after sale) and unrealized (value held prior to sale) gains
-    -   Increases ability to consume
-    -   Losses deducted because they decrease ability to consume
+- Includes actual and potential increase in consumption ability
+  - E.g., unrealized capital gains are included
+- Also means decreases in consumption ability are [negative income]{.fg style="color: #c7254e;"}
+  - E.g., losses on investments are deductible
 
 ## Included Items
 
--   In-kind income
+- [Employer pension contributions]{.fg style="color: #2780e3;"}
+  - Adds to pension fund
+  - Increases ability to consume (in the future)
+- [Transfer payments]{.fg style="color: #2780e3;"}
+  - Retirement benefits, unemployment insurance, social assistance, workers' compensation
+  - All increase ability to consume
+- [Capital gains/losses]{.fg style="color: #2780e3;"}
+  - Increase in wealth from assets
+  - Realized (value gained after sale) and unrealized (value held prior to sale) gains
+  - Increases ability to consume
+  - Losses deducted because they decrease ability to consume
 
-    -   Income received as goods/services rather than cash
-    -   Employer perks (e.g., company car, subsidized housing)
-    -   Free tuition for dependents of university employees
-    -   Imputed rent from owner-occupied housing
+## Included Items
 
--   Gifts and inheritances
-
-    -   Increase wealth and ability to consume
-    -   Not currently included in income for tax purposes in Canada (but is elsewhere, e.g., US)
-
-## Problems with Haig-Simons
-
--   This concept of income is sometimes hard to implement in practice.
-
--   Business expenses
-
-    -   Supposed to be expenses incurred to earn income
-    -   Some expenses are part consumption part part business
-        -   E.g., meals, travel, home office expenses
-
--   Capital gains/losses
-
-    -   Sometimes hard to measure
-    -   Easy for financial assets traded on markets
-    -   Hard for other assets
-        -   Cars, wine, jewelry, art, collectibles
-        -   Cryptocurrencies and NFTs
+- [In-kind income]{.fg style="color: #2780e3;"}
+  - Income received as goods/services rather than cash
+  - Employer perks (e.g., company car, subsidized housing)
+  - Free tuition for dependents of university employees
+  - Imputed rent from owner-occupied housing
+- [Gifts and inheritances]{.fg style="color: #2780e3;"}
+  - Increase wealth and ability to consume
+  - [Not currently included in income for tax purposes in Canada]{.fg style="color: #c7254e;"} (but is elsewhere, e.g., US)
 
 ## Problems with Haig-Simons
 
--   Imputed rent
+- This concept of income is sometimes hard to implement in practice.
+- [Business expenses]{.fg style="color: #c7254e;"}
+  - Supposed to be expenses incurred to earn income
+  - Some expenses are part consumption, part business
+    - E.g., meals, travel, home office expenses
+- [Capital gains/losses]{.fg style="color: #c7254e;"}
+  - Sometimes hard to measure
+  - Easy for financial assets traded on markets
+  - Hard for other assets
+    - Cars, wine, jewelry, art, collectibles
+    - Cryptocurrencies and NFTs
 
-    -   Hard to measure
-    -   Varies by location, type of housing, size, amenities
-    -   Also applies to non-housing assets that might be rented
+## Problems with Haig-Simons
 
--   In-kind income
-
-    -   Markets exist for some of these, but not for others
-    -   Household labour, volunteer work, parenting, merchandise discounts, etc. are hard to value
+- [Imputed rent]{.fg style="color: #c7254e;"}
+  - Hard to measure
+  - Varies by location, type of housing, size, amenities
+  - Also applies to non-housing assets that might be rented
+- [In-kind income]{.fg style="color: #c7254e;"}
+  - Markets exist for some of these, but not for others
+  - Household labour, volunteer work, parenting, merchandise discounts, etc. are hard to value
 
 ## Why Public Economists Use Haig-Simons
 
--   Haig-Simons income is a comprehensive measure of ability to pay
+:::: columns
+:::: {.column width="50%"}
 
-    -   Includes all sources of consumption and accumulation
-    -   Forms a good base on which to tax individuals
-    -   It is "fair" in that it captures all sources of income
+- Haig-Simons income is a comprehensive measure of [ability to pay]{.fg style="color: #2780e3;"}
+  - Includes all sources of consumption and accumulation
+  - Forms a good base on which to tax individuals
+  - It is "fair" in that it captures all sources of income
+- [Horizontal and vertical equity]{.fg style="color: #2780e3;"}
+  - We noted that people with the same ability to pay should pay the same amount of tax
+  - People with greater ability to pay should pay more tax
+  - Basing it on this definition uses all income as basis for ability to pay
 
--   Horizontal and vertical equity
+::::
 
-    -   We noted that people with the same ability to pay should pay the same amount of tax
-    -   People with greater ability to pay should pay more tax
-    -   Basing it on this definition uses all income as basis for ability to pay
+:::: {.column width="50%"}
 
--   Efficiency
+- [Efficiency]{.fg style="color: #5cb85c;"}
+  - Treats all forms of income the same
+  - No incentives to alter behaviour to avoid tax
 
-    -   Treats all forms of income the same
-    -   No incentives to alter behaviour to avoid tax
-
-## Income in Canada's Tax System
-
--   Much of the income counted in personal income taxes aligns with Haig-Simons
-
--   But there are some departures
-
-    -   Some income sources are excluded (e.g., gifts, inheritances, lottery winnings, employer contributions to benefits)
-    -   Some income sources are only partially included (e.g., capital gains)
-    -   Some deductions are allowed that do not fit the concept (e.g., RRSP contributions)
-
--   Capital gains are a notable departure
-
-    -   Only 50% of capital gains are included in income
-    -   Gains on principal residences are not counted at all
-    -   In the past there were large gains exemptions (i.e. gains below exemption not taxed)
-    -   Only realized gains are taxed
+::::
+::::
 
 ## Income in Canada's Tax System
 
--   These departures can lead to differences in asset value over time
-
--   To see this with realized vs unrealized gains, consider this example
-
-    -   A person buys an asset for \$100
-    -   It appreciates in value by 20% per year over the next 5 years
-    -   Asset is sold at the end of year 5
-    -   Assume a 50% tax rate and an inclusion rate of 50%
-    -   We will go over the tax implications of taxing realized versus unrealized gains
+- Much of the income counted in personal income taxes aligns with Haig-Simons
+- But there are some [departures]{.fg style="color: #c7254e;"}
+  - Some income sources are excluded (e.g., gifts, inheritances, lottery winnings, employer contributions to benefits)
+  - Some income sources are only partially included (e.g., capital gains)
+  - Some deductions are allowed that do not fit the concept (e.g., RRSP contributions)
+- Capital gains are a notable departure
+  - Only [50% of capital gains]{.fg style="color: #c7254e;"} are included in income
+  - Gains on principal residences are not counted at all
+  - In the past there were large gains exemptions (i.e. gains below exemption not taxed)
+  - Only realized gains are taxed
 
 ## Income in Canada's Tax System
 
--   Table below illustrates taxation on **realized gains**
+- These departures can lead to differences in asset value over time
+- To see this with realized vs unrealized gains, consider this example
+  - A person buys an asset for \$100
+  - It appreciates in value by 20% per year over the next 5 years
+  - Asset is sold at the end of year 5
+  - Assume a 50% tax rate and an inclusion rate of 50%
+  - We will go over the tax implications of taxing realized versus unrealized gains
+
+## Income in Canada's Tax System
+
+- Table below illustrates taxation on [**realized gains**]{.fg style="color: #2780e3;"}
 
 | Year | Start Year Value |  Gain | Taxable Gain |  Tax | End Year Value |
 |------|-----------------:|------:|-------------:|-----:|---------------:|
@@ -303,14 +259,14 @@ editor: visual
 | 4    |           172.80 | 34.56 |         0.00 | 0.00 |         207.36 |
 | 5    |           207.36 | 41.47 |         0.00 | 0.00 |         248.83 |
 
--   At the end of the 5 years, the gain is \$248.83 - \$100 = \$148.83
--   Tax paid is \$148.83 \* 50% \* 50% = \$37.21
--   After- tax value is \$248.83 - \$37.21 = \$211.62
--   After tax gain is \$111.62
+- At the end of the 5 years, the gain is \$248.83 - \$100 = \$148.83
+- Tax paid is \$148.83 \* 50% \* 50% = \$37.21
+- After- tax value is \$248.83 - \$37.21 = \$211.62
+- After tax gain is \$111.62
 
 ## Income in Canada's Tax System
 
--   Table below illustrates taxation on **unrealized gains**
+- Table below illustrates taxation on [**unrealized gains**]{.fg style="color: #2780e3;"}
 
 | Year | Start Year Value |  Gain | Taxable Gain |  Tax | End Year Value |
 |------|-----------------:|------:|-------------:|-----:|---------------:|
@@ -320,256 +276,217 @@ editor: visual
 | 4    |           152.09 | 30.42 |        15.21 | 7.60 |         174.90 |
 | 5    |           174.90 | 34.98 |        17.49 | 8.75 |         201.14 |
 
--   Now the value at the end of year 5 is \$201.14
--   After-tax gain is \$201.14 - \$100 = \$101.14
--   Total gains are \$20 + \$23 + \$26.45 + \$30.42 + \$34.98 = \$134.85
--   Tax paid is \$5.00 + \$5.75 + \$6.61 + \$7.60 + \$8.75 = \$134.85 \* 50% \* 50% = \$33.71
-    -   Less because the gains are smaller
+- Now the value at the end of year 5 is \$201.14
+- After-tax gain is \$201.14 - \$100 = \$101.14
+- Total gains are \$20 + \$23 + \$26.45 + \$30.42 + \$34.98 = \$134.85
+- Tax paid is \$5.00 + \$5.75 + \$6.61 + \$7.60 + \$8.75 = \$134.85 \* 50% \* 50% = \$33.71
+  - Less because the gains are smaller
 
 ## Income in Canada's Tax System
 
--   Taxation of realized gains locks in investments
-
-    -   People may be reluctant to sell assets to avoid paying tax
-
--   This can lead to inefficiencies in the economy
-
-    -   People hold onto assets that are not the best use of their resources
-    -   Capital is not allocated to its most productive use
-
--   Conservatives proposed an deferral of taxation for investing in Canadian companies
-
-    -   No gains tax if reinvested in Canadian companies
-    -   Aimed at reducing lock-in effect and encouraging investment in Canada
+- Taxation of realized gains [locks in investments]{.fg style="color: #c7254e;"}
+  - People may be reluctant to sell assets to avoid paying tax
+- This can lead to [inefficiencies]{.fg style="color: #c7254e;"} in the economy
+  - People hold onto assets that are not the best use of their resources
+  - Capital is not allocated to its most productive use
+- Conservatives proposed a deferral of taxation for investing in Canadian companies
+  - No gains tax if reinvested in Canadian companies
+  - Aimed at reducing lock-in effect and encouraging investment in Canada
 
 ## Income in Canada's Tax System
 
--   What if a person holds unrealized gains at death?
-
-    -   CRA deems gains realized on date of death
-    -   Taxes are owed by the estate
-    -   If assets are bequeathed to someone else, the change in asset value since date of death is subject to gains tax
-
--   Why preferential treatment of capital gains?
-
-    -   Encourages investment and risk-taking
-    -   Compensates for deferring consumption
-    -   Offsets increased tax burden from inflation (nominal gains)
+- What if a person holds unrealized gains at death?
+  - CRA deems gains [realized on date of death]{.fg style="color: #2780e3;"}
+  - Taxes are owed by the estate
+  - If assets are bequeathed to someone else, the change in asset value since date of death is subject to gains tax
+- Why preferential treatment of capital gains?
+  - [Encourages investment and risk-taking]{.fg style="color: #5cb85c;"}
+  - Compensates for deferring consumption
+  - Offsets increased tax burden from inflation (nominal gains)
 
 ## Income in Canada's Tax System
 
--   Contributions to pension plans (employee and employer) are not included in income until paid out
-
-    -   Allows people to defer taxes until retirement
-
-        -   Beneficial if people are in lower tax brackets when retired
-
-    -   Interest also not taxed until withdrawn\
-
-    -   Encourages saving for retirement
-
-    -   But a departure from Haig-Simons definition of income
-
--   Finally gifts and inheritances are not taxed
-
-    -   By Haig-Simons, they should be included in income because they increase ability to consume
+- Contributions to pension plans (employee and employer) are not included in income until paid out
+  - Allows people to [defer taxes until retirement]{.fg style="color: #5cb85c;"}
+    - Beneficial if people are in lower tax brackets when retired
+  - Interest also not taxed until withdrawn\
+  - Encourages saving for retirement
+  - But a [departure from Haig-Simons]{.fg style="color: #c7254e;"} definition of income
+- Finally gifts and inheritances are [not taxed]{.fg style="color: #c7254e;"}
+  - By Haig-Simons, they should be included in income because they increase ability to consume
 
 # Tax Deductions and Credits
 
 ## Introduction
 
--   We discussed how income is calculated for tax purposes
-
--   There is a difference between
-
-    -   Total income and taxable income
-
-        -   **Deductions** exclude some income from being taxed
-
-    -   Taxes owing and taxes payable
-
-        -   **Credits** reduce taxes owing
-
--   There are various reasons for deductions and credits
-
-    -   Social policy goals
-    -   Economic efficiency
-    -   Equity considerations
+- We discussed how income is calculated for tax purposes
+- There is a difference between
+  - [Total income]{.fg style="color: #555;"} and [taxable income]{.fg style="color: #555;"}
+    - [**Deductions**]{.fg style="color: #2780e3;"} exclude some income from being taxed
+  - [Taxes owing]{.fg style="color: #555;"} and [taxes payable]{.fg style="color: #555;"}
+    - [**Credits**]{.fg style="color: #2780e3;"} reduce taxes owing
+- There are various reasons for deductions and credits
+  - Social policy goals
+  - Economic efficiency
+  - Equity considerations
 
 ## Deductions
 
--   **Tax Deduction**: An amount that can be subtracted from total income to arrive at taxable income
+::: {.callout-important}
+## Tax Deduction
+An amount that can be subtracted from total income to arrive at taxable income.
+:::
 
--   In Canada, the main goals of deductions are to
-
-    -   Recognize certain unavoidable expenses to earn income (e.g., child care, moving expenses)
-    -   Encourage certain behaviours (e.g., saving for retirement, a home)
-    -   Other reasons (e.g., spousal support)
-
--   Most deductions are for expenses to earn income
-
-    -   E.g., moving expenses, child care, union and professional dues, interest expenses
-    -   Applies the tax only to the "net" additions to income after the expenses
-
-## Deductions
-
--   Most others are to encourage saving
-
-    -   E.g., RRSP contributions, registered pension plan contributions
-    -   Tax is not paid on these amounts until withdrawn
-    -   Most beneficial when people are in high tax brackets when income is earned, and lower ones when withdrawn
-
--   First home buyers plan is deductible **and** not taxed when withdrawn
-
-    -   Encourages saving for first home purchase
-
--   Some savings plans are *not* tax deductible but interest grows tax free
-
-    -   Tax Free Savings Plans
-    -   Registered Education Savings Plans
+- In Canada, the main goals of deductions are to
+  - Recognize certain unavoidable expenses to earn income (e.g., child care, moving expenses)
+  - Encourage certain behaviours (e.g., saving for retirement, a home)
+  - Other reasons (e.g., spousal support)
+- Most deductions are for [expenses to earn income]{.fg style="color: #2780e3;"}
+  - E.g., moving expenses, child care, union and professional dues, interest expenses
+  - Applies the tax only to the "net" additions to income after the expenses
 
 ## Deductions
 
--   Finally, some deductions exist for other reasons
+- Most others are to [encourage saving]{.fg style="color: #5cb85c;"}
+  - E.g., RRSP contributions, registered pension plan contributions
+  - Tax is not paid on these amounts until withdrawn
+  - Most beneficial when people are in high tax brackets when income is earned, and lower ones when withdrawn
+- [First home buyers plan]{.fg style="color: #2780e3;"} is deductible **and** not taxed when withdrawn
+  - Encourages saving for first home purchase
+- Some savings plans are *not* tax deductible but interest grows tax free
+  - [Tax Free Savings Plans]{.fg style="color: #555;"}
+  - [Registered Education Savings Plans]{.fg style="color: #555;"}
 
-    -   E.g., spousal support payments, child support payments
-    -   These payments reduce the income of the payer, who is assumed to have greater ability to pay
-    -   Support is included in the income of the receiver
-    -   Recognizes who ultimately receives the income and consumes it
+## Deductions
 
-## Tax Credits
-
--   **Tax Credit**: An amount that can be subtracted from taxes owing to arrive at taxes payable
-
--   These are different from deductions
-
-    -   Deductions reduce the income that is ultimately taxable
-    -   Credits occur after taxes are calculated, and reduce the amount owed
-
--   There are two types:
-
-    -   **Non-refundable tax credits**: Reduce taxes owing, but not below zero
-    -   **Refundable tax credits**: Can reduce taxes owing below zero, resulting in a refund
-
--   There are many credits available for different purposes
-
-    -   Encourage behaviour
-    -   Recognize certain costs
-    -   Equity considerations
+- Finally, some deductions exist for other reasons
+  - E.g., spousal support payments
+  - These payments reduce the income of the payer, who is assumed to have greater ability to pay
+  - Spousal support is included in the income of the receiver
+  - Note: child support payments are not deductible (since 1997)
+  - Recognizes who ultimately receives the income and consumes it
 
 ## Tax Credits
 
--   Many credits are 15% of the eligible amount
+::: {.callout-important}
+## Tax Credit
+An amount that can be subtracted from taxes owing to arrive at taxes payable.
+:::
 
-    -   15% is the lowest federal tax rate
-    -   So these credits reduce taxes by the same amount as if the eligible amount were deducted from income
-
--   Others are different amounts
-
-    -   Charitable donations credit is much higher
-
-## Tax Credits
-
--   Some notable credits are:
-
--   Basic personal amount credit
-
-    -   All taxpayers get a credit on the first portion of their income
-    -   Recognizes that everyone has some basic consumption needs
-
--   Age amount credit
-
-    -   For seniors over age 65
-    -   Recognizes higher costs of living for seniors
-
--   CPP and EI credit
-
-    -   Recognizes that these amounts are expenses to earn income
-    -   Argument could be made that this is better as a deduction
+- These are different from deductions
+  - Deductions reduce the income that is ultimately taxable
+  - Credits occur after taxes are calculated, and reduce the amount owed
+- There are two types:
+  - [**Non-refundable tax credits**]{.fg style="color: #2780e3;"}: Reduce taxes owing, but not below zero
+  - [**Refundable tax credits**]{.fg style="color: #2780e3;"}: Can reduce taxes owing below zero, resulting in a refund
+- There are many credits available for different purposes
+  - Encourage behaviour
+  - Recognize certain costs
+  - Equity considerations
 
 ## Tax Credits
 
--   Medical expenses
-
-    -   Recognizes that medical expenses are necessary consumption
-    -   Only expenses above a certain threshold are eligible
-
--   Charitable donations
-
-    -   Encourages charitable giving
-    -   Credit rate increases for donations above certain levels
-
--   Canada Workers Benefit
-
-    -   A refundable credit for low-income workers
-    -   Encourages work and supplements income for low earners
+- Many credits are 15% of the eligible amount
+  - 15% is the lowest federal tax rate
+  - So these credits reduce taxes by the same amount as if the eligible amount were deducted from income
+- Others are different amounts
+  - Charitable donations credit is much higher
 
 ## Tax Credits
 
--   Boutique credits
+- Some notable credits are:
+- [Basic personal amount credit]{.fg style="color: #2780e3;"}
+  - All taxpayers get a credit on the first portion of their income
+  - Recognizes that everyone has some basic consumption needs
+- [Age amount credit]{.fg style="color: #2780e3;"}
+  - For seniors over age 65
+  - Recognizes higher costs of living for seniors
+- [CPP and EI credit]{.fg style="color: #2780e3;"}
+  - Recognizes that these amounts are expenses to earn income
+  - Argument could be made that this is better as a deduction
 
-    -   Targeted at specific groups or behaviours
-    -   E.g., credits for digital news subscriptions, home accessibility, volunteer firefighters, fitness
-    -   Often criticized for complexity and inequity
+## Tax Credits
 
--   GST/HST credit
+- [Medical expenses]{.fg style="color: #2780e3;"}
+  - Recognizes that medical expenses are necessary consumption
+  - Only expenses above a certain threshold are eligible
+- [Charitable donations]{.fg style="color: #2780e3;"}
+  - Encourages charitable giving
+  - Credit rate increases for donations above certain levels
+- [Canada Workers Benefit]{.fg style="color: #2780e3;"}
+  - A refundable credit for low-income workers
+  - Encourages work and supplements income for low earners
 
-    -   A refundable credit to offset sales taxes paid
-    -   Targeted at low and moderate income households
+## Tax Credits
 
--   Tuition credit
-
-    -   For students to offset costs of education
-    -   Unused amounts can be carried forward or transferred to others
+- [Boutique credits]{.fg style="color: #2780e3;"}
+  - Targeted at specific groups or behaviours
+  - E.g., credits for digital news subscriptions, home accessibility, volunteer firefighters, fitness
+  - Often [criticized for complexity and inequity]{.fg style="color: #c7254e;"}
+- [GST/HST credit]{.fg style="color: #2780e3;"}
+  - A refundable credit to offset sales taxes paid
+  - Targeted at low and moderate income households
+- [Tuition credit]{.fg style="color: #2780e3;"}
+  - For students to offset costs of education
+  - Unused amounts can be carried forward or transferred to others
 
 ## Credits, Deductions, and Prices
 
--   One effect of deductions and credits is to alter prices for certain types of consumption
+- One effect of deductions and credits is to [alter prices]{.fg style="color: #2780e3;"} for certain types of consumption
+- A good example is charitable donations
 
--   A good example is charitable donations
+:::: columns
+:::: {.column width="50%"}
 
--   In Ontario, for a \$100 donation you would receive a federal credit of \$15 and a provincial credit of \$5.05
+::: {.callout-note}
+## Canada: Credit System
+For a \$100 donation: federal credit of \$15 and provincial credit of \$5.05
 
-    -   Total credit of \$20.05
-    -   So the effective "price" of a \$100 donation is \$79.95 after tax savings
+- Total credit of \$20.05
+- Effective "price" of a \$100 donation is [\$79.95]{.fg style="color: #5cb85c;"}
+:::
 
--   In the United States, donors receive a deduction rather than a credit
+::::
 
-    -   A \$100 donation would reduce taxable income by \$100
-    -   The reduction in the price of the donation depends on the donor's tax bracket
-    -   Someone in the 24% tax bracket avoids \$24 in taxes for the \$100 donation
-    -   So the effective "price" of a \$100 donation is \$76 after tax savings
-    -   Wealthier people (in higher brackets) pay a lower price for donations
+:::: {.column width="50%"}
+
+::: {.callout-note}
+## United States: Deduction System
+A \$100 donation reduces taxable income by \$100
+
+- Reduction depends on donor's tax bracket
+- Someone in 24% bracket avoids \$24 in taxes
+- Effective "price" is [\$76]{.fg style="color: #5cb85c;"}
+- [Wealthier people pay a lower price for donations]{.fg style="color: #c7254e;"}
+:::
+
+::::
+::::
 
 ## Credits vs Deductions: Fairness
 
--   Above example highlights a more general issue: benefits from deductions depend on tax bracket
-
-    -   People in higher brackets receive more benefit from deductions than those in lower brackets
-    -   Some view that as unfair
-
--   Many credits in Canada were deductions prior to 1988
-
-    -   Converted to credits so that the benefit is the same for all taxpayers
-
--   Likely not optimal from an efficiency perspective
-
-    -   People differ in their responses to prices
-    -   You want to give larger incentives to those who respond more
-    -   Credits do not do that
-
--   But credits are simpler and viewed as more equitable
+- Above example highlights a more general issue: [benefits from deductions depend on tax bracket]{.fg style="color: #c7254e;"}
+  - People in higher brackets receive more benefit from deductions than those in lower brackets
+  - Some view that as unfair
+- Many credits in Canada were deductions prior to 1988
+  - Converted to credits so that the benefit is the same for all taxpayers
+- Likely [not optimal from an efficiency perspective]{.fg style="color: #c7254e;"}
+  - People differ in their responses to prices
+  - You want to give larger incentives to those who respond more
+  - Credits do not do that
+- But credits are [simpler and viewed as more equitable]{.fg style="color: #5cb85c;"}
 
 ## Tax Expenditures
 
--   Deductions and credits reduce taxes collected by the government
+- Deductions and credits reduce taxes collected by the government
+  - Foregone tax revenue
+  - Money that is not available to fund public services
+- These can be substantial amounts of money
 
-    -   Foregone tax revenue
-    -   Money that is not available to fund public services
-
--   These can be substantial amounts of money
-
--   This reduction in taxes is viewed as a form of indirect government spending called **tax expenditures**
+::: {.callout-important}
+## Tax Expenditures
+The reduction in taxes from deductions and credits is viewed as a form of indirect government spending called [**tax expenditures**]{.fg style="color: #2780e3;"}.
+:::
 
 ## Tax Expenditures
 
@@ -577,32 +494,27 @@ editor: visual
 
 ## Tax Expenditures
 
--   The Canadian government tracks tax expenditures and reports them annually
-
-    -   Current and historical reports here: https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html
-
--   In 2025, projected to be \$183 billion federally (6% of GDP)
-
-    -   Biggest items: pension deduction, partial inclusion of capital gains, zero-rating of groceries
+- The Canadian government tracks tax expenditures and reports them annually
+  - Current and historical reports here: https://www.canada.ca/en/department-finance/services/publications/federal-tax-expenditures.html
+- In 2025, projected to be [\$183 billion federally (6% of GDP)]{.fg style="color: #c7254e;"}
+  - Biggest items: pension deduction, partial inclusion of capital gains, zero-rating of groceries
 
 # Personal Tax Rates in Canada
 
 ## Introduction
 
--   Canada has a progressive tax system
+- Canada has a [progressive tax system]{.fg style="color: #2780e3;"}
+  - Higher income earners pay a larger fraction of their income in taxes
+- Uses a [bracket system]{.fg style="color: #2780e3;"}
+  - Ranges of income where a particular tax rate applies
 
-    -   Higher income earners pay a larger fraction of their income in taxes
+::: {.callout-important}
+## Marginal vs Average Tax Rates
+- The [**marginal tax rate**]{.fg style="color: #2780e3;"} is the tax you pay on an additional dollar of income --- important for understanding incentives to work, save, invest.
+- The [**average tax rate**]{.fg style="color: #2780e3;"} is total taxes paid divided by total income.
+:::
 
--   Uses a bracket system
-
-    -   Ranges of income where a particular tax rate applies
-
--   The tax you pay on an additional dollar of income is called the **marginal tax rate**
-
-    -   Important for understanding incentives to work, save, invest
-    -   Different from the **average tax rate** which is total taxes paid divided by total income
-
--   The rate in a particular bracket is the marginal tax rate on each dollar in the bracket
+- The rate in a particular bracket is the marginal tax rate on each dollar in the bracket
 
 ## Federal and Provincial Rates
 
@@ -614,36 +526,27 @@ editor: visual
 
 ## Statutory vs Effective Marginal Taxes
 
--   The rates shown are **statutory marginal tax rates**
+- The rates shown are [**statutory marginal tax rates**]{.fg style="color: #2780e3;"}
+  - The rates specified in the tax code
+- But earning one dollar more income can affect other government programs that affect how much of that dollar you keep
+  - E.g., eligibility for benefits, credits, social assistance
+  - These changes can act like a tax or subsidy on additional income
 
-    -   The rates specified in the tax code
-
--   But earning one dollar more income can affect other government programs that affect how much of that dollar you keep
-
-    -   E.g., eligibility for benefits, credits, social assistance
-    -   These changes can act like a tax or subsidy on additional income
-
--   The total effect is called the **effective marginal tax rate**
-
-    -   Statutory rate plus any changes in benefits/credits/social assistance
+::: {.callout-note}
+## Effective Marginal Tax Rate
+The total effect on after-tax income from earning one more dollar is called the [**effective marginal tax rate**]{.fg style="color: #2780e3;"} --- the statutory rate plus any changes in benefits/credits/social assistance.
+:::
 
 ## Statutory vs Effective Marginal Taxes
 
--   Several factors can drive a wedge between statutory and effective marginal tax rates
-
-    -   Surtaxes: additional taxes applied when income exceeds certain thresholds
-
-        -   Canada has mostly eliminated these, but some provinces still have them
-
-    -   Payroll taxes: taxes on earnings to fund social programs (e.g., CPP, EI)
-
-        -   These increase the effective marginal tax rate on labour income
-
-    -   Clawbacks: as income increases, eligibility for certain programs decreases
-
-        -   E.g., GST/HST credit, Canada Child Benefit, Old Age Security
-
--   What matters for individual decision making is the effective marginal tax rate
+- Several factors can drive a wedge between statutory and effective marginal tax rates
+  - [Surtaxes]{.fg style="color: #555;"}: additional taxes applied when income exceeds certain thresholds
+    - Canada has mostly eliminated these, but some provinces still have them
+  - [Payroll taxes]{.fg style="color: #555;"}: taxes on earnings to fund social programs (e.g., CPP, EI)
+    - These increase the effective marginal tax rate on labour income
+  - [Clawbacks]{.fg style="color: #555;"}: as income increases, eligibility for certain programs decreases
+    - E.g., GST/HST credit, Canada Child Benefit, Old Age Security
+- What matters for individual decision making is the [effective marginal tax rate]{.fg style="color: #2780e3;"}
 
 ## Statutory vs Effective Marginal Taxes
 
@@ -655,254 +558,197 @@ editor: visual
 
 ## Alternative Minimum Tax
 
--   With the myriad of deductions and credits, it is possible to pay little or no tax despite high income
+- With the myriad of deductions and credits, it is possible to [pay little or no tax despite high income]{.fg style="color: #c7254e;"}
+  - Wealthier people can hire accountants to find ways to reduce tax liability
 
-    -   Wealthier people can hire accountants to find ways to reduce tax liability
-
--   Canada has an **Alternative Minimum Tax (AMT)** to ensure high-income earners pay a minimum level of tax
-
--   To calculate AMT, taxpayers add back certain deductions and credits to their taxable income
-
--   Applies the normal tax rates to this adjusted income to calculate a minimum tax liability
+::: {.callout-warning}
+## Alternative Minimum Tax (AMT)
+Canada has an [**Alternative Minimum Tax**]{.fg style="color: #2780e3;"} to ensure high-income earners pay a minimum level of tax. Taxpayers add back certain deductions and credits to their taxable income, and the normal tax rates are applied to this adjusted income to calculate a minimum tax liability.
+:::
 
 ## Effective vs Statutory Taxes Again
 
--   We already discussed the differences between statutory and effective marginal tax rates
+- We already discussed the differences between statutory and effective marginal tax rates
+- This discussion can be broadened to consider these economic factors
+  - The economic incidence of a tax is not always on the person who writes the cheque to the government
+  - Taxes involve [excess burden (deadweight loss)]{.fg style="color: #c7254e;"} beyond the tax revenue collected
+- Simply looking at the statutory tax rates ignores these factors
 
--   This discussion can be broadened to consider these economic factors
-
-    -   The economic incidence of a tax is not always on the person who writes the cheque to the government
-    -   Taxes involve excess burden (deadweight loss) beyond the tax revenue collected
-
--   Simply looking at the statutory tax rates ignores these factors
-
--   Some economists have proposed a **flat tax** as a way to simplify the tax system and reduce excess burden
-
-    -   A single tax rate on all income, with few deductions or credits
-    -   Would reduce compliance costs and economic distortions
+::: {.callout-tip}
+## Flat Tax Proposal
+Some economists have proposed a [**flat tax**]{.fg style="color: #2780e3;"} --- a single tax rate on all income, with few deductions or credits --- as a way to simplify the tax system and reduce excess burden.
+:::
 
 ## Effective vs Statutory Taxes Again
 
--   Pros of a flat tax would be
+:::: columns
+:::: {.column width="50%"}
 
-    -   Simplicity: easier to understand and comply with
-    -   Lower compliance costs: less time and money spent on tax preparation
-    -   Reduced economic distortions: fewer incentives to alter behaviour to avoid tax
+::: {.callout-note}
+## Pros of a Flat Tax
+- [Simplicity]{.fg style="color: #5cb85c;"}: easier to understand and comply with
+- [Lower compliance costs]{.fg style="color: #5cb85c;"}: less time and money spent on tax preparation
+- [Reduced economic distortions]{.fg style="color: #5cb85c;"}: fewer incentives to alter behaviour to avoid tax
+:::
 
--   Cons are
+::::
 
-    -   Equity concerns: flat tax is less progressive, may increase inequality
-    -   Some deductions and credits might be eliminated to broaden the tax base
-    -   Political feasibility: difficult to implement due to vested interests in current system
+:::: {.column width="50%"}
+
+::: {.callout-warning}
+## Cons of a Flat Tax
+- [Equity concerns]{.fg style="color: #c7254e;"}: flat tax is less progressive, may increase inequality
+- Some deductions and credits might be eliminated to broaden the tax base
+- [Political feasibility]{.fg style="color: #c7254e;"}: difficult to implement due to vested interests in current system
+:::
+
+::::
+::::
 
 # Tax Unit
 
 ## Introduction
 
--   The current tax unit in Canada is the individual
-
-    -   Each person files their own tax return
-    -   Income and taxes are calculated separately for each person
-    -   Some tax incentives exist for families
-
--   Some countries use the family or household as the tax unit
-
-    -   Income and taxes are calculated for the family as a whole
-    -   Can lead to different tax liabilities compared to individual filing
-
--   Which is the better approach?
+- The current tax unit in Canada is the [individual]{.fg style="color: #2780e3;"}
+  - Each person files their own tax return
+  - Income and taxes are calculated separately for each person
+  - Some tax incentives exist for families
+- Some countries use the [family or household]{.fg style="color: #2780e3;"} as the tax unit
+  - Income and taxes are calculated for the family as a whole
+  - Can lead to different tax liabilities compared to individual filing
+- Which is the better approach?
 
 ## Individual vs Family as Tax Unit
 
--   Individual filing is when each person files their own tax return
-
-    -   Even in couples, each income is taxed separately
-    -   Means that deductions and credits are calculated for each person individually
-    -   Though sometimes deductions and credits can be shifted between spouses
-
--   Family filing is when the family unit files a single tax return
-
-    -   Income is combined and taxed as a whole
-    -   Deductions and credits are calculated for the family as a whole
+- [Individual filing]{.fg style="color: #2780e3;"} is when each person files their own tax return
+  - Even in couples, each income is taxed separately
+  - Means that deductions and credits are calculated for each person individually
+  - Though sometimes deductions and credits can be shifted between spouses
+- [Family filing]{.fg style="color: #2780e3;"} is when the family unit files a single tax return
+  - Income is combined and taxed as a whole
+  - Deductions and credits are calculated for the family as a whole
 
 ## Individual vs Family as Tax Unit
 
--   Next slide outlines an example showing difference for two types of families
-
-    -   A breadwinner family where one spouse earns most income
-
-    -   One where both spouses earn equal amounts
-
--   Hypothetical progressive tax schedule is
-
-    -   10% tax up to \$6000 in income
-
-    -   50% tax for income beyond \$6000
+- Next slide outlines an example showing difference for two types of families
+  - A breadwinner family where one spouse earns most income
+  - One where both spouses earn equal amounts
+- Hypothetical progressive tax schedule is
+  - 10% tax up to \$6000 in income
+  - 50% tax for income beyond \$6000
 
 ![](images/ros55466_t1707.jpg){fig-align="center"}
 
 
 ## Individual vs Family as Tax Unit
 
--   With joint filing, it does not matter who earns income
-
-    -   Tax applies to the sum of the income, so who earns it is irrelevant
-    -   Both families pay the same tax
-
--   With individual filing, it does
-
-    -   In example, one spouse earns almost all income
-    -   Means that more income is taxed at higher rates
-    -   Leads to higher burden
-    -   Means the two families pay different tax
-
--   For both families, joint filing increases the tax burden
+- With [joint filing]{.fg style="color: #2780e3;"}, it does not matter who earns income
+  - Tax applies to the sum of the income, so who earns it is irrelevant
+  - Both families pay the same tax
+- With [individual filing]{.fg style="color: #2780e3;"}, it does
+  - In example, one spouse earns almost all income
+  - Means that more income is taxed at higher rates
+  - Leads to [higher burden]{.fg style="color: #c7254e;"}
+  - Means the two families pay different tax
+- Joint filing increases the tax burden for the equal-earner family but decreases it for the breadwinner family
 
 ## Individual vs Family as Tax Unit
 
--   Efficiency issues with the family as the taxable unit
-
-    -   With family as the taxable unity, everyone in the family pays the same marginal tax rate
-    -   Recall that using a Ramsay Rule argument, we want to tax labour differently depending on elasticity of supply
-    -   Using family as the tax unit means that people with different elasticities may face the same marginal tax rate
-
--   Equity issues with family taxation
-
-    -   Some people believe that tax burdens should be equal across families
-
-    -   But taxing as a family can discourage work by the lower earning spouse
-
-        -   As noted, second earner faces higher marginal tax rates than if taxed individually
-        -   The lower earner in many families is female
-        -   Could discourage female labour supply
-
-    -   Some types of families may not actually share income
+- [Efficiency issues]{.fg style="color: #c7254e;"} with the family as the taxable unit
+  - Everyone in the family pays the same marginal tax rate
+  - By Ramsey Rule, we want to tax labour differently depending on elasticity of supply
+  - People with different elasticities may face the same marginal tax rate
+- [Equity issues]{.fg style="color: #c7254e;"} with family taxation
+  - Can [discourage work by the lower earning spouse]{.fg style="color: #c7254e;"}
+    - Second earner faces higher marginal tax rates than if taxed individually
+    - The lower earner in many families is female
+  - Some types of families may not actually share income
 
 ## Individual vs Family as Tax Unit
 
--   Equity issues with the individual as the filing unit
-
-    -   Families who earn the same amount are taxed differently
-
-    -   Income splitting with individual filing
-
-        -   In Canada this happens with Canadian-Controlled Private Corporations (CCPCs)
-        -   Professionals like doctors, dentists, etc can incorporate
-        -   Inside a CCCP, income is split among family members through "income sprinkling"
-        -   Allows wealthy to lower their tax burden
-
--   Other issues
-
-    -   What is a family?
-
-        -   Married couples, common-law partners, single parents, multi-generational households?
+- Equity issues with the individual as the filing unit
+  - Families who earn the same amount are [taxed differently]{.fg style="color: #c7254e;"}
+  - [Income splitting]{.fg style="color: #2780e3;"} with individual filing
+    - In Canada this happens with Canadian-Controlled Private Corporations (CCPCs)
+    - Income is split among family members through "income sprinkling"
+    - Allows wealthy to lower their tax burden
+- Other issues: What is a family?
+  - Married couples, common-law partners, single parents, multi-generational households?
 
 # Taxes and Inflation
 
 ## Introduction
 
--   Inflation is the general increase in prices in the economy
-
--   Nominal wages and asset prices tend to rise with inflation
-
-    -   Some wage contracts are directly indexed to inflation
-
--   But income taxes are based on nominal income
-
--   This can lead to some problems in the tax system
+- [Inflation]{.fg style="color: #2780e3;"} is the general increase in prices in the economy
+- Nominal wages and asset prices tend to rise with inflation
+  - Some wage contracts are directly indexed to inflation
+- But income taxes are based on [nominal income]{.fg style="color: #c7254e;"}
+- This can lead to some problems in the tax system
 
 ## Bracket Creep
 
--   In a progressive tax system, there are different marginal tax rates for different ranges on incomes
+::: {.callout-warning}
+## Bracket Creep
+In a progressive tax system, as nominal incomes rise with inflation, people can be pushed into higher tax brackets --- even if their real income (purchasing power) has not increased.
+:::
 
--   As nominal incomes rise with inflation, people can be pushed into higher tax brackets
-
-    -   Even if their real income (purchasing power) has not increased
-
--   Example
-
-    -   Suppose tax on first \$6000 of income is 10%, and income above \$6000 is taxed at 50%
-    -   In 2024, a person earns \$6000 and pays \$600 in taxes
-    -   Suppose that between 2024 and 2025 there is 10% inflation, and the person's nominal income rises to \$6600
-    -   Now the person pays \$600 + 0.5 \* (\$6600 - \$6000) = \$900 in taxes
-    -   But their real income is the same
-
--   The movement into higher tax brackets due to inflation is called **bracket creep**
+- Example
+  - Suppose tax on first \$6000 of income is 10%, and income above \$6000 is taxed at 50%
+  - In 2024, a person earns \$6000 and pays \$600 in taxes
+  - Suppose that between 2024 and 2025 there is 10% inflation, and the person's nominal income rises to \$6600
+  - Now the person pays \$600 + 0.5 \* (\$6600 - \$6000) = \$900 in taxes
+  - But their real income is the same
+- The movement into higher tax brackets due to inflation is called [**bracket creep**]{.fg style="color: #c7254e;"}
 
 ## Bracket Creep
 
--   To avoid bracket creep, governments can index tax brackets to inflation
-
-    -   Adjust the income thresholds for tax brackets based on inflation rate
-
--   But this only works with anticipated inflation
-
-    -   Unanticipated inflation can still lead to bracket creep
-
--   Canada does adjust the brackets for inflation to avoid this problem
+- To avoid bracket creep, governments can [index tax brackets to inflation]{.fg style="color: #5cb85c;"}
+  - Adjust the income thresholds for tax brackets based on inflation rate
+- But this only works with [anticipated inflation]{.fg style="color: #c7254e;"}
+  - Unanticipated inflation can still lead to bracket creep
+- Canada does adjust the brackets for inflation to avoid this problem
 
 ## Deductions and Credits
 
--   Some deductions and credits are fixed amounts
-
-    -   E.g., basic personal amount, age amount, medical expenses threshold, child care deduction limit
-
--   These amounts may not be indexed to inflation
-
--   The real value of these deductions and credits erodes with inflation
-
-    -   People may pay more taxes in real terms even if their real income has not increased
-
--   Example: child care deduction limit is \$8000 per child under 7
-
-    -   If this stays constant over time, purchasing power of this deduction decreases with inflation
+- Some deductions and credits are fixed amounts
+  - E.g., basic personal amount, age amount, medical expenses threshold, child care deduction limit
+- These amounts may [not be indexed to inflation]{.fg style="color: #c7254e;"}
+- The real value of these deductions and credits [erodes with inflation]{.fg style="color: #c7254e;"}
+  - People may pay more taxes in real terms even if their real income has not increased
+- Example: child care deduction limit is \$8000 per child under 7
+  - If this stays constant over time, purchasing power of this deduction decreases with inflation
 
 ## Capital Income
 
--   We briefly discussed the issue of inflation and capital income
-
--   Assets grow with inflation
-
-    -   Stocks, real estate, etc.
-
--   But when assets are sold, the capital gains tax is based on nominal gains
-
--   Means part of tax is based on inflation, part based on real gains
-
--   Example: An asset increases in nominal value by 5% in a year, and inflation is also 5%
-
-    -   If a person sells the asset, capital gains tax is based on 5% nominal gain
-    -   But their real gain is 0%
-    -   Taxes based entirely on inflation
+- We briefly discussed the issue of inflation and capital income
+- Assets grow with inflation
+  - Stocks, real estate, etc.
+- But when assets are sold, the capital gains tax is based on [nominal gains]{.fg style="color: #c7254e;"}
+- Means part of tax is based on inflation, part based on real gains
+- Example: An asset increases in nominal value by 5% in a year, and inflation is also 5%
+  - If a person sells the asset, capital gains tax is based on 5% nominal gain
+  - But their [real gain is 0%]{.fg style="color: #c7254e;"}
+  - Taxes based entirely on inflation
 
 ## Interest Income
 
--   Like with capital gains, interest income is taxed on nominal amounts
-
--   If you earn interest on a savings account, the interest is included in income
-
--   But part of that interest is just compensating for inflation
-
-    -   Real return may be lower than nominal return
-
--   The real return on an investment is $r = i - \pi - ti$
-
-    -   Where $i$ is the nominal interest rate, $\pi$ is the inflation rate, and $t$ is the tax rate on interest income
-
--   So a \$100 investment that earns 6% nominal interest with 3% inflation and a 50% tax rate has a real return of
-
-    -   $r = 0.06 - 0.03 - 0.5*0.06 = 0$
+- Like with capital gains, interest income is taxed on nominal amounts
+- If you earn interest on a savings account, the interest is included in income
+- But part of that interest is just compensating for inflation
+  - Real return may be lower than nominal return
+- The real return on an investment is $r = i - \pi - ti$
+  - Where $i$ is the nominal interest rate, $\pi$ is the inflation rate, and $t$ is the tax rate on interest income
+- So a \$100 investment that earns 6% nominal interest with 3% inflation and a 50% tax rate has a real return of
+  - $r = 0.06 - 0.03 - 0.5*0.06 = 0$
 
 ## Solving The Inflation Problem
 
--   Main solution to brack creep and deduction/credit erosion is to index to inflation
-
-    -   Canada has been partially indexing the personal income tax system since 1973
-    -   Indexing has expanded over time
-    -   Stil not all parts are indexed
-    -   Remember also that unanticipated inflation can still cause problems
-
--   Tables on next slides outline the current state of indexing
+- Main solution to bracket creep and deduction/credit erosion is to [index to inflation]{.fg style="color: #5cb85c;"}
+  - Canada has been partially indexing the personal income tax system since 1973
+  - Indexing has expanded over time
+  - Still not all parts are indexed
+  - Remember also that unanticipated inflation can still cause problems
+- Tables on next slides outline the current state of indexing
 
 ## Solving The Inflation Problem
 
@@ -915,13 +761,10 @@ editor: visual
 
 ## Solving The Inflation Problem
 
-- There are also equity issues that are solved by indexing
-
+- There are also [equity issues]{.fg style="color: #2780e3;"} that are solved by indexing
 - Without indexing, the value of tax credits erodes over time
-
-  - Lower income people using more credits are disproportionately affected
+  - [Lower income people using more credits are disproportionately affected]{.fg style="color: #c7254e;"}
   - The burden of inflation would be worse for them
-  
 - Indexing is important to maintain the real value of these income support measures
 
 
@@ -930,72 +773,51 @@ editor: visual
 ## Introduction
 
 - We have only talked about income earned within Canada
-
 - Many Canadians earn income abroad
-
 - Should Canada or the other country (or both) tax this income?
-
 - Different countries take different approaches
 
 
 ## Taxation of Foreign Income in Canada
 
-- Taxation in Canada is based on residency
-
+- Taxation in Canada is based on [residency]{.fg style="color: #2780e3;"}
 - Residents of Canada pay tax on income earned worldwide
-
-- To avoid double taxation, Canada offers a foreign income tax credit
-
+- To avoid [double taxation]{.fg style="color: #c7254e;"}, Canada offers a [foreign income tax credit]{.fg style="color: #5cb85c;"}
   - Foreign tax paid lowers Canadian tax owed on that income
   - Credit can offset part or all of Canadian taxes
-  - But Cannot exceed Canadian tax owed on that income
-  
+  - But cannot exceed Canadian tax owed on that income
 - In contrast, US citizens are taxed regardless of residency
-
   - US citizens pay tax on worldwide income even if they live abroad
   - Foreign tax credit also available to avoid double taxation
 
 ## Taxation of Foreign Income in Canada
 
 - Is a residency-based system better than citizenship-based?
-
-- Equity considerations
-
+- [Equity considerations]{.fg style="color: #2780e3;"}
   - Residents of the same foreign country can be taxed differently based on citizenship
-  
-      - E.g. Canada versus US citizens living in the same foreign country
-      
+    - E.g. Canada versus US citizens living in the same foreign country
   - Citizens of the same country can be taxed differently based on residency
-  
-      - E.g. Canadian citizens living in Canada versus abroad
-      
+    - E.g. Canadian citizens living in Canada versus abroad
   - Different definitions of horizontal equity would make one more equitable
-  
-  
+
+
 ## Taxation of Foreign Income in Canada
 
-- Efficiency considerations  
-
+- [Efficiency considerations]{.fg style="color: #2780e3;"}
   - Taxes can affect decisions on production
-  
-      - American firms abroad may face higher taxes if owners are US citizens
-      - Could discourage investment abroad
-      - Canadian firms would not face this issue
-      
+    - American firms abroad may face higher taxes if owners are US citizens
+    - Could [discourage investment abroad]{.fg style="color: #c7254e;"}
+    - Canadian firms would not face this issue
   - Taxes can affect decisions on migration
-  
-      - US citizens face no tax advantage to moving abroad
-      - Canadian citizens may face tax advantages to moving and residing abroad
+    - US citizens face no tax advantage to moving abroad
+    - Canadian citizens may face [tax advantages to moving and residing abroad]{.fg style="color: #5cb85c;"}
 
 # References
 
 
 ## References
 
--   Rosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.
-
--   Gruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.
-
--   Bazel, Philip. Marginal Effective Tax Rates for Working Families in Canada. Fraser Institute, 2024.
-
+- Rosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.
+- Gruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.
+- Bazel, Philip. Marginal Effective Tax Rates for Working Families in Canada. Fraser Institute, 2024.
 - Hansen, Jeff, and Devan Mescall, and Graham Purse. "Policy Forum: The Effects of Indexation and Inflation on Tax System Design." Canadian Tax Journal 71, no. 2 (2023): 398-404.
