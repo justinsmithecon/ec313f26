@@ -58,18 +58,18 @@ An **externality** is a cost or benefit imposed on a third party not involved in
 :::: columns
 ::: {.column width="50%"}
 - Some examples of [negative externalities]{.fg style="color: #c7254e;"}
-  - [Carbon emissions]{.fg style="color: #555;"}: pollution from burning fossil fuels harms the environment and public health
-  - [Crypto mining]{.fg style="color: #555;"}: high energy consumption leads to increased greenhouse gas emissions
+  - [Carbon emissions]{.fg style="color: #555;"}: burning fossil fuels harms the environment
+  - [Crypto mining]{.fg style="color: #555;"}: high energy consumption increases greenhouse gases
   - [Noise pollution]{.fg style="color: #555;"}: loud nightclubs disturb nearby residents
-  - [Fertilizer runoff]{.fg style="color: #555;"}: agricultural chemicals contaminate water supplies
+  - [Fertilizer runoff]{.fg style="color: #555;"}: agricultural chemicals contaminate water
 :::
 
 ::: {.column width="50%"}
 - Some examples of [positive externalities]{.fg style="color: #5cb85c;"}
-  - [Vaccinations]{.fg style="color: #555;"}: immunized individuals reduce disease spread, benefiting others
-  - [Education]{.fg style="color: #555;"}: educated individuals contribute to a more informed and productive society
-  - [Public parks]{.fg style="color: #555;"}: green spaces enhance community well-being and property values
-  - [Research and development]{.fg style="color: #555;"}: innovations can lead to widespread technological advancements
+  - [Vaccinations]{.fg style="color: #555;"}: reduce disease spread, benefiting others
+  - [Education]{.fg style="color: #555;"}: contributes to a more productive society
+  - [Public parks]{.fg style="color: #555;"}: enhance community well-being and property values
+  - [Research and development]{.fg style="color: #555;"}: innovations lead to widespread benefits
 :::
 ::::
 

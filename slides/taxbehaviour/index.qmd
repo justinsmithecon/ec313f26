@@ -140,7 +140,9 @@ The rate at which a person is willing to trade income for leisure while remainin
 
 - Mathematically, the budget constraint is
 
-$$I = w(T - L) $$ - Income is equal to income from working $(w(T - L))$
+$$I = w(T - L)$$
+
+- Income is equal to income from working $(w(T - L))$
 
 - The slope of the budget constraint is $-w$
   - The opportunity cost of leisure is the wage rate
@@ -459,7 +461,7 @@ $$ c_{1} = (1 + r)(I_{0} - c_{0}) + I_{1} $$
 - A person who saves \$1 in period 0 receives interest $r - rt$ in period 1
   - Because the interest earned is taxed they must pay $rt$ on the interest
   - This lowers the return
-- Means that foregoing \$1 in period 0 leads to consuming \$1 + r - rt = 1+(1-t)r \$ in period 1
+- Means that foregoing \$1 in period 0 leads to consuming $1 + r - rt = 1+(1-t)r$ in period 1
   - The [after-tax interest rate]{.fg style="color: #2780e3;"} is $r(1 - t)$
 
 ## Tax on Interest Income with Deductible Interest
@@ -468,7 +470,7 @@ $$ c_{1} = (1 + r)(I_{0} - c_{0}) + I_{1} $$
   - They pay interest $r$
   - But because it is *tax deductible* they save $rt$ on taxes
   - Means that total interest paid is $r - rt$
-- Means that borrowing \$1 in period 0 leads to foregoing \$1 + r - rt = 1+(1-t)r \$ of consumption in period 1
+- Means that borrowing \$1 in period 0 leads to foregoing $1 + r - rt = 1+(1-t)r$ of consumption in period 1
   - The [after-tax interest rate]{.fg style="color: #2780e3;"} is $r(1 - t)$
 
 ::: {.callout-note}

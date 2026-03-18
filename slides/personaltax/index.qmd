@@ -259,10 +259,10 @@ Income = Consumption + Additions to Net Wealth
 | 4    |           172.80 | 34.56 |         0.00 | 0.00 |         207.36 |
 | 5    |           207.36 | 41.47 |         0.00 | 0.00 |         248.83 |
 
-- At the end of the 5 years, the gain is \$248.83 - \$100 = \$148.83
-- Tax paid is \$148.83 \* 50% \* 50% = \$37.21
-- After- tax value is \$248.83 - \$37.21 = \$211.62
-- After tax gain is \$111.62
+- At the end of the 5 years, the gain is \$248.83 − \$100 = \$148.83
+- Tax paid is \$148.83 × 50% × 50% = \$37.21
+- After-tax value is \$248.83 − \$37.21 = \$211.62
+- After-tax gain is \$111.62
 
 ## Income in Canada's Tax System
 
@@ -277,9 +277,9 @@ Income = Consumption + Additions to Net Wealth
 | 5    |           174.90 | 34.98 |        17.49 | 8.75 |         201.14 |
 
 - Now the value at the end of year 5 is \$201.14
-- After-tax gain is \$201.14 - \$100 = \$101.14
+- After-tax gain is \$201.14 − \$100 = \$101.14
 - Total gains are \$20 + \$23 + \$26.45 + \$30.42 + \$34.98 = \$134.85
-- Tax paid is \$5.00 + \$5.75 + \$6.61 + \$7.60 + \$8.75 = \$134.85 \* 50% \* 50% = \$33.71
+- Tax paid is \$134.85 × 50% × 50% = \$33.71
   - Less because the gains are smaller
 
 ## Income in Canada's Tax System

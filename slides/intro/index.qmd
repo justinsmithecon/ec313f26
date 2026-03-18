@@ -146,10 +146,9 @@ In this section we will:
 ## Positive Economics
 The study of how things are
 
-- What are the effects of a carbon tax on gasoline consumption
-- How do income taxes affect labour supply
+- What are the effects of a carbon tax on gasoline consumption?
+- How do income taxes affect labour supply?
 - Primarily an empirical field
-- Most research in public economics is positive economics
 :::
 
 ::::
@@ -162,8 +161,7 @@ The study of how things should be
 
 - Should the government impose a carbon tax on gasoline?
 - Should income taxes be progressive or flat?
-- Key difference with positive economics is that it involves value judgements
-- Primarily a theoretical field
+- Involves value judgements
 :::
 
 ::::

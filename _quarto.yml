@@ -4,8 +4,8 @@ project:
   post-render: "scripts/decktape.sh"   
   render:
     - "*.qmd"
-    - "!assignments/files/"
-    - "!files/tutorials/"   
+    - "!assignments/"
+    - "!files/tutorials/"
 
 website:
   title: "EC313 - Taxation"
@@ -18,8 +18,6 @@ website:
       - syllabus.qmd
       - text: "Content"
         file: content/index.qmd
-      - text: "Assignments"
-        file: assignments/index.qmd
 
   sidebar:
     - title: "Content"
@@ -54,21 +52,6 @@ website:
             - text: "The Corporation Tax"
               file: content/corptax.qmd
               
-    - title: "Assignments"
-      style: "docked"
-      search: false
-      background: dark
-      contents:
-      
-        - section: "Overview"
-          contents:
-            - assignments/index.qmd
-        - section: "Assignments"
-          contents:
-            - text: "Assignment 1"
-              file: assignments/assign1.qmd
-            - text: "Assignment 2"
-              file: assignments/assign2.qmd              
 format:
   html:
     code-overflow: wrap

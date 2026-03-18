@@ -2,7 +2,7 @@
 title: "Public Economics: Taxation"
 subtitle: "The Economics of Taxation"
 details: |
-  EC313 • Fall 2025<br>Department of Economics<br>Lazaridis School of Business and Economics<br>Wilfrid Laurier University
+  EC313 • Fall 2026<br>Department of Economics<br>Lazaridis School of Business and Economics<br>Wilfrid Laurier University
 sidebar: false
 toc: false
 page-layout: full
