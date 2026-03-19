@@ -113,6 +113,14 @@ In this section we will:
   - Without a corporate tax, individuals could avoid paying personal income taxes by channeling their income through corporations
   - The corporate tax helps to prevent this type of [tax avoidance]{.fg style="color: #c7254e;"}
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If corporate income is eventually distributed to individuals and taxed under the personal income tax, is the corporate tax just a form of prepayment? Could we achieve the same policy goals -- capturing rents, taxing foreign firms, preventing avoidance -- without a separate corporate tax? Why or why not?
+:::
+
 # How Corporate Taxes Work in Canada
 
 ## Tax Rates
@@ -325,6 +333,14 @@ $$\text{After-tax cost} = (1-\lambda)q$$
 
 - There are also provincial variations
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+The dividend gross-up and tax credit system is designed to make the total tax on corporate earnings roughly equal to what individuals would pay if they earned the income directly. But does this integration work equally well for shareholders in different tax brackets? Who benefits most from any imperfections in the system?
+:::
+
 ## Retained Earnings
 
 - Corporations can [retain earnings]{.fg style="color: #2780e3;"} instead of distributing them as dividends
@@ -461,6 +477,14 @@ Corporate taxes create a distortion in investment decisions:
 - The distortion leads to an [excess burden]{.fg style="color: #c7254e;"}
   - The loss in economic efficiency beyond the tax revenue raised
 - Estimates suggest that for each dollar of corporate tax revenue raised, there is an additional [50 cents]{.fg style="color: #c7254e;"} of excess burden
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If the corporate tax creates roughly 50 cents of excess burden for every dollar of revenue raised, is it still worth having? What would happen to the distribution of the tax burden if we abolished it and tried to raise the same revenue through the personal income tax instead?
+:::
 
 # Effects on Behaviour
 
@@ -628,6 +652,14 @@ $$C = \frac{(r + d) - (r+d)(\psi + k + \lambda) }{1 - t} = \frac{ (r+d)(1 - \psi
   - Raising a dollar through debt is cheaper than raising a dollar through equity
 - There are additional costs to debt financing (e.g., bankruptcy risk) that increase the non-monetary cost
   - So we would not expect to see everyone using only debt financing
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+The tax system encourages firms to finance with debt over equity, since interest is deductible but dividends are not. During the 2008 financial crisis, high levels of corporate debt amplified the downturn. Should the government remove the tax preference for debt to reduce financial fragility, even if it raises the cost of investment?
+:::
 
 # Taxation of Multinationals
 

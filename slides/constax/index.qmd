@@ -161,6 +161,14 @@ There is still an excess burden from the consumption tax --- it distorts the cho
   - Income taxes generated more tax for Marge because she saved
   - Consumption taxes generate more even lifetime tax burden
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If consumption taxes are more efficient and generate better horizontal equity than income taxes, why do most countries still rely heavily on income taxes? What factors beyond efficiency and equity might matter for designing a tax system?
+:::
+
 # Value Added Taxes
 
 ## Introduction
@@ -264,6 +272,14 @@ Production of a final good occurs in several stages. At each stage, **value is a
 ## Implementation Issues
 
 ![](images/clipboard-609976475.jpeg){fig-align="center"}
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Suppose the government wants to make a good more affordable for consumers. Should it zero-rate the good or exempt it from the VAT? What are the different consequences for producers and consumers under each approach?
+:::
 
 ## Efficiency
 
@@ -381,6 +397,14 @@ An RST can be equivalent to VAT when: (1) the rate is the same, (2) the tax base
 - Main point of tariffs is to [protect domestic industries]{.fg style="color: #2780e3;"}
   - E.g., steel, dairy, poultry
   - Can lead to [trade wars]{.fg style="color: #c7254e;"}
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Excise taxes on tobacco and alcohol are often justified as correcting for externalities. But these taxes tend to be regressive since lower-income individuals spend a larger share of their income on these goods. How should policymakers balance the goal of correcting externalities against concerns about regressivity?
+:::
 
 # Personal Consumption Taxes
 

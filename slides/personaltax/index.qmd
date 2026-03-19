@@ -80,6 +80,14 @@ In this section we will:
   - But strong incentive to file to claim benefits or credits
   - About [12% of working age Canadians do not file]{.fg style="color: #c7254e;"} a tax return
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+If filing a tax return can result in receiving benefits and credits, why do you think 12% of working-age Canadians still do not file? What does this suggest about the design of the tax system and who it might be failing?
+:::
+
 # Computing Personal Income Tax
 
 ## Tax Forms
@@ -304,6 +312,14 @@ Income = Consumption + Additions to Net Wealth
   - Compensates for deferring consumption
   - Offsets increased tax burden from inflation (nominal gains)
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Canada only includes 50% of capital gains in taxable income and exempts gains on principal residences entirely. Who benefits most from these departures from the Haig-Simons definition, and what are the implications for horizontal equity?
+:::
+
 ## Income in Canada's Tax System
 
 - Contributions to pension plans (employee and employer) are not included in income until paid out
@@ -475,6 +491,14 @@ A \$100 donation reduces taxable income by \$100
   - You want to give larger incentives to those who respond more
   - Credits do not do that
 - But credits are [simpler and viewed as more equitable]{.fg style="color: #5cb85c;"}
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Suppose the government wants to encourage charitable giving. Should it use a tax credit (same benefit for everyone) or a tax deduction (greater benefit for higher earners)? What if wealthier individuals are more responsive to the price of giving --- does that change your answer?
+:::
 
 ## Tax Expenditures
 
@@ -674,6 +698,14 @@ Some economists have proposed a [**flat tax**]{.fg style="color: #2780e3;"} --- 
     - Allows wealthy to lower their tax burden
 - Other issues: What is a family?
   - Married couples, common-law partners, single parents, multi-generational households?
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Individual filing can discourage income splitting, while joint filing can discourage the lower-earning spouse from working. Is there a way to design a tax system that avoids both problems, or must we accept a tradeoff between these goals?
+:::
 
 # Taxes and Inflation
 

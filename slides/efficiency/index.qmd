@@ -245,6 +245,14 @@ $$C = \frac{I-T}{P_{C}} - \frac{P_{B}}{P_{C}}B$$
 :::
 ::::::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+A lump-sum tax raises the same revenue as an ad valorem tax with no excess burden. If lump-sum taxes are more efficient, why do you think governments almost never use them? What trade-offs might policymakers face when choosing between efficiency and other goals of taxation?
+:::
+
 # Challenges with Excess Burden
 
 ## Efficiency
@@ -295,6 +303,14 @@ The answer is **no** — even with inelastic demand for the taxed good, there is
   - Not just the change in quantity of one good
 :::
 ::::::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+We just saw that even when demand for the taxed good is perfectly inelastic, excess burden can still exist. Can you think of a real-world good with very inelastic demand? How might a tax on that good still distort a consumer's overall spending decisions?
+:::
 
 # Excess Burden with Demand Curves
 
@@ -432,6 +448,14 @@ $$\text{Excess Burden} = \frac{1}{2} \times (\eta\times B_{3}) \times (t^2 P_{b}
   3. [Initial spending]{.fg style="color: #2780e3;"} $P_{b}B_{3}$
     - Larger initial spending means larger excess burden
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+The excess burden formula tells us that doubling the tax rate quadruples the excess burden. What does this imply about the choice between taxing one good at a high rate versus taxing many goods at lower rates to raise the same total revenue?
+:::
+
 # Additional Considerations for Excess Burden
 
 ## Pre-existing Distortions
@@ -495,6 +519,14 @@ If the economic optimum cannot be achieved (due to existing distortions), the ne
 - [Excess burden]{.fg style="color: #c7254e;"} is blue triangle
 :::
 ::::::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+Governments often use subsidies for housing, education, or childcare to make these goods more affordable. Given what we have learned about the excess burden of subsidies, can you think of alternative policy tools that could achieve similar goals with less distortion to consumer behaviour?
+:::
 
 ## Excess Burden of Income Tax
 

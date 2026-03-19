@@ -111,6 +111,14 @@ An **externality** is a cost or benefit imposed on a third party not involved in
     - Created intentionally for everyone to enjoy
     - But people living nearby may experience noise pollution (negative externality)
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Consider your daily routine --- commuting to campus, streaming music, ordering food delivery. What externalities (positive or negative) do these activities generate, and who are the third parties affected? Are there any externalities you create that you had never considered before?
+:::
+
 # Inefficiency of Externalities
 
 ## Negative Externalities
@@ -291,6 +299,14 @@ Social marginal cost (SMC) = PMC + MD
   - Illustrates how much people are willing to pay to avoid pollution
   - But can be complicated by other factors affecting house prices
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+In the Azul and Jules example, moving to the social optimum makes society better off overall, but Azul is individually worse off. If you were a policymaker, how would you think about compensating the "losers" from policies that correct externalities? Is it enough that society gains on net?
+:::
+
 ## Positive Externalities
 
 - Less salient, but some production leads to [positive externalities]{.fg style="color: #5cb85c;"}
@@ -443,6 +459,14 @@ If property rights are well defined and transaction costs are low, private parti
   - Example: littering, smoking in public
 - However, social conventions may not be sufficient for large-scale externalities
   - Example: climate change requires coordinated action beyond social norms
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+The Coase Theorem suggests that private bargaining can resolve externalities if property rights are clear and transaction costs are low. Why do you think private solutions so rarely solve large-scale environmental problems like climate change? What specific features of climate change make it resistant to Coasean bargaining?
+:::
 
 # Public Solutions to Externalities
 
@@ -650,6 +674,14 @@ A **Pigouvian tax** is a tax equal to the marginal damage at the socially optima
   - Most revenues were distributed back to individuals as lump sum payments
 - This has been paused as of 2025 in favour of other approaches
   - Likely some regulations or subsidies
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Canada's carbon tax was revenue-neutral, returning most of the revenue to households as rebates. If individuals receive back roughly what they pay in carbon taxes, does the tax still change behaviour? Why or why not?
+:::
 
 ## Tradeable Permits for Negative Externalities
 

@@ -165,6 +165,14 @@ In this section we will:
   - Gas station could pass on all, some, or none of the tax to consumers
 - To determine economic incidence, we need to look at underlying economic forces
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Suppose the government announces that a new sales tax will be paid by consumers at the register rather than remitted by sellers. Politicians claim this shift will "take the burden off businesses." Based on what we have learned about statutory vs economic incidence, should we expect this policy change to actually help businesses? Why or why not?
+:::
+
 # Commodity Taxes in Partial Equilibrium Models
 
 ## Unit Tax on Sellers - Graphical
@@ -296,6 +304,14 @@ In this section we will:
 :::
 ::::::
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Gasoline and insulin are both goods with relatively inelastic demand. If the government imposed the same per-unit tax on each, who would bear most of the economic burden in each case? What does this tell us about the fairness of taxing goods with inelastic demand?
+:::
+
 ## Unit Tax on Sellers - Math
 
 - We can show the same result mathematically
@@ -406,6 +422,14 @@ $$ P_{c} = 10 $$ $$ P_{s} = 6 $$
 
 - More elastic demand means consumers bear less of the economic incidence
 - More elastic supply means producers bear less of the economic incidence
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Discussion**
+
+In Canada, both employers and employees pay CPP and EI premiums. Politicians often frame the employer portion as a cost "paid by the business, not the worker." Given the three key lessons we just covered, do you think it matters that the statutory burden is split between employers and employees? Who do you think actually bears most of the economic burden, and why?
+:::
 
 ## Ad Valorem Taxes
 
@@ -717,6 +741,14 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
     - Increase consumption of substitutes
     - Decrease consumption of complements
     - Decrease consumption of all goods via an income effect
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+When governments impose a tax on a specific industry -- say, a tax on ride-sharing services like Uber -- the public debate usually focuses on whether riders or the company will pay more. But our general equilibrium analysis suggests the effects could spread much further. What other markets and groups of people might be affected by such a tax, and through what channels?
+:::
 
 ## A Tax on Goods and Services
 

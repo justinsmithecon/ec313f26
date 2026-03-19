@@ -272,6 +272,14 @@ The optimal tax rate on a good is **inversely proportional** to its price elasti
   - This creates a [large excess burden]{.fg style="color: #c7254e;"}
   - So to minimize excess burden, tax goods with high elasticities [less]{.fg style="color: #5cb85c;"}
 
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+The inverse elasticity rule says we should tax goods with inelastic demand more heavily. Demand for food and medicine tends to be very inelastic, while demand for luxury goods like yachts and designer handbags tends to be more elastic. What does the Ramsey Rule imply about how we should tax these goods, and does that sit well with you? What might be missing from a purely efficiency-based approach to tax design?
+:::
+
 ## Corlett-Hague Rule
 
 - Recall that we could not tax leisure directly
@@ -296,6 +304,14 @@ Approximate a leisure tax by taxing goods that are **complements** (used togethe
 - You can modify the Ramsey rule to account for vertical equity
   - A modified rule may tax necessities less heavily
   - Essentially allows for [larger excess burden]{.fg style="color: #c7254e;"} to achieve [greater equity]{.fg style="color: #5cb85c;"}
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Suppose a government must choose between two tax systems: one that minimizes excess burden (following the Ramsey Rule strictly) and one that is more equitable but generates a larger excess burden. How would you decide how much efficiency to sacrifice for equity? Is there a principle or framework that could guide this tradeoff?
+:::
 
 ## Summary
 
@@ -408,6 +424,14 @@ Approximate a leisure tax by taxing goods that are **complements** (used togethe
   - Optimally set them so that the percent reduction in quantity demanded is the same for all goods/services
   - We saw that this involves setting higher fees for goods/services with [inelastic demand]{.fg style="color: #2780e3;"}
   - The user fee effectively acts like a tax on the good/service
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Consider public transit in a city. Marginal cost pricing would set fares very low (since one extra rider costs almost nothing), but transit systems have large fixed costs. If you were advising a city government, which pricing strategy would you recommend -- marginal cost pricing with a subsidy, average cost pricing, or a two-part tariff? What are the equity implications of each approach for low-income riders?
+:::
 
 # Optimal Income Tax
 
@@ -653,6 +677,14 @@ plotprop
 ::: {.callout-warning}
 ## Time Inconsistency Problem
 Optimal tax policy is **not credible** over time. The government cannot commit to future policies. To fully implement optimal tax, the government must credibly commit to future policies -- this is difficult in practice, so optimal tax may not be achievable or even desirable.
+:::
+
+## {background-color="#f0f4f8"}
+
+::: {style="text-align: center; font-size: 1.3em;"}
+**Think About It**
+
+Can you think of a real-world example where a government introduced a tax that was supposed to be temporary or offset by other changes, but ended up becoming permanent or expanding? What mechanisms could be put in place to help governments credibly commit to tax policy promises?
 :::
 
 # Other Criteria for Tax Design
