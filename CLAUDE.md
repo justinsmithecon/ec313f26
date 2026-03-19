@@ -49,6 +49,8 @@ Also fix the hex logo position on the title slide if needed:
 {.absolute top="300" ...}   →   {.absolute top="275" ...}
 ```
 
+Look for any hard-coded dates and update them too
+
 ### Step 3 — Apply formatting & clarity changes to all 9 decks
 Use the previous semester's versions as the reference. Compare with `git diff main` to check what has been changed relative to the original versions.
 
@@ -66,3 +68,5 @@ The previous semester's slides are on the `main` branch (ec313f25). Use:
 git diff main -- slides/
 ```
 to compare what has been changed between semesters.
+
+### Step 4 - Check the slides for any inaccuracies and create a document that outlines them
