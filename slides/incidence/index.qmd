@@ -165,6 +165,20 @@ In this section we will:
   - Gas station could pass on all, some, or none of the tax to consumers
 - To determine economic incidence, we need to look at underlying economic forces
 
+## iClicker Question {background-color="#f0f4f8"}
+
+A city changes its hotel tax so that guests now pay it at checkout instead of hotels remitting it. The mayor claims this shifts the burden of the tax from hotels to visitors. What should we&nbsp;expect?
+
+A\) Nothing changes — statutory incidence does not determine economic incidence\
+B) The burden shifts fully to guests, as the mayor claims\
+C) Guests bear the whole burden under either rule\
+D) Hotels bear the whole burden under either rule\
+E) The burden now depends on who has more bargaining power
+
+::: {.notes}
+Answer: A. Economic incidence is determined by how prices adjust in the market, not by who writes the cheque — changing the remitter changes nothing real. The trap is C, which overcorrects the irrelevance result into "consumers always pay": the burden split is the *same* under both rules, but how it splits depends on elasticities, which we haven't determined here.
+:::
+
 # Commodity Taxes in Partial Equilibrium Models
 
 ## Unit Tax on Sellers - Graphical
@@ -407,6 +421,20 @@ $$ P_{c} = 10 $$ $$ P_{s} = 6 $$
 - More elastic demand means consumers bear less of the economic incidence
 - More elastic supply means producers bear less of the economic incidence
 
+## iClicker Question {background-color="#f0f4f8"}
+
+Gasoline demand is quite inelastic (about $-0.2$) while supply is elastic (about $2.0$). If a \$1-per-litre tax is levied on sellers, who bears most of the burden?
+
+A\) Consumers — the less elastic side of the market bears more\
+B) Sellers — the tax is levied on them\
+C) Sellers — the more elastic side of the market bears more\
+D) It is split 50/50\
+E) No one — the tax only reduces the quantity sold
+
+::: {.notes}
+Answer: A. With these elasticities, consumers bear roughly $2.0/(2.0+0.2) \approx 90\%$ of the tax. B is the statutory-incidence confusion we just dispatched; C has the elasticity rule exactly backwards — the side that can't escape (inelastic) is the side that bears the burden.
+:::
+
 ## Ad Valorem Taxes
 
 - So far we have only considered [unit taxes]{.fg style="color: #2780e3;"}
@@ -492,6 +520,20 @@ $$ P_{c} = 10 $$ $$ P_{s} = 6 $$
 :::
 ::::::
 
+## iClicker Question {background-color="#f0f4f8"}
+
+A unit tax is levied on a monopolist. Since it is the only seller in the market, can it simply pass the entire tax on to consumers?
+
+A\) No — price typically rises by less than the tax, so the monopolist bears part of the burden\
+B) Yes — market power lets it pass on the full tax\
+C) No — the monopolist must absorb the entire tax, because its price is already as high as possible\
+D) Yes — but only if demand is elastic\
+E) The tax leaves price and profits unchanged
+
+::: {.notes}
+Answer: A. Even a monopolist faces a downward-sloping demand curve — raising price costs sales, so it re-optimizes and typically passes on only part of the tax. B is the folk theory of market power ("they can charge whatever they want"). C garbles "already at the profit-maximizing price" into full absorption — the price does move, just by less than the tax.
+:::
+
 # Taxes on Factor Markets in Partial Equilibrium Models
 
 ## Introduction
@@ -537,6 +579,20 @@ $$ P_{c} = 10 $$ $$ P_{s} = 6 $$
   - Makes number of workers inflexible, so they bear more of the tax
 - Does not matter if tax is levied on workers or firms
   - In reality payroll taxes are often levied on both
+
+## iClicker Question {background-color="#f0f4f8"}
+
+CPP premiums are split 50/50 between employers and employees by law. If labour supply is quite inelastic in the long run, who actually bears the employer half?
+
+A\) Mostly workers, through lower wages\
+B) Mostly employers — the statutory split determines the burden\
+C) Mostly consumers, through higher prices\
+D) The government\
+E) Exactly 50/50, matching the statutory split
+
+::: {.notes}
+Answer: A. Inelastic labour supply means workers can't reduce hours to escape the tax, so wages fall by (most of) the employer share — workers bear it regardless of the legal split. B and E are the same statutory-incidence error in two costumes; the 50/50 legal split tells us nothing about the economic split.
+:::
 
 ## Capital Taxation
 
@@ -623,6 +679,20 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 
 - When the tax is levied, the value of the land immediately drops by the tax obligation
   - So it is borne by the current owner
+
+## iClicker Question {background-color="#f0f4f8"}
+
+A city unexpectedly announces a permanent increase in the tax on land. Who bears the burden?
+
+A\) The owners at the time of the announcement — the land price falls by the present value of the future taxes\
+B) All current and future owners equally, since the tax is paid every year\
+C) Tenants, through higher rents\
+D) Nobody — landowners simply raise rents to cover it\
+E) Future buyers, since they will be the ones paying the annual tax bills
+
+::: {.notes}
+Answer: A — capitalization. The diagnostic distractor is E: future buyers do remit the annual tax, but they are fully compensated by the lower purchase price, so they bear nothing. D fails because land is in fixed supply — landowners can't pass anything on by raising rents.
+:::
 
 # General Equilibrium
 
@@ -758,6 +828,20 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 - So we only need to work out the incidence of a few basic taxes to understand all&nbsp;nine
   - A tax on one good ($t_F$) and a partial factor tax ($t_{KF}$) — exactly the cases the Harberger model&nbsp;studies
 
+## iClicker Question {background-color="#f0f4f8"}
+
+In the two-good, two-factor model, a tax on capital in the food sector combined with a tax on labour in the food sector ($t_{KF} + t_{LF}$) is equivalent to which single tax?
+
+A\) A tax on food output ($t_F$)\
+B) A general tax on capital ($t_K$)\
+C) A general tax on labour ($t_L$)\
+D) An income tax ($t$)\
+E) There is no equivalent single tax
+
+::: {.notes}
+Answer: A. Taxing both inputs used to make food is the same as taxing food itself — reading *across the row* of the grid. The trap is B, which reads *down the column*: that would be $t_{KF} + t_{KM}$, the same factor across both sectors.
+:::
+
 ## Harberger Model {.smaller}
 
 - [Arnold Harberger]{.fg style="color: #2780e3;"} studied tax incidence in general equilibrium
@@ -808,6 +892,19 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
     - Price of labour rises
   - Cannot tell what the ultimate effect is on capital or labour prices
 
+## iClicker Question {background-color="#f0f4f8"}
+
+In the Harberger model, food production is capital-intensive. If a tax is placed on food ($t_F$), who tends to bear the burden in general equilibrium?
+
+A\) Owners of capital in both sectors — the return to capital falls economy-wide\
+B) Only owners of capital in the food sector\
+C) Only consumers of food\
+D) Workers in the manufacturing sector\
+E) No one — capital moves to manufacturing and escapes the tax
+
+::: {.notes}
+Answer: A. The tax pushes capital out of the (capital-intensive) food sector faster than manufacturing wants to absorb it, so the return to capital falls — and because capital is mobile, returns equalize and the fall is felt in *both* sectors. B ignores mobility; E mistakes relocation for escape — moving depresses the return in the other sector too, spreading the burden rather than erasing it.
+:::
 
 ## Summary
 
@@ -846,6 +943,34 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
   - [Regressive]{.fg style="color: #2780e3;"}: average tax rate falls with income
 - Careful: sometimes these terms are defined using the marginal tax rate instead
   - Whether a tax looks progressive can depend on which definition is used
+
+## iClicker Question {background-color="#f0f4f8"}
+
+Suppose the income tax equals 20% of all income above \$20,000. A person earns \$50,000, so their tax bill is \$6,000. What is their average tax rate?
+
+A\) 12%\
+B) 20%\
+C) 30%\
+D) 6%\
+E) It cannot be determined without knowing the marginal tax rate
+
+::: {.notes}
+Answer: A — \$6,000 / \$50,000 = 12%. B is the marginal rate offered as the average (the MTR-for-ATR swap); C divides by the \$20,000 exemption instead of income (\$6,000 / \$20,000 = 30%) — the wrong-denominator slip.
+:::
+
+## iClicker Question {background-color="#f0f4f8"}
+
+Same tax: 20% of all income above \$20,000. Is this tax proportional, progressive, or regressive?
+
+A\) Progressive — the average tax rate rises with income\
+B) Proportional — everyone faces the same 20% rate\
+C) Regressive — lower earners can least afford to pay\
+D) Proportional — the tax is a constant fraction of the tax base\
+E) It depends on whether we use the average or the marginal tax rate
+
+::: {.notes}
+Answer: A. The ATR is 0% at \$20,000 and rises toward 20% as income grows, so by our (average-rate) definition the tax is progressive. B is the trap: a single, flat *marginal* rate does not make a tax proportional — the exemption does the work. E is tempting given the caveat on the previous slide, but with the ATR definition we adopted the classification is determinate.
+:::
 
 ## Partial Equilibrium
 

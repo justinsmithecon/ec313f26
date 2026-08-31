@@ -4055,7 +4055,7 @@
     "href": "slides/intro/index.html#references-1",
     "title": "EC313 - Taxation",
     "section": "References",
-    "text": "References\n\nRosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.\nFinances of the Nation. https://financesofthenation.ca/\nDepartment of Finance Canada. Spring Economic Update 2026. https://budget.canada.ca/update-miseajour/2026/"
+    "text": "References\n\nRosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.\nFinances of the Nation. https://financesofthenation.ca/\nDepartment of Finance Canada. Spring Economic Update 2026. https://budget.canada.ca/update-miseajour/2026/"
   },
   {
     "objectID": "slides/taxbehaviour/index.html#goals-of-this-section",
@@ -4476,5 +4476,110 @@
     "title": "EC313 - Taxation",
     "section": "Tax Progressiveness",
     "text": "Tax Progressiveness\n\n\n\n\n\n\nKey Definition\n\n\n\nAverage tax rate: total taxes paid divided by income\nMarginal tax rate: the tax rate paid on the last dollar of income\n\n\n\n\n\nTax systems are classified by how the average tax rate changes with income\n\nProportional: average tax rate is constant at all income levels\nProgressive: average tax rate rises with income\nRegressive: average tax rate falls with income\n\nCareful: sometimes these terms are defined using the marginal tax rate instead\n\nWhether a tax looks progressive can depend on which definition is used"
+  },
+  {
+    "objectID": "slides/intro/index.html#iclicker-question",
+    "href": "slides/intro/index.html#iclicker-question",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich of the following statements about the GST is a normative statement?\nA) The GST rate is currently 5 percent\nB) Raising the GST by one percentage point would raise billions in extra revenue per year\nC) The GST accounts for about 10 percent of federal revenue\nD) The GST should be raised to help reduce the deficit\nE) A higher GST would reduce consumer spending\n\nAnswer: D. A normative statement is a value judgment — “should” is the giveaway. B and E are the traps: they mention a policy change, but each is a testable prediction about what would happen, which makes them positive. The misconception to name: “involves policy” does not mean “normative.”"
+  },
+  {
+    "objectID": "slides/intro/index.html#iclicker-question-1",
+    "href": "slides/intro/index.html#iclicker-question-1",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nUnder the Constitution Act, provinces may levy only direct taxes. Which of the following could a province NOT levy?\nA) A customs duty on imported goods\nB) A retail sales tax\nC) A personal income tax\nD) A tax on tobacco sold in the province\nE) A property tax\n\nAnswer: A. Customs duties are indirect taxes and belong exclusively to the federal government. The trap is B — a retail sales tax feels indirect because the store collects it, but the courts have defined retail sales taxes (and provincial tobacco taxes, D) as direct. This is exactly the “for some reason” point from the Provincial Government slide."
+  },
+  {
+    "objectID": "slides/intro/index.html#iclicker-question-2",
+    "href": "slides/intro/index.html#iclicker-question-2",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA newspaper reports that federal spending hit an all-time high in dollars this year, and concludes that the government’s role in the economy has never been larger. What is the main problem with this conclusion?\nA) Nominal spending ignores inflation, population growth, and growth of the economy\nB) It ignores tax expenditures, which shrink the true size of government\nC) Government size can only be measured by counting government employees\nD) Debt, not spending, is the correct measure of government size\nE) There is no problem — budget figures speak for themselves\n\nAnswer: A. This is what the four debt charts just illustrated: the picture changes completely depending on whether you look at real dollars, per capita, or share of GDP. The trap is B — right concept, wrong direction: tax expenditures make budgets understate the government’s role, they don’t shrink it."
+  },
+  {
+    "objectID": "slides/intro/index.html#iclicker-question-3",
+    "href": "slides/intro/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nThe charitable donation tax credit reduces taxes owing but never appears as spending in the federal budget. What is it called, and how does it affect measured government size?\nA) A tax expenditure — conventional measures understate the government’s role\nB) A tax expenditure — conventional measures overstate the government’s role\nC) A loan guarantee — conventional measures understate the government’s role\nD) A transfer payment — it appears in the budget as spending\nE) A regulation — it has no effect on the government’s role\n\nAnswer: A. Forgoing revenue through the tax system is economically similar to spending, but it never shows up in the expenditure totals — so measured size understates the true role of government. The trap is B: same term, opposite direction."
+  },
+  {
+    "objectID": "slides/intro/index.html#iclicker-question-4",
+    "href": "slides/intro/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich of the following is the federal government’s largest single source of revenue?\nA) Personal income tax\nB) The GST\nC) Corporate income tax\nD) Employment insurance premiums\nE) Transfers from the provinces\n\nAnswer: A — about 48% of federal revenue in 2026-27. B catches students who go by salience (the GST is the tax you see every day, but it raises about 10%). E tests direction-of-transfers confusion: transfers flow from the federal government to the provinces, not the other way."
+  },
+  {
+    "objectID": "slides/intro/index.html#iclicker-question-5",
+    "href": "slides/intro/index.html#iclicker-question-5",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich category takes up more than a third of provincial government spending?\nA) Health care\nB) K-12 education\nC) Interest on provincial debt\nD) Social services\nE) Transfers to the federal government\n\nAnswer: A — health care is about 36% of provincial spending, by far the largest item. The diagnostic distractor is E: transfers are a revenue item for provinces, and they flow federal-to-provincial — choosing E is a classification slip, not a size error."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question",
+    "href": "slides/incidence/index.html#iclicker-question",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA city changes its hotel tax so that guests now pay it at checkout instead of hotels remitting it. The mayor claims this shifts the burden of the tax from hotels to visitors. What should we expect?\nA) Nothing changes — statutory incidence does not determine economic incidence\nB) The burden shifts fully to guests, as the mayor claims\nC) Guests bear the whole burden under either rule\nD) Hotels bear the whole burden under either rule\nE) The burden now depends on who has more bargaining power\n\nAnswer: A. Economic incidence is determined by how prices adjust in the market, not by who writes the cheque — changing the remitter changes nothing real. The trap is C, which overcorrects the irrelevance result into “consumers always pay”: the burden split is the same under both rules, but how it splits depends on elasticities, which we haven’t determined here."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-1",
+    "href": "slides/incidence/index.html#iclicker-question-1",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nGasoline demand is quite inelastic (about \\(-0.2\\)) while supply is elastic (about \\(2.0\\)). If a $1-per-litre tax is levied on sellers, who bears most of the burden?\nA) Consumers — the less elastic side of the market bears more\nB) Sellers — the tax is levied on them\nC) Sellers — the more elastic side of the market bears more\nD) It is split 50/50\nE) No one — the tax only reduces the quantity sold\n\nAnswer: A. With these elasticities, consumers bear roughly \\(2.0/(2.0+0.2) \\approx 90\\%\\) of the tax. B is the statutory-incidence confusion we just dispatched; C has the elasticity rule exactly backwards — the side that can’t escape (inelastic) is the side that bears the burden."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-2",
+    "href": "slides/incidence/index.html#iclicker-question-2",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA unit tax is levied on a monopolist. Since it is the only seller in the market, can it simply pass the entire tax on to consumers?\nA) No — price typically rises by less than the tax, so the monopolist bears part of the burden\nB) Yes — market power lets it pass on the full tax\nC) No — the monopolist must absorb the entire tax, because its price is already as high as possible\nD) Yes — but only if demand is elastic\nE) The tax leaves price and profits unchanged\n\nAnswer: A. Even a monopolist faces a downward-sloping demand curve — raising price costs sales, so it re-optimizes and typically passes on only part of the tax. B is the folk theory of market power (“they can charge whatever they want”). C garbles “already at the profit-maximizing price” into full absorption — the price does move, just by less than the tax."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-3",
+    "href": "slides/incidence/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nCPP premiums are split 50/50 between employers and employees by law. If labour supply is quite inelastic in the long run, who actually bears the employer half?\nA) Mostly workers, through lower wages\nB) Mostly employers — the statutory split determines the burden\nC) Mostly consumers, through higher prices\nD) The government\nE) Exactly 50/50, matching the statutory split\n\nAnswer: A. Inelastic labour supply means workers can’t reduce hours to escape the tax, so wages fall by (most of) the employer share — workers bear it regardless of the legal split. B and E are the same statutory-incidence error in two costumes; the 50/50 legal split tells us nothing about the economic split."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-4",
+    "href": "slides/incidence/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA city unexpectedly announces a permanent increase in the tax on land. Who bears the burden?\nA) The owners at the time of the announcement — the land price falls by the present value of the future taxes\nB) All current and future owners equally, since the tax is paid every year\nC) Tenants, through higher rents\nD) Nobody — landowners simply raise rents to cover it\nE) Future buyers, since they will be the ones paying the annual tax bills\n\nAnswer: A — capitalization. The diagnostic distractor is E: future buyers do remit the annual tax, but they are fully compensated by the lower purchase price, so they bear nothing. D fails because land is in fixed supply — landowners can’t pass anything on by raising rents."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-5",
+    "href": "slides/incidence/index.html#iclicker-question-5",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn the two-good, two-factor model, a tax on capital in the food sector combined with a tax on labour in the food sector (\\(t_{KF} + t_{LF}\\)) is equivalent to which single tax?\nA) A tax on food output (\\(t_F\\))\nB) A general tax on capital (\\(t_K\\))\nC) A general tax on labour (\\(t_L\\))\nD) An income tax (\\(t\\))\nE) There is no equivalent single tax\n\nAnswer: A. Taxing both inputs used to make food is the same as taxing food itself — reading across the row of the grid. The trap is B, which reads down the column: that would be \\(t_{KF} + t_{KM}\\), the same factor across both sectors."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-6",
+    "href": "slides/incidence/index.html#iclicker-question-6",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn the Harberger model, food production is capital-intensive. If a tax is placed on food (\\(t_F\\)), who tends to bear the burden in general equilibrium?\nA) Owners of capital in both sectors — the return to capital falls economy-wide\nB) Only owners of capital in the food sector\nC) Only consumers of food\nD) Workers in the manufacturing sector\nE) No one — capital moves to manufacturing and escapes the tax\n\nAnswer: A. The tax pushes capital out of the (capital-intensive) food sector faster than manufacturing wants to absorb it, so the return to capital falls — and because capital is mobile, returns equalize and the fall is felt in both sectors. B ignores mobility; E mistakes relocation for escape — moving depresses the return in the other sector too, spreading the burden rather than erasing it."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-7",
+    "href": "slides/incidence/index.html#iclicker-question-7",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSuppose the income tax equals 20% of all income above $20,000. A person earns $50,000, so their tax bill is $6,000. What is their average tax rate?\nA) 12%\nB) 20%\nC) 30%\nD) 6%\nE) It cannot be determined without knowing the marginal tax rate\n\nAnswer: A — $6,000 / $50,000 = 12%. B is the marginal rate offered as the average (the MTR-for-ATR swap); C divides by the $20,000 exemption instead of income ($6,000 / $20,000 = 30%) — the wrong-denominator slip."
+  },
+  {
+    "objectID": "slides/incidence/index.html#iclicker-question-8",
+    "href": "slides/incidence/index.html#iclicker-question-8",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSame tax: 20% of all income above $20,000. Is this tax proportional, progressive, or regressive?\nA) Progressive — the average tax rate rises with income\nB) Proportional — everyone faces the same 20% rate\nC) Regressive — lower earners can least afford to pay\nD) Proportional — the tax is a constant fraction of the tax base\nE) It depends on whether we use the average or the marginal tax rate\n\nAnswer: A. The ATR is 0% at $20,000 and rises toward 20% as income grows, so by our (average-rate) definition the tax is progressive. B is the trap: a single, flat marginal rate does not make a tax proportional — the exemption does the work. E is tempting given the caveat on the previous slide, but with the ATR definition we adopted the classification is determinate."
   }
 ]
