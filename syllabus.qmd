@@ -184,9 +184,9 @@ performance components, to a maximum of 5 points.
 
 Your final participation grade, worth 10% of your final course grade,
 will be the average of your best 16 scores. The lowest scores will not
-count, to allow for absences from class due to illness, technical
-problems, etc. Because the questions are answered live during class,
-participation marks cannot be made up afterward.
+count, to allow for absences from class due to illness, forgotten
+devices, dead batteries, etc. Because the questions are answered live
+during class, participation marks cannot be made up afterward.
 
 Assignments will ask you to manipulate and interpret data, and answer
 some short answer or mathematical questions. Instructions will be posted
