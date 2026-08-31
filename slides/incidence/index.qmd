@@ -138,7 +138,7 @@ In this section we will:
     - Suppose gasoline station raises price to \$1.10/litre
     - Consumer pays \$1.10/litre
     - Gas station keeps \$1.00/litre, remits \$0.10/litre to government
-  - In this case, the [consumer bears the entire economic incidence]{.fg style="color: #c7254e;"} of the tax
+  - In this case, the [consumer bears the entire economic incidence]{.fg style="color: #2780e3;"} of the tax
     - Gasoline station receives same revenue per litre as before tax
     - Consumer pays \$0.10/litre more than before tax
 
@@ -155,7 +155,7 @@ In this section we will:
 
 ## Statutory vs Economic Incidence of a Tax
 
-::: {.callout-important}
+::: {.callout-note}
 ## Key Insight
 **Statutory incidence does not determine economic incidence.**
 :::
@@ -241,9 +241,9 @@ Suppose the government announces that a new sales tax will be paid by consumers 
   - These amounts are equal
 - Equal economic incidence is specific to this example because supply and demand have the same slope
 - In general, [**economic incidence depends on the elasticities of supply and demand**]{.fg style="color: #2780e3;"}
-  - A [more elastic demand]{.fg style="color: #5cb85c;"} curve means consumers bear [less]{.fg style="color: #5cb85c;"} of the economic incidence
+  - A [more elastic demand]{.fg style="color: #2780e3;"} curve means consumers bear less of the economic incidence
     - Higher elasticity means consumers can switch to other goods when price changes
-  - A [more elastic supply]{.fg style="color: #5cb85c;"} curve means producers bear [less]{.fg style="color: #5cb85c;"} of the economic incidence
+  - A [more elastic supply]{.fg style="color: #2780e3;"} curve means producers bear less of the economic incidence
     - A firm with higher elasticity can alter production easily when prices change
 
 ## Unit Tax on Sellers - Graphical
@@ -256,12 +256,12 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 ::::
 
 ::: {.column width="50%"}
-- Graph to the right shows a more [inelastic demand]{.fg style="color: #c7254e;"} curve
+- Graph to the right shows a more [inelastic demand]{.fg style="color: #2780e3;"} curve
 - After tax consumers pay $P_{c}$
 - Producers receive $P_{s} = P_{c} - t$
 - But $P_{c} - P_{0}$ is now larger than $P_{0} - P_{s}$
   - Inelastic demand means consumers less able to substitute
-  - They absorb [more of the economic&nbsp;incidence]{.fg style="color: #c7254e;"}
+  - They absorb more of the economic&nbsp;incidence
 :::
 ::::::
 
@@ -275,7 +275,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 ::::
 
 ::: {.column width="50%"}
-- In extreme with [perfectly inelastic demand]{.fg style="color: #c7254e;"}, consumers bear entire economic incidence
+- In extreme with [perfectly inelastic demand]{.fg style="color: #2780e3;"}, consumers bear entire economic incidence
   - Perfectly inelastic demand means complete inability to substitute
 - After tax consumers pay $P_{c} = P_{0} + t$
 - Producers receive $P_{s} = P_{c} - t = P_{0}$
@@ -294,12 +294,12 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 ::::
 
 ::: {.column width="50%"}
-- Now imagine a more [inelastic supply]{.fg style="color: #c7254e;"} curve
+- Now imagine a more [inelastic supply]{.fg style="color: #2780e3;"} curve
   - Firms less able to adjust quantities when prices change
 - After tax consumers pay $P_{c}'$
 - Producers receive $P_{s}' = P_{c}' - t$
 - $P_{0} - P_{s}'$ is larger than $P_{c}' - P_{0}$
-  - Firms absorb [more of the economic&nbsp;incidence]{.fg style="color: #c7254e;"}
+  - Firms absorb more of the economic&nbsp;incidence
   - They are less able to adjust production to avoid the tax
 :::
 ::::::
@@ -413,7 +413,7 @@ $$ P_{c} = 10 $$ $$ P_{s} = 6 $$
 
 ## Unit Taxes - Takeaways
 
-::: {.callout-important}
+::: {.callout-note}
 ## Three Key Lessons
 1. Statutory incidence does not determine economic incidence
 2. Economic incidence depends on elasticities of supply and demand
@@ -469,7 +469,7 @@ In Canada, both employers and employees pay CPP and EI premiums. Politicians oft
 - Effects of the tax are potentially different from competitive markets
   - Quantity will fall
   - Price paid by consumers will rise
-  - But, price received by the monopolist may [rise or fall]{.fg style="color: #c7254e;"}
+  - But, price received by the monopolist may rise or fall
     - Depends on cost structure and demand elasticity
 
 ## Unit Tax on a Monopolist
@@ -511,7 +511,7 @@ In Canada, both employers and employees pay CPP and EI premiums. Politicians oft
   - Price received by monopolist is $P_{s} = P_{c} - t$
   - Quantity is lower at $Q_{1}$
 - Consumers bear more of the tax if
-  - Demand is [inelastic]{.fg style="color: #c7254e;"}
+  - Demand is [inelastic]{.fg style="color: #2780e3;"}
   - Marginal cost is relatively flat
 :::
 ::::::
@@ -553,10 +553,10 @@ In Canada, both employers and employees pay CPP and EI premiums. Politicians oft
 ## Payroll Tax on Workers
 
 - Incidence again depends on supply and demand elasticity
-- A more [inelastic supply]{.fg style="color: #c7254e;"} curve means workers bear more of the economic incidence
+- A more [inelastic supply]{.fg style="color: #2780e3;"} curve means workers bear more of the economic incidence
   - They are less able to change work hours when wages change
   - Makes them stuck in a job, so they bear more of the tax
-- A more [inelastic demand]{.fg style="color: #c7254e;"} curve means firms bear more of the economic incidence
+- A more [inelastic demand]{.fg style="color: #2780e3;"} curve means firms bear more of the economic incidence
   - They are less able to substitute between labour and other inputs
   - Makes number of workers inflexible, so they bear more of the tax
 - Does not matter if tax is levied on workers or firms
@@ -577,7 +577,7 @@ In Canada, both employers and employees pay CPP and EI premiums. Politicians oft
 
 - A key consideration in the analysis is [**capital mobility**]{.fg style="color: #2780e3;"} across countries
   - The ease with which people can move money and invest around the globe
-- If capital is [perfectly mobile]{.fg style="color: #5cb85c;"}, the buyers of capital bear the entire burden
+- If capital is [perfectly mobile]{.fg style="color: #2780e3;"}, the buyers of capital bear the entire burden
   - Perfect mobility means a perfectly elastic supply curve
   - The price is set at the global rate of return
   - When supply is perfectly elastic, buyers bear the whole tax burden
@@ -588,7 +588,7 @@ In Canada, both employers and employees pay CPP and EI premiums. Politicians oft
 
 - Governments can also levy taxes on economic profits
   - [**Economic profits**]{.fg style="color: #2780e3;"}: profits above a normal rate of return
-- These types of taxes are borne [entirely by firms]{.fg style="color: #c7254e;"}
+- These types of taxes are borne entirely by firms
   - Maximizing untaxed profits and taxed profits yields the same prices and quantities
 - Consider a monopoly (because this would be a market where economic profits happen)
 - Without taxes, maximize
@@ -620,7 +620,7 @@ $$(1-t)\Pi(q)=(1-t)(p(q)q-C(q))=(1-t)((a-c)q-bq^2)$$
 $$(1-t)((a-c)-2bq)=0$$
 
 - Which leads to the same prices and quantities
-- Means that the economic incidence of profit taxes is [entirely on firms]{.fg style="color: #c7254e;"}
+- Means that the economic incidence of profit taxes is entirely on firms
   - Profits go from $\Pi(q^*)$ to $(1-t)\Pi(q^*)$
 - Problem with these taxes is that they are [hard to implement]{.fg style="color: #c7254e;"} in practice
 
@@ -628,7 +628,7 @@ $$(1-t)((a-c)-2bq)=0$$
 
 - Historically there were taxes on only land
   - As opposed to modern property taxes that also tax buildings
-- When land is taxed the incidence is [entirely on current owners]{.fg style="color: #c7254e;"}
+- When land is taxed the incidence is entirely on current owners
   - The value of the land drops by the amount of the current and future tax obligations
 - Can see this by looking at the value for a piece of land
 - Without taxes, the value of land is the present value of future rents
@@ -674,7 +674,7 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 
 ::: {.column width="50%"}
 - Consider a unit tax on restaurants
-- For simplicity, assume restaurant meals have [perfectly elastic demand]{.fg style="color: #5cb85c;"}
+- For simplicity, assume restaurant meals have [perfectly elastic demand]{.fg style="color: #2780e3;"}
   - People are very sensitive to the price and will cook at home if price rises
 - The full burden of the tax is on the&nbsp;restaurants
 - Quantity of meals falls because of the tax
@@ -686,7 +686,7 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 - But a restaurant cannot bear taxes
 - A restaurant is really a production process that combines labour and capital
   - A production process cannot pay a tax
-- It is ultimately the [workers and owners of capital]{.fg style="color: #c7254e;"} that pay the tax
+- It is ultimately the [workers and owners of capital]{.fg style="color: #2780e3;"} that pay the tax
 - The tax on meals will filter down to the labour and capital markets
   - Workers will get paid less
   - Owners of capital will earn less
@@ -731,8 +731,8 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 ## A Tax on Goods and Services
 
 - The degree to which workers and owners of capital bear the burden depends on elasticities
-  - More [elastic labour supply]{.fg style="color: #5cb85c;"} means workers bear less of the burden
-  - More [elastic capital supply]{.fg style="color: #5cb85c;"} means owners of capital bear less of the burden
+  - More [elastic labour supply]{.fg style="color: #2780e3;"} means workers bear less of the burden
+  - More [elastic capital supply]{.fg style="color: #2780e3;"} means owners of capital bear less of the burden
 - In our example, we assumed perfectly elastic demand for meals
   - This meant that restaurants bore the entire burden of the tax
 - If consumer demand were less elastic
@@ -799,26 +799,28 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
   - Factors are in fixed supply
   - Consumers are all the same
 
-## Harberger Model
+## Harberger Model {.smaller}
 
 - Suppose a tax on food ($t_F$) is introduced
   - Price of food rises
   - Consumers buy less food, more manufacturing
   - Demand for labour and capital in food sector falls
-  - As labour and capital move to manufacturing, their returns fall
-- Strength of these effects depend on elasticities
-  - If food elasticity is high, consumers shift more to manufacturing
-    - Returns to labour and capital fall more for manufacturing to induce movement
+  - Freed labour and capital move to manufacturing, but not in the proportions that sector wants to absorb&nbsp;them
+- Key result: the tax lowers the relative return of the factor used [intensively]{.fg style="color: #2780e3;"} in the taxed sector
+  - If food is capital intensive, the relative return to capital falls
+  - Because factors are mobile, that lower return is felt in *both* sectors
+- Strength of these effects depends on elasticities
+  - How easily consumers switch to manufacturing, and how easily sectors substitute between labour and&nbsp;capital
 
 ## Harberger Model
 
 - Suppose an income tax ($t$) is introduced
   - Use equivalencies table
   - Income tax is equivalent to a combination of taxes on capital and labour
-  - Both are in fixed supply ([perfectly inelastic]{.fg style="color: #c7254e;"}) so they bear the whole burden
+  - Both are in fixed supply ([perfectly inelastic]{.fg style="color: #2780e3;"}) so they bear the whole burden
 - A tax on labour ($t_L$) is introduced
   - Tax on labour in both sectors
-  - Labour supply is [perfectly inelastic]{.fg style="color: #c7254e;"} so it bears the whole burden
+  - Labour supply is [perfectly inelastic]{.fg style="color: #2780e3;"} so it bears the whole burden
   - No incentive to switch between sectors
 
 ## Harberger Model
@@ -856,6 +858,21 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
   - Program maintained by Statistics Canada
   - Snapshot of the Canadian tax and transfer system at a point in time
 
+## Tax Progressiveness
+
+::: {.callout-important}
+## Key Definition
+- [**Average tax rate**]{.fg style="color: #2780e3;"}: total taxes paid divided by income
+- [**Marginal tax rate**]{.fg style="color: #2780e3;"}: the tax rate paid on the last dollar of income
+:::
+
+- Tax systems are classified by how the average tax rate changes with income
+  - [Proportional]{.fg style="color: #2780e3;"}: average tax rate is constant at all income levels
+  - [Progressive]{.fg style="color: #2780e3;"}: average tax rate rises with income
+  - [Regressive]{.fg style="color: #2780e3;"}: average tax rate falls with income
+- Careful: sometimes these terms are defined using the marginal tax rate instead
+  - Whether a tax looks progressive can depend on which definition is used
+
 ## Partial Equilibrium
 
 ![Average Tax Rates in Canada](images/clipboard-3247657350.jpeg){fig-align="center"}
@@ -870,12 +887,11 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
 
 ## Partial Equilibrium
 
-- Canada maintains a [progressive]{.fg style="color: #5cb85c;"} personal income tax system
+- Canada maintains a [progressive]{.fg style="color: #2780e3;"} personal income tax system
   - So tax rates rise with income
-- Commodity and property taxes are *on their own* [regressive]{.fg style="color: #c7254e;"}
-  - A regressive tax is one where tax rates fall with income
+- Commodity and property taxes are *on their own* [regressive]{.fg style="color: #2780e3;"}
   - Tax credits help offset the regressivity of these taxes (e.g. HST credit)
-- Payroll taxes are initially [progressive]{.fg style="color: #5cb85c;"} but turn [regressive]{.fg style="color: #c7254e;"}
+- Payroll taxes are initially [progressive]{.fg style="color: #2780e3;"} but turn [regressive]{.fg style="color: #2780e3;"}
 - Federal taxes are more progressive than provincial taxes
   - Federal taxes mainly come from personal income taxes
   - Provincial taxes contain more commodity and property taxes
@@ -902,7 +918,7 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
 
 ## Summary
 
-::: {.callout-important}
+::: {.callout-note}
 ## Key Takeaways
 - **Statutory incidence does not determine economic incidence**
 - Who "pays" depends on the ability to avoid the tax (elasticities)

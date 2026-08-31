@@ -1033,7 +1033,7 @@
     "href": "slides/incidence/index.html#harberger-model-1",
     "title": "EC313 - Taxation",
     "section": "Harberger Model",
-    "text": "Harberger Model\n\nSuppose a tax on food (\\(t_F\\)) is introduced\n\nPrice of food rises\nConsumers buy less food, more manufacturing\nDemand for labour and capital in food sector falls\nAs labour and capital move to manufacturing, their returns fall\n\nStrength of these effects depend on elasticities\n\nIf food elasticity is high, consumers shift more to manufacturing\n\nReturns to labour and capital fall more for manufacturing to induce movement"
+    "text": "Harberger Model\n\nSuppose a tax on food (\\(t_F\\)) is introduced\n\nPrice of food rises\nConsumers buy less food, more manufacturing\nDemand for labour and capital in food sector falls\nFreed labour and capital move to manufacturing, but not in the proportions that sector wants to absorb them\n\nKey result: the tax lowers the relative return of the factor used intensively in the taxed sector\n\nIf food is capital intensive, the relative return to capital falls\nBecause factors are mobile, that lower return is felt in both sectors\n\nStrength of these effects depends on elasticities\n\nHow easily consumers switch to manufacturing, and how easily sectors substitute between labour and capital"
   },
   {
     "objectID": "slides/incidence/index.html#harberger-model-2",
@@ -1089,7 +1089,7 @@
     "href": "slides/incidence/index.html#partial-equilibrium-3",
     "title": "EC313 - Taxation",
     "section": "Partial Equilibrium",
-    "text": "Partial Equilibrium\n\nCanada maintains a progressive personal income tax system\n\nSo tax rates rise with income\n\nCommodity and property taxes are on their own regressive\n\nA regressive tax is one where tax rates fall with income\nTax credits help offset the regressivity of these taxes (e.g. HST credit)\n\nPayroll taxes are initially progressive but turn regressive\nFederal taxes are more progressive than provincial taxes\n\nFederal taxes mainly come from personal income taxes\nProvincial taxes contain more commodity and property taxes"
+    "text": "Partial Equilibrium\n\nCanada maintains a progressive personal income tax system\n\nSo tax rates rise with income\n\nCommodity and property taxes are on their own regressive\n\nTax credits help offset the regressivity of these taxes (e.g. HST credit)\n\nPayroll taxes are initially progressive but turn regressive\nFederal taxes are more progressive than provincial taxes\n\nFederal taxes mainly come from personal income taxes\nProvincial taxes contain more commodity and property taxes"
   },
   {
     "objectID": "slides/incidence/index.html#partial-equilibrium-4",
@@ -4469,5 +4469,12 @@
     "title": "EC313 - Taxation",
     "section": "References",
     "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
+  },
+  {
+    "objectID": "slides/incidence/index.html#tax-progressiveness",
+    "href": "slides/incidence/index.html#tax-progressiveness",
+    "title": "EC313 - Taxation",
+    "section": "Tax Progressiveness",
+    "text": "Tax Progressiveness\n\n\n\n\n\n\nKey Definition\n\n\n\nAverage tax rate: total taxes paid divided by income\nMarginal tax rate: the tax rate paid on the last dollar of income\n\n\n\n\n\nTax systems are classified by how the average tax rate changes with income\n\nProportional: average tax rate is constant at all income levels\nProgressive: average tax rate rises with income\nRegressive: average tax rate falls with income\n\nCareful: sometimes these terms are defined using the marginal tax rate instead\n\nWhether a tax looks progressive can depend on which definition is used"
   }
 ]
