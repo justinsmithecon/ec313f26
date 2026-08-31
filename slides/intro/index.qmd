@@ -394,30 +394,31 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 
 ## Federal Revenues
 
-- Total is about \$498 billion in the 2024-25 fiscal year (Budget 2024 projections)
-  - Projected to be \$545 billion by 2028-29
-- 84% is raised through [**taxes**]{.fg style="color: #2780e3;"}
-  - [Personal income tax]{.fg style="color: #555;"}: 50%
-  - [Corporate income tax]{.fg style="color: #555;"}: 13%
-  - [Goods and services tax (GST)]{.fg style="color: #555;"}: 11%
-  - [Other taxes]{.fg style="color: #555;"}: 10%
+- Total is about \$530 billion in the 2026-27 fiscal year (2026 Spring Economic Update projections)
+  - Projected to be \$614 billion by 2030-31
+- 83% is raised through [**taxes**]{.fg style="color: #2780e3;"}
+  - [Personal income tax]{.fg style="color: #555;"}: 48%
+  - [Corporate income tax]{.fg style="color: #555;"}: 19%
+  - [Goods and services tax (GST)]{.fg style="color: #555;"}: 10%
+  - [Other taxes]{.fg style="color: #555;"}: 7%
 - Smaller amount through non-tax sources
-  - [Employment insurance premiums]{.fg style="color: #555;"}: 7%
-  - [Other revenue]{.fg style="color: #555;"} (e.g. crown corporations, investments): 9%
+  - [Employment insurance premiums]{.fg style="color: #555;"}: 6%
+  - [Other revenue]{.fg style="color: #555;"} (e.g. crown corporations, investments): 10%
 
 ## Federal Expenditures {.smaller}
 
-- Total is about \$535 billion in the 2024-25 fiscal year (Budget 2024 projections)
-  - Projected to be \$608 billion by 2028-29
-- 50% [transfers]{.fg style="color: #2780e3;"} to individuals or governments
+- Total is about \$595 billion in the 2026-27 fiscal year (2026 Spring Economic Update projections)
+  - Projected to be \$667 billion by 2030-31
+- 45% [transfers]{.fg style="color: #2780e3;"} to individuals or governments
   - [Transfers to individuals]{.fg style="color: #555;"}: Old age security, employment insurance, Canada pension plan,&nbsp;etc.
   - [Transfers to governments]{.fg style="color: #555;"}: grants for health, social services, equalization, etc.
-- 41% [direct expenditures]{.fg style="color: #2780e3;"}
+- 45% [direct expenditures]{.fg style="color: #2780e3;"}
   - National defence
   - RCMP
   - Parks
   - Border services
   - etc.
+- 10% [interest on the public debt]{.fg style="color: #2780e3;"}
 
 ## Visualization
 
