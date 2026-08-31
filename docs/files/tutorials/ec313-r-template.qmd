@@ -1,0 +1,186 @@
+---
+title: "EC313 — R and Quarto Practice File"
+author: "Your name, your student number"
+date: today
+format: pdf
+---
+
+<!--
+  HOW TO USE THIS FILE
+  --------------------
+  1. Download BOTH this file and the data file ec313cis.csv from the
+     course website, and put them in the SAME folder — for example a
+     folder called EC313 on your Desktop. Keep the .qmd extension.
+  2. Open this file in RStudio (File > Open File).
+  3. Press the Render button at the top of the editor. RStudio will run
+     every code chunk and produce a PDF next to this one.
+  4. Once that works, read through and change things. Break it, fix it.
+     That is how you learn this.
+
+  IF RENDERING FAILS with an error mentioning LaTeX, tlmgr, or a
+  missing .sty file, the PDF machinery is not installed yet. Run this
+  once in the Console, then render again:
+
+      install.packages("tinytex")
+      tinytex::install_tinytex()
+-->
+
+## Before you start
+
+This file is a working example of a Quarto document. It contains three
+kinds of content, and it is worth learning to recognise them:
+
+1.  The **YAML header** at the very top, between the `---` lines. It
+    sets the title, the author, and the output format.
+2.  **Text**, like this paragraph, written in Markdown.
+3.  **Code chunks**, which start with ```` ```{r} ```` and end with
+    ```` ``` ````. Everything inside is R code and gets run when you
+    render.
+
+To make a new chunk, press **Ctrl+Alt+I** (**Cmd+Option+I** on a Mac).
+
+To run a single chunk without rendering the whole document, press the
+small green arrow at its top right.
+
+## Setup
+
+Every document starts by loading the packages it needs. If this chunk
+gives you an error saying there is no package called 'tidyverse', run
+`install.packages("tidyverse")` once in the Console, then try again.
+
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+```
+
+## The data
+
+Now read in the data. This is the same income survey extract used in
+the tutorial: 500 working-age people, with their age, sex, education,
+total income, government transfers received, and income tax paid.
+
+`read_csv()` looks for the file in the same folder as this document, so
+if you get an error saying the file cannot be opened, that is almost
+certainly the problem.
+
+```{r}
+#| label: load-data
+#| message: false
+cis <- read_csv("ec313cis.csv")
+```
+
+## Look at the data first
+
+Never analyse data you have not looked at.
+
+```{r}
+glimpse(cis)
+```
+
+```{r}
+head(cis)
+```
+
+A continuous variable like `totinc` is summarised with means and
+percentiles:
+
+```{r}
+summary(cis$totinc)
+```
+
+A categorical variable like `educ` is summarised by counting:
+
+```{r}
+count(cis, educ)
+```
+
+## Create a variable
+
+The average tax rate — tax paid as a share of income — is the workhorse
+variable of tax analysis, and it is not in the data. Create it with
+`mutate()`:
+
+```{r}
+cis <- cis |>
+  mutate(atr = inctax / totinc)
+```
+
+## Summarise by group
+
+This is the workhorse of applied work: an average, computed separately
+for each group.
+
+```{r}
+cis |>
+  group_by(educ) |>
+  summarise(
+    n        = n(),
+    mean_inc = mean(totinc),
+    mean_atr = mean(atr)
+  )
+```
+
+Income rises with education, and so does the average tax rate — the
+income tax is progressive.
+
+## Make a graph
+
+Remember to label your axes. Unlabelled graphs lose marks.
+
+```{r}
+#| label: fig-inc-tax
+#| fig-cap: "Income tax paid against total income"
+#| fig-width: 6
+#| fig-height: 3.5
+#| message: false
+ggplot(cis, aes(x = totinc, y = inctax)) +
+  geom_point(alpha = 0.3) +
+  geom_smooth(method = "lm") +
+  labs(x = "Total income ($)", y = "Income tax paid ($)")
+```
+
+## Run a regression
+
+Regressing tax paid on income gives an estimate of the effective
+marginal tax rate: how much tax paid rises with an extra dollar of
+income.
+
+```{r}
+model <- lm(inctax ~ totinc, data = cis)
+
+summary(model)
+```
+
+And present it as a table rather than as console output:
+
+```{r}
+#| message: false
+library(modelsummary)
+
+modelsummary(model, stars = TRUE)
+```
+
+## Your turn
+
+Try each of these by adding a chunk underneath. If something breaks,
+read the first line of the error message, then check spelling,
+capitalisation, and brackets.
+
+1.  Count how many people in the data paid no income tax. (Hint:
+    `filter()`, then `nrow()`.)
+2.  Compute the mean total income separately for men and women, using
+    the `female` variable.
+3.  Make a histogram of `totinc` using `geom_histogram()`.
+4.  Regress the average tax rate `atr` on `totinc` and interpret the
+    sign of the coefficient. What does it say about progressivity?
+
+```{r}
+# your code here
+
+```
+
+## When you are finished
+
+Press Render one last time and check that it completes without errors.
+A document that will not render is a document you cannot submit.

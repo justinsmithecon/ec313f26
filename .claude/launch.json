@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ec313-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "docs", "-p", "8313", "-a", "127.0.0.1", "-c-1"],
+      "port": 8313
+    }
+  ]
+}

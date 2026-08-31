@@ -6,6 +6,9 @@ project:
     - "*.qmd"
     - "!assignments/"
     - "!files/tutorials/"
+  resources:
+    - files/tutorials/ec313-r-template.qmd
+    - files/tutorials/ec313cis.csv
 
 website:
   title: "EC313 - Taxation"
@@ -37,8 +40,8 @@ website:
               file: content/incidence.qmd
             - text: "Taxation and Efficiency"
               file: content/efficiency.qmd
-            - text: "Introduction to Stata"
-              file: content/introtostata.qmd
+            - text: "Introduction to R and Quarto"
+              file: content/introtor.qmd
             - text: "Efficient and Equitable Taxation"
               file: content/equitable.qmd
             - text: "The Personal Income Tax"

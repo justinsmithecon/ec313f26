@@ -25,21 +25,21 @@
     "href": "syllabus.html#course-material",
     "title": "EC313 Syllabus",
     "section": "Course Material",
-    "text": "Course Material\n\nTextbook\nThe required textbook for the course is\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nThis book is available in various locations, including but not limited to the Laurier Bookstore, Amazon, and direct fom the publisher, McGraw Hill. Here are the approximate prices you can expect\n\n\n\nSource\nBook Type\nPrice\n\n\n\n\nWLU Bookstore\nPhysical, Paperback\nTBD\n\n\nAmazon\nPhysical, Paperback\n$157\n\n\nMcGraw Hill\nPhysical, Paperback\n$129\n\n\nMcGraw Hill\nOnline, 180 Day Rental\n$69\n\n\nMcGraw Hill\nOnline, Lifetime\n$99\n\n\n\nMake sure to buy the book on its own, and not the version that comes bundled with Connect, as we will not use Connect in this course\n\n\nSoftware\nThe assignments will ask you to manipulate data with the statistical software Stata. The university has a site licence for this software, which you can access from the in-person or virtual computer labs. To access the virtual labs, follow the instructions outlined here\nhttps://students.wlu.ca/services-and-spaces/tech-services/computers-and-equipment/virtual-computer-labs.html\nIf you would like to purchase a copy of Stata for home use (not required), there are various options you can explore here: https://www.stata.com/order/dl/. The cheapest option is student license for Stata/BE, which costs USD 49.\n\n\nCourse GPT\nI have created a GPT specific to this course that you can use if you wish, linked here. While my opinion is that the best way to succeed in this course is to engage with the lectures, lecture notes, textbook, and to ask questions in office hours, I recognize that people will use AI. To make the AI experience as closely linked to EC313 as possible, I have trained a GPT on some of the course materials.\nYou are permitted to use generative AI for your assignments. In all submissions in which you use generative AI, you must cite its usage. Failing to cite the use of generative AI is a form of academic misconduct and Senate Policy 12.2 Student Code of Conduct: Academic Misconduct will be applied. Treat the AI as you would any other source, meaning that you cannot directly copy and paste AI output into your assignments.\nUse this tool with caution. As we all know, generative AI does not always produce reliable output, and as such you may get wrong answers to your questions even though it is trained on the course material."
+    "text": "Course Material\n\nTextbook\nThe required textbook for the course is\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nThis book is available in various locations, including but not limited to the Laurier Bookstore, Amazon, and direct fom the publisher, McGraw Hill. Here are the approximate prices you can expect\n\n\n\nSource\nBook Type\nPrice\n\n\n\n\nWLU Bookstore\nPhysical, Paperback\nTBD\n\n\nAmazon\nPhysical, Paperback\n$157\n\n\nMcGraw Hill\nPhysical, Paperback\n$129\n\n\nMcGraw Hill\nOnline, 180 Day Rental\n$69\n\n\nMcGraw Hill\nOnline, Lifetime\n$99\n\n\n\nMake sure to buy the book on its own, and not the version that comes bundled with Connect, as we will not use Connect in this course\n\n\nSoftware\nThe assignments will ask you to manipulate data with the statistical software R, which you will use through RStudio. You will also write up your assignments in Quarto, a publishing system that runs inside RStudio and lets you combine your code, results, and written answers in a single document.\nAll three are free and open source, and you can install them on your own computer. Download R from https://cran.r-project.org, and RStudio from https://posit.co/download/rstudio-desktop/. Quarto comes bundled with RStudio, so you do not need to download it separately. The first time you render a document, RStudio may prompt you to install the rmarkdown package; say yes. R and RStudio are also available in the in-person and virtual computer labs, if you would rather not install anything. To access the virtual labs, follow the instructions outlined here\nhttps://students.wlu.ca/services-and-spaces/tech-services/computers-and-equipment/virtual-computer-labs.html\nNo prior programming experience is assumed. We will cover what you need in class, and there is an introduction to R on the course website.\n\n\nGenerative AI\nMy opinion is that the best way to succeed in this course is to engage with the lectures, lecture notes, textbook, and to ask questions in office hours. That said, I recognize that people will use AI.\nYou are permitted to use generative AI for your assignments. In all submissions in which you use generative AI, you must cite its usage. Failing to cite the use of generative AI is a form of academic misconduct and Senate Policy 12.2 Student Code of Conduct: Academic Misconduct will be applied. Treat the AI as you would any other source, meaning that you cannot directly copy and paste AI output into your assignments.\nUse these tools with caution. As we all know, generative AI does not always produce reliable output, and as such you may get wrong answers to your questions."
   },
   {
     "objectID": "syllabus.html#evaluation",
     "href": "syllabus.html#evaluation",
     "title": "EC313 Syllabus",
     "section": "Evaluation",
-    "text": "Evaluation\nYou will be evaluated on two equally weighted assignments, one midterm, and one final exam. The weights and due dates for each assessment are as follows:\n\n\n\nAssessment\nDue Date\nWeight\n\n\n\n\nAssignment 1\nFriday, October 3, 2025 at 9:00pm\n5%\n\n\nAssignment 2\nFriday, November 21, 2025 at 9:00pm\n5%\n\n\nMidterm\nThursday, October 30, 2025, in class\n40%\n\n\nFinal Exam\nTBA\n50%\n\n\n\nAssignments will ask you to manipulate and interpret data, and answer some short answer or mathematical questions. Instructions will be posted to MyLearningSpace one week prior to the due date.\nBoth the midterm and final exam will be in person. The midterm will take place in the classroom where the lectures take place at the scheduled lecture time. The final exam schedule is posted roughly half way through the term.\nIn the past I have placed more weight on the assignments and less weight on the in-person exams, but the pervasive use of generative AI has made it impossible to verify that assessments done outside of the classroom were actually completed by the student. So while take-home assignments are still part of the course, they do not constitute a large proportion of the grade."
+    "text": "Evaluation\nYou will be evaluated on in-class participation, two equally weighted assignments, one midterm, and one final exam. The weights and due dates for each assessment are as follows:\n\n\n\nAssessment\nDue Date\nWeight\n\n\n\n\nParticipation\nThroughout the term, in class\n10%\n\n\nAssignment 1\nFriday, October 9, 2026 at 9:00pm\n5%\n\n\nAssignment 2\nFriday, December 4, 2026 at 9:00pm\n5%\n\n\nMidterm\nThursday, November 12, 2026, in class\n35%\n\n\nFinal Exam\nTBA\n45%\n\n\n\nParticipation is measured with iClicker. During most lectures I will pose multiple choice questions that you answer in class using iClicker on your phone, tablet, or laptop. You are graded on answering the questions, not on getting them right, so there is no penalty for a wrong answer. Because the questions are answered live during class, participation marks cannot be made up afterward.\nAssignments will ask you to manipulate and interpret data, and answer some short answer or mathematical questions. Instructions will be posted to MyLearningSpace one week prior to the due date.\nBoth the midterm and final exam will be in person. The midterm will take place in the classroom where the lectures take place at the scheduled lecture time. The final exam schedule is posted roughly half way through the term.\nIn the past I have placed more weight on the assignments and less weight on the in-person exams, but the pervasive use of generative AI has made it impossible to verify that assessments done outside of the classroom were actually completed by the student. So while take-home assignments are still part of the course, they do not constitute a large proportion of the grade."
   },
   {
     "objectID": "syllabus.html#topics",
     "href": "syllabus.html#topics",
     "title": "EC313 Syllabus",
     "section": "Topics",
-    "text": "Topics\nBelow is a list of tentative topics covered in the course. I may add or remove items depending on how quickly the course proceeds. A reading list for each topic is available at the end of this syllabus.\n\n\n\nTopic\nReadings\n\n\n\n\nIntroduction to Public Finance\nRTTWS Chapter 1\n\n\nTax Incidence\nRTTWS Chapter 14\n\n\nTaxation and Efficiency\nRTTWS Chapter 15\n\n\nEfficient and Equitable Taxation\nRTTWS Chapter 16\n\n\nThe Personal Income Tax\nRTTWS Chapter 17\n\n\nPersonal Income Taxation and Behaviour\nRTTWS Chapter 18\n\n\nConsumption Taxation\nRTTWS Chapter 19\n\n\nExternalities and Pigouvian Taxes\nRTTWS Chapter 5\n\n\nTaxes on Wealth and Property\nRTTWS Chapter 20\n\n\nThe Corporation Tax\nRTTWS Chapter 21"
+    "text": "Topics\nBelow is a list of tentative topics covered in the course. I may add or remove items depending on how quickly the course proceeds.\n\n\n\nTopic\nReadings\n\n\n\n\nIntroduction to Public Finance\nRTTWS Chapter 1\n\n\nTax Incidence\nRTTWS Chapter 14\n\n\nTaxation and Efficiency\nRTTWS Chapter 15\n\n\nEfficient and Equitable Taxation\nRTTWS Chapter 16\n\n\nThe Personal Income Tax\nRTTWS Chapter 17\n\n\nPersonal Income Taxation and Behaviour\nRTTWS Chapter 18\n\n\nConsumption Taxation\nRTTWS Chapter 19\n\n\nExternalities and Pigouvian Taxes\nRTTWS Chapter 5\n\n\nTaxes on Wealth and Property\nRTTWS Chapter 20\n\n\nThe Corporation Tax\nRTTWS Chapter 21"
   },
   {
     "objectID": "syllabus.html#missed-midterms",
@@ -138,6 +138,13 @@
     "title": "EC313 - Taxation",
     "section": "Other Details",
     "text": "Other Details\n\nSystem based on self-assessment\n\nTaxpayers are responsible for reporting their income and calculating their taxes owed\n\nTaxpayers have until April 30 of the following year to file their tax returns\n\nPenalties apply if taxes are owed\n\nIf you don’t earn income, you don’t have to file a tax return\n\nBut strong incentive to file to claim benefits or credits\nAbout 12% of working age Canadians do not file a tax return"
+  },
+  {
+    "objectID": "slides/personaltax/index.html#section",
+    "href": "slides/personaltax/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIf filing a tax return can result in receiving benefits and credits, why do you think 12% of working-age Canadians still do not file? What does this suggest about the design of the tax system and who it might be failing?"
   },
   {
     "objectID": "slides/personaltax/index.html#tax-forms",
@@ -280,6 +287,13 @@
     "text": "Income in Canada’s Tax System\n\nWhat if a person holds unrealized gains at death?\n\nCRA deems gains realized on date of death\nTaxes are owed by the estate\nIf assets are bequeathed to someone else, the change in asset value since date of death is subject to gains tax\n\nWhy preferential treatment of capital gains?\n\nEncourages investment and risk-taking\nCompensates for deferring consumption\nOffsets increased tax burden from inflation (nominal gains)"
   },
   {
+    "objectID": "slides/personaltax/index.html#section-1",
+    "href": "slides/personaltax/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nCanada only includes 50% of capital gains in taxable income and exempts gains on principal residences entirely. Who benefits most from these departures from the Haig-Simons definition, and what are the implications for horizontal equity?"
+  },
+  {
     "objectID": "slides/personaltax/index.html#income-in-canadas-tax-system-6",
     "href": "slides/personaltax/index.html#income-in-canadas-tax-system-6",
     "title": "EC313 - Taxation",
@@ -362,6 +376,13 @@
     "title": "EC313 - Taxation",
     "section": "Credits vs Deductions: Fairness",
     "text": "Credits vs Deductions: Fairness\n\nAbove example highlights a more general issue: benefits from deductions depend on tax bracket\n\nPeople in higher brackets receive more benefit from deductions than those in lower brackets\nSome view that as unfair\n\nMany credits in Canada were deductions prior to 1988\n\nConverted to credits so that the benefit is the same for all taxpayers\n\nLikely not optimal from an efficiency perspective\n\nPeople differ in their responses to prices\nYou want to give larger incentives to those who respond more\nCredits do not do that\n\nBut credits are simpler and viewed as more equitable"
+  },
+  {
+    "objectID": "slides/personaltax/index.html#section-2",
+    "href": "slides/personaltax/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nSuppose the government wants to encourage charitable giving. Should it use a tax credit (same benefit for everyone) or a tax deduction (greater benefit for higher earners)? What if wealthier individuals are more responsive to the price of giving — does that change your answer?"
   },
   {
     "objectID": "slides/personaltax/index.html#tax-expenditures",
@@ -495,6 +516,13 @@
     "title": "EC313 - Taxation",
     "section": "Individual vs Family as Tax Unit",
     "text": "Individual vs Family as Tax Unit\n\nEquity issues with the individual as the filing unit\n\nFamilies who earn the same amount are taxed differently\nIncome splitting with individual filing\n\nIn Canada this happens with Canadian-Controlled Private Corporations (CCPCs)\nIncome is split among family members through “income sprinkling”\nAllows wealthy to lower their tax burden\n\n\nOther issues: What is a family?\n\nMarried couples, common-law partners, single parents, multi-generational households?"
+  },
+  {
+    "objectID": "slides/personaltax/index.html#section-3",
+    "href": "slides/personaltax/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIndividual filing can discourage income splitting, while joint filing can discourage the lower-earning spouse from working. Is there a way to design a tax system that avoids both problems, or must we accept a tradeoff between these goals?"
   },
   {
     "objectID": "slides/personaltax/index.html#introduction-3",
@@ -686,6 +714,13 @@
     "text": "Statutory vs Economic Incidence of a Tax\n\n\n\n\n\n\nKey Insight\n\n\nStatutory incidence does not determine economic incidence.\n\n\n\n\nIn example, statutory incidence is always on the gas station\nEconomic incidence depends on how much of the tax is passed on to consumers\n\nGas station could pass on all, some, or none of the tax to consumers\n\nTo determine economic incidence, we need to look at underlying economic forces"
   },
   {
+    "objectID": "slides/incidence/index.html#section",
+    "href": "slides/incidence/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nSuppose the government announces that a new sales tax will be paid by consumers at the register rather than remitted by sellers. Politicians claim this shift will “take the burden off businesses.” Based on what we have learned about statutory vs economic incidence, should we expect this policy change to actually help businesses? Why or why not?"
+  },
+  {
     "objectID": "slides/incidence/index.html#unit-tax-on-sellers---graphical",
     "href": "slides/incidence/index.html#unit-tax-on-sellers---graphical",
     "title": "EC313 - Taxation",
@@ -733,6 +768,13 @@
     "title": "EC313 - Taxation",
     "section": "Unit Tax on Sellers - Graphical",
     "text": "Unit Tax on Sellers - Graphical\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow imagine a more inelastic supply curve\n\nFirms less able to adjust quantities when prices change\n\nAfter tax consumers pay \\(P_{c}'\\)\nProducers receive \\(P_{s}' = P_{c}' - t\\)\n\\(P_{0} - P_{s}'\\) is larger than \\(P_{c}' - P_{0}\\)\n\nFirms absorb more of the economic incidence\nThey are less able to adjust production to avoid the tax"
+  },
+  {
+    "objectID": "slides/incidence/index.html#section-1",
+    "href": "slides/incidence/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nGasoline and insulin are both goods with relatively inelastic demand. If the government imposed the same per-unit tax on each, who would bear most of the economic burden in each case? What does this tell us about the fairness of taxing goods with inelastic demand?"
   },
   {
     "objectID": "slides/incidence/index.html#unit-tax-on-sellers---math",
@@ -789,6 +831,13 @@
     "title": "EC313 - Taxation",
     "section": "Unit Taxes - Takeaways",
     "text": "Unit Taxes - Takeaways\n\n\n\n\n\n\nThree Key Lessons\n\n\n\nStatutory incidence does not determine economic incidence\nEconomic incidence depends on elasticities of supply and demand\nEconomic incidence does not depend on whether the tax is levied on buyers or sellers\n\n\n\n\n\nMore elastic demand means consumers bear less of the economic incidence\nMore elastic supply means producers bear less of the economic incidence"
+  },
+  {
+    "objectID": "slides/incidence/index.html#section-2",
+    "href": "slides/incidence/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nIn Canada, both employers and employees pay CPP and EI premiums. Politicians often frame the employer portion as a cost “paid by the business, not the worker.” Given the three key lessons we just covered, do you think it matters that the statutory burden is split between employers and employees? Who do you think actually bears most of the economic burden, and why?"
   },
   {
     "objectID": "slides/incidence/index.html#ad-valorem-taxes",
@@ -936,6 +985,13 @@
     "title": "EC313 - Taxation",
     "section": "A Tax on Goods and Services",
     "text": "A Tax on Goods and Services\n\nThe degree to which workers and owners of capital bear the burden depends on elasticities\n\nMore elastic labour supply means workers bear less of the burden\nMore elastic capital supply means owners of capital bear less of the burden\n\nIn our example, we assumed perfectly elastic demand for meals\n\nThis meant that restaurants bore the entire burden of the tax\n\nIf consumer demand were less elastic\n\nConsumers would bear some of the burden\nWould affect other goods they consume\n\nIncrease consumption of substitutes\nDecrease consumption of complements\nDecrease consumption of all goods via an income effect"
+  },
+  {
+    "objectID": "slides/incidence/index.html#section-3",
+    "href": "slides/incidence/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nWhen governments impose a tax on a specific industry – say, a tax on ride-sharing services like Uber – the public debate usually focuses on whether riders or the company will pay more. But our general equilibrium analysis suggests the effects could spread much further. What other markets and groups of people might be affected by such a tax, and through what channels?"
   },
   {
     "objectID": "slides/incidence/index.html#a-tax-on-goods-and-services-5",
@@ -1197,6 +1253,13 @@
     "text": "Ramsey Rule with Elasticities\n\n\n\n\n\n\nThe Inverse Elasticity Rule\n\n\nThe optimal tax rate on a good is inversely proportional to its price elasticity of demand. If good \\(Y\\) has a high elasticity relative to good \\(X\\), then \\(t_{X}\\) should be higher than \\(t_{Y}\\).\n\n\n\n\nWhy?\n\nBecause a tax on a good with a high elasticity will cause a large reduction in quantity demanded\nThis creates a large excess burden\nSo to minimize excess burden, tax goods with high elasticities less"
   },
   {
+    "objectID": "slides/equitable/index.html#section",
+    "href": "slides/equitable/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nThe inverse elasticity rule says we should tax goods with inelastic demand more heavily. Demand for food and medicine tends to be very inelastic, while demand for luxury goods like yachts and designer handbags tends to be more elastic. What does the Ramsey Rule imply about how we should tax these goods, and does that sit well with you? What might be missing from a purely efficiency-based approach to tax design?"
+  },
+  {
     "objectID": "slides/equitable/index.html#corlett-hague-rule",
     "href": "slides/equitable/index.html#corlett-hague-rule",
     "title": "EC313 - Taxation",
@@ -1209,6 +1272,13 @@
     "title": "EC313 - Taxation",
     "section": "Equity in Taxation",
     "text": "Equity in Taxation\n\nRamsey rule implies taxing goods that are inelastic more heavily\nMakes sense when those goods are socially undesirable (e.g., cigarettes, alcohol)\nBut what if those goods are necessities (e.g., food, clothing, housing, medicine)?\nProblematic for a few reasons, but one is that it lacks vertical equity\n\nVertical equity: people with greater ability to pay should pay more in taxes\n\nYou can modify the Ramsey rule to account for vertical equity\n\nA modified rule may tax necessities less heavily\nEssentially allows for larger excess burden to achieve greater equity"
+  },
+  {
+    "objectID": "slides/equitable/index.html#section-1",
+    "href": "slides/equitable/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nSuppose a government must choose between two tax systems: one that minimizes excess burden (following the Ramsey Rule strictly) and one that is more equitable but generates a larger excess burden. How would you decide how much efficiency to sacrifice for equity? Is there a principle or framework that could guide this tradeoff?"
   },
   {
     "objectID": "slides/equitable/index.html#summary",
@@ -1265,6 +1335,13 @@
     "title": "EC313 - Taxation",
     "section": "Government Production",
     "text": "Government Production\n\nLastly, use the Ramsey Rule\n\nIf government produces multiple goods/services, set user fees for each\nOptimally set them so that the percent reduction in quantity demanded is the same for all goods/services\nWe saw that this involves setting higher fees for goods/services with inelastic demand\nThe user fee effectively acts like a tax on the good/service"
+  },
+  {
+    "objectID": "slides/equitable/index.html#section-2",
+    "href": "slides/equitable/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nConsider public transit in a city. Marginal cost pricing would set fares very low (since one extra rider costs almost nothing), but transit systems have large fixed costs. If you were advising a city government, which pricing strategy would you recommend – marginal cost pricing with a subsidy, average cost pricing, or a two-part tariff? What are the equity implications of each approach for low-income riders?"
   },
   {
     "objectID": "slides/equitable/index.html#introduction-2",
@@ -1342,6 +1419,13 @@
     "title": "EC313 - Taxation",
     "section": "Time Inconsistency Problem",
     "text": "Time Inconsistency Problem\n\nCitizens are cynical\n\nThey think the government will implement the tax on \\(Y\\) but not lower it on \\(X\\)\nView the government as trying to maximize revenue at their expense\nIn certain situations they might be right\n\nIf they are correct, taxing only \\(X\\) is more efficient than the alternative of taxing both\n\n\n\n\n\n\n\nTime Inconsistency Problem\n\n\nOptimal tax policy is not credible over time. The government cannot commit to future policies. To fully implement optimal tax, the government must credibly commit to future policies – this is difficult in practice, so optimal tax may not be achievable or even desirable."
+  },
+  {
+    "objectID": "slides/equitable/index.html#section-3",
+    "href": "slides/equitable/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nCan you think of a real-world example where a government introduced a tax that was supposed to be temporary or offset by other changes, but ended up becoming permanent or expanding? What mechanisms could be put in place to help governments credibly commit to tax policy promises?"
   },
   {
     "objectID": "slides/equitable/index.html#horizontal-equity",
@@ -1482,6 +1566,13 @@
     "title": "EC313 - Taxation",
     "section": "Why Tax Corporations?",
     "text": "Why Tax Corporations?\n\nIt also withholds taxes from foreign companies that operate in Canada\n\nWithout a corporate tax, foreign companies could avoid paying Canadian taxes on their Canadian income\nThe corporate tax ensures that foreign companies contribute to the cost of public goods and services in Canada\n\nIt allows the government to capture economic rents\n\nSome large corporations earn economic rents due to their market power or unique resources\nTaxing these rents is a way to raise revenue from them\n\nIt creates fairness with personal taxes\n\nWithout a corporate tax, individuals could avoid paying personal income taxes by channeling their income through corporations\nThe corporate tax helps to prevent this type of tax avoidance"
+  },
+  {
+    "objectID": "slides/corptax/index.html#section",
+    "href": "slides/corptax/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIf corporate income is eventually distributed to individuals and taxed under the personal income tax, is the corporate tax just a form of prepayment? Could we achieve the same policy goals – capturing rents, taxing foreign firms, preventing avoidance – without a separate corporate tax? Why or why not?"
   },
   {
     "objectID": "slides/corptax/index.html#tax-rates",
@@ -1638,6 +1729,13 @@
     "text": "Dividend Tax Credit System\n\nNotice that this is the same as if the shareholder had earned the $125 directly and paid 40% personal income tax\n\nIt instead comes partly from the corporation and partly from the shareholder\n\nThis system helps to integrate corporate and personal taxation, reducing the double taxation of dividends\n\n\n\n\nCurrently in Canada for regular businesses\n\nThe federal gross-up rate for eligible dividends is 38%\nThe federal dividend tax credit rate is 15.02% of the grossed-up amount\n\n\n\n\nFor small businesses, the rates are different\n\nThe federal gross-up rate is 15%\nThe federal dividend tax credit rate is 9.03% of the grossed-up amount\n\n\n\n\nThere are also provincial variations"
   },
   {
+    "objectID": "slides/corptax/index.html#section-1",
+    "href": "slides/corptax/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nThe dividend gross-up and tax credit system is designed to make the total tax on corporate earnings roughly equal to what individuals would pay if they earned the income directly. But does this integration work equally well for shareholders in different tax brackets? Who benefits most from any imperfections in the system?"
+  },
+  {
     "objectID": "slides/corptax/index.html#retained-earnings",
     "href": "slides/corptax/index.html#retained-earnings",
     "title": "EC313 - Taxation",
@@ -1720,6 +1818,13 @@
     "title": "EC313 - Taxation",
     "section": "Excess Burden",
     "text": "Excess Burden\n\n\n\n\n\n\nDistortions from Corporate Taxes\n\n\nCorporate taxes create a distortion in investment decisions:\n\nInvestors may shift away from corporate investments and toward other investments\nFirms may choose to not incorporate despite the benefits\nCreates a substitution effect\nShifts the allocation of capital in the economy away from the efficient level\n\n\n\n\n\nThe distortion leads to an excess burden\n\nThe loss in economic efficiency beyond the tax revenue raised\n\nEstimates suggest that for each dollar of corporate tax revenue raised, there is an additional 50 cents of excess burden"
+  },
+  {
+    "objectID": "slides/corptax/index.html#section-2",
+    "href": "slides/corptax/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIf the corporate tax creates roughly 50 cents of excess burden for every dollar of revenue raised, is it still worth having? What would happen to the distribution of the tax burden if we abolished it and tried to raise the same revenue through the personal income tax instead?"
   },
   {
     "objectID": "slides/corptax/index.html#introduction-10",
@@ -1839,6 +1944,13 @@
     "title": "EC313 - Taxation",
     "section": "Financing Investments",
     "text": "Financing Investments\n\nThe tax system can also affect how firms finance investments\nInterest payments on debt are deductible from taxable income\nDividends paid to shareholders are not deductible\nThis creates an incentive to finance investments with debt rather than equity\n\nRaising a dollar through debt is cheaper than raising a dollar through equity\n\nThere are additional costs to debt financing (e.g., bankruptcy risk) that increase the non-monetary cost\n\nSo we would not expect to see everyone using only debt financing"
+  },
+  {
+    "objectID": "slides/corptax/index.html#section-3",
+    "href": "slides/corptax/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nThe tax system encourages firms to finance with debt over equity, since interest is deductible but dividends are not. During the 2008 financial crisis, high levels of corporate debt amplified the downturn. Should the government remove the tax preference for debt to reduce financial fragility, even if it raises the cost of investment?"
   },
   {
     "objectID": "slides/corptax/index.html#introduction-11",
@@ -2105,59 +2217,243 @@
     "href": "content/introtostata.html",
     "title": "Introduction to Stata",
     "section": "",
-    "text": "In class, we will go through a dofile that introduces the basics of using Stata. Please first download the instructions on using the virutual computer lab and downloading the data in the first link below. The second link has the dofile itself, which we will download in class inside of the virtual lab.\n introstatainst.pdf\n introtostata.do",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Introduction to Stata"
-    ]
+    "text": "In class, we will go through a dofile that introduces the basics of using Stata. Please first download the instructions on using the virutual computer lab and downloading the data in the first link below. The second link has the dofile itself, which we will download in class inside of the virtual lab.\n introstatainst.pdf\n introtostata.do"
   },
   {
     "objectID": "content/introtostata.html#tutorial",
     "href": "content/introtostata.html#tutorial",
     "title": "Introduction to Stata",
     "section": "",
-    "text": "In class, we will go through a dofile that introduces the basics of using Stata. Please first download the instructions on using the virutual computer lab and downloading the data in the first link below. The second link has the dofile itself, which we will download in class inside of the virtual lab.\n introstatainst.pdf\n introtostata.do",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Introduction to Stata"
-    ]
+    "text": "In class, we will go through a dofile that introduces the basics of using Stata. Please first download the instructions on using the virutual computer lab and downloading the data in the first link below. The second link has the dofile itself, which we will download in class inside of the virtual lab.\n introstatainst.pdf\n introtostata.do"
   },
   {
     "objectID": "content/introtostata.html#videos",
     "href": "content/introtostata.html#videos",
     "title": "Introduction to Stata",
     "section": "Videos",
-    "text": "Videos\n\nStataCorp Instructional Videos\n\nThe Stata Corporation maintains a large set of instructional videos that, thankfully, are short and to the point. In this link, there is a search feature that you can use to find specific videos for the command you are looking for.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Introduction to Stata"
-    ]
+    "text": "Videos\n\nStataCorp Instructional Videos\n\nThe Stata Corporation maintains a large set of instructional videos that, thankfully, are short and to the point. In this link, there is a search feature that you can use to find specific videos for the command you are looking for."
   },
   {
     "objectID": "content/introtostata.html#other-resources",
     "href": "content/introtostata.html#other-resources",
     "title": "Introduction to Stata",
     "section": "Other Resources",
-    "text": "Other Resources\n\nStata Cheat Sheets\n\nThese provide a quick reference sheet for common commands in Stata. A very valuable resource for both beginners and advanced users.\n\nGraphing in Stata\n\nA useful overview of the different types of graphs in Stata, and how to use them.",
+    "text": "Other Resources\n\nStata Cheat Sheets\n\nThese provide a quick reference sheet for common commands in Stata. A very valuable resource for both beginners and advanced users.\n\nGraphing in Stata\n\nA useful overview of the different types of graphs in Stata, and how to use them."
+  },
+  {
+    "objectID": "content/introtopf.html",
+    "href": "content/introtopf.html",
+    "title": "Introduction to Public Finance",
+    "section": "",
+    "text": "RTTWS Chapter 1",
     "crumbs": [
       "Content",
       "Course content",
-      "Introduction to Stata"
+      "Intro to Public Finance"
     ]
   },
   {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Summary",
+    "objectID": "content/introtopf.html#readings",
+    "href": "content/introtopf.html#readings",
+    "title": "Introduction to Public Finance",
     "section": "",
-    "text": "Here you will find lecture notes, recommended readings, and other useful materials for each section of the course. Use the sidebar to navigate to the appropriate section. You can go through the lecture slides directly on the page, or pop them out to a separate page. Please review each section before the lecture to familiarize yourself with the material.",
+    "text": "RTTWS Chapter 1",
     "crumbs": [
       "Content",
-      "Overview",
-      "Summary"
+      "Course content",
+      "Intro to Public Finance"
+    ]
+  },
+  {
+    "objectID": "content/introtopf.html#slides",
+    "href": "content/introtopf.html#slides",
+    "title": "Introduction to Public Finance",
+    "section": "Slides",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Intro to Public Finance"
+    ]
+  },
+  {
+    "objectID": "content/incidence.html",
+    "href": "content/incidence.html",
+    "title": "Tax Incidence",
+    "section": "",
+    "text": "RTTWS Chapter 14",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Tax Incidence"
+    ]
+  },
+  {
+    "objectID": "content/incidence.html#readings",
+    "href": "content/incidence.html#readings",
+    "title": "Tax Incidence",
+    "section": "",
+    "text": "RTTWS Chapter 14",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Tax Incidence"
+    ]
+  },
+  {
+    "objectID": "content/incidence.html#slides",
+    "href": "content/incidence.html#slides",
+    "title": "Tax Incidence",
+    "section": "Slides",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Tax Incidence"
+    ]
+  },
+  {
+    "objectID": "content/equitable.html",
+    "href": "content/equitable.html",
+    "title": "Taxation and Efficiency",
+    "section": "",
+    "text": "RTTWS Chapter 16",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Efficient and Equitable Taxation"
+    ]
+  },
+  {
+    "objectID": "content/equitable.html#readings",
+    "href": "content/equitable.html#readings",
+    "title": "Taxation and Efficiency",
+    "section": "",
+    "text": "RTTWS Chapter 16",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Efficient and Equitable Taxation"
+    ]
+  },
+  {
+    "objectID": "content/equitable.html#slides",
+    "href": "content/equitable.html#slides",
+    "title": "Taxation and Efficiency",
+    "section": "Slides",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Efficient and Equitable Taxation"
+    ]
+  },
+  {
+    "objectID": "content/corptax.html",
+    "href": "content/corptax.html",
+    "title": "The Corporation Tax",
+    "section": "",
+    "text": "RTTWS Chapter 21",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "The Corporation Tax"
+    ]
+  },
+  {
+    "objectID": "content/corptax.html#readings",
+    "href": "content/corptax.html#readings",
+    "title": "The Corporation Tax",
+    "section": "",
+    "text": "RTTWS Chapter 21",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "The Corporation Tax"
+    ]
+  },
+  {
+    "objectID": "content/corptax.html#slides",
+    "href": "content/corptax.html#slides",
+    "title": "The Corporation Tax",
+    "section": "Slides",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "The Corporation Tax"
+    ]
+  },
+  {
+    "objectID": "content/constax.html",
+    "href": "content/constax.html",
+    "title": "Consumption Taxes",
+    "section": "",
+    "text": "RTTWS Chapter 19",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Consumption Taxes"
+    ]
+  },
+  {
+    "objectID": "content/constax.html#readings",
+    "href": "content/constax.html#readings",
+    "title": "Consumption Taxes",
+    "section": "",
+    "text": "RTTWS Chapter 19",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Consumption Taxes"
+    ]
+  },
+  {
+    "objectID": "content/constax.html#slides",
+    "href": "content/constax.html#slides",
+    "title": "Consumption Taxes",
+    "section": "Slides",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Consumption Taxes"
+    ]
+  },
+  {
+    "objectID": "content/efficiency.html",
+    "href": "content/efficiency.html",
+    "title": "Taxation and Efficiency",
+    "section": "",
+    "text": "RTTWS Chapter 15 (omit section on “Differential Taxation of Inputs”)",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Taxation and Efficiency"
+    ]
+  },
+  {
+    "objectID": "content/efficiency.html#readings",
+    "href": "content/efficiency.html#readings",
+    "title": "Taxation and Efficiency",
+    "section": "",
+    "text": "RTTWS Chapter 15 (omit section on “Differential Taxation of Inputs”)",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Taxation and Efficiency"
+    ]
+  },
+  {
+    "objectID": "content/efficiency.html#slides",
+    "href": "content/efficiency.html#slides",
+    "title": "Taxation and Efficiency",
+    "section": "Slides",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Taxation and Efficiency"
     ]
   },
   {
@@ -2209,219 +2505,183 @@
     ]
   },
   {
-    "objectID": "content/efficiency.html",
-    "href": "content/efficiency.html",
-    "title": "Taxation and Efficiency",
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Summary",
     "section": "",
-    "text": "RTTWS Chapter 15 (omit section on “Differential Taxation of Inputs”)",
+    "text": "Here you will find lecture notes, recommended readings, and other useful materials for each section of the course. Use the sidebar to navigate to the appropriate section. You can go through the lecture slides directly on the page, or pop them out to a separate page. Please review each section before the lecture to familiarize yourself with the material.",
     "crumbs": [
       "Content",
-      "Course content",
-      "Taxation and Efficiency"
+      "Overview",
+      "Summary"
     ]
   },
   {
-    "objectID": "content/efficiency.html#readings",
-    "href": "content/efficiency.html#readings",
-    "title": "Taxation and Efficiency",
+    "objectID": "content/introtor.html",
+    "href": "content/introtor.html",
+    "title": "Introduction to R and Quarto",
     "section": "",
-    "text": "RTTWS Chapter 15 (omit section on “Differential Taxation of Inputs”)",
+    "text": "In this course you will use R to analyse income and tax data, and Quarto to write up your results. This page introduces both. It is meant to be read at a keyboard: open RStudio and type the commands in as you go. Reading code is not the same as writing it.\nNo prior programming experience is assumed.",
     "crumbs": [
       "Content",
       "Course content",
-      "Taxation and Efficiency"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/efficiency.html#slides",
-    "href": "content/efficiency.html#slides",
-    "title": "Taxation and Efficiency",
-    "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "objectID": "content/introtor.html#the-three-pieces",
+    "href": "content/introtor.html#the-three-pieces",
+    "title": "Introduction to R and Quarto",
+    "section": "The three pieces",
+    "text": "The three pieces\nIt helps to be clear about what each piece of software does, because students often confuse them.\n\n\n\n\n\n\n\nSoftware\nWhat it is\n\n\n\n\nR\nThe statistical language. It does the actual computing.\n\n\nRStudio\nThe program you work in. It is a comfortable front end for R.\n\n\nQuarto\nThe document system. It turns your code and writing into a PDF.\n\n\n\nAn analogy: R is the engine, RStudio is the dashboard and steering wheel, and Quarto is the report you hand in describing where you drove.\nInstall R from https://cran.r-project.org and RStudio from https://posit.co/download/rstudio-desktop/. Install R first. Quarto comes bundled with RStudio, so you do not need to download it separately.",
     "crumbs": [
       "Content",
       "Course content",
-      "Taxation and Efficiency"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/constax.html",
-    "href": "content/constax.html",
-    "title": "Consumption Taxes",
-    "section": "",
-    "text": "RTTWS Chapter 19",
+    "objectID": "content/introtor.html#finding-your-way-around-rstudio",
+    "href": "content/introtor.html#finding-your-way-around-rstudio",
+    "title": "Introduction to R and Quarto",
+    "section": "Finding your way around RStudio",
+    "text": "Finding your way around RStudio\nYou installed two programs, but from now on you only ever open one of them. Opening RStudio starts R for you, running quietly in the background. You never need to open R itself, and most people never do.\nYou can watch this happen. The moment RStudio finishes loading, the Console prints R’s version number and startup message — that is R announcing itself, already running and waiting for instructions. To go back to the analogy: you get into the car, and the engine is already turning over.\nWhen you open RStudio you will see four panes. They can be rearranged and re-coloured, so yours may not look identical to the picture, but every installation has these same four.\n\n\n\n\n\n\nFigure 1: RStudio just after opening a project, before you have done anything. The panes fill up as you work.\n\n\n\n\nSource (top left) — where you write and save your code. In the picture it holds an empty script called Untitled1. When you open a Quarto document here, a Render button appears at the top of this pane.\nConsole (bottom left) — where R actually runs. Code you send from Source appears here along with its results, and you can type directly at the &gt; prompt for quick experiments.\nEnvironment (top right) — a list of every object you have created, with its size. It says “Environment is empty” in the picture because nothing has been run yet. Once you load data, this is where you check that it really has the 500 rows you expected.\nFiles / Plots / Packages / Help (bottom right) — in the picture the Files tab is showing the contents of the project folder. Your graphs appear under Plots, and help pages under Help.\n\n\n\n\n\n\n\nThe one habit that matters most\n\n\n\nWrite your code in the Source pane and save it. Code typed into the Console disappears. Every assignment in this course requires you to submit your code, so if it is not saved in a file, you do not have it.",
     "crumbs": [
       "Content",
       "Course content",
-      "Consumption Taxes"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/constax.html#readings",
-    "href": "content/constax.html#readings",
-    "title": "Consumption Taxes",
-    "section": "",
-    "text": "RTTWS Chapter 19",
+    "objectID": "content/introtor.html#r-basics",
+    "href": "content/introtor.html#r-basics",
+    "title": "Introduction to R and Quarto",
+    "section": "R basics",
+    "text": "R basics\nEverything you work with in R is an object: a named thing that holds something. A single income is an object. A column of 50,000 incomes is an object. A whole survey, a graph, the results of a regression — all objects. You give each one a name, and it appears in the Environment pane the moment you create it.\nWhat distinguishes one kind of object from another is what it holds and how much of it. The rest of this section introduces them in order of size, starting with the smallest.\n\nScalars and vectors\nR works by storing things in named objects. You create one with the assignment arrow &lt;-:\n\nincome &lt;- 52000\nincome\n#&gt; [1] 52000\n\nThe name goes on the left, the value on the right. An object holding a single value like this is called a scalar. Once it exists, you can compute with it:\n\ntaxrate &lt;- 0.15\nincome * taxrate\n#&gt; [1] 7800\n\nNames are case sensitive: income and Income are different objects. This is the single most common source of beginner errors.\nMost of the time you want more than one value. A vector holds several values of the same type, in order, and you build one with c(), which is short for “combine”:\n\nincomes &lt;- c(52000, 61000, 44500, 89000, 120000)\nincomes\n#&gt; [1]  52000  61000  44500  89000 120000\n\nVectors are the fundamental data structure in R. A variable in a dataset — everyone’s total income, everyone’s age — is a vector.\n\nVectors have a type\nEvery element of a vector must be the same type. The three you will meet constantly:\n\ntaxpaid &lt;- c(8500.50, 12400.00, 3150.25)   # numeric\nperson  &lt;- c(\"Ali\", \"Bea\", \"Cal\")          # character (text, in quotes)\nfiled   &lt;- c(TRUE, FALSE, TRUE)            # logical\n\nclass() tells you which you have:\n\nclass(taxpaid)\n#&gt; [1] \"numeric\"\nclass(person)\n#&gt; [1] \"character\"\nclass(filed)\n#&gt; [1] \"logical\"\n\nIf you mix types, R quietly converts everything to the most accommodating one rather than complaining:\n\nc(1, \"two\", 3)\n#&gt; [1] \"1\"   \"two\" \"3\"\n\nEverything became text — note the quotation marks. This is worth remembering, because a numeric variable that arrives as text will refuse to average, and this is usually why. When it happens, convert it deliberately with as.numeric():\n\nas.numeric(c(\"8500.50\", \"12400.00\"))\n#&gt; [1]  8500.5 12400.0\n\n\n\n\nData frames\n\nA dataset is vectors side by side\nA single vector holds one variable. Real data has many variables measured on the same people, and we need to keep them lined up: the third age must belong to the same person as the third income.\nThat is all a data frame is — a set of vectors of equal length, standing side by side as columns. Each column is one variable. Each row is one observation, usually one person.\nWe can build a small one by hand to see the structure. data.frame() takes named vectors and stacks them into columns:\n\npeople &lt;- data.frame(\n  name   = c(\"Ali\", \"Bea\", \"Cal\", \"Dee\", \"Eli\"),\n  age    = c(24, 38, 51, 29, 45),\n  educ   = c(\"High school\", \"University\", \"College\", \"University\", \"High school\"),\n  totinc = c(31000, 74000, 52500, 66000, 43000)\n)\n\npeople\n#&gt;   name age        educ totinc\n#&gt; 1  Ali  24 High school  31000\n#&gt; 2  Bea  38  University  74000\n#&gt; 3  Cal  51     College  52500\n#&gt; 4  Dee  29  University  66000\n#&gt; 5  Eli  45 High school  43000\n\nFive people, four variables. Notice that the columns have different types — name and educ are text, age and totinc are numeric — but within a column the type is the same, exactly as with a vector.\nEvery dataset you meet in this course has this shape. The Canadian Income Survey extract for your assignment is the same thing with more rows and more columns.\n\n\nColumns are vectors\nThe $ operator pulls one column out of a data frame, and what comes back is an ordinary vector:\n\npeople$totinc\n#&gt; [1] 31000 74000 52500 66000 43000\n\nThis is the connection worth holding on to. A data frame is not a new kind of thing to learn — it is a tidy arrangement of the vectors you already understand.\n\n\nPicking out elements\nSquare brackets select elements of a vector by position:\n\nincomes[1]\n#&gt; [1] 52000\nincomes[2:3]\n#&gt; [1] 61000 44500\n\nMore useful, you can select by condition:\n\nincomes &gt; 60000\n#&gt; [1] FALSE  TRUE FALSE  TRUE  TRUE\nincomes[incomes &gt; 60000]\n#&gt; [1]  61000  89000 120000\n\nThe first line returns a logical vector answering the question for each element; the second keeps only the elements where the answer was TRUE.\nBecause a column of a data frame is just a vector, the very same brackets work on it:\n\npeople$totinc[2]\n#&gt; [1] 74000\npeople$totinc[people$totinc &gt; 50000]\n#&gt; [1] 74000 52500 66000\n\nPicking out whole rows and columns of a data frame works a little differently, and we will do it with two much friendlier functions, filter() and select(), once the tidyverse is loaded.\n\n\n\nOther kinds of object\nVectors and data frames are the two you will use constantly, and between them they cover almost everything in this course.\nR does have other kinds of object, and a few of them will turn up later once we start running regressions. There is no need to learn them in advance — we will deal with each one when it appears and there is something useful to do with it.\n\n\nFunctions\nObjects hold your data. Functions are what you do to them. You call one by writing its name followed by parentheses, with the thing you want it to work on inside:\n\nsqrt(16)\n#&gt; [1] 4\nround(24.567, 1)\n#&gt; [1] 24.6\n\nYou have already used one: c() is a function that takes a set of values and returns a vector.\nThe things inside the parentheses are called arguments. Above, round() took two: the number to round, and how many decimal places to keep. Many arguments are optional and have sensible defaults — writing round(24.567) alone rounds to a whole number.\nFunctions that summarise data take a whole vector and return a single number:\n\nmean(incomes)\n#&gt; [1] 73300\nmedian(incomes)\n#&gt; [1] 61000\nlength(incomes)\n#&gt; [1] 5\n\n\n\n\n\n\n\nGetting help\n\n\n\nTyping ?round in the Console opens the help page for a function, which lists every argument it accepts. Help pages are dense, but scroll to the bottom: there are almost always worked examples.\n\n\n\nMissing values\nArguments matter more than they first appear. Real survey data is full of gaps, which R writes as NA, meaning “not available.” R refuses to guess what a missing value should be:\n\nincomes_missing &lt;- c(52000, 61000, NA, 89000, 120000)\nmean(incomes_missing)\n#&gt; [1] NA\n\nThe answer is NA, because the true mean genuinely is unknown. To average the values you do have, say so explicitly with an argument:\n\nmean(incomes_missing, na.rm = TRUE)\n#&gt; [1] 80500\n\n\n\n\n\n\n\nWarning\n\n\n\nGetting NA where you expected a number almost always means missing values in your data, not a mistake in your code. Check with sum(is.na(x)) to see how many there are before deciding what to do.\n\n\n\n\n\nPackages\nR comes with a great deal built in, but most of the convenient tools live in packages: bundles of extra functions that somebody has written and shared. There are thousands of them, and they are free.\nInstalling a package downloads it onto your computer. You do this once, in the Console:\n\ninstall.packages(\"packagename\")\n\nLoading a package makes its functions available for use. You do this every time you start a new session, at the top of your document:\n\nlibrary(packagename)\n\n\n\n\n\n\n\nNote\n\n\n\ninstall.packages() is like buying a book; library() is like taking it off the shelf. You buy once, but you take it off the shelf every time you sit down to work.\n\n\n\n\nBase R and the tidyverse\nEverything we have done so far — c(), class(), data.frame(), square brackets — is base R: the functions that come with R itself, no packages needed.\nBase R can do everything this course requires, but a lot of it is awkward. The tidyverse is a set of packages whose functions are built specifically for working with data, and they make the common jobs far easier to write and to read. Three of them do most of the work:\n\n\n\n\n\n\n\nPackage\nWhat its functions are for\n\n\n\n\nreadr\nGetting data from a file into R\n\n\ndplyr\nWorking with data once it is there: keeping certain rows, creating new variables, computing averages by group\n\n\nggplot2\nTurning data into graphs\n\n\n\nYou will meet all three in the sections that follow. They are built to a common design, so the habits you pick up with one carry over to the others, and they are meant to be chained together — the output of one function becomes the input of the next.\nThe convenient part is that you do not install them one at a time. Installing the tidyverse installs the whole set, and a single library() call loads them all.\nInstall it once:\n\ninstall.packages(\"tidyverse\")\n\nAnd load it now, since everything below depends on it:\n\nlibrary(tidyverse)\n\n\n\n\n\n\n\nTip\n\n\n\nWhen you search for help online you will find answers written in both styles, sometimes for the same question. Neither is wrong. Use whichever you understand, but expect the code in lectures and assignments to look like the tidyverse.",
     "crumbs": [
       "Content",
       "Course content",
-      "Consumption Taxes"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/constax.html#slides",
-    "href": "content/constax.html#slides",
-    "title": "Consumption Taxes",
-    "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "objectID": "content/introtor.html#working-with-a-realistic-dataset",
+    "href": "content/introtor.html#working-with-a-realistic-dataset",
+    "title": "Introduction to R and Quarto",
+    "section": "Working with a realistic dataset",
+    "text": "Working with a realistic dataset\nFive people are not enough to do economics with. For the rest of this page we will use a larger dataset called cis, containing 500 working-age people with their age, sex, education, total income, government transfers received, and income tax paid. It is artificial, but it is built to behave like the Canadian Income Survey extracts you will use in the assignments, and it is already loaded here.\n\nReading data from a file\nIn an assignment you would not be handed a dataset — you would read one in from a file you downloaded. Put the file in the same folder as your Quarto document, then read it with the function matching its format:\n\n# comma-separated values\ncis &lt;- read_csv(\"ec313assign1.csv\")\n\n# Stata format, using the haven package\nlibrary(haven)\ncis &lt;- read_dta(\"ec313assign1.dta\")\n\nReading a file gives you a data frame, which you then work with exactly as we are about to.\n\n\n\n\n\n\n“Cannot open file”\n\n\n\nThis error nearly always means R is looking in a different folder than you are. R looks in its working directory. The reliable fix is to create an RStudio Project for the course (File → New Project) and keep your data and documents inside that project folder. Then paths just work.\n\n\n\n\nLooking at your data\nNever start analysing data you have not looked at. A handful of functions do most of the work.\nglimpse() gives you the shape of the dataset and the type of every column:\n\nglimpse(cis)\n#&gt; Rows: 500\n#&gt; Columns: 9\n#&gt; $ id        &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 1…\n#&gt; $ age       &lt;int&gt; 28, 41, 52, 42, 39, 58, 20, 45, 28, 23, 56, 25, 37, 21, 63, …\n#&gt; $ female    &lt;int&gt; 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, …\n#&gt; $ educ      &lt;chr&gt; \"College\", \"College\", \"University\", \"College\", \"High school\"…\n#&gt; $ yrschool  &lt;dbl&gt; 14, 14, 16, 14, 12, 12, 12, 12, 14, 16, 10, 14, 14, 10, 16, …\n#&gt; $ totinc    &lt;dbl&gt; 37930, 52173, 119541, 78953, 37549, 45079, 51937, 20334, 407…\n#&gt; $ transfers &lt;dbl&gt; 5055, 6704, 114, 3938, 7032, 6679, 5440, 7289, 6541, 4786, 3…\n#&gt; $ inctax    &lt;dbl&gt; 3385, 6223, 28414, 15124, 3137, 4497, 6142, 68, 3460, 7985, …\n#&gt; $ atinc     &lt;dbl&gt; 39600, 52654, 91241, 67767, 41444, 47261, 51235, 27555, 4387…\n\nhead() shows the first few rows, so you can see what actual values look like:\n\nhead(cis)\n#&gt; # A tibble: 6 × 9\n#&gt;      id   age female educ        yrschool totinc transfers inctax atinc\n#&gt;   &lt;int&gt; &lt;int&gt;  &lt;int&gt; &lt;chr&gt;          &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;\n#&gt; 1     1    28      1 College           14  37930      5055   3385 39600\n#&gt; 2     2    41      0 College           14  52173      6704   6223 52654\n#&gt; 3     3    52      0 University        16 119541       114  28414 91241\n#&gt; 4     4    42      1 College           14  78953      3938  15124 67767\n#&gt; 5     5    39      1 High school       12  37549      7032   3137 41444\n#&gt; 6     6    58      0 High school       12  45079      6679   4497 47261\n\nYou will notice the word tibble in that output. A tibble is the tidyverse’s version of a data frame: the same rectangle of columns, but printed more helpfully — it shows you the type of each column and stops after ten rows instead of filling your screen. Anything that works on a data frame works on a tibble, so you can treat the two words as interchangeable.\nAnd summary() describes a single variable — remember that cis$totinc is just a vector:\n\nsummary(cis$totinc)\n#&gt;    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n#&gt;   13550   39847   59630   71464   91752  476675\n\nFor a categorical variable, count the categories instead:\n\ncount(cis, educ)\n#&gt; # A tibble: 4 × 2\n#&gt;   educ             n\n#&gt;   &lt;chr&gt;        &lt;int&gt;\n#&gt; 1 College        146\n#&gt; 2 High school    169\n#&gt; 3 Less than HS    42\n#&gt; 4 University     143\n\nWhich summary you use depends on the kind of variable, and the distinction matters:\n\nA continuous variable can take any value in a range — income, tax paid, age. Averages and percentiles make sense, so use summary().\nA categorical variable sorts people into groups — education, province, sex. The groups are often stored as numbers, but those numbers are labels, not quantities. The average of “1 = man, 2 = woman” means nothing. Count the categories with count() instead.\n\n\nThe data viewer\nThe Console is not the only way to look. RStudio has a spreadsheet-style viewer built in. Click the name cis in the Environment pane, or run:\n\nView(cis)\n\nNote the capital V — view() will not work. Either way, the dataset opens in a tab beside your document, where you can scroll through all 500 rows, sort by clicking a column heading, and filter to particular values.\nThis is often the fastest way to get a feel for a dataset you have never seen before, and it is worth doing alongside glimpse() rather than instead of it. Two things to know: nothing you do in the viewer changes your data or gets recorded in your document, so you cannot break anything by exploring; and for the same reason, sorting or filtering there is no substitute for writing the code. Only the code goes into your assignment.\n\n\n\n\n\n\nTip\n\n\n\nLook at a dataset this way every time you open one, before doing anything else. Most analysis mistakes are really misunderstandings about what is in the data.\n\n\n\n\n\nMissing values in real data\nSurvey files rarely mark missing values with a tidy NA. It is common to use an impossible number instead — in the Canadian Income Survey, the survey your assignment extracts come from, missing earnings are stored as 999999999996. R has no way to know that this is not a real income:\n\nearnings_raw &lt;- c(45000, 62000, 999999999996, 38000)\nmean(earnings_raw)\n#&gt; [1] 2.5e+11\n\nAn average income of 250 billion dollars is a clue that something is wrong, but a subtler code would slip through unnoticed. Convert the code to NA first, with na_if():\n\nearnings_clean &lt;- na_if(earnings_raw, 999999999996)\nearnings_clean\n#&gt; [1] 45000 62000    NA 38000\nmean(earnings_clean, na.rm = TRUE)\n#&gt; [1] 48333.33\n\nNow the mean describes the three people we actually have data for.\n\n\n\n\n\n\nRead the documentation first\n\n\n\nEvery survey comes with documentation — a codebook listing what each variable measures and how missing values are coded. Read it before you compute anything. A missing-value code left in the data can invalidate every number in your assignment, and nothing in R will warn you.",
     "crumbs": [
       "Content",
       "Course content",
-      "Consumption Taxes"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/corptax.html",
-    "href": "content/corptax.html",
-    "title": "The Corporation Tax",
-    "section": "",
-    "text": "RTTWS Chapter 21",
+    "objectID": "content/introtor.html#manipulating-data",
+    "href": "content/introtor.html#manipulating-data",
+    "title": "Introduction to R and Quarto",
+    "section": "Manipulating data",
+    "text": "Manipulating data\nFive verbs cover most of what you will do. Each takes a data frame and returns a modified data frame.\n\nThe pipe\nBefore the verbs themselves, one piece of punctuation. You are about to see the symbol |&gt; everywhere. It is the pipe, and it takes the thing on its left and feeds it into the function on its right. These two lines do exactly the same thing:\n\nmean(incomes)\n#&gt; [1] 73300\nincomes |&gt; mean()\n#&gt; [1] 73300\n\nFor a single function the pipe is not worth the trouble. Its value is in what comes next: when several operations happen one after another, the pipe lets you read them left to right, in the order they actually happen, instead of from the inside out.\n\n\nfilter() — keep some rows\nHow many people in the sample paid no income tax at all?\n\ncis |&gt;\n  filter(inctax == 0) |&gt;\n  nrow()\n#&gt; [1] 16\n\nNote the double equals ==. A single = assigns; a double == tests for equality. Conditions can be combined with & (and) and | (or):\n\ncis |&gt;\n  filter(educ == \"University\" & age &lt; 30) |&gt;\n  nrow()\n#&gt; [1] 29\n\n\n\nselect() — keep some columns\n\ncis |&gt;\n  select(id, educ, totinc, inctax) |&gt;\n  head(3)\n#&gt; # A tibble: 3 × 4\n#&gt;      id educ       totinc inctax\n#&gt;   &lt;int&gt; &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;\n#&gt; 1     1 College     37930   3385\n#&gt; 2     2 College     52173   6223\n#&gt; 3     3 University 119541  28414\n\n\n\nmutate() — create variables\nThe average tax rate — tax paid as a share of income — is the workhorse variable of tax analysis, and it is not in the data. Create it:\n\ncis &lt;- cis |&gt;\n  mutate(atr = inctax / totinc)\n\n\n\nsummarise() — boil the data down\nsummarise() collapses a whole dataset into a single row of summary numbers. You name each thing you want, and say how to calculate it:\n\ncis |&gt;\n  summarise(\n    n        = n(),\n    mean_inc = mean(totinc),\n    mean_atr = mean(atr)\n  )\n#&gt; # A tibble: 1 × 3\n#&gt;       n mean_inc mean_atr\n#&gt;   &lt;int&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n#&gt; 1   500   71464.    0.145\n\nThree numbers describing all 500 people: how many there are, their average income, and the average share of income they pay in tax. n() is a special helper that counts rows.\nNote what happened to the shape of things. filter(), select() and mutate() all handed back a dataset with one row per person. summarise() hands back one row, full stop — the people are gone, and what remains is a description of them.\n\n\ngroup_by() — do it separately for each group\nA single average for everyone is rarely what you want. The interesting question is almost always comparative: do incomes and tax rates differ by education, by sex, by province?\ngroup_by() answers that. On its own it changes nothing you can see — it simply marks the dataset as divided into groups. The work happens when summarise() runs afterwards, because it now produces one row per group rather than one row overall:\n\ncis |&gt;\n  group_by(educ) |&gt;\n  summarise(\n    n        = n(),\n    mean_inc = mean(totinc),\n    mean_atr = mean(atr)\n  )\n#&gt; # A tibble: 4 × 4\n#&gt;   educ             n mean_inc mean_atr\n#&gt;   &lt;chr&gt;        &lt;int&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n#&gt; 1 College        146   73019.    0.146\n#&gt; 2 High school    169   63371.    0.133\n#&gt; 3 Less than HS    42   49473.    0.107\n#&gt; 4 University     143   85901.    0.168\n\nThat is the identical summarise() call as before, with one line added above it — and the result is already a public finance finding: income rises with education, and the average tax rate rises with it. People with higher incomes pay a larger share of their income in tax, which is what it means for an income tax to be progressive.\nGroup by something else and you ask a different question. Here is the raw gender income gap:\n\ncis |&gt;\n  group_by(female) |&gt;\n  summarise(mean_inc = mean(totinc), n = n())\n#&gt; # A tibble: 2 × 3\n#&gt;   female mean_inc     n\n#&gt;    &lt;int&gt;    &lt;dbl&gt; &lt;int&gt;\n#&gt; 1      0   76930.   249\n#&gt; 2      1   66042.   251\n\nThis pairing is the workhorse of applied work. Most tables you will ever produce are some version of “group by one thing, summarise another.”\n\n\n\n\n\n\nOrdering categories\n\n\n\nNotice that education came out alphabetically, which is not the natural order. To fix that, make it a factor with the levels you want:\n\ncis &lt;- cis |&gt;\n  mutate(educ = factor(\n    educ,\n    levels = c(\"Less than HS\", \"High school\", \"College\", \"University\")\n  ))\n\ncount(cis, educ)\n#&gt; # A tibble: 4 × 2\n#&gt;   educ             n\n#&gt;   &lt;fct&gt;        &lt;int&gt;\n#&gt; 1 Less than HS    42\n#&gt; 2 High school    169\n#&gt; 3 College        146\n#&gt; 4 University     143",
     "crumbs": [
       "Content",
       "Course content",
-      "The Corporation Tax"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/corptax.html#readings",
-    "href": "content/corptax.html#readings",
-    "title": "The Corporation Tax",
-    "section": "",
-    "text": "RTTWS Chapter 21",
+    "objectID": "content/introtor.html#graphs",
+    "href": "content/introtor.html#graphs",
+    "title": "Introduction to R and Quarto",
+    "section": "Graphs",
+    "text": "Graphs\nGraphs in R are built with ggplot2, loaded as part of the tidyverse. Every plot has the same three ingredients: the data, a mapping from variables to visual properties (aes), and a geometry (geom_) saying what to draw.\n\nggplot(cis, aes(x = totinc)) +\n  geom_histogram(bins = 30) +\n  labs(x = \"Total income ($)\", y = \"Number of people\")\n\n\n\n\n\n\n\nFigure 2: Distribution of total income\n\n\n\n\n\nThe long right tail — most people bunched at moderate incomes, a few far out to the right — is characteristic of income data, and you will see it in every income survey you ever open.\nNote that ggplot layers are joined with +, not the pipe. This is an historical quirk and a common source of confusion.\nMapping a variable to colour or to the x axis of a boxplot lets you compare groups:\n\nggplot(cis, aes(x = educ, y = atr)) +\n  geom_boxplot() +\n  labs(x = NULL, y = \"Average tax rate\")\n\n\n\n\n\n\n\nFigure 3: Average tax rates by education level\n\n\n\n\n\nAnd a scatterplot shows how two continuous variables move together. Adding geom_smooth(method = \"lm\") draws the regression line through the points:\n\nggplot(cis, aes(x = totinc, y = inctax)) +\n  geom_point(alpha = 0.3) +\n  geom_smooth(method = \"lm\") +\n  labs(x = \"Total income ($)\", y = \"Income tax paid ($)\")\n\n\n\n\n\n\n\nFigure 4: Income tax paid against total income\n\n\n\n\n\nThe upward slope is the tax schedule at work: more income, more tax. With this many points the cloud is dense, which is normal for survey microdata. The line is what carries the message.\n\n\n\n\n\n\nAssignment graphs need labels\n\n\n\nDefault axis labels are variable names, which are not acceptable in submitted work. Always set labs() with readable labels and units.",
     "crumbs": [
       "Content",
       "Course content",
-      "The Corporation Tax"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/corptax.html#slides",
-    "href": "content/corptax.html#slides",
-    "title": "The Corporation Tax",
-    "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "objectID": "content/introtor.html#regression",
+    "href": "content/introtor.html#regression",
+    "title": "Introduction to R and Quarto",
+    "section": "Regression",
+    "text": "Regression\nLinear regression uses lm(), with a formula written outcome ~ predictor1 + predictor2:\n\nmodel1 &lt;- lm(inctax ~ totinc, data = cis)\nsummary(model1)\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = inctax ~ totinc, data = cis)\n#&gt; \n#&gt; Residuals:\n#&gt;    Min     1Q Median     3Q    Max \n#&gt;  -7731  -1683   -219   1768  37973 \n#&gt; \n#&gt; Coefficients:\n#&gt;               Estimate Std. Error t value Pr(&gt;|t|)    \n#&gt; (Intercept) -1.074e+04  2.753e+02  -39.01   &lt;2e-16 ***\n#&gt; totinc       3.367e-01  3.241e-03  103.92   &lt;2e-16 ***\n#&gt; ---\n#&gt; Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n#&gt; \n#&gt; Residual standard error: 3330 on 498 degrees of freedom\n#&gt; Multiple R-squared:  0.9559, Adjusted R-squared:  0.9558 \n#&gt; F-statistic: 1.08e+04 on 1 and 498 DF,  p-value: &lt; 2.2e-16\n\nThat is a lot of output, but only a few parts matter:\n\nEstimate — the coefficient. Here it says that an extra dollar of income raises tax paid by about 34 cents on average — an estimate of the effective marginal tax rate in this sample.\nStd. Error — how precisely the coefficient is estimated.\nPr(&gt;|t|) — the p-value for the test that the coefficient is zero. Small means the estimate is distinguishable from no effect.\nMultiple R-squared — the share of the variation in tax paid the model explains.\n\nA second regression asks a different question: is the tax system progressive? If the average tax rate rises with income, it is — that is essentially the definition:\n\ncis &lt;- cis |&gt;\n  mutate(lntotinc = log(totinc))\n\nmodel2 &lt;- lm(atr ~ lntotinc, data = cis)\n\nThe positive coefficient on log income confirms that people with higher incomes pay a larger share of their income in tax.\n\nCategorical predictors\nYou can put a categorical variable straight into a regression, and R creates the dummy variables for you:\n\nmodel3 &lt;- lm(atr ~ educ, data = cis)\ncoef(model3)\n#&gt;     (Intercept) educHigh school     educCollege  educUniversity \n#&gt;      0.10693646      0.02649943      0.03885500      0.06067432\n\nNotice there are only three coefficients for four education categories. R leaves one out — here “Less than HS” — as the base group, and every other coefficient says how that group compares to it. There is no way to include all four; the base group is what the others are measured against.\ncoef() was used above to show just the coefficients. It returns a named vector, which is the same kind of object from the start of this page.\nTo compare against a different group, change which level comes first:\n\ncis_hs &lt;- mutate(cis, educ = relevel(educ, ref = \"High school\"))\nmodel4 &lt;- lm(atr ~ educ, data = cis_hs)\ncoef(model4)\n#&gt;      (Intercept) educLess than HS      educCollege   educUniversity \n#&gt;       0.13343589      -0.02649943       0.01235557       0.03417489\n\nNow everything is relative to high school graduates, and the “Less than HS” coefficient is negative, as you would expect from a progressive tax paired with lower incomes.\n\n\nPresenting results\nConsole output is not acceptable in submitted work. Use modelsummary to produce a proper table:\n\nlibrary(modelsummary)\n\nmodelsummary(\n  list(\"Tax schedule\" = model1, \"Progressivity\" = model2),\n  stars = TRUE\n)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                 \n                Tax schedule\n                Progressivity\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  -10739.049***\n                  -1.181***\n                \n                \n                  \n                  (275.327)\n                  (0.014)\n                \n                \n                  totinc\n                  0.337***\n                  \n                \n                \n                  \n                  (0.003)\n                  \n                \n                \n                  lntotinc\n                  \n                  0.120***\n                \n                \n                  \n                  \n                  (0.001)\n                \n                \n                  Num.Obs.\n                  500\n                  500\n                \n                \n                  R2\n                  0.956\n                  0.946\n                \n                \n                  R2 Adj.\n                  0.956\n                  0.946\n                \n                \n                  AIC\n                  9533.6\n                  -2657.9\n                \n                \n                  BIC\n                  9546.2\n                  -2645.2\n                \n                \n                  Log.Lik.\n                  -4763.794\n                  1331.933\n                \n                \n                  F\n                  10798.571\n                  8728.105\n                \n                \n                  RMSE\n                  3323.09\n                  0.02\n                \n        \n      \n    \n\n\n\nThis is the format your assignments should use.",
     "crumbs": [
       "Content",
       "Course content",
-      "The Corporation Tax"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/equitable.html",
-    "href": "content/equitable.html",
-    "title": "Taxation and Efficiency",
-    "section": "",
-    "text": "RTTWS Chapter 16",
+    "objectID": "content/introtor.html#what-a-quarto-document-is",
+    "href": "content/introtor.html#what-a-quarto-document-is",
+    "title": "Introduction to R and Quarto",
+    "section": "What a Quarto document is",
+    "text": "What a Quarto document is\nA Quarto file (extension .qmd) is a single document containing your writing, your code, and the output of that code. When you render it, Quarto runs every piece of code fresh and produces a finished PDF with the results embedded.\nThis matters for two reasons. Your work is reproducible, since the document cannot drift out of step with the code that produced it. And you never have to copy and paste a number or a graph again — a constant source of errors.\nTo create one in RStudio: File → New File → Quarto Document.\n\n\n\n\n\n\nDownload the practice file\n\n\n\nRather than starting from a blank document, start from this one. It is a working Quarto file containing everything on this page: it loads packages, creates practice data, summarises it, draws a graph, and runs a regression.\n ec313-r-template.qmd\n ec313cis.csv\nDownload both files into the same folder, open the .qmd in RStudio, and press Render. You should get a PDF. Then start changing things — that is how you learn this.\nIt uses the same cis data as this page, read in with read_csv(), so every result you see above you can reproduce and alter yourself.",
     "crumbs": [
       "Content",
       "Course content",
-      "Efficient and Equitable Taxation"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/equitable.html#readings",
-    "href": "content/equitable.html#readings",
-    "title": "Taxation and Efficiency",
-    "section": "",
-    "text": "RTTWS Chapter 16",
+    "objectID": "content/introtor.html#the-three-ingredients",
+    "href": "content/introtor.html#the-three-ingredients",
+    "title": "Introduction to R and Quarto",
+    "section": "The three ingredients",
+    "text": "The three ingredients\nA .qmd file has exactly three kinds of content.\n1. The YAML header, at the very top, between three dashes. It sets the title and output format:\n---\ntitle: \"EC313 Assignment 1\"\nauthor: \"Your Name, 123456789\"\nformat: pdf\n---\n2. Text, written in Markdown. A few marks do most of the work:\n\n\n\nYou type\nYou get\n\n\n\n\n## Question 1\nA section heading\n\n\n**important**\nimportant\n\n\n*emphasis*\nemphasis\n\n\n- item\nA bullet point\n\n\n$\\beta_1$\nAn inline equation, \\(\\beta_1\\)\n\n\n\n3. Code chunks, fenced by three backticks with {r}. In RStudio the keyboard shortcut is Ctrl+Alt+I (Cmd+Option+I on a Mac):\n```{r}\nmean(cis$totinc)\n```\nChunk options go on lines starting with #| inside the chunk. The ones you will want:\n\n\n\n\n\n\n\nOption\nEffect\n\n\n\n\n#| echo: false\nRun the code but hide it; show only output\n\n\n#| eval: false\nShow the code but do not run it\n\n\n#| message: false\nSuppress package startup chatter\n\n\n#| warning: false\nSuppress warnings\n\n\n#| fig-cap: \"...\"\nAdd a caption to a figure\n\n\n\nFor this course, leave code visible — showing your code is part of what is being marked.",
     "crumbs": [
       "Content",
       "Course content",
-      "Efficient and Equitable Taxation"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/equitable.html#slides",
-    "href": "content/equitable.html#slides",
-    "title": "Taxation and Efficiency",
-    "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "objectID": "content/introtor.html#inline-code",
+    "href": "content/introtor.html#inline-code",
+    "title": "Introduction to R and Quarto",
+    "section": "Inline code",
+    "text": "Inline code\nYou can also put a computed number directly into a sentence, rather than typing it by hand. In your text, write this:\nThe mean total income is `r round(mean(cis$totinc))` dollars.\nand when you render, R replaces it with the answer:\n\nThe mean total income is 7.1464^{4} dollars.\n\nThat number was computed while this page was being built. If the data changed, the sentence would change with it — which is why you should never copy a number out of your output and retype it.",
     "crumbs": [
       "Content",
       "Course content",
-      "Efficient and Equitable Taxation"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/incidence.html",
-    "href": "content/incidence.html",
-    "title": "Tax Incidence",
-    "section": "",
-    "text": "RTTWS Chapter 14",
+    "objectID": "content/introtor.html#rendering",
+    "href": "content/introtor.html#rendering",
+    "title": "Introduction to R and Quarto",
+    "section": "Rendering",
+    "text": "Rendering\nEverything you hand in for this course is a PDF, and producing a PDF needs a LaTeX installation working quietly in the background. You almost certainly do not have one yet. Install it once, in the Console, and then never think about it again:\n\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()\n\nIt takes a few minutes and downloads a few hundred megabytes. If you prefer, the same thing can be done from the Terminal tab with quarto install tinytex.\n\n\n\n\n\n\nWarning\n\n\n\nDo this now, not later. The first time most people try to produce a PDF is an hour before a deadline, and that is a bad moment to discover a missing LaTeX installation. If a render fails with an error mentioning LaTeX, tlmgr, or a missing .sty file, this is what it is telling you.\n\n\nWith that in place, press the Render button at the top of the Source pane, or Ctrl+Shift+K (Cmd+Shift+K on a Mac). Quarto runs your code from top to bottom in a clean session and writes a PDF next to your .qmd.\n\n\n\n\n\n\nRender early and often\n\n\n\nBecause rendering starts from a clean session, a document can fail to render even though everything worked in your Console — usually because an object was created in the Console and never written into the document. Render after finishing each question. Discovering a problem at 9:00pm on the due date is avoidable.",
     "crumbs": [
       "Content",
       "Course content",
-      "Tax Incidence"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/incidence.html#readings",
-    "href": "content/incidence.html#readings",
-    "title": "Tax Incidence",
-    "section": "",
-    "text": "RTTWS Chapter 14",
+    "objectID": "content/introtor.html#common-errors",
+    "href": "content/introtor.html#common-errors",
+    "title": "Introduction to R and Quarto",
+    "section": "Common errors",
+    "text": "Common errors\nEveryone hits these. They are not a sign that you are bad at this.\n\n\n\n\n\n\n\nMessage\nUsual cause\n\n\n\n\ncould not find function \"x\"\nA package is not loaded — add the library() call\n\n\nobject 'x' not found\nTypo, wrong capitalisation, or the object was never created\n\n\nunexpected symbol\nA missing comma, bracket, or quotation mark\n\n\ncannot open file\nWrong working directory — use an RStudio Project\n\n\nA + in the Console\nR is waiting for you to finish an incomplete command; press Esc\n\n\n\n\n\n\n\n\n\nHow to read an error\n\n\n\nErrors look intimidating but usually name the problem in the first line. Read that line, look at the line of code it points to, and check the simple things first: spelling, capitalisation, and matching brackets. Pasting the message into a search engine is a legitimate and widely used technique.",
     "crumbs": [
       "Content",
       "Course content",
-      "Tax Incidence"
+      "Introduction to R and Quarto"
     ]
   },
   {
-    "objectID": "content/incidence.html#slides",
-    "href": "content/incidence.html#slides",
-    "title": "Tax Incidence",
-    "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "objectID": "content/introtor.html#where-to-get-help",
+    "href": "content/introtor.html#where-to-get-help",
+    "title": "Introduction to R and Quarto",
+    "section": "Where to get help",
+    "text": "Where to get help\nEverything below is free to read online. You do not need to buy anything for this course beyond the textbook.\n\nR for Data Science — the standard reference for the tidyverse, free in full on that site. Chapters 1 through 5 cover most of what this course needs.\nPosit Cheatsheets — free one-page references for dplyr, ggplot2, and RStudio itself. Print the dplyr and ggplot2 ones.\nThe Quarto guide — official documentation, well organised and full of examples.\nggplot2 reference — every geometry, with pictures.\nOffice hours. If you are stuck for more than twenty minutes on something mechanical, bring it to me rather than losing an evening to it.",
     "crumbs": [
       "Content",
       "Course content",
-      "Tax Incidence"
-    ]
-  },
-  {
-    "objectID": "content/introtopf.html",
-    "href": "content/introtopf.html",
-    "title": "Introduction to Public Finance",
-    "section": "",
-    "text": "RTTWS Chapter 1",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Intro to Public Finance"
-    ]
-  },
-  {
-    "objectID": "content/introtopf.html#readings",
-    "href": "content/introtopf.html#readings",
-    "title": "Introduction to Public Finance",
-    "section": "",
-    "text": "RTTWS Chapter 1",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Intro to Public Finance"
-    ]
-  },
-  {
-    "objectID": "content/introtopf.html#slides",
-    "href": "content/introtopf.html#slides",
-    "title": "Introduction to Public Finance",
-    "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Intro to Public Finance"
+      "Introduction to R and Quarto"
     ]
   },
   {
@@ -2580,6 +2840,13 @@
     "text": "Equity\n\nAbility to pay: taxes are levied on actual rather than potential consumption\n\nTargeted towards chosen spending patterns rather than ability to pay\nA penny-pinching rich person can pay less tax than a poor person\n\nAnnual versus lifetime equity: income taxes may generate different lifetime tax burdens\n\nExample we covered before with Homer and Marge\nIncome taxes generated more tax for Marge because she saved\nConsumption taxes generate more even lifetime tax burden"
   },
   {
+    "objectID": "slides/constax/index.html#section",
+    "href": "slides/constax/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIf consumption taxes are more efficient and generate better horizontal equity than income taxes, why do most countries still rely heavily on income taxes? What factors beyond efficiency and equity might matter for designing a tax system?"
+  },
+  {
     "objectID": "slides/constax/index.html#introduction-1",
     "href": "slides/constax/index.html#introduction-1",
     "title": "EC313 - Taxation",
@@ -2648,6 +2915,13 @@
     "title": "EC313 - Taxation",
     "section": "Implementation Issues",
     "text": "Implementation Issues"
+  },
+  {
+    "objectID": "slides/constax/index.html#section-1",
+    "href": "slides/constax/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nSuppose the government wants to make a good more affordable for consumers. Should it zero-rate the good or exempt it from the VAT? What are the different consequences for producers and consumers under each approach?"
   },
   {
     "objectID": "slides/constax/index.html#efficiency-4",
@@ -2739,6 +3013,13 @@
     "title": "EC313 - Taxation",
     "section": "Custom Duties",
     "text": "Custom Duties\n\nCustom duties (tariffs) are taxes on imported goods\nIn the past they were an important source of revenue\n\nNot so much today\nLots of trade agreements in place that limit tariffs\n\nMain point of tariffs is to protect domestic industries\n\nE.g., steel, dairy, poultry\nCan lead to trade wars"
+  },
+  {
+    "objectID": "slides/constax/index.html#section-2",
+    "href": "slides/constax/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nExcise taxes on tobacco and alcohol are often justified as correcting for externalities. But these taxes tend to be regressive since lower-income individuals spend a larger share of their income on these goods. How should policymakers balance the goal of correcting externalities against concerns about regressivity?"
   },
   {
     "objectID": "slides/constax/index.html#introduction-5",
@@ -2895,6 +3176,13 @@
     "text": "Lump Sum Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTax revenue is \\(T\\)\n\nDoes not depend on how much of each good is consumed\n\nEquivalent variation is also \\(T\\)\n\nDistance between original and new budget lines is \\(T\\)\n\nSo there is no excess burden\n\nWelfare loss equals tax revenue collected\n\nArises because a lump sum tax is a pure income effect\n\nNo substitution effect, so no excess burden"
   },
   {
+    "objectID": "slides/efficiency/index.html#section",
+    "href": "slides/efficiency/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nA lump-sum tax raises the same revenue as an ad valorem tax with no excess burden. If lump-sum taxes are more efficient, why do you think governments almost never use them? What trade-offs might policymakers face when choosing between efficiency and other goals of taxation?"
+  },
+  {
     "objectID": "slides/efficiency/index.html#efficiency",
     "href": "slides/efficiency/index.html#efficiency",
     "title": "EC313 - Taxation",
@@ -2921,6 +3209,13 @@
     "title": "EC313 - Taxation",
     "section": "Excess Burden with Inelastic Demand",
     "text": "Excess Burden with Inelastic Demand\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph looks similar to before\nThis time barley consumption stays constant\nCorn consumption rises due to relatively lower price\nExcess burden is about the change in the consumption bundle\n\nNot just the change in quantity of one good"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#section-1",
+    "href": "slides/efficiency/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nWe just saw that even when demand for the taxed good is perfectly inelastic, excess burden can still exist. Can you think of a real-world good with very inelastic demand? How might a tax on that good still distort a consumer’s overall spending decisions?"
   },
   {
     "objectID": "slides/efficiency/index.html#aside-compensated-vs-ordinary-demand-curves",
@@ -2958,6 +3253,13 @@
     "text": "Excess Burden with Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine a tax is imposed on barley\nSupply is perfectly elastic\n\nSo economic incidence falls entirely on consumers\n\nPrice rises from \\(P_{B}\\) to \\(P_{B}(1+t)\\)\nCompensated quantity demanded falls from \\(B_{3}\\) to \\(B_{2}\\)\nTax revenue is green rectangle\nTotal fall in consumer surplus is green + blue areas\nExcess burden is blue area"
   },
   {
+    "objectID": "slides/efficiency/index.html#section-2",
+    "href": "slides/efficiency/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nThe excess burden formula tells us that doubling the tax rate quadruples the excess burden. What does this imply about the choice between taxing one good at a high rate versus taxing many goods at lower rates to raise the same total revenue?"
+  },
+  {
     "objectID": "slides/efficiency/index.html#pre-existing-distortions",
     "href": "slides/efficiency/index.html#pre-existing-distortions",
     "title": "EC313 - Taxation",
@@ -2991,6 +3293,13 @@
     "title": "EC313 - Taxation",
     "section": "Excess Burden of a Subsidy",
     "text": "Excess Burden of a Subsidy\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nPicture a housing subsidy\nPrior to subsidy, optimal consumption is \\(H_0\\) at price \\(P_h\\)\nSubsidy lowers price to \\((1-s)P_h\\)\nNew optimal consumption is \\(H_1\\)\nCost of subsidy is green plus blue rectangle\nIncrease in consumer surplus is green area\nExcess burden is blue triangle"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#section-3",
+    "href": "slides/efficiency/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nGovernments often use subsidies for housing, education, or childcare to make these goods more affordable. Given what we have learned about the excess burden of subsidies, can you think of alternative policy tools that could achieve similar goals with less distortion to consumer behaviour?"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-of-income-tax",
@@ -3084,6 +3393,13 @@
     "text": "Characteristics of Externalities\n\nSometimes hard to distinguish from public goods\n\nPublic goods are goods that are non-excludable and non-rivalrous\nExternalities can sometimes have similar characteristics (e.g., clean air)\nKey difference is intention\n\nExternalities are unintended side effects of economic activities\nPublic goods are intentionally provided for the benefit of all\n\nExample: public fireworks are both a public good and create externalities\n\nCreated intentionally for everyone to enjoy\nBut people living nearby may experience noise pollution (negative externality)"
   },
   {
+    "objectID": "slides/externalities/index.html#section",
+    "href": "slides/externalities/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nConsider your daily routine — commuting to campus, streaming music, ordering food delivery. What externalities (positive or negative) do these activities generate, and who are the third parties affected? Are there any externalities you create that you had never considered before?"
+  },
+  {
     "objectID": "slides/externalities/index.html#negative-externalities",
     "href": "slides/externalities/index.html#negative-externalities",
     "title": "EC313 - Taxation",
@@ -3168,6 +3484,13 @@
     "text": "Negative Externalities\n\nWhat is the value of the damage?\n\nDifficult to measure precisely\nEconomists have used differences in house prices in areas with different levels of pollution\nIllustrates how much people are willing to pay to avoid pollution\nBut can be complicated by other factors affecting house prices"
   },
   {
+    "objectID": "slides/externalities/index.html#section-1",
+    "href": "slides/externalities/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIn the Azul and Jules example, moving to the social optimum makes society better off overall, but Azul is individually worse off. If you were a policymaker, how would you think about compensating the “losers” from policies that correct externalities? Is it enough that society gains on net?"
+  },
+  {
     "objectID": "slides/externalities/index.html#positive-externalities",
     "href": "slides/externalities/index.html#positive-externalities",
     "title": "EC313 - Taxation",
@@ -3243,6 +3566,13 @@
     "title": "EC313 - Taxation",
     "section": "Social Conventions",
     "text": "Social Conventions\n\nSometimes social conventions can help solve externalities\n\nPeople may voluntarily reduce negative externalities to avoid social disapproval\nExample: littering, smoking in public\n\nHowever, social conventions may not be sufficient for large-scale externalities\n\nExample: climate change requires coordinated action beyond social norms"
+  },
+  {
+    "objectID": "slides/externalities/index.html#section-2",
+    "href": "slides/externalities/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nThe Coase Theorem suggests that private bargaining can resolve externalities if property rights are clear and transaction costs are low. Why do you think private solutions so rarely solve large-scale environmental problems like climate change? What specific features of climate change make it resistant to Coasean bargaining?"
   },
   {
     "objectID": "slides/externalities/index.html#introduction-1",
@@ -3348,6 +3678,13 @@
     "title": "EC313 - Taxation",
     "section": "Emissions Fees for Negative Externalities",
     "text": "Emissions Fees for Negative Externalities\n\nCanada’s carbon tax was an example of an emissions fee\n\nApplied to fossil fuels based on their carbon content\nIncentivized firms and individuals to reduce carbon emissions\n\nAdditional detail is that it was revenue-neutral\n\nMost revenues were distributed back to individuals as lump sum payments\n\nThis has been paused as of 2025 in favour of other approaches\n\nLikely some regulations or subsidies"
+  },
+  {
+    "objectID": "slides/externalities/index.html#section-3",
+    "href": "slides/externalities/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nCanada’s carbon tax was revenue-neutral, returning most of the revenue to households as rebates. If individuals receive back roughly what they pay in carbon taxes, does the tax still change behaviour? Why or why not?"
   },
   {
     "objectID": "slides/externalities/index.html#tradeable-permits-for-negative-externalities",
@@ -3504,6 +3841,13 @@
     "text": "Normative vs. Positive Economics\n\n\n\n\n\n\n\n\nPositive Economics\n\n\nThe study of how things are\n\nWhat are the effects of a carbon tax on gasoline consumption?\nHow do income taxes affect labour supply?\nPrimarily an empirical field\n\n\n\n\n\n\n\n\n\n\n\nNormative Economics\n\n\nThe study of how things should be\n\nShould the government impose a carbon tax on gasoline?\nShould income taxes be progressive or flat?\nInvolves value judgements"
   },
   {
+    "objectID": "slides/intro/index.html#section",
+    "href": "slides/intro/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nConsider the efficiency-equity trade-off: if a perfectly efficient economy left some citizens in deep poverty while others accumulated enormous wealth, would government intervention be justified even if it reduced overall efficiency? Where would you draw the line?"
+  },
+  {
     "objectID": "slides/intro/index.html#some-current-research-topics-in-public-economics",
     "href": "slides/intro/index.html#some-current-research-topics-in-public-economics",
     "title": "EC313 - Taxation",
@@ -3630,6 +3974,13 @@
     "text": "Difficulties Counting Expenditures\n\nTax expenditure\n\nIndirect spending through reductions in taxes owing\nExamples: charitable giving tax credit, partial taxation of capital gains, zero rating groceries\nNot reflected in budget\n\nCapital investments\n\nCapital goods (e.g. machines) are consumed slowly over time\nTypically large value in year they are purchased\nGives mistaken impression of significant government involvement in economy"
   },
   {
+    "objectID": "slides/intro/index.html#section-1",
+    "href": "slides/intro/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nIf tax expenditures, regulations, and loan guarantees are not fully captured in government budgets, do conventional measures of government size understate or overstate the true role of government in the economy? What would a more complete measure look like?"
+  },
+  {
     "objectID": "slides/intro/index.html#federal-revenues",
     "href": "slides/intro/index.html#federal-revenues",
     "title": "EC313 - Taxation",
@@ -3684,6 +4035,13 @@
     "title": "EC313 - Taxation",
     "section": "Transfers and Constitutional Responsibilities",
     "text": "Transfers and Constitutional Responsibilities\n\nConstitution Act outlines responsibilities of federal and provincial governments\nConditional federal transfers do not violate constitution\n\nFederal government not providing services directly\nProvinces can choose to participate\nNevertheless controversial\n\nNoteworthy unconditional grant is equalization\n\nProvides funds to provinces that have below average ability to raise revenue\nFormula has been a matter of debate for years"
+  },
+  {
+    "objectID": "slides/intro/index.html#section-2",
+    "href": "slides/intro/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nThe federal government collects roughly half of all government revenue but is responsible for only about one third of spending. Should the taxing powers be realigned so that each level of government raises the revenue it needs, or does the current system of fiscal transfers serve an important purpose? What are the trade-offs?"
   },
   {
     "objectID": "slides/intro/index.html#summary-1",
@@ -3812,6 +4170,13 @@
     "text": "Personal Income Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows when income effect &gt; substitution effect\n\nBudget swivels down\nPerson optimizes at lower indifference curve\nLeisure decreases from \\(L_{0}\\) to \\(L_{2}\\)\nWork hours increase from \\(h_{0}\\) to \\(h_{2}\\)\n\nHappens when people are less willing to trade income for leisure"
   },
   {
+    "objectID": "slides/taxbehaviour/index.html#section",
+    "href": "slides/taxbehaviour/index.html#section",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nA single parent working full-time faces a new income tax increase. Would you expect the substitution effect or the income effect to dominate their labour supply decision? How might your answer differ for a secondary earner in a high-income household?"
+  },
+  {
     "objectID": "slides/taxbehaviour/index.html#personal-income-tax-4",
     "href": "slides/taxbehaviour/index.html#personal-income-tax-4",
     "title": "EC313 - Taxation",
@@ -3889,6 +4254,13 @@
     "text": "Laffer Curve\n\nThe Laffer Curve suggests there is an optimal tax rate when it comes to revenues\n\nAt the peak of the curve where additional increases in tax rates do not increase revenue\n\nAlso suggests that when tax rates are too high, reducing them could increase revenue\nHowever, determining the optimal tax rate is difficult in practice\n\nDepends on how responsive labour supply is to tax changes\nEmpirical estimates suggest we are not near the peak of the Laffer Curve for labour income taxes in Canada"
   },
   {
+    "objectID": "slides/taxbehaviour/index.html#section-1",
+    "href": "slides/taxbehaviour/index.html#section-1",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nPoliticians sometimes argue that cutting tax rates will “pay for themselves” through higher economic activity and therefore higher revenue. Under what conditions would this claim be true, and why do most economists believe Canada is not currently in that situation?"
+  },
+  {
     "objectID": "slides/taxbehaviour/index.html#introduction-2",
     "href": "slides/taxbehaviour/index.html#introduction-2",
     "title": "EC313 - Taxation",
@@ -3957,6 +4329,13 @@
     "title": "EC313 - Taxation",
     "section": "Tax on Interest Income with Deductible Interest",
     "text": "Tax on Interest Income with Deductible Interest\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph shows case when saving decreases\n\nSubstitution effect &gt; income effect\n\nSaving falls today\nConsumption increases today, but falls in the future"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#section-2",
+    "href": "slides/taxbehaviour/index.html#section-2",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Think About It\nYoung workers early in their careers tend to earn less and may need to borrow, while older workers closer to retirement tend to save. How might removing the tax deductibility of interest payments affect these two groups differently, and what are the implications for intergenerational fairness?"
   },
   {
     "objectID": "slides/taxbehaviour/index.html#tax-on-interest-income-with-nondeductible-interest",
@@ -4041,6 +4420,13 @@
     "title": "EC313 - Taxation",
     "section": "Housing and Saving",
     "text": "Housing and Saving\n\nEstimated foregone government revenue from non-taxation of capital gains on housing is around $10 billion per year\nNo estimates from non-taxation of imputed rent, but it would be higher\nPreferential tax treatment distorts saving behaviour\n\nEncourages investment in housing over other assets\nFunds may not flow to their most productive uses\n\nThere are also some policies that affect rental prices of housing, which distort behaviour"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#section-3",
+    "href": "slides/taxbehaviour/index.html#section-3",
+    "title": "EC313 - Taxation",
+    "section": "",
+    "text": "Discussion\nCanada’s preferential tax treatment of housing has been in place for decades, and housing now represents a large share of household wealth. If the government were to remove the capital gains exemption on primary residences, who would benefit and who would be harmed? What political and economic obstacles make reforming housing taxation so difficult?"
   },
   {
     "objectID": "slides/taxbehaviour/index.html#changes-in-tax-treatment-of-housing",

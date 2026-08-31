@@ -115,27 +115,31 @@ bundled with Connect, as we will not use Connect in this course
 ### Software
 
 The assignments will ask you to manipulate data with the statistical
-software Stata. The university has a site licence for this software,
-which you can access from the in-person or virtual computer labs. To
-access the virtual labs, follow the instructions outlined here
+software R, which you will use through RStudio. You will also write up
+your assignments in Quarto, a publishing system that runs inside
+RStudio and lets you combine your code, results, and written answers in
+a single document.
+
+All three are free and open source, and you can install them on your own
+computer. Download R from <https://cran.r-project.org>, and RStudio from
+<https://posit.co/download/rstudio-desktop/>. Quarto comes bundled with
+RStudio, so you do not need to download it separately. The first time
+you render a document, RStudio may prompt you to install the `rmarkdown`
+package; say yes. R and RStudio are also
+available in the in-person and virtual computer labs, if you would
+rather not install anything. To access the virtual labs, follow the
+instructions outlined here
 
 <https://students.wlu.ca/services-and-spaces/tech-services/computers-and-equipment/virtual-computer-labs.html>
 
-If you would like to purchase a copy of Stata for home use (not
-required), there are various options you can explore here:
-<https://www.stata.com/order/dl/>. The cheapest option is student
-license for Stata/BE, which costs USD 49.
+No prior programming experience is assumed. We will cover what you need
+in class, and there is an introduction to R on the course website.
 
-### Course GPT
+### Generative AI
 
-I have created a GPT specific to this course that you can use if you
-wish, [linked
-here](https://chatgpt.com/g/g-68b1ee87edec81918d2084bfa05b56cc-ec313).
-While my opinion is that the best way to succeed in this course is to
-engage with the lectures, lecture notes, textbook, and to ask questions
-in office hours, I recognize that people will use AI. To make the AI
-experience as closely linked to EC313 as possible, I have trained a GPT
-on some of the course materials.
+My opinion is that the best way to succeed in this course is to engage
+with the lectures, lecture notes, textbook, and to ask questions in
+office hours. That said, I recognize that people will use AI.
 
 You are permitted to use generative AI for your assignments. In all
 submissions in which you use generative AI, you must [cite its
@@ -145,22 +149,30 @@ Academic Misconduct](#0) will be applied. Treat the AI as you would any
 other source, meaning that you cannot directly copy and paste AI output
 into your assignments.
 
-**Use this tool with caution.** As we all know, generative AI does not
+**Use these tools with caution.** As we all know, generative AI does not
 always produce reliable output, and as such you may get wrong answers to
-your questions even though it is trained on the course material.
+your questions.
 
 ## Evaluation
 
-You will be evaluated on two equally weighted assignments, one midterm,
-and one final exam. The weights and due dates for each assessment are as
-follows:
+You will be evaluated on in-class participation, two equally weighted
+assignments, one midterm, and one final exam. The weights and due dates
+for each assessment are as follows:
 
-| Assessment   | Due Date                             | Weight |
-|:-------------|:-------------------------------------|:-------|
-| Assignment 1 | Friday, October 3, 2025 at 9:00pm    | 5%     |
-| Assignment 2 | Friday, November 21, 2025 at 9:00pm  | 5%     |
-| Midterm      | Thursday, October 30, 2025, in class | 40%    |
-| Final Exam   | TBA                                  | 50%    |
+| Assessment    | Due Date                              | Weight |
+|:--------------|:--------------------------------------|:-------|
+| Participation | Throughout the term, in class         | 10%    |
+| Assignment 1  | Friday, October 9, 2026 at 9:00pm     | 5%     |
+| Assignment 2  | Friday, December 4, 2026 at 9:00pm    | 5%     |
+| Midterm       | Thursday, November 12, 2026, in class | 35%    |
+| Final Exam    | TBA                                   | 45%    |
+
+Participation is measured with iClicker. During most lectures I will
+pose multiple choice questions that you answer in class using iClicker
+on your phone, tablet, or laptop. You are graded on answering the
+questions, not on getting them right, so there is no penalty for a wrong
+answer. Because the questions are answered live during class,
+participation marks cannot be made up afterward.
 
 Assignments will ask you to manipulate and interpret data, and answer
 some short answer or mathematical questions. Instructions will be posted
@@ -181,8 +193,7 @@ of the grade.
 ## Topics
 
 Below is a list of tentative topics covered in the course. I may add or
-remove items depending on how quickly the course proceeds. A reading
-list for each topic is available at the end of this syllabus.
+remove items depending on how quickly the course proceeds.
 
 | Topic                                  | Readings         |
 |----------------------------------------|------------------|

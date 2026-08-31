@@ -1,0 +1,1056 @@
+---
+title: "Introduction to R and Quarto"
+toc-expand: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+In this course you will use **R** to analyse income and tax data, and
+**Quarto** to write up your results. This page introduces both. It is
+meant to be read at a keyboard: open RStudio and type the commands in as
+you go. Reading code is not the same as writing it.
+
+No prior programming experience is assumed.
+
+## The three pieces
+
+It helps to be clear about what each piece of software does, because
+students often confuse them.
+
+| Software | What it is |
+|:-----------------|:-----------------------------------------------------|
+| R | The statistical language. It does the actual computing. |
+| RStudio | The program you work in. It is a comfortable front end for R. |
+| Quarto | The document system. It turns your code and writing into a PDF. |
+
+An analogy: R is the engine, RStudio is the dashboard and steering
+wheel, and Quarto is the report you hand in describing where you drove.
+
+Install R from <https://cran.r-project.org> and RStudio from
+<https://posit.co/download/rstudio-desktop/>. Install R first. Quarto
+comes bundled with RStudio, so you do not need to download it
+separately.
+
+# Part 1: R and RStudio
+
+This part is about R itself — the language you write, and the program
+you write it in. Work through it at a keyboard. By the end you will be
+able to load a dataset, describe it, reshape it, graph it, and run a
+regression.
+
+## Finding your way around RStudio
+
+You installed two programs, but from now on you only ever open one of
+them. **Opening RStudio starts R for you**, running quietly in the
+background. You never need to open R itself, and most people never do.
+
+You can watch this happen. The moment RStudio finishes loading, the
+Console prints R's version number and startup message — that is R
+announcing itself, already running and waiting for instructions. To go
+back to the analogy: you get into the car, and the engine is already
+turning over.
+
+When you open RStudio you will see four panes. They can be rearranged
+and re-coloured, so yours may not look identical to the picture, but
+every installation has these same four.
+
+![RStudio just after opening a project, before you have done anything.
+The panes fill up as you work.](/files/img/rstudio-interface.png){#fig-rstudio
+fig-alt="The RStudio window divided into four panes: an empty script at
+top left, the Console showing the R startup message at bottom left, an
+empty Environment pane at top right, and the Files pane at bottom
+right."}
+
+1.  **Source** (top left) — where you write and save your code. In the
+    picture it holds an empty script called `Untitled1`. When you open a
+    Quarto document here, a **Render** button appears at the top of this
+    pane.
+2.  **Console** (bottom left) — where R actually runs. Code you send
+    from Source appears here along with its results, and you can type
+    directly at the `>` prompt for quick experiments.
+3.  **Environment** (top right) — a list of every object you have
+    created, with its size. It says "Environment is empty" in the
+    picture because nothing has been run yet. Once you load data, this
+    is where you check that it really has the 500 rows you expected.
+4.  **Files / Plots / Packages / Help** (bottom right) — in the picture
+    the **Files** tab is showing the contents of the project folder.
+    Your graphs appear under **Plots**, and help pages under **Help**.
+
+::: callout-important
+## The one habit that matters most
+
+Write your code in the **Source** pane and save it. Code typed into the
+Console disappears. Every assignment in this course requires you to
+submit your code, so if it is not saved in a file, you do not have it.
+:::
+
+## R basics
+
+Everything you work with in R is an **object**: a named thing that holds
+something. A single income is an object. A column of 50,000 incomes is
+an object. A whole survey, a graph, the results of a regression — all
+objects. You give each one a name, and it appears in the Environment
+pane the moment you create it.
+
+What distinguishes one kind of object from another is what it holds and
+how much of it. The rest of this section introduces them in order of
+size, starting with the smallest.
+
+### Scalars and vectors
+
+R works by storing things in named **objects**. You create one with the
+assignment arrow `<-`:
+
+```{r}
+income <- 52000
+income
+```
+
+The name goes on the left, the value on the right. An object holding a
+single value like this is called a **scalar**. Once it exists, you can
+compute with it:
+
+```{r}
+taxrate <- 0.15
+income * taxrate
+```
+
+Names are case sensitive: `income` and `Income` are different objects.
+This is the single most common source of beginner errors.
+
+Most of the time you want more than one value. A **vector** holds
+several values of the same type, in order, and you build one with `c()`,
+which is short for "combine":
+
+```{r}
+incomes <- c(52000, 61000, 44500, 89000, 120000)
+incomes
+```
+
+Vectors are the fundamental data structure in R. A variable in a
+dataset — everyone's total income, everyone's age — is a vector.
+
+#### Vectors have a type
+
+Every element of a vector must be the same type. The three you will meet
+constantly:
+
+```{r}
+taxpaid <- c(8500.50, 12400.00, 3150.25)   # numeric
+person  <- c("Ali", "Bea", "Cal")          # character (text, in quotes)
+filed   <- c(TRUE, FALSE, TRUE)            # logical
+```
+
+`class()` tells you which you have:
+
+```{r}
+class(taxpaid)
+class(person)
+class(filed)
+```
+
+If you mix types, R quietly converts everything to the most
+accommodating one rather than complaining:
+
+```{r}
+c(1, "two", 3)
+```
+
+Everything became text — note the quotation marks. This is worth
+remembering, because a numeric variable that arrives as text will refuse
+to average, and this is usually why. When it happens, convert it
+deliberately with `as.numeric()`:
+
+```{r}
+as.numeric(c("8500.50", "12400.00"))
+```
+
+### Data frames
+
+#### A dataset is vectors side by side
+
+A single vector holds one variable. Real data has many variables
+measured on the same people, and we need to keep them lined up: the
+third age must belong to the same person as the third income.
+
+That is all a **data frame** is — a set of vectors of equal length,
+standing side by side as columns. Each column is one variable. Each row
+is one observation, usually one person.
+
+We can build a small one by hand to see the structure. `data.frame()`
+takes named vectors and stacks them into columns:
+
+```{r}
+people <- data.frame(
+  name   = c("Ali", "Bea", "Cal", "Dee", "Eli"),
+  age    = c(24, 38, 51, 29, 45),
+  educ   = c("High school", "University", "College", "University", "High school"),
+  totinc = c(31000, 74000, 52500, 66000, 43000)
+)
+
+people
+```
+
+Five people, four variables. Notice that the columns have different
+types — `name` and `educ` are text, `age` and `totinc` are numeric — but
+*within* a column the type is the same, exactly as with a vector.
+
+Every dataset you meet in this course has this shape. The Canadian
+Income Survey extract for your assignment is the same thing with more
+rows and more columns.
+
+#### Columns are vectors
+
+The `$` operator pulls one column out of a data frame, and what comes
+back is an ordinary vector:
+
+```{r}
+people$totinc
+```
+
+This is the connection worth holding on to. A data frame is not a new
+kind of thing to learn — it is a tidy arrangement of the vectors you
+already understand.
+
+#### Picking out elements
+
+Square brackets select elements of a vector by position:
+
+```{r}
+incomes[1]
+incomes[2:3]
+```
+
+More useful, you can select by condition:
+
+```{r}
+incomes > 60000
+incomes[incomes > 60000]
+```
+
+The first line returns a logical vector answering the question for each
+element; the second keeps only the elements where the answer was `TRUE`.
+
+Because a column of a data frame is just a vector, the very same
+brackets work on it:
+
+```{r}
+people$totinc[2]
+people$totinc[people$totinc > 50000]
+```
+
+Picking out whole rows and columns of a data frame works a little
+differently, and we will do it with two much friendlier functions,
+`filter()` and `select()`, once the tidyverse is loaded.
+
+### Other kinds of object
+
+Vectors and data frames are the two you will use constantly, and between
+them they cover almost everything in this course.
+
+R does have other kinds of object, and a few of them will turn up later
+once we start running regressions. There is no need to learn them in
+advance — we will deal with each one when it appears and there is
+something useful to do with it.
+
+### Functions
+
+Objects hold your data. **Functions** are what you do to them. You call
+one by writing its name followed by parentheses, with the thing you want
+it to work on inside:
+
+```{r}
+sqrt(16)
+round(24.567, 1)
+```
+
+You have already used one: `c()` is a function that takes a set of
+values and returns a vector.
+
+The things inside the parentheses are called **arguments**. Above,
+`round()` took two: the number to round, and how many decimal places to
+keep. Many arguments are optional and have sensible defaults — writing
+`round(24.567)` alone rounds to a whole number.
+
+Functions that summarise data take a whole vector and return a single
+number:
+
+```{r}
+mean(incomes)
+median(incomes)
+length(incomes)
+```
+
+::: callout-tip
+## Getting help
+
+Typing `?round` in the Console opens the help page for a function, which
+lists every argument it accepts. Help pages are dense, but scroll to the
+bottom: there are almost always worked examples.
+:::
+
+#### Missing values
+
+Arguments matter more than they first appear. Real survey data is full
+of gaps, which R writes as `NA`, meaning "not available." R refuses to
+guess what a missing value should be:
+
+```{r}
+incomes_missing <- c(52000, 61000, NA, 89000, 120000)
+mean(incomes_missing)
+```
+
+The answer is `NA`, because the true mean genuinely is unknown. To
+average the values you do have, say so explicitly with an argument:
+
+```{r}
+mean(incomes_missing, na.rm = TRUE)
+```
+
+::: callout-warning
+Getting `NA` where you expected a number almost always means missing
+values in your data, not a mistake in your code. Check with
+`sum(is.na(x))` to see how many there are before deciding what to do.
+:::
+
+### Packages
+
+R comes with a great deal built in, but most of the convenient tools
+live in **packages**: bundles of extra functions that somebody has
+written and shared. There are thousands of them, and they are free.
+
+Installing a package downloads it onto your computer. You do this once,
+in the Console:
+
+```{r}
+#| eval: false
+install.packages("packagename")
+```
+
+Loading a package makes its functions available for use. You do this
+every time you start a new session, at the top of your document:
+
+```{r}
+#| eval: false
+library(packagename)
+```
+
+::: callout-note
+`install.packages()` is like buying a book; `library()` is like taking
+it off the shelf. You buy once, but you take it off the shelf every
+time you sit down to work.
+:::
+
+### Base R and the tidyverse
+
+Everything we have done so far — `c()`, `class()`, `data.frame()`,
+square brackets — is **base R**: the functions that come with R itself,
+no packages needed.
+
+Base R can do everything this course requires, but a lot of it is
+awkward. The **tidyverse** is a set of packages whose functions are
+built specifically for working with data, and they make the common jobs
+far easier to write and to read. Three of them do most of the work:
+
+| Package | What its functions are for |
+|:-------------|:----------------------------------------------------|
+| **readr** | Getting data from a file into R |
+| **dplyr** | Working with data once it is there: keeping certain rows, creating new variables, computing averages by group |
+| **ggplot2** | Turning data into graphs |
+
+You will meet all three in the sections that follow. They are built to a
+common design, so the habits you pick up with one carry over to the
+others, and they are meant to be chained together — the output of one
+function becomes the input of the next.
+
+The convenient part is that you do not install them one at a time.
+Installing the tidyverse installs the whole set, and a single
+`library()` call loads them all.
+
+Install it once:
+
+```{r}
+#| eval: false
+install.packages("tidyverse")
+```
+
+And load it now, since everything below depends on it:
+
+```{r}
+#| message: false
+library(tidyverse)
+```
+
+::: callout-tip
+When you search for help online you will find answers written in both
+styles, sometimes for the same question. Neither is wrong. Use whichever
+you understand, but expect the code in lectures and assignments to look
+like the tidyverse.
+:::
+
+## Working with a realistic dataset
+
+```{r}
+#| label: make-cis
+#| include: false
+set.seed(313)
+
+n <- 500
+
+cis <- tibble(
+  id     = 1:n,
+  age    = sample(20:64, n, replace = TRUE),
+  female = rbinom(n, 1, 0.5),
+  educ   = sample(
+    c("Less than HS", "High school", "College", "University"),
+    n, replace = TRUE, prob = c(0.10, 0.30, 0.30, 0.30)
+  )
+) |>
+  mutate(
+    yrschool = case_when(
+      educ == "Less than HS" ~ 10,
+      educ == "High school"  ~ 12,
+      educ == "College"      ~ 14,
+      educ == "University"   ~ 16
+    ),
+    totinc = round(
+      exp(8.80 + 0.09 * yrschool + 0.048 * age -
+            0.00050 * age^2 - 0.15 * female + rnorm(n, 0, 0.55))
+    ),
+    transfers = round(pmax(0, 9000 - 0.06 * totinc + rnorm(n, 0, 1200))),
+    inctax = round(
+      (0.20 * pmax(totinc - 20000, 0) +
+         0.10 * pmax(totinc - 55000, 0) +
+         0.10 * pmax(totinc - 110000, 0) +
+         0.05 * pmax(totinc - 170000, 0)) *
+        exp(rnorm(n, -0.02, 0.10))
+    ),
+    atinc = totinc - inctax + transfers
+  )
+```
+
+Five people are not enough to do economics with. For the rest of this
+page we will use a larger dataset called `cis`, containing 500
+working-age people with their age, sex, education, total income,
+government transfers received, and income tax paid. It is artificial,
+but it is built to behave like the Canadian Income Survey extracts you
+will use in the assignments, and it is already loaded here.
+
+### Reading data from a file
+
+In an assignment you would not be handed a dataset — you would read one
+in from a file you downloaded. Put the file in the same folder as your
+Quarto document, then read it with the function matching its format:
+
+```{r}
+#| eval: false
+# comma-separated values
+cis <- read_csv("ec313assign1.csv")
+
+# Stata format, using the haven package
+library(haven)
+cis <- read_dta("ec313assign1.dta")
+```
+
+Reading a file gives you a data frame, which you then work with exactly
+as we are about to.
+
+::: callout-warning
+## "Cannot open file"
+
+This error nearly always means R is looking in a different folder than
+you are. R looks in its **working directory**. The reliable fix is to
+create an RStudio **Project** for the course (File → New Project) and
+keep your data and documents inside that project folder. Then paths
+just work.
+:::
+
+### Looking at your data
+
+Never start analysing data you have not looked at. A handful of
+functions do most of the work.
+
+`glimpse()` gives you the shape of the dataset and the type of every
+column:
+
+```{r}
+glimpse(cis)
+```
+
+`head()` shows the first few rows, so you can see what actual values
+look like:
+
+```{r}
+head(cis)
+```
+
+You will notice the word **tibble** in that output. A tibble is the
+tidyverse's version of a data frame: the same rectangle of columns, but
+printed more helpfully — it shows you the type of each column and stops
+after ten rows instead of filling your screen. Anything that works on a
+data frame works on a tibble, so you can treat the two words as
+interchangeable.
+
+And `summary()` describes a single variable — remember that
+`cis$totinc` is just a vector:
+
+```{r}
+summary(cis$totinc)
+```
+
+For a categorical variable, count the categories instead:
+
+```{r}
+count(cis, educ)
+```
+
+Which summary you use depends on the kind of variable, and the
+distinction matters:
+
+-   A **continuous** variable can take any value in a range — income,
+    tax paid, age. Averages and percentiles make sense, so use
+    `summary()`.
+-   A **categorical** variable sorts people into groups — education,
+    province, sex. The groups are often stored as numbers, but those
+    numbers are labels, not quantities. The average of "1 = man, 2 =
+    woman" means nothing. Count the categories with `count()` instead.
+
+#### The data viewer
+
+The Console is not the only way to look. RStudio has a spreadsheet-style
+viewer built in. Click the name `cis` in the **Environment** pane, or
+run:
+
+```{r}
+#| eval: false
+View(cis)
+```
+
+Note the capital `V` — `view()` will not work. Either way, the dataset
+opens in a tab beside your document, where you can scroll through all
+500 rows, sort by clicking a column heading, and filter to particular
+values.
+
+This is often the fastest way to get a feel for a dataset you have never
+seen before, and it is worth doing alongside `glimpse()` rather than
+instead of it. Two things to know: nothing you do in the viewer changes
+your data or gets recorded in your document, so you cannot break
+anything by exploring; and for the same reason, sorting or filtering
+there is no substitute for writing the code. Only the code goes into
+your assignment.
+
+::: callout-tip
+Look at a dataset this way every time you open one, before doing
+anything else. Most analysis mistakes are really misunderstandings
+about what is in the data.
+:::
+
+### Missing values in real data
+
+Survey files rarely mark missing values with a tidy `NA`. It is common
+to use an impossible number instead — in the Canadian Income Survey,
+the survey your assignment extracts come from, missing earnings are
+stored as 999999999996. R has no way to know that this is not a real
+income:
+
+```{r}
+earnings_raw <- c(45000, 62000, 999999999996, 38000)
+mean(earnings_raw)
+```
+
+An average income of 250 billion dollars is a clue that something is
+wrong, but a subtler code would slip through unnoticed. Convert the code
+to `NA` first, with `na_if()`:
+
+```{r}
+earnings_clean <- na_if(earnings_raw, 999999999996)
+earnings_clean
+mean(earnings_clean, na.rm = TRUE)
+```
+
+Now the mean describes the three people we actually have data for.
+
+::: callout-warning
+## Read the documentation first
+
+Every survey comes with documentation — a codebook listing what each
+variable measures and how missing values are coded. Read it before you
+compute anything. A missing-value code left in the data can invalidate
+every number in your assignment, and nothing in R will warn you.
+:::
+
+## Manipulating data
+
+Five verbs cover most of what you will do. Each takes a data frame and
+returns a modified data frame.
+
+### The pipe
+
+Before the verbs themselves, one piece of punctuation. You are about to
+see the symbol `|>` everywhere. It is the **pipe**, and it takes the
+thing on its left and feeds it into the function on its right. These two
+lines do exactly the same thing:
+
+```{r}
+mean(incomes)
+incomes |> mean()
+```
+
+For a single function the pipe is not worth the trouble. Its value is in
+what comes next: when several operations happen one after another, the
+pipe lets you read them left to right, in the order they actually
+happen, instead of from the inside out.
+
+### `filter()` — keep some rows
+
+How many people in the sample paid no income tax at all?
+
+```{r}
+cis |>
+  filter(inctax == 0) |>
+  nrow()
+```
+
+Note the double equals `==`. A single `=` assigns; a double `==` tests
+for equality. Conditions can be combined with `&` (and) and `|` (or):
+
+```{r}
+cis |>
+  filter(educ == "University" & age < 30) |>
+  nrow()
+```
+
+### `select()` — keep some columns
+
+```{r}
+cis |>
+  select(id, educ, totinc, inctax) |>
+  head(3)
+```
+
+### `mutate()` — create variables
+
+The **average tax rate** — tax paid as a share of income — is the
+workhorse variable of tax analysis, and it is not in the data. Create
+it:
+
+```{r}
+cis <- cis |>
+  mutate(atr = inctax / totinc)
+```
+
+### `summarise()` — boil the data down
+
+`summarise()` collapses a whole dataset into a single row of summary
+numbers. You name each thing you want, and say how to calculate it:
+
+```{r}
+cis |>
+  summarise(
+    n        = n(),
+    mean_inc = mean(totinc),
+    mean_atr = mean(atr)
+  )
+```
+
+Three numbers describing all 500 people: how many there are, their
+average income, and the average share of income they pay in tax. `n()`
+is a special helper that counts rows.
+
+Note what happened to the shape of things. `filter()`, `select()` and
+`mutate()` all handed back a dataset with one row per person.
+`summarise()` hands back one row, full stop — the people are gone, and
+what remains is a description of them.
+
+### `group_by()` — do it separately for each group
+
+A single average for everyone is rarely what you want. The interesting
+question is almost always comparative: do incomes and tax rates differ
+*by education*, *by sex*, *by province*?
+
+`group_by()` answers that. On its own it changes nothing you can see —
+it simply marks the dataset as divided into groups. The work happens
+when `summarise()` runs afterwards, because it now produces one row per
+group rather than one row overall:
+
+```{r}
+cis |>
+  group_by(educ) |>
+  summarise(
+    n        = n(),
+    mean_inc = mean(totinc),
+    mean_atr = mean(atr)
+  )
+```
+
+That is the identical `summarise()` call as before, with one line added
+above it — and the result is already a public finance finding: income
+rises with education, and the average tax rate rises with it. People
+with higher incomes pay a larger *share* of their income in tax, which
+is what it means for an income tax to be **progressive**.
+
+Group by something else and you ask a different question. Here is the
+raw gender income gap:
+
+```{r}
+cis |>
+  group_by(female) |>
+  summarise(mean_inc = mean(totinc), n = n())
+```
+
+This pairing is the workhorse of applied work. Most tables you will ever
+produce are some version of "group by one thing, summarise another."
+
+::: callout-note
+## Ordering categories
+
+Notice that education came out alphabetically, which is not the natural
+order. To fix that, make it a **factor** with the levels you want:
+
+```{r}
+cis <- cis |>
+  mutate(educ = factor(
+    educ,
+    levels = c("Less than HS", "High school", "College", "University")
+  ))
+
+count(cis, educ)
+```
+:::
+
+## Graphs
+
+Graphs in R are built with **ggplot2**, loaded as part of the tidyverse.
+Every plot has the same three ingredients: the data, a mapping from
+variables to visual properties (`aes`), and a geometry (`geom_`) saying
+what to draw.
+
+```{r}
+#| label: fig-inc-hist
+#| fig-cap: "Distribution of total income"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(cis, aes(x = totinc)) +
+  geom_histogram(bins = 30) +
+  labs(x = "Total income ($)", y = "Number of people")
+```
+
+The long right tail — most people bunched at moderate incomes, a few
+far out to the right — is characteristic of income data, and you will
+see it in every income survey you ever open.
+
+Note that ggplot layers are joined with `+`, not the pipe. This is an
+historical quirk and a common source of confusion.
+
+Mapping a variable to colour or to the x axis of a boxplot lets you
+compare groups:
+
+```{r}
+#| label: fig-atr-educ
+#| fig-cap: "Average tax rates by education level"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(cis, aes(x = educ, y = atr)) +
+  geom_boxplot() +
+  labs(x = NULL, y = "Average tax rate")
+```
+
+And a scatterplot shows how two continuous variables move together.
+Adding `geom_smooth(method = "lm")` draws the regression line through
+the points:
+
+```{r}
+#| label: fig-inc-tax
+#| fig-cap: "Income tax paid against total income"
+#| fig-width: 6
+#| fig-height: 3.5
+#| message: false
+ggplot(cis, aes(x = totinc, y = inctax)) +
+  geom_point(alpha = 0.3) +
+  geom_smooth(method = "lm") +
+  labs(x = "Total income ($)", y = "Income tax paid ($)")
+```
+
+The upward slope is the tax schedule at work: more income, more tax.
+With this many points the cloud is dense, which is normal for survey
+microdata. The line is what carries the message.
+
+::: callout-important
+## Assignment graphs need labels
+
+Default axis labels are variable names, which are not acceptable in
+submitted work. Always set `labs()` with readable labels and units.
+:::
+
+## Regression
+
+Linear regression uses `lm()`, with a formula written
+`outcome ~ predictor1 + predictor2`:
+
+```{r}
+model1 <- lm(inctax ~ totinc, data = cis)
+summary(model1)
+```
+
+That is a lot of output, but only a few parts matter:
+
+-   **`Estimate`** — the coefficient. Here it says that an extra dollar
+    of income raises tax paid by about 34 cents on average — an
+    estimate of the effective marginal tax rate in this sample.
+-   **`Std. Error`** — how precisely the coefficient is estimated.
+-   **`Pr(>|t|)`** — the p-value for the test that the coefficient is
+    zero. Small means the estimate is distinguishable from no effect.
+-   **`Multiple R-squared`** — the share of the variation in tax paid
+    the model explains.
+
+A second regression asks a different question: is the tax system
+progressive? If the average tax rate rises with income, it is —
+that is essentially the definition:
+
+```{r}
+cis <- cis |>
+  mutate(lntotinc = log(totinc))
+
+model2 <- lm(atr ~ lntotinc, data = cis)
+```
+
+The positive coefficient on log income confirms that people with higher
+incomes pay a larger share of their income in tax.
+
+### Categorical predictors
+
+You can put a categorical variable straight into a regression, and R
+creates the dummy variables for you:
+
+```{r}
+model3 <- lm(atr ~ educ, data = cis)
+coef(model3)
+```
+
+Notice there are only three coefficients for four education categories.
+R leaves one out — here "Less than HS" — as the **base group**, and
+every other coefficient says how that group compares to it. There is no
+way to include all four; the base group is what the others are measured
+against.
+
+`coef()` was used above to show just the coefficients. It returns a
+named vector, which is the same kind of object from the start of this
+page.
+
+To compare against a different group, change which level comes first:
+
+```{r}
+cis_hs <- mutate(cis, educ = relevel(educ, ref = "High school"))
+model4 <- lm(atr ~ educ, data = cis_hs)
+coef(model4)
+```
+
+Now everything is relative to high school graduates, and the "Less than
+HS" coefficient is negative, as you would expect from a progressive
+tax paired with lower incomes.
+
+### Presenting results
+
+Console output is not acceptable in submitted work. Use
+**modelsummary** to produce a proper table:
+
+```{r}
+#| message: false
+library(modelsummary)
+
+modelsummary(
+  list("Tax schedule" = model1, "Progressivity" = model2),
+  stars = TRUE
+)
+```
+
+This is the format your assignments should use.
+
+# Part 2: Quarto
+
+Part 1 was about getting answers. This part is about presenting them.
+Quarto is how you turn the code and results from Part 1 into the PDF you
+hand in.
+
+## What a Quarto document is
+
+A Quarto file (extension `.qmd`) is a single document containing your
+writing, your code, and the output of that code. When you **render**
+it, Quarto runs every piece of code fresh and produces a finished PDF
+with the results embedded.
+
+This matters for two reasons. Your work is reproducible, since the
+document cannot drift out of step with the code that produced it. And
+you never have to copy and paste a number or a graph again — a constant
+source of errors.
+
+To create one in RStudio: File → New File → Quarto Document.
+
+::: callout-note
+## Download the practice file
+
+Rather than starting from a blank document, start from this one. It is
+a working Quarto file containing everything on this page: it loads
+packages, creates practice data, summarises it, draws a graph, and runs
+a regression.
+
+[{{< fa solid file-export >}} `ec313-r-template.qmd`](/files/tutorials/ec313-r-template.qmd)
+
+[{{< fa solid file-export >}} `ec313cis.csv`](/files/tutorials/ec313cis.csv)
+
+Download **both** files into the same folder, open the `.qmd` in
+RStudio, and press **Render**. You should get a PDF. Then start changing
+things — that is how you learn this.
+
+It uses the same `cis` data as this page, read in with `read_csv()`, so
+every result you see above you can reproduce and alter yourself.
+:::
+
+## The three ingredients
+
+A `.qmd` file has exactly three kinds of content.
+
+**1. The YAML header**, at the very top, between three dashes. It sets
+the title and output format:
+
+``` yaml
+---
+title: "EC313 Assignment 1"
+author: "Your Name, 123456789"
+format: pdf
+---
+```
+
+**2. Text**, written in Markdown. A few marks do most of the work:
+
+| You type | You get |
+|:------------------------|:----------------------------------------|
+| `## Question 1` | A section heading |
+| `**important**` | **important** |
+| `*emphasis*` | *emphasis* |
+| `- item` | A bullet point |
+| `$\beta_1$` | An inline equation, $\beta_1$ |
+
+**3. Code chunks**, fenced by three backticks with `{r}`. In RStudio the
+keyboard shortcut is Ctrl+Alt+I (Cmd+Option+I on a Mac):
+
+````{verbatim}
+```{r}
+mean(cis$totinc)
+```
+````
+
+Chunk options go on lines starting with `#|` inside the chunk. The ones
+you will want:
+
+| Option | Effect |
+|:------------------|:----------------------------------------------------|
+| `#| echo: false` | Run the code but hide it; show only output |
+| `#| eval: false` | Show the code but do not run it |
+| `#| message: false` | Suppress package startup chatter |
+| `#| warning: false` | Suppress warnings |
+| `#| fig-cap: "..."` | Add a caption to a figure |
+
+For this course, **leave code visible** — showing your code is part of
+what is being marked.
+
+## Inline code
+
+You can also put a computed number directly into a sentence, rather than
+typing it by hand. In your text, write this:
+
+````{verbatim}
+The mean total income is `r round(mean(cis$totinc))` dollars.
+````
+
+and when you render, R replaces it with the answer:
+
+> The mean total income is `r round(mean(cis$totinc))` dollars.
+
+That number was computed while this page was being built. If the data
+changed, the sentence would change with it — which is why you should
+never copy a number out of your output and retype it.
+
+## Rendering
+
+Everything you hand in for this course is a PDF, and producing a PDF
+needs a LaTeX installation working quietly in the background. You almost
+certainly do not have one yet. Install it once, in the Console, and then
+never think about it again:
+
+```{r}
+#| eval: false
+install.packages("tinytex")
+tinytex::install_tinytex()
+```
+
+It takes a few minutes and downloads a few hundred megabytes. If you
+prefer, the same thing can be done from the Terminal tab with
+`quarto install tinytex`.
+
+::: callout-warning
+Do this now, not later. The first time most people try to produce a PDF
+is an hour before a deadline, and that is a bad moment to discover a
+missing LaTeX installation. If a render fails with an error mentioning
+LaTeX, `tlmgr`, or a missing `.sty` file, this is what it is telling
+you.
+:::
+
+With that in place, press the **Render** button at the top of the Source
+pane, or Ctrl+Shift+K (Cmd+Shift+K on a Mac). Quarto runs your code from
+top to bottom in a clean session and writes a PDF next to your `.qmd`.
+
+::: callout-warning
+## Render early and often
+
+Because rendering starts from a clean session, a document can fail to
+render even though everything worked in your Console — usually because
+an object was created in the Console and never written into the
+document. Render after finishing each question. Discovering a problem at
+9:00pm on the due date is avoidable.
+:::
+
+## Common errors
+
+Everyone hits these. They are not a sign that you are bad at this.
+
+| Message | Usual cause |
+|:-----------------------------|:-----------------------------------------|
+| `could not find function "x"` | A package is not loaded — add the `library()` call |
+| `object 'x' not found` | Typo, wrong capitalisation, or the object was never created |
+| `unexpected symbol` | A missing comma, bracket, or quotation mark |
+| `cannot open file` | Wrong working directory — use an RStudio Project |
+| A `+` in the Console | R is waiting for you to finish an incomplete command; press Esc |
+
+::: callout-tip
+## How to read an error
+
+Errors look intimidating but usually name the problem in the first
+line. Read that line, look at the line of code it points to, and check
+the simple things first: spelling, capitalisation, and matching
+brackets. Pasting the message into a search engine is a legitimate and
+widely used technique.
+:::
+
+## Where to get help
+
+Everything below is free to read online. You do not need to buy anything
+for this course beyond the textbook.
+
+-   [R for Data Science](https://r4ds.hadley.nz) — the standard
+    reference for the tidyverse, free in full on that site. Chapters 1
+    through 5 cover most of what this course needs.
+-   [Posit Cheatsheets](https://posit.co/resources/cheatsheets/) —
+    free one-page references for dplyr, ggplot2, and RStudio itself.
+    Print the dplyr and ggplot2 ones.
+-   [The Quarto guide](https://quarto.org/docs/guide/) — official
+    documentation, well organised and full of examples.
+-   [ggplot2 reference](https://ggplot2.tidyverse.org/reference/) — every
+    geometry, with pictures.
+-   Office hours. If you are stuck for more than twenty minutes on
+    something mechanical, bring it to me rather than losing an evening
+    to it.
