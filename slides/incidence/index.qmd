@@ -821,10 +821,24 @@ Answer: A — capitalization. The diagnostic distractor is E: future buyers do r
 
 ## Tax Equivalencies
 
-- The nine taxes are linked by equivalence relations
-  - [Across a row]{.fg style="color: #555;"}: taxing both factors in a sector is equivalent to taxing that sector's output:&nbsp;$t_{KF} + t_{LF} \equiv t_F$
-  - [Down a column]{.fg style="color: #555;"}: taxing one factor in both sectors is equivalent to a general tax on that factor: $t_{KF} + t_{KM} \equiv t_K$
-  - [All together]{.fg style="color: #555;"}: taxing all goods, taxing all factors, and taxing income are all equivalent:&nbsp;$t_F + t_M \equiv t_K + t_L \equiv t$
+- [Across a row]{.fg style="color: #555;"}: taxing both factors in a sector $\equiv$ taxing that sector's output:&nbsp;$t_{KF} + t_{LF} \equiv t_F$
+- Why? Under perfect competition, every dollar of food revenue is paid out to the factors that produce&nbsp;it
+  - For every \$100 of food sold, the firm pays out \$60 to labour and \$40 to&nbsp;capital
+  - A 10% tax on both factor payments collects \$10 per \$100 of food — exactly what a 10% tax on food&nbsp;collects
+  - Buyers, workers, and capital owners face the same tax wedge either way, so the incidence is&nbsp;identical
+
+## Tax Equivalencies
+
+- [Down a column]{.fg style="color: #555;"}: taxing one factor in both sectors $\equiv$ a general tax on that factor:&nbsp;$t_{KF} + t_{KM} \equiv t_K$
+- Why? If capital faces the same tax rate everywhere, switching sectors cannot avoid the&nbsp;tax
+  - Nothing reallocates between sectors — the net return to capital simply&nbsp;falls
+  - Contrast with a partial factor tax like $t_{KF}$ alone, where capital *can* escape into&nbsp;manufacturing
+
+## Tax Equivalencies
+
+- [All together]{.fg style="color: #555;"}: taxing all goods $\equiv$ taxing all factors $\equiv$ an income tax:&nbsp;$t_F + t_M \equiv t_K + t_L \equiv t$
+- Why? All income is earned from capital or labour, and in this model all income is spent on the two&nbsp;goods
+  - A tax on everything you earn and a tax on everything you buy hit the same&nbsp;base
 - So we only need to work out the incidence of a few basic taxes to understand all&nbsp;nine
   - A tax on one good ($t_F$) and a partial factor tax ($t_{KF}$) — exactly the cases the Harberger model&nbsp;studies
 
@@ -859,14 +873,24 @@ Answer: A. Taxing both inputs used to make food is the same as taxing food itsel
 
 ## Harberger Model {.smaller}
 
-- Suppose a tax on food ($t_F$) is introduced
-  - Price of food rises
-  - Consumers buy less food, more manufacturing
-  - Demand for labour and capital in food sector falls
-  - Freed labour and capital move to manufacturing, but not in the proportions that sector wants to absorb&nbsp;them
-- Key result: the tax lowers the relative return of the factor used [intensively]{.fg style="color: #2780e3;"} in the taxed sector
-  - If food is capital intensive, the relative return to capital falls
-  - Because factors are mobile, that lower return is felt in *both* sectors
+- Suppose a tax on food ($t_F$) is introduced, and food is [capital intensive]{.fg style="color: #2780e3;"}
+  - It uses more capital per worker than manufacturing — say 3 machines per worker vs&nbsp;1
+- Step by step
+  - Price of food rises, so consumers buy less food and more&nbsp;manufacturing
+  - The shrinking food sector releases capital and labour, which must find work in&nbsp;manufacturing
+  - Food releases 3 machines per worker, but manufacturing only wants 1 machine per worker at current&nbsp;prices
+  - There is more capital than the market wants: the return to capital must fall until manufacturing willingly absorbs it&nbsp;all
+
+## Harberger Model
+
+::: {.callout-note}
+## Key Result
+A tax on a good falls more heavily on the factor used [intensively]{.fg style="color: #2780e3;"} in producing that good
+:::
+
+- Here: the food tax lowers the return to&nbsp;capital
+- Capital is mobile, so returns equalize across sectors
+  - Capital owners in *both* sectors bear the burden, not just those in&nbsp;food
 - Strength of these effects depends on elasticities
   - How easily consumers switch to manufacturing, and how easily sectors substitute between labour and&nbsp;capital
 

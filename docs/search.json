@@ -1019,7 +1019,7 @@
     "href": "slides/incidence/index.html#tax-equivalencies-2",
     "title": "EC313 - Taxation",
     "section": "Tax Equivalencies",
-    "text": "Tax Equivalencies\n\nThe nine taxes are linked by equivalence relations\n\nAcross a row: taxing both factors in a sector is equivalent to taxing that sector’s output: \\(t_{KF} + t_{LF} \\equiv t_F\\)\nDown a column: taxing one factor in both sectors is equivalent to a general tax on that factor: \\(t_{KF} + t_{KM} \\equiv t_K\\)\nAll together: taxing all goods, taxing all factors, and taxing income are all equivalent: \\(t_F + t_M \\equiv t_K + t_L \\equiv t\\)\n\nSo we only need to work out the incidence of a few basic taxes to understand all nine\n\nA tax on one good (\\(t_F\\)) and a partial factor tax (\\(t_{KF}\\)) — exactly the cases the Harberger model studies"
+    "text": "Tax Equivalencies\n\nAcross a row: taxing both factors in a sector \\(\\equiv\\) taxing that sector’s output: \\(t_{KF} + t_{LF} \\equiv t_F\\)\nWhy? Under perfect competition, every dollar of food revenue is paid out to the factors that produce it\n\nFor every $100 of food sold, the firm pays out $60 to labour and $40 to capital\nA 10% tax on both factor payments collects $10 per $100 of food — exactly what a 10% tax on food collects\nBuyers, workers, and capital owners face the same tax wedge either way, so the incidence is identical"
   },
   {
     "objectID": "slides/incidence/index.html#harberger-model",
@@ -1033,21 +1033,21 @@
     "href": "slides/incidence/index.html#harberger-model-1",
     "title": "EC313 - Taxation",
     "section": "Harberger Model",
-    "text": "Harberger Model\n\nSuppose a tax on food (\\(t_F\\)) is introduced\n\nPrice of food rises\nConsumers buy less food, more manufacturing\nDemand for labour and capital in food sector falls\nFreed labour and capital move to manufacturing, but not in the proportions that sector wants to absorb them\n\nKey result: the tax lowers the relative return of the factor used intensively in the taxed sector\n\nIf food is capital intensive, the relative return to capital falls\nBecause factors are mobile, that lower return is felt in both sectors\n\nStrength of these effects depends on elasticities\n\nHow easily consumers switch to manufacturing, and how easily sectors substitute between labour and capital"
+    "text": "Harberger Model\n\nSuppose a tax on food (\\(t_F\\)) is introduced, and food is capital intensive\n\nIt uses more capital per worker than manufacturing — say 3 machines per worker vs 1\n\nStep by step\n\nPrice of food rises, so consumers buy less food and more manufacturing\nThe shrinking food sector releases capital and labour, which must find work in manufacturing\nFood releases 3 machines per worker, but manufacturing only wants 1 machine per worker at current prices\nThere is more capital than the market wants: the return to capital must fall until manufacturing willingly absorbs it all"
   },
   {
     "objectID": "slides/incidence/index.html#harberger-model-2",
     "href": "slides/incidence/index.html#harberger-model-2",
     "title": "EC313 - Taxation",
     "section": "Harberger Model",
-    "text": "Harberger Model\n\nSuppose an income tax (\\(t\\)) is introduced\n\nUse equivalencies table\nIncome tax is equivalent to a combination of taxes on capital and labour\nBoth are in fixed supply (perfectly inelastic) so they bear the whole burden\n\nA tax on labour (\\(t_L\\)) is introduced\n\nTax on labour in both sectors\nLabour supply is perfectly inelastic so it bears the whole burden\nNo incentive to switch between sectors"
+    "text": "Harberger Model\n\n\n\n\n\n\nKey Result\n\n\nA tax on a good falls more heavily on the factor used intensively in producing that good\n\n\n\n\nHere: the food tax lowers the return to capital\nCapital is mobile, so returns equalize across sectors\n\nCapital owners in both sectors bear the burden, not just those in food\n\nStrength of these effects depends on elasticities\n\nHow easily consumers switch to manufacturing, and how easily sectors substitute between labour and capital"
   },
   {
     "objectID": "slides/incidence/index.html#harberger-model-3",
     "href": "slides/incidence/index.html#harberger-model-3",
     "title": "EC313 - Taxation",
     "section": "Harberger Model",
-    "text": "Harberger Model\n\nFinally, a partial factor tax on capital in manufacturing (\\(t_{KM}\\))\n\nPrice of manufacturing rises\n\nUse less capital and labour\nAs capital and labour leave, changes in their relative prices depend on how much is used\n\nProducers of manufactured goods use less capital and more labour\n\nDemand for capital falls, and so does relative price\nPrice of labour rises\n\nCannot tell what the ultimate effect is on capital or labour prices"
+    "text": "Harberger Model\n\nSuppose an income tax (\\(t\\)) is introduced\n\nUse equivalencies table\nIncome tax is equivalent to a combination of taxes on capital and labour\nBoth are in fixed supply (perfectly inelastic) so they bear the whole burden\n\nA tax on labour (\\(t_L\\)) is introduced\n\nTax on labour in both sectors\nLabour supply is perfectly inelastic so it bears the whole burden\nNo incentive to switch between sectors"
   },
   {
     "objectID": "slides/incidence/index.html#summary",
@@ -4581,5 +4581,26 @@
     "title": "EC313 - Taxation",
     "section": "iClicker Question",
     "text": "iClicker Question\nSame tax: 20% of all income above $20,000. Is this tax proportional, progressive, or regressive?\nA) Progressive — the average tax rate rises with income\nB) Proportional — everyone faces the same 20% rate\nC) Regressive — lower earners can least afford to pay\nD) Proportional — the tax is a constant fraction of the tax base\nE) It depends on whether we use the average or the marginal tax rate\n\nAnswer: A. The ATR is 0% at $20,000 and rises toward 20% as income grows, so by our (average-rate) definition the tax is progressive. B is the trap: a single, flat marginal rate does not make a tax proportional — the exemption does the work. E is tempting given the caveat on the previous slide, but with the ATR definition we adopted the classification is determinate."
+  },
+  {
+    "objectID": "slides/incidence/index.html#tax-equivalencies-3",
+    "href": "slides/incidence/index.html#tax-equivalencies-3",
+    "title": "EC313 - Taxation",
+    "section": "Tax Equivalencies",
+    "text": "Tax Equivalencies\n\nDown a column: taxing one factor in both sectors \\(\\equiv\\) a general tax on that factor: \\(t_{KF} + t_{KM} \\equiv t_K\\)\nWhy? If capital faces the same tax rate everywhere, switching sectors cannot avoid the tax\n\nNothing reallocates between sectors — the net return to capital simply falls\nContrast with a partial factor tax like \\(t_{KF}\\) alone, where capital can escape into manufacturing"
+  },
+  {
+    "objectID": "slides/incidence/index.html#tax-equivalencies-4",
+    "href": "slides/incidence/index.html#tax-equivalencies-4",
+    "title": "EC313 - Taxation",
+    "section": "Tax Equivalencies",
+    "text": "Tax Equivalencies\n\nAll together: taxing all goods \\(\\equiv\\) taxing all factors \\(\\equiv\\) an income tax: \\(t_F + t_M \\equiv t_K + t_L \\equiv t\\)\nWhy? All income is earned from capital or labour, and in this model all income is spent on the two goods\n\nA tax on everything you earn and a tax on everything you buy hit the same base\n\nSo we only need to work out the incidence of a few basic taxes to understand all nine\n\nA tax on one good (\\(t_F\\)) and a partial factor tax (\\(t_{KF}\\)) — exactly the cases the Harberger model studies"
+  },
+  {
+    "objectID": "slides/incidence/index.html#harberger-model-4",
+    "href": "slides/incidence/index.html#harberger-model-4",
+    "title": "EC313 - Taxation",
+    "section": "Harberger Model",
+    "text": "Harberger Model\n\nFinally, a partial factor tax on capital in manufacturing (\\(t_{KM}\\))\n\nPrice of manufacturing rises\n\nUse less capital and labour\nAs capital and labour leave, changes in their relative prices depend on how much is used\n\nProducers of manufactured goods use less capital and more labour\n\nDemand for capital falls, and so does relative price\nPrice of labour rises\n\nCannot tell what the ultimate effect is on capital or labour prices"
   }
 ]
