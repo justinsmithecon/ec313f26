@@ -5,17 +5,64 @@ editor:
   markdown: 
     wrap: 72
 
+format-links:
+  - html
+  - format: typst
+    text: PDF
+    icon: file-pdf
+
 format:
   html: default   # keep website version
-  pdf:
-    documentclass: article
-    number-sections: false
-    toc: false
-    geometry: margin=1in
-    fontsize: 11pt
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
+    title: ""
 ---
 
-:::::: {.grid .course-details .course-details-smaller}
+::: {.content-visible when-format="typst"}
+
+```{=typst}
+#show heading: set text(fill: rgb("#42159D"))
+#show link: set text(fill: rgb("#CF4446"))
+#show heading.where(level: 1): it => block(above: 1.7em, below: 0.9em)[
+  #it
+  #v(-0.45em)
+  #line(length: 100%, stroke: 0.6pt + rgb("#42159D").lighten(55%))
+]
+
+#block[
+  #text(size: 24pt, weight: "bold", fill: rgb("#42159D"))[{{< var course.number >}} · Public Economics: Taxation]
+  #v(0.1em)
+  #text(size: 12.5pt, fill: luma(90))[Course Syllabus — {{< var course.semester >}} · {{< var school.name >}} · {{< var university.name >}}]
+]
+#v(0.6em)
+
+#block(fill: rgb("#42159D").lighten(94%), radius: 6pt, inset: 13pt, width: 100%)[
+  #grid(columns: (1.1fr, 1fr, 1.1fr), gutter: 14pt,
+    [#text(weight: "semibold", fill: rgb("#42159D"))[Instructor] \
+     #link("{{< var instructor.url >}}")[{{< var instructor.name >}}] \
+     {{< var instructor.office >}} \
+     #link("mailto:{{< var instructor.email >}}")[#text("{{< var instructor.email >}}")]],
+    [#text(weight: "semibold", fill: rgb("#42159D"))[Course details] \
+     {{< var course.days >}}, {{< var course.time >}} \
+     {{< var course.location >}} \
+     {{< var course.dates >}}],
+    [#text(weight: "semibold", fill: rgb("#42159D"))[Office hours] \
+     {{< var course.offhours >}} \
+     #link("{{< var instructor.appointment_url >}}")[Schedule an appointment]]
+  )
+]
+```
+
+:::
+
+:::::: {.content-visible when-format="html"}
+
+::::: {.grid .course-details .course-details-smaller}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ### Instructor
 
@@ -42,6 +89,8 @@ format:
 -   {{< fa calendar-check >}}   [Schedule an
     appointment]({{< var instructor.appointment_url >}})
 :::
+:::::
+
 ::::::
 
 ## Course Description
@@ -143,9 +192,9 @@ office hours. That said, I recognize that people will use AI.
 
 You are permitted to use generative AI for your assignments. In all
 submissions in which you use generative AI, you must [cite its
-usage](#0). Failing to cite the use of generative AI is a form of
+usage](https://library.wlu.ca/help/common-activities/citing-sources/citing-artificial-intelligence). Failing to cite the use of generative AI is a form of
 academic misconduct and [Senate Policy 12.2 Student Code of Conduct:
-Academic Misconduct](#0) will be applied. Treat the AI as you would any
+Academic Misconduct](https://www.wlu.ca/about/governance/assets/resources/12.2-student-code-of-conduct.html) will be applied. Treat the AI as you would any
 other source, meaning that you cannot directly copy and paste AI output
 into your assignments.
 
