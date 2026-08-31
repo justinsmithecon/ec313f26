@@ -54,7 +54,7 @@ In this section we will:
 
 ## When Should the Government Intervene?
 
-- [**Market Failures**]{.fg style="color: #c7254e;"}: Situations where the free market does not allocate resources efficiently
+- [**Market Failures**]{.fg style="color: #2780e3;"}: Situations where the free market does not allocate resources efficiently
   - [Public goods]{.fg style="color: #555;"}: goods that are non-excludable and non-rivalrous (e.g., national defense, public parks)
   - [Externalities]{.fg style="color: #555;"}: costs or benefits that affect third parties not involved in a transaction (e.g.,&nbsp;pollution)
   - [Imperfect competition]{.fg style="color: #555;"}: markets dominated by a few firms, leading to monopolies or&nbsp;oligopolies
@@ -67,7 +67,7 @@ In this section we will:
   - Allocation is [**Pareto Efficient**]{.fg style="color: #2780e3;"}: no one can be made better off without making someone else worse off
   - Subject to specific assumptions
   - Called the [**First Fundamental Theorem of Welfare Economics**]{.fg style="color: #2780e3;"}
-- But that allocation is not always [*equitable*]{.fg style="color: #c7254e;"}
+- But that allocation is not always [*equitable*]{.fg style="color: #5cb85c;"}
   - Some people may get significantly more resources than others
 
 ## Effects of Alternative Interventions
@@ -78,7 +78,7 @@ In this section we will:
   - Called the [**Second Fundamental Theorem of Welfare Economics**]{.fg style="color: #2780e3;"}
 - In reality, government intervenes with taxes and transfers that may reduce efficiency
   - Taxes can distort incentives and lead to [inefficiencies]{.fg style="color: #c7254e;"}
-  - Creates an [efficiency-equity trade-off]{.fg style="color: #c7254e;"}
+  - Creates an [efficiency-equity trade-off]{.fg style="color: #2780e3;"}
 
 ## Effects of Alternative Interventions
 
@@ -142,7 +142,7 @@ In this section we will:
 :::: columns
 :::: {.column width="50%"}
 
-::: {.callout-note}
+::: {.callout-important}
 ## Positive Economics
 The study of how things are
 
@@ -223,7 +223,7 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
 ## Federal Government
 
 ::: {.callout-important}
-## Direct vs. Indirect Taxes
+## Key Definition
 - [**Direct tax**]{.fg style="color: #2780e3;"}: paid directly to the taxing authority and cannot be shifted to another entity
   - e.g. income, estate, capital gains, property tax
 - [**Indirect tax**]{.fg style="color: #2780e3;"}: paid indirectly through an intermediary that can pass it to another entity
@@ -256,7 +256,7 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
   - Courts have defined retail sales taxes and excise taxes on tobacco and gasoline as direct taxes (for some reason)
 - At confederation, most revenue came from federal government transfers to provinces
   - Very little from direct taxation
-- Now, taxes account for 50% of revenues
+- Now, taxes account for about 57% of revenues
   - Rest is federal transfers, sales of goods and services, fines/fees, natural resources
 
 # Size of Government
@@ -394,8 +394,8 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 
 ## Federal Revenues
 
-- Total is about \$498 billion in 2024
-  - Projected to be \$545 billion in 2028
+- Total is about \$498 billion in the 2024-25 fiscal year (Budget 2024 projections)
+  - Projected to be \$545 billion by 2028-29
 - 84% is raised through [**taxes**]{.fg style="color: #2780e3;"}
   - [Personal income tax]{.fg style="color: #555;"}: 50%
   - [Corporate income tax]{.fg style="color: #555;"}: 13%
@@ -407,8 +407,8 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 
 ## Federal Expenditures {.smaller}
 
-- Total is about \$535 billion in 2024
-  - Projected to be \$608 billion in 2028
+- Total is about \$535 billion in the 2024-25 fiscal year (Budget 2024 projections)
+  - Projected to be \$608 billion by 2028-29
 - 50% [transfers]{.fg style="color: #2780e3;"} to individuals or governments
   - [Transfers to individuals]{.fg style="color: #555;"}: Old age security, employment insurance, Canada pension plan,&nbsp;etc.
   - [Transfers to governments]{.fg style="color: #555;"}: grants for health, social services, equalization, etc.
@@ -478,7 +478,7 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 - Imbalance is addressed through [**fiscal transfers**]{.fg style="color: #2780e3;"}
   - Federal government transfers money to provinces and municipalities
   - Provinces also transfer money to municipalities
-- Transfers can be [conditional]{.fg style="color: #5cb85c;"} or [unconditional]{.fg style="color: #c7254e;"}
+- Transfers can be [conditional]{.fg style="color: #2780e3;"} or [unconditional]{.fg style="color: #2780e3;"}
   - [Conditional]{.fg style="color: #555;"}: must be spent on specific programs
   - [Unconditional]{.fg style="color: #555;"}: can be spent on anything
 
@@ -488,6 +488,8 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 - Conditional federal transfers do not violate constitution
   - Federal government not providing services directly
   - Provinces can choose to participate
+  - Provinces may [opt out]{.fg style="color: #2780e3;"} of some shared-cost programs with compensation, often as extra tax room
+    - Historically used mainly by Quebec
   - Nevertheless controversial
 - Noteworthy unconditional grant is [**equalization**]{.fg style="color: #2780e3;"}
   - Provides funds to provinces that have below average ability to raise revenue
@@ -506,7 +508,7 @@ The federal government collects roughly half of all government revenue but is re
 ## Summary
 
 - [Public economics]{.fg style="color: #2780e3;"} is the study of the role of government in the economy
-- Government intervenes to correct [market failures]{.fg style="color: #c7254e;"} and redistribute resources
+- Government intervenes to correct [market failures]{.fg style="color: #2780e3;"} and redistribute resources
 - Governments are structured in Canada according to the Constitution Act
 - Federal government has broad taxing and spending powers
 - Provincial governments have more limited taxing powers
