@@ -297,67 +297,82 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
 ## Statistics on Expenditures
 
 ```{r}
+#| fig-width: 12
+#| fig-height: 6
+#| fig-align: center
 library(tidyverse)
 library(here)
 
-debtdata <- read_csv(here("slides", "intro", "data", "public_feddebt.csv"))
+debtdata <- read_csv(here("slides", "intro", "data", "public_feddebt.csv")) %>%
+  bind_rows(read_csv(here("slides", "intro", "data", "feddebt_update.csv"),
+                     col_types = cols(fiscalyear = col_character())))
+
+debt_caption <- "Sources: Finances of the Nation (to 2022); Fiscal Reference Tables 2025 and Statistics Canada (2023–25)."
+
+debt_plot <- function(data, title, ytitle, ylab_fun, point_lab_fun) {
+  lastpt <- slice_max(data, date)
+  ggplot(data, aes(x = date, y = val)) +
+    geom_line(colour = "#42159D", linewidth = 1.4) +
+    geom_point(data = lastpt, colour = "#42159D", size = 3.5) +
+    geom_text(data = lastpt, aes(label = point_lab_fun(val)),
+              hjust = 1.1, vjust = -0.9, size = 6.5,
+              colour = "#42159D", fontface = "bold") +
+    scale_y_continuous(limits = c(0, NA), labels = ylab_fun,
+                       expand = expansion(mult = c(0, 0.12))) +
+    scale_x_continuous(breaks = seq(1960, 2020, by = 10)) +
+    labs(title = title, x = NULL, y = ytitle, caption = debt_caption) +
+    theme_minimal(base_size = 20) +
+    theme(panel.grid.minor = element_blank(),
+          plot.title = element_text(face = "bold"),
+          plot.title.position = "plot",
+          plot.caption = element_text(size = 11, colour = "grey45"))
+}
 
 feddebt <- debtdata %>%
-  filter(item == "Gross federal debt", normalization == "Real dollars (millions)", date >=1960)
+  filter(item == "Gross federal debt", normalization == "Real dollars (millions)", date >= 1960) %>%
+  mutate(val = val / 1000)
 
-ggplot(feddebt, aes(x = date, y = val)) +
-  geom_line(size = 1.5) +
-  theme_minimal() +
-  scale_y_continuous(limits = c(0, NA)) +
-  scale_x_continuous(breaks = seq(1960, 2020, by = 10)) +
-  labs(title = "Real Canadian Federal Debt", x = "Year", y = "Millions of $ (2022 = 100)") +
-  theme(text = element_text(size = 16))
-
+debt_plot(feddebt, "Real Canadian Federal Debt", "Billions of 2022 dollars",
+          scales::label_dollar(), scales::label_dollar(suffix = "B", accuracy = 1))
 ```
 
 ## Statistics on Expenditures
 
 ```{r}
+#| fig-width: 12
+#| fig-height: 6
+#| fig-align: center
 feddebtpc <- debtdata %>%
-  filter(item == "Gross federal debt", normalization == "Real per capita dollars", date >=1960)
+  filter(item == "Gross federal debt", normalization == "Real per capita dollars", date >= 1960)
 
-ggplot(feddebtpc, aes(x = date, y = val)) +
-  geom_line(size = 1.5) +
-  theme_minimal() +
-  scale_y_continuous(limits = c(0, NA)) +
-  scale_x_continuous(breaks = seq(1960, 2020, by = 10)) +
-  labs(title = "Real Canadian Federal Debt per Capita", x = "Year", y = "Dollars per Capita (2022 = 100)") +
-  theme(text = element_text(size = 16))
+debt_plot(feddebtpc, "Real Canadian Federal Debt per Capita", "2022 dollars per person",
+          scales::label_dollar(), scales::label_dollar(accuracy = 1))
 ```
 
 ## Statistics on Expenditures
 
 ```{r}
+#| fig-width: 12
+#| fig-height: 6
+#| fig-align: center
 feddebtpgdp <- debtdata %>%
-  filter(item == "Gross federal debt", normalization == "Percent of GDP", date >=1960)
+  filter(item == "Gross federal debt", normalization == "Percent of GDP", date >= 1960)
 
-ggplot(feddebtpgdp, aes(x = date, y = val)) +
-  geom_line(size = 1.5) +
-  theme_minimal() +
-  scale_y_continuous(limits = c(0, NA)) +
-  scale_x_continuous(breaks = seq(1960, 2020, by = 10)) +
-  labs(title = "Real Canadian Federal Debt/GDP", x = "Year", y = "Percent of GDP") +
-  theme(text = element_text(size = 16))
+debt_plot(feddebtpgdp, "Canadian Federal Debt as a Share of GDP", "Percent of GDP",
+          scales::label_number(suffix = "%"), scales::label_number(suffix = "%", accuracy = 1))
 ```
 
 ## Statistics on Expenditures
 
 ```{r}
+#| fig-width: 12
+#| fig-height: 6
+#| fig-align: center
 fedinterest <- debtdata %>%
-  filter(item == "Interest on the debt", normalization == "Percent of GDP", date >=1960)
+  filter(item == "Interest on the debt", normalization == "Percent of GDP", date >= 1960)
 
-ggplot(fedinterest, aes(x = date, y = val)) +
-  geom_line(size = 1.5) +
-  theme_minimal() +
-  scale_y_continuous(limits = c(0, NA)) +
-  scale_x_continuous(breaks = seq(1960, 2020, by = 10)) +
-  labs(title = "Interest on Federal Debt/GDP", x = "Year", y = "Percent of GDP") +
-  theme(text = element_text(size = 16))
+debt_plot(fedinterest, "Interest on the Federal Debt as a Share of GDP", "Percent of GDP",
+          scales::label_number(suffix = "%"), scales::label_number(suffix = "%", accuracy = 0.1))
 ```
 
 ## Difficulties Counting Expenditures
@@ -527,3 +542,5 @@ The federal government collects roughly half of all government revenue but is re
 -   Gruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.
 
 -   Finances of the Nation. https://financesofthenation.ca/
+
+-   Department of Finance Canada. Spring Economic Update 2026. https://budget.canada.ca/update-miseajour/2026/
