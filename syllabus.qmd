@@ -169,10 +169,24 @@ for each assessment are as follows:
 
 Participation is measured with iClicker. During most lectures I will
 pose multiple choice questions that you answer in class using iClicker
-on your phone, tablet, or laptop. You are graded on answering the
-questions, not on getting them right, so there is no penalty for a wrong
-answer. Because the questions are answered live during class,
-participation marks cannot be made up afterward.
+on your phone, tablet, or laptop. Graded class participation will begin
+in the first class of week 2 (the week of September 14th) and continue
+over the term.
+
+Each lecture is scored out of 5 points. Your score is determined by a
+participation component and a performance component. For the
+participation component, you will earn 3 points for answering at least
+75% of the questions (whether correct or not), and 0 points otherwise.
+For the performance component, you will earn 1 point for each question
+answered correctly, and 0 points for each question answered incorrectly.
+Your grade for each lecture is the sum of the participation and
+performance components, to a maximum of 5 points.
+
+Your final participation grade, worth 10% of your final course grade,
+will be the average of your best 16 scores. The lowest scores will not
+count, to allow for absences from class due to illness, forgotten
+devices, dead batteries, etc. Because the questions are answered live
+during class, participation marks cannot be made up afterward.
 
 Assignments will ask you to manipulate and interpret data, and answer
 some short answer or mathematical questions. Instructions will be posted
