@@ -1033,7 +1033,7 @@
     "href": "slides/incidence/index.html#harberger-model-1",
     "title": "EC313 - Taxation",
     "section": "Harberger Model",
-    "text": "Harberger Model\n\nSuppose a tax on food (\\(t_F\\)) is introduced, and food is capital intensive\n\nIt uses more capital per worker than manufacturing — say 3 machines per worker vs 1\n\nStep by step\n\nPrice of food rises, so consumers buy less food and more manufacturing\nThe shrinking food sector releases capital and labour, which must find work in manufacturing\nFood releases 3 machines per worker, but manufacturing only wants 1 machine per worker at current prices\nThere is more capital than the market wants: the return to capital must fall until manufacturing willingly absorbs it all"
+    "text": "Harberger Model\n\nSuppose a tax on food (\\(t_F\\)) is introduced, and food is capital intensive\n\nIt uses more capital per worker than manufacturing — say 3 machines per worker vs 1\n\nStep by step\n\nPrice of food rises, so consumers buy less food and more manufacturing\n\nHarberger assumes the tax revenue is returned to consumers, so this is pure substitution between goods — consumers are not poorer overall\n\nThe shrinking food sector releases capital and labour, which must find work in manufacturing\nFood releases 3 machines per worker, but manufacturing only wants 1 machine per worker at current prices\nThere is more capital than the market wants: the return to capital must fall until manufacturing willingly absorbs it all"
   },
   {
     "objectID": "slides/incidence/index.html#harberger-model-2",

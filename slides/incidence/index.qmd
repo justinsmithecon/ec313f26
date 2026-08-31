@@ -877,6 +877,7 @@ Answer: A. Taxing both inputs used to make food is the same as taxing food itsel
   - It uses more capital per worker than manufacturing — say 3 machines per worker vs&nbsp;1
 - Step by step
   - Price of food rises, so consumers buy less food and more&nbsp;manufacturing
+    - Harberger assumes the tax revenue is returned to consumers, so this is pure [substitution]{.fg style="color: #2780e3;"} between goods — consumers are not poorer&nbsp;overall
   - The shrinking food sector releases capital and labour, which must find work in&nbsp;manufacturing
   - Food releases 3 machines per worker, but manufacturing only wants 1 machine per worker at current&nbsp;prices
   - There is more capital than the market wants: the return to capital must fall until manufacturing willingly absorbs it&nbsp;all
