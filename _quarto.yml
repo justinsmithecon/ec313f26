@@ -18,7 +18,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - syllabus.qmd
+      - href: syllabus.qmd
+        text: Syllabus
       - text: "Content"
         file: content/index.qmd
 
