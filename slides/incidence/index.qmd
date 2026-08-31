@@ -68,19 +68,19 @@ In this section we will:
 ## Taxes on Income
 
 - For corporations, includes but not limited to
-  - Active business income from sales or goods and services
+  - Active business income from sales of goods and services
   - Investment income
   - Capital gains
   - Some government grants
   - Depends on the size of your business
-    - Small business pay a lower rate
+    - Small businesses pay a lower rate
 
 ## Payroll Taxes
 
 - [**Payroll Taxes**]{.fg style="color: #2780e3;"}: taxes levied on employment income
   - Paid by both employers and employees
 - Used to finance social insurance and public pension programs
-  - Examples: Employment Insurance (EI), Canada Pension Plan (CPP), worker compensation
+  - Examples: Employment Insurance (EI), Canada Pension Plan (CPP), workers' compensation
 - Payroll taxes vary by province
   - Some charge a health tax (e.g. BC Employer Health Tax)
   - Manitoba charges a levy for health and postsecondary education
@@ -186,7 +186,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 
 ::: {.column width="50%"}
 - Take gasoline tax example one more time
-- On right is demand and supply of litres of gasoline
+- On right is demand and supply of litres of&nbsp;gasoline
 - Without tax, price and quantity are determined where demand and supply are equal
   - Price is $P_{0}$
   - Quantity is $Q_{0}$
@@ -224,7 +224,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 
 ::: {.column width="50%"}
 - The tax introduces a [**tax wedge**]{.fg style="color: #2780e3;"}
-  - Difference between what consumers pay and what producers receive from a transaction
+  - Difference between what consumers pay and what producers receive from a&nbsp;transaction
 - Consumers pay the equilibrium price $P_{c}$
   - Price includes the tax
 - Producers receive $P_{s} = P_{c} - t$
@@ -261,7 +261,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 - Producers receive $P_{s} = P_{c} - t$
 - But $P_{c} - P_{0}$ is now larger than $P_{0} - P_{s}$
   - Inelastic demand means consumers less able to substitute
-  - They absorb [more of the economic incidence]{.fg style="color: #c7254e;"}
+  - They absorb [more of the economic&nbsp;incidence]{.fg style="color: #c7254e;"}
 :::
 ::::::
 
@@ -280,7 +280,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 - After tax consumers pay $P_{c} = P_{0} + t$
 - Producers receive $P_{s} = P_{c} - t = P_{0}$
 - No change in quantity
-  - Since consumers demand $Q_{0} = Q_{1}$ at any price
+  - Since consumers demand $Q_{0} = Q_{1}$ at any&nbsp;price
 :::
 ::::::
 
@@ -299,7 +299,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 - After tax consumers pay $P_{c}'$
 - Producers receive $P_{s}' = P_{c}' - t$
 - $P_{0} - P_{s}'$ is larger than $P_{c}' - P_{0}$
-  - Firms absorb [more of the economic incidence]{.fg style="color: #c7254e;"}
+  - Firms absorb [more of the economic&nbsp;incidence]{.fg style="color: #c7254e;"}
   - They are less able to adjust production to avoid the tax
 :::
 ::::::
@@ -312,7 +312,7 @@ Suppose the government announces that a new sales tax will be paid by consumers 
 Gasoline and insulin are both goods with relatively inelastic demand. If the government imposed the same per-unit tax on each, who would bear most of the economic burden in each case? What does this tell us about the fairness of taxing goods with inelastic demand?
 :::
 
-## Unit Tax on Sellers - Math
+## Unit Tax on Sellers - Math {.smaller}
 
 - We can show the same result mathematically
 - Use linear inverse demand and supply curves with clean numbers
@@ -327,7 +327,7 @@ $$ 14-Q_{0}=2+Q_{0} $$ $$ 12 = 2Q_{0} \Rightarrow Q_{0}=6 $$
 
 $$ P_{0} = 14 - 6 = 8 $$
 
-## Unit Tax on Sellers - Math
+## Unit Tax on Sellers - Math {.smaller}
 
 - Now introduce a per unit tax $t=4$ on sellers
 - In equilibrium, $P_{s} + t = P_{c}$ and $Q_{c} = Q_{s} = Q_{1}$
@@ -340,7 +340,7 @@ $$ 14 - Q_{1}  = 2 + Q_{1} + 4$$ $$ 14 - Q_{1} = 6 + Q_{1} \Rightarrow Q_{1} = 4
 
 $$ P_{c} = 14 - 4 = 10 $$ $$ P_{s} = 2 + 4 = 6 $$
 
-## Unit Tax on Sellers - Math
+## Unit Tax on Sellers - Math {.smaller}
 
 - Key things to take away when the tax is introduced
   - Quantity falls from $Q_{0}=6$ to $Q_{1}=4$
@@ -482,7 +482,7 @@ In Canada, both employers and employees pay CPP and EI premiums. Politicians oft
 ::::
 
 ::: {.column width="50%"}
-- Graph shows pre tax equilibrium in a [monopoly]{.fg style="color: #2780e3;"}
+- Graph shows pre tax equilibrium in a&nbsp;[monopoly]{.fg style="color: #2780e3;"}
 - ATC curve omitted for graph clarity
 - Example: market for movie tickets
   - Dominated by a couple of firms
@@ -635,7 +635,7 @@ $$(1-t)((a-c)-2bq)=0$$
 
 $$ P_R = \sum_{t=0}^{T} \frac{R_t}{(1+r)^t} $$
 
-## Taxes on Land
+## Taxes on Land {.smaller}
 
 - If there is a tax $u_t$ on land, the value becomes
 
@@ -676,7 +676,7 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 - Consider a unit tax on restaurants
 - For simplicity, assume restaurant meals have [perfectly elastic demand]{.fg style="color: #5cb85c;"}
   - People are very sensitive to the price and will cook at home if price rises
-- The full burden of the tax is on the restaurants
+- The full burden of the tax is on the&nbsp;restaurants
 - Quantity of meals falls because of the tax
 :::
 ::::::
@@ -701,7 +701,7 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 ::::
 
 ::: {.column width="50%"}
-- Consider the labour market for restaurant workers
+- Consider the labour market for restaurant&nbsp;workers
 - The tax on meals shifts the demand for restaurant workers to the left
   - Labour demand is derived partly from the demand for meals
   - Less demand for meals means less demand for workers
@@ -747,7 +747,7 @@ $$ P_R' - P_R = -\sum_{t=0}^{T} \frac{ u_{t}}{(1+r)^t} $$
 ::: {style="text-align: center; font-size: 1.3em;"}
 **Think About It**
 
-When governments impose a tax on a specific industry -- say, a tax on ride-sharing services like Uber -- the public debate usually focuses on whether riders or the company will pay more. But our general equilibrium analysis suggests the effects could spread much further. What other markets and groups of people might be affected by such a tax, and through what channels?
+When governments impose a tax on a specific industry -- say, a tax on ride-sharing services like Uber -- the public debate usually focuses on whether riders or the company will pay more. But our general equilibrium analysis suggests the effects could spread much further. What other markets and groups of people might be affected by such a tax, and through what&nbsp;channels?
 :::
 
 ## A Tax on Goods and Services
@@ -763,7 +763,7 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
 ## Tax Equivalencies
 
 - In general equilibrium, different types of taxes can have the same economic incidence
-  - Example: a tax on labour income and a tax on consumption can have the same economic incidence
+  - Example: a tax on labour income and a tax on consumption can have the same economic&nbsp;incidence
 - A policy maker would have options when it comes to which tax to levy
 - Consider an economy with
   - Two commodities, food ($F$) and manufacturing ($M$)
@@ -784,7 +784,7 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
 
 ![List of Equivalent Taxes](images/clipboard-3365040247.jpeg){fig-align="center"}
 
-## Harberger Model
+## Harberger Model {.smaller}
 
 - [Arnold Harberger]{.fg style="color: #2780e3;"} studied tax incidence in general equilibrium
 - Basics of his model
@@ -913,7 +913,7 @@ When governments impose a tax on a specific industry -- say, a tax on ride-shari
 
 ## References
 
--   Rosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.
+-   Rosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.
 
 -   Gruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.
 

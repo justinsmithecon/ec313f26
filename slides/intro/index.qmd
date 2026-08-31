@@ -46,7 +46,7 @@ In this section we will:
   - It examines how government policies affect economic efficiency, income distribution, and overall welfare
 - Concerned with the *microeconomic* aspects of the economy
   - How government actions affect individual and firm behavior
-  - Macroeconomic functions of government (fiscal policy, monetary policy) are in separate fields
+  - Macroeconomic functions of government (fiscal policy, monetary policy) are in separate&nbsp;fields
 - Attempts to answer three key questions:
   - [When]{.fg style="color: #555;"} should the government intervene in the economy?
   - [What]{.fg style="color: #555;"} is the effect of these interventions?
@@ -56,8 +56,8 @@ In this section we will:
 
 - [**Market Failures**]{.fg style="color: #c7254e;"}: Situations where the free market does not allocate resources efficiently
   - [Public goods]{.fg style="color: #555;"}: goods that are non-excludable and non-rivalrous (e.g., national defense, public parks)
-  - [Externalities]{.fg style="color: #555;"}: costs or benefits that affect third parties not involved in a transaction (e.g., pollution)
-  - [Imperfect competition]{.fg style="color: #555;"}: markets dominated by a few firms, leading to monopolies or oligopolies
+  - [Externalities]{.fg style="color: #555;"}: costs or benefits that affect third parties not involved in a transaction (e.g.,&nbsp;pollution)
+  - [Imperfect competition]{.fg style="color: #555;"}: markets dominated by a few firms, leading to monopolies or&nbsp;oligopolies
   - [Asymmetric information]{.fg style="color: #555;"}: situations where one party has more or better information than the other (e.g., used car market)
   - [Irrational behaviour]{.fg style="color: #555;"}: situations where individuals do not make rational decisions (e.g., addiction, procrastination)
 
@@ -130,7 +130,7 @@ In this section we will:
   - How do politics and economics drive policy and economic outcomes?
   - Depends on economic system, political system, norms, etc.
   - Some example research papers:
-      - " Do Leaders Matter? National Leadership Growth Since World War II"
+      - "Do Leaders Matter? National Leadership Growth Since World War II"
       - "Why Do Developing Countries Tax So Little?"
       - "Voting Technology, Political Responsiveness, and Infant Health: Evidence from Brazil"
 - [**Public choice**]{.fg style="color: #2780e3;"}: a subset of political economy that applies economic principles to political decision-making
@@ -146,7 +146,7 @@ In this section we will:
 ## Positive Economics
 The study of how things are
 
-- What are the effects of a carbon tax on gasoline consumption?
+- What are the effects of a carbon tax on gasoline&nbsp;consumption?
 - How do income taxes affect labour supply?
 - Primarily an empirical field
 :::
@@ -159,7 +159,7 @@ The study of how things are
 ## Normative Economics
 The study of how things should be
 
-- Should the government impose a carbon tax on gasoline?
+- Should the government impose a carbon tax on&nbsp;gasoline?
 - Should income taxes be progressive or flat?
 - Involves value judgements
 :::
@@ -183,7 +183,7 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
   - "Health Impacts of Federal Pandemic Aid to State and Local Governments"
   - "The Racial Penalty in Job Ladder Transitions"
   - "Behavioral Responses to Estate Taxation: Evidence from Taiwan"
-  - "The Big Economic Consequences of Small Financial Shocks: Evidence from Minor Car Crashes"
+  - "The Big Economic Consequences of Small Financial Shocks: Evidence from Minor Car&nbsp;Crashes"
 
 # Canada's Government
 
@@ -198,9 +198,9 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
 ## History
 
 - Division of tax and spending powers comes from the [**Constitution Act, 1867**]{.fg style="color: #2780e3;"} (originally the British North America Act)
-  - The [**Constitution Act, 1982**]{.fg style="color: #2780e3;"} patriated the constitution and added the Charter of Rights and Freedoms
+  - The [**Constitution Act, 1982**]{.fg style="color: #2780e3;"} patriated the constitution and added the Charter of Rights and&nbsp;Freedoms
   - Fiscal powers of federal and provincial governments remain rooted in 1867
-- Constitution act specifies federal and provincial responsibilities
+- Constitution Act specifies federal and provincial responsibilities
   - [Federal]{.fg style="color: #555;"}: items that are common to all provinces
   - [Provincial]{.fg style="color: #555;"}: items that are specific to each province
 - Municipal responsibilities are not outlined in constitution
@@ -212,7 +212,7 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
 - Key areas of federal responsibility as outlined in the constitution:
   - Direct and indirect taxation
   - National defence
-  - Navigation and shipping (e.g marine shipping)
+  - Navigation and shipping (e.g. marine shipping)
   - Regulation of trade and commerce (e.g. trade disputes, tariffs)
   - Criminal justice system
   - Money and banking
@@ -276,18 +276,15 @@ Consider the efficiency-equity trade-off: if a perfectly efficient economy left 
 ## Classification of Expenditures
 
 - Can classify government expenditures into three types
-
-    1.  [Purchases of goods and services]{.fg style="color: #2780e3;"}
-        - Government buys many goods/services
-        - Examples: Military equipment, buildings, consulting services, professional training
-
-    2.  [Transfers of income]{.fg style="color: #2780e3;"} to people, businesses, other governments
-        - Examples: HST rebate, Canada Pension Plan, Canada Child Benefit
-
-    3.  [Interest payments]{.fg style="color: #2780e3;"}
-        - Government borrows to spend when revenues are insufficient
-        - Does this by issuing bonds
-        - Interest payments are due on that borrowing
+  1.  [Purchases of goods and services]{.fg style="color: #2780e3;"}
+      - Government buys many goods/services
+      - Examples: Military equipment, buildings, consulting services, professional training
+  2.  [Transfers of income]{.fg style="color: #2780e3;"} to people, businesses, other governments
+      - Examples: HST rebate, Canada Pension Plan, Canada Child Benefit
+  3.  [Interest payments]{.fg style="color: #2780e3;"}
+      - Government borrows to spend when revenues are insufficient
+      - Does this by issuing bonds
+      - Interest payments are due on that borrowing
 
 ## Statistics on Expenditures
 
@@ -366,7 +363,7 @@ ggplot(fedinterest, aes(x = date, y = val)) +
 ## Difficulties Counting Expenditures
 
 - Some expenditures are not easy to count
-- [Loan guarantees]{.fg style="color: #2780e3;"} (e.g student loans) and [contingent commitments]{.fg style="color: #2780e3;"} (e.g CPP)
+- [Loan guarantees]{.fg style="color: #2780e3;"} (e.g. student loans) and [contingent commitments]{.fg style="color: #2780e3;"} (e.g. CPP)
   - Government is committed to spend at some point in the future
   - Amounts of these commitments are not fully known
   - Use accrual accounting to budget
@@ -408,12 +405,12 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
   - [Employment insurance premiums]{.fg style="color: #555;"}: 7%
   - [Other revenue]{.fg style="color: #555;"} (e.g. crown corporations, investments): 9%
 
-## Federal Expenditures
+## Federal Expenditures {.smaller}
 
 - Total is about \$535 billion in 2024
   - Projected to be \$608 billion in 2028
 - 50% [transfers]{.fg style="color: #2780e3;"} to individuals or governments
-  - [Transfers to individuals]{.fg style="color: #555;"}: Old age security, employment insurance, Canada pension plan, etc.
+  - [Transfers to individuals]{.fg style="color: #555;"}: Old age security, employment insurance, Canada pension plan,&nbsp;etc.
   - [Transfers to governments]{.fg style="color: #555;"}: grants for health, social services, equalization, etc.
 - 41% [direct expenditures]{.fg style="color: #2780e3;"}
   - National defence
@@ -428,7 +425,7 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 
 # Provincial Government Budgets
 
-## Provincial Revenues
+## Provincial Revenues {.smaller}
 
 - Total revenue from 2019 is about \$450 billion
   - Sum across all provinces
@@ -522,7 +519,7 @@ The federal government collects roughly half of all government revenue but is re
 
 ## References
 
--   Rosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.
+-   Rosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.
 
 -   Gruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.
 
