@@ -167,14 +167,6 @@ The study of how things should be
 ::::
 ::::
 
-## {background-color="#f0f4f8"}
-
-::: {style="text-align: center; font-size: 1.3em;"}
-**Think About It**
-
-Consider the efficiency-equity trade-off: if a perfectly efficient economy left some citizens in deep poverty while others accumulated enormous wealth, would government intervention be justified even if it reduced overall efficiency? Where would you draw the line?
-:::
-
 ## Some Current Research Topics in Public Economics
 
 - Public economics is a broad research field with significant overlap with other fields like Labour, Education, Health Economics
@@ -314,8 +306,8 @@ debt_plot <- function(data, title, ytitle, ylab_fun, point_lab_fun) {
   ggplot(data, aes(x = date, y = val)) +
     geom_line(colour = "#42159D", linewidth = 1.4) +
     geom_point(data = lastpt, colour = "#42159D", size = 3.5) +
-    geom_text(data = lastpt, aes(label = point_lab_fun(val)),
-              hjust = 1.1, vjust = -0.9, size = 6.5,
+    geom_text(data = lastpt, aes(label = paste0(date, ": ", point_lab_fun(val))),
+              hjust = 1.05, vjust = -0.9, size = 6.5,
               colour = "#42159D", fontface = "bold") +
     scale_y_continuous(limits = c(0, NA), labels = ylab_fun,
                        expand = expansion(mult = c(0, 0.12))) +
@@ -396,14 +388,6 @@ debt_plot(fedinterest, "Interest on the Federal Debt as a Share of GDP", "Percen
   - Capital goods (e.g. machines) are consumed slowly over time
   - Typically large value in year they are purchased
   - Gives mistaken impression of significant government involvement in economy
-
-## {background-color="#f0f4f8"}
-
-::: {style="text-align: center; font-size: 1.3em;"}
-**Think About It**
-
-If tax expenditures, regulations, and loan guarantees are not fully captured in government budgets, do conventional measures of government size understate or overstate the true role of government in the economy? What would a more complete measure look like?
-:::
 
 # Federal Government Budget
 
@@ -510,14 +494,6 @@ If tax expenditures, regulations, and loan guarantees are not fully captured in 
 - Noteworthy unconditional grant is [**equalization**]{.fg style="color: #2780e3;"}
   - Provides funds to provinces that have below average ability to raise revenue
   - Formula has been a matter of debate for years
-
-## {background-color="#f0f4f8"}
-
-::: {style="text-align: center; font-size: 1.3em;"}
-**Discussion**
-
-The federal government collects roughly half of all government revenue but is responsible for only about one third of spending. Should the taxing powers be realigned so that each level of government raises the revenue it needs, or does the current system of fiscal transfers serve an important purpose? What are the trade-offs?
-:::
 
 # Summary
 

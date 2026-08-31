@@ -1005,21 +1005,21 @@
     "href": "slides/incidence/index.html#tax-equivalencies",
     "title": "EC313 - Taxation",
     "section": "Tax Equivalencies",
-    "text": "Tax Equivalencies\n\nIn general equilibrium, different types of taxes can have the same economic incidence\n\nExample: a tax on labour income and a tax on consumption can have the same economic incidence\n\nA policy maker would have options when it comes to which tax to levy\nConsider an economy with\n\nTwo commodities, food (\\(F\\)) and manufacturing (\\(M\\))\nTwo factors of production, labour (\\(L\\)) and capital (\\(K\\))"
+    "text": "Tax Equivalencies\n\nTwo taxes are equivalent if they have the same economic incidence\n\nThey change the same relative prices, so the same people end up bearing the burden\n\nUseful for policy: taxes that look very different can place the same burden on the same people\nTo see the logic, consider a simple economy with\n\nTwo goods: food (\\(F\\)) and manufacturing (\\(M\\))\nTwo factors of production: labour (\\(L\\)) and capital (\\(K\\))"
   },
   {
     "objectID": "slides/incidence/index.html#tax-equivalencies-1",
     "href": "slides/incidence/index.html#tax-equivalencies-1",
     "title": "EC313 - Taxation",
     "section": "Tax Equivalencies",
-    "text": "Tax Equivalencies\n\nA government could levy nine different types of taxes\n\nFood: tax on capital (\\(t_{KF}\\)), tax on labour (\\(t_{LF}\\)), tax on consumption (\\(t_F\\))\nManufacturing: tax on capital (\\(t_{KM}\\)), tax on labour (\\(t_{LM}\\)), tax on consumption (\\(t_M\\))\nBoth: tax on capital (\\(t_K\\)), tax on labour (\\(t_L\\))\nAn income tax (\\(t\\))\n\nTaxes levied on factors of production in one sector are Partial Factor Taxes\n\nIn this case \\(t_{KF}\\), \\(t_{LF}\\), \\(t_{KM}\\), \\(t_{LM}\\)\n\nCombinations of these taxes can be equivalent to other taxes"
+    "text": "Tax Equivalencies\n\nIn this economy, a government could levy nine different taxes\n\n\n\n\n\nTax on capital\nTax on labour\nTax on the good\n\n\n\n\nFood sector\n\\(t_{KF}\\)\n\\(t_{LF}\\)\n\\(t_F\\)\n\n\nManufacturing sector\n\\(t_{KM}\\)\n\\(t_{LM}\\)\n\\(t_M\\)\n\n\nBoth sectors\n\\(t_K\\)\n\\(t_L\\)\n\\(t\\) (income tax)\n\n\n\n\nTaxes on one factor in one sector (\\(t_{KF}\\), \\(t_{LF}\\), \\(t_{KM}\\), \\(t_{LM}\\)) are called partial factor taxes"
   },
   {
     "objectID": "slides/incidence/index.html#tax-equivalencies-2",
     "href": "slides/incidence/index.html#tax-equivalencies-2",
     "title": "EC313 - Taxation",
     "section": "Tax Equivalencies",
-    "text": "Tax Equivalencies\n\nList of Equivalent Taxes"
+    "text": "Tax Equivalencies\n\nThe nine taxes are linked by equivalence relations\n\nAcross a row: taxing both factors in a sector is equivalent to taxing that sector’s output: \\(t_{KF} + t_{LF} \\equiv t_F\\)\nDown a column: taxing one factor in both sectors is equivalent to a general tax on that factor: \\(t_{KF} + t_{KM} \\equiv t_K\\)\nAll together: taxing all goods, taxing all factors, and taxing income are all equivalent: \\(t_F + t_M \\equiv t_K + t_L \\equiv t\\)\n\nSo we only need to work out the incidence of a few basic taxes to understand all nine\n\nA tax on one good (\\(t_F\\)) and a partial factor tax (\\(t_{KF}\\)) — exactly the cases the Harberger model studies"
   },
   {
     "objectID": "slides/incidence/index.html#harberger-model",
