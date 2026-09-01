@@ -13,15 +13,15 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
-// Inferno colors
-// viridisLite::viridis(8, option = "inferno", begin = 0.1, end = 0.9)
-$blue:    #42159D !default;
-$indigo:  #771C6D !default;
-$purple:  #480B6A !default;
-$pink:    #A52C60 !default;
+// Viridis colors
+// viridisLite::viridis(8, option = "viridis", begin = 0.1, end = 0.9)
+$blue:    #31688E !default;
+$indigo:  #3E4A89 !default;
+$purple:  #482878 !default;
+$pink:    #26828E !default;
 $red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$yellow:  #FB9E07 !default;
+$orange:  #35B779 !default;
+$yellow:  #B4DE2C !default;
 $green:   #02b875 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
@@ -52,8 +52,8 @@ $toc-font-size: 1.1rem;
 $sidebar-font-size: 1.1rem;
 $sidebar-font-size-section: 0.9rem;
 
-$link-color: $red;
-$link-hover-color: $yellow;
+$link-color: #1F9E89;
+$link-hover-color: #35B779;
 
 $monokai-bg: #2e3440;
 
@@ -71,7 +71,7 @@ ol {
 
 // Custom active link colors
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
-  color: #FFC361;
+  color: #B4DE2C;
 }
 
 div.sidebar-item-container .active, div.sidebar-item-container .show > .nav-link, div.sidebar-item-container .sidebar-link > code {

@@ -26,32 +26,32 @@ format:
 ::: {.content-visible when-format="typst"}
 
 ```{=typst}
-#show heading: set text(fill: rgb("#42159D"))
-#show link: set text(fill: rgb("#CF4446"))
+#show heading: set text(fill: rgb("#31688E"))
+#show link: set text(fill: rgb("#1F9E89"))
 #show heading.where(level: 1): it => block(above: 1.7em, below: 0.9em)[
   #it
   #v(-0.45em)
-  #line(length: 100%, stroke: 0.6pt + rgb("#42159D").lighten(55%))
+  #line(length: 100%, stroke: 0.6pt + rgb("#31688E").lighten(55%))
 ]
 
 #block[
-  #text(size: 24pt, weight: "bold", fill: rgb("#42159D"))[{{< var course.number >}} · Public Economics: Taxation]
+  #text(size: 24pt, weight: "bold", fill: rgb("#31688E"))[{{< var course.number >}} · Public Economics: Taxation]
   #v(0.1em)
   #text(size: 12.5pt, fill: luma(90))[Course Syllabus — {{< var course.semester >}} · {{< var school.name >}} · {{< var university.name >}}]
 ]
 #v(0.6em)
 
-#block(fill: rgb("#42159D").lighten(94%), radius: 6pt, inset: 13pt, width: 100%)[
+#block(fill: rgb("#31688E").lighten(94%), radius: 6pt, inset: 13pt, width: 100%)[
   #grid(columns: (1.1fr, 1fr, 1.1fr), gutter: 14pt,
-    [#text(weight: "semibold", fill: rgb("#42159D"))[Instructor] \
+    [#text(weight: "semibold", fill: rgb("#31688E"))[Instructor] \
      #link("{{< var instructor.url >}}")[{{< var instructor.name >}}] \
      {{< var instructor.office >}} \
      #link("mailto:{{< var instructor.email >}}")[#text("{{< var instructor.email >}}")]],
-    [#text(weight: "semibold", fill: rgb("#42159D"))[Course details] \
+    [#text(weight: "semibold", fill: rgb("#31688E"))[Course details] \
      {{< var course.days >}}, {{< var course.time >}} \
      {{< var course.location >}} \
      {{< var course.dates >}}],
-    [#text(weight: "semibold", fill: rgb("#42159D"))[Office hours] \
+    [#text(weight: "semibold", fill: rgb("#31688E"))[Office hours] \
      {{< var course.offhours >}} \
      #link("{{< var instructor.appointment_url >}}")[Schedule an appointment]]
   )

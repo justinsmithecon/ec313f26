@@ -332,11 +332,11 @@ debt_caption <- "Sources: Finances of the Nation (to 2022); Fiscal Reference Tab
 debt_plot <- function(data, title, ytitle, ylab_fun, point_lab_fun) {
   lastpt <- slice_max(data, date)
   ggplot(data, aes(x = date, y = val)) +
-    geom_line(colour = "#42159D", linewidth = 1.4) +
-    geom_point(data = lastpt, colour = "#42159D", size = 3.5) +
+    geom_line(colour = "#31688E", linewidth = 1.4) +
+    geom_point(data = lastpt, colour = "#31688E", size = 3.5) +
     geom_text(data = lastpt, aes(label = paste0(date, ": ", point_lab_fun(val))),
               hjust = 1.05, vjust = -0.9, size = 6.5,
-              colour = "#42159D", fontface = "bold") +
+              colour = "#31688E", fontface = "bold") +
     scale_y_continuous(limits = c(0, NA), labels = ylab_fun,
                        expand = expansion(mult = c(0, 0.12))) +
     scale_x_continuous(breaks = seq(1960, 2020, by = 10)) +

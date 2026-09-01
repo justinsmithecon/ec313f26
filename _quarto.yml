@@ -14,7 +14,7 @@ website:
   title: "EC313 - Taxation"
   navbar:
     pinned: true
-    background: "#9e32a8"
+    background: "#26828E"
     left:
       - href: index.qmd
         text: Home
@@ -39,22 +39,23 @@ website:
               file: content/introtopf.qmd
             - text: "Tax Incidence"
               file: content/incidence.qmd
-            - text: "Taxation and Efficiency"
-              file: content/efficiency.qmd
             - text: "Introduction to R and Quarto"
               file: content/introtor.qmd
-            - text: "Efficient and Equitable Taxation"
-              file: content/equitable.qmd
-            - text: "The Personal Income Tax"
-              file: content/personaltax.qmd
-            - text: "Personal Taxation and Behaviour"
-              file: content/taxbehaviour.qmd
-            - text: "Consumption Taxes"
-              file: content/constax.qmd
-            - text: "Externalities and Pigouvian Taxes"
-              file: content/externalities.qmd
-            - text: "The Corporation Tax"
-              file: content/corptax.qmd
+            # Hidden until material is checked — uncomment to restore
+            # - text: "Taxation and Efficiency"
+            #   file: content/efficiency.qmd
+            # - text: "Efficient and Equitable Taxation"
+            #   file: content/equitable.qmd
+            # - text: "The Personal Income Tax"
+            #   file: content/personaltax.qmd
+            # - text: "Personal Taxation and Behaviour"
+            #   file: content/taxbehaviour.qmd
+            # - text: "Consumption Taxes"
+            #   file: content/constax.qmd
+            # - text: "Externalities and Pigouvian Taxes"
+            #   file: content/externalities.qmd
+            # - text: "The Corporation Tax"
+            #   file: content/corptax.qmd
               
 format:
   html:
