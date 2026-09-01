@@ -154,7 +154,7 @@ Hill. Here are the approximate prices you can expect
 |:--------------|:-----------------------|:------|
 | WLU Bookstore | Physical, Paperback    | TBD   |
 | Amazon        | Physical, Paperback    | \$157 |
-| McGraw Hill   | Physical, Paperback    | \$129 |
+| McGraw Hill   | Physical, Paperback    | \$140 |
 | McGraw Hill   | Online, 180 Day Rental | \$69  |
 | McGraw Hill   | Online, Lifetime       | \$99  |
 
