@@ -52,7 +52,7 @@ Also fix the hex logo position on the title slide if needed:
 Look for any hard-coded dates and update them too
 
 ### Step 3 — Apply formatting & clarity changes to all 9 decks
-Use the previous semester's versions as the reference. Compare with `git diff main` to check what has been changed relative to the original versions.
+Use the previous semester's versions as the reference. The previous semester (Fall 2025) lives in the sibling repo at `../ec313f25`; compare against it to check what has been changed relative to the original versions.
 
 ---
 
@@ -63,10 +63,10 @@ See the shared formatting guide at `../../shared/slide-formatting.md` for all st
 ---
 
 ## Previous Semester Reference
-The previous semester's slides are on the `main` branch (ec313f25). Use:
+The previous semester's site (Fall 2025) is the sibling repo/folder `../ec313f25`. This repo began as the `ec313f26` branch of that repo, so histories are shared up to the branch point. To compare slides between semesters:
+The branch point is tagged `fall2025`, so use:
 ```bash
-git diff main -- slides/
+git diff fall2025 -- slides/
 ```
-to compare what has been changed between semesters.
 
 ### Step 4 - Check the slides for any inaccuracies and create a document that outlines them
