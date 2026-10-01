@@ -52,6 +52,7 @@ In this section we will:
     - Taxes force them to substitute away from the taxed good and make sub-optimal choices
 - Ideally a tax imposes the least possible cost in order to raise revenue
   - When the cost exceeds the revenue raised, the difference is the [excess burden]{.fg style="color: #2780e3;"}
+    - Also called the *welfare cost* or *deadweight loss* of the tax
 
 ## Ad Valorem Tax on Consumers
 
@@ -269,24 +270,52 @@ Answer: C. Under the flat charge, a household could still afford the bundle it c
 - Often they are unattractive politically
   - A fixed tax on everyone is viewed as [unfair]{.fg style="color: #c7254e;"}
   - It is also [regressive]{.fg style="color: #c7254e;"}
-- There are few examples in the world
-  - UK had a poll (head) tax from 1989 to 1993 that was very unpopular
-  - Some municipal governments charge fixed fees for licences/permits (close to lump-sum)
+- A tax that varies with income is not lump-sum
+  - People can change how much they earn
+- A truly lump-sum tax would have to be based on *ability*, which governments cannot observe
+  - So lump-sum taxes are a benchmark for efficiency, not a realistic policy option
 - So governments widely use [distortionary taxes]{.fg style="color: #2780e3;"} instead
+
+## Lump-Sum Taxes in Practice
+
+- In 1990 the UK replaced local property taxes with a flat "poll tax"
+  - Its perceived unfairness helped bring down Margaret Thatcher's government that year
+  - Her successor announced its repeal in 1991
+- Seven Canadian provinces had a poll tax as late as 1962
+- About a dozen Newfoundland and Labrador towns still levy one
+  - A flat fee on adults who use town services but don't own property there
+  - Clarenville charges \$325; Corner Brook eliminated its poll tax in 2020
+  - Critics say it is regressive; supporters say everyone who uses services should&nbsp;contribute
+
+## Excess Burden and Pareto Efficiency
+
+- Pareto efficiency requires $MRS_{BC} = MRT_{BC}$
+- With the tax, consumers pay $(1+t)P_B$ for barley, so they set
+
+$$MRS_{BC} = \frac{(1+t)P_B}{P_C}$$
+
+- Producers receive only $P_B$, so they set
+
+$$MRT_{BC} = \frac{P_B}{P_C}$$
+
+- So $MRS_{BC} > MRT_{BC}$: the tax drives a [wedge]{.fg style="color: #2780e3;"} between what consumers pay and what producers receive
+- A lump-sum tax leaves relative prices alone, so there is no wedge
 
 ## Income Taxes
 
-- Income taxes can also involve [excess burdens]{.fg style="color: #2780e3;"}
-- Income taxes distort labour supply decisions
-  - Higher tax rates reduce the after-tax wage
-  - This causes people to substitute away from labour towards leisure
-  - This is a [substitution effect]{.fg style="color: #2780e3;"} that creates excess burden
-- Like with goods, income taxes change relative prices, and therefore behaviour
-- Changes the price of leisure relative to consumption
+- Does an income tax create [excess burden]{.fg style="color: #2780e3;"}? Usually, yes
+- If income were fixed, an income tax would be lump-sum
+  - But people choose how much to work, so it is not
+- Think of three goods: barley, corn, and [leisure]{.fg style="color: #2780e3;"}
+  - A proportional income tax is like an equal-rate tax on barley and corn, so $MRS_{BC} = MRT_{BC}$ still holds
+  - But workers get $(1-t)W$ while employers pay $W$: a wedge between leisure and each good
+- Is an income tax more efficient than taxing goods at different rates?
+  - No presumption either way: it is an empirical question
 
-## Excess Burden with Inelastic Demand
+## Excess Burden with Perfectly Inelastic Demand
 
 - Suppose that a tax is introduced on barley, but barley consumption does not change
+  - The (ordinary) demand curve for barley is perfectly inelastic
 - Does this mean there is no excess burden?
 
 ::: {.callout-warning}
@@ -294,7 +323,7 @@ Answer: C. Under the flat charge, a household could still afford the bundle it c
 The answer is **no** — even if the quantity of the taxed good does not change, there can still be excess burden. The consumer faces different relative prices, which distort the consumer's choices across *all* goods, leading to&nbsp;inefficiency.
 :::
 
-## Excess Burden with Inelastic Demand
+## Excess Burden with Perfectly Inelastic Demand
 
 :::::: columns
 :::: {.column width="50%"}
@@ -308,7 +337,8 @@ The answer is **no** — even if the quantity of the taxed good does not change,
 - This time barley consumption stays constant
 - Corn consumption falls since the same barley now costs more
 - But compensated barley demand still falls, from $B_3$ to $B_2$
-  - A substitution effect, offset here by the income effect
+  - Compensated demand holds utility fixed, so it shows only the substitution effect
+  - Here the income effect offsets it
 - Excess burden is about the change in the consumption *bundle*
   - Not just the change in quantity of one good
 :::
@@ -463,13 +493,13 @@ $$\Delta B = \eta \times t \times B_{3}$$
 
 - The area is then
 
-$$\text{Excess Burden} = \frac{1}{2} \times (\eta \times t \times B_{3}) \times (tP_{B}) = \frac{1}{2} \times (\eta\times B_{3}) \times (t^2 P_{B}) $$
+$$\text{Excess Burden} = \frac{1}{2} \times (\eta \times t \times B_{3}) \times (tP_{B}) = \frac{1}{2} \times \eta \times (P_{B}B_{3}) \times t^2 $$
 
-## Excess Burden with Elasticities
+## Excess Burden with Elasticities {.smaller}
 
 ::: {.callout-note}
 ## Excess Burden Formula
-$$\text{Excess Burden} = \frac{1}{2} \times (\eta\times B_{3}) \times (t^2 P_{B}) $$
+$$\text{Excess Burden} = \frac{1}{2} \times \eta \times (P_{B}B_{3}) \times t^2 $$
 :::
 
 - Excess burden depends on three things
@@ -479,6 +509,17 @@ $$\text{Excess Burden} = \frac{1}{2} \times (\eta\times B_{3}) \times (t^2 P_{B}
      - More elastic demand means larger excess burden
   3. [Initial spending]{.fg style="color: #2780e3;"} $P_{B}B_{3}$
      - Larger initial spending means larger excess burden
+- Assumes perfectly elastic supply; with upward-sloping supply, excess burden also depends on the supply&nbsp;elasticity
+
+## Marginal Excess Burden
+
+- Because excess burden rises with $t^2$, each extra dollar of revenue adds more excess burden than the last
+  - The [marginal excess burden]{.fg style="color: #2780e3;"} is larger than the average
+- Plausible Canadian figures: about 20¢ average and 40¢ marginal excess burden per dollar raised (Dahlby, 2006)
+  - So a tax-financed public project must deliver more than \$1.40 of benefit per dollar of&nbsp;spending
+- The same logic favours a broad base with low rates
+  - In 1991 the GST replaced the manufacturers' sales tax (MST), which had a narrow base and high rates
+  - Estimated marginal excess burden: 35¢ for the MST, 7.3¢ for a broad tax like the GST (Whalley and Fretz, 1990)
 
 ## iClicker Question {background-color="#f0f4f8"}
 
@@ -521,16 +562,18 @@ Answer: D. With spending $S$ on each good, one good at 20% gives $\frac{1}{2}\et
 
 ::: {.callout-note}
 ## Theory of the Second Best
-If the economic optimum cannot be achieved (due to existing distortions), the next best solution may involve introducing additional distortions.
+When distortions already exist, a policy that would improve efficiency on its own can make it worse — and one that would worsen efficiency on its own can improve it.
 :::
 
 ## Pre-existing Distortions
 
-- [Example 1: Pre-existing Tax on Good A]{.fg style="color: #555;"}
-  - This tax distorts consumption away from good A
-  - If A and B are substitutes, a tax on good B may lead consumers to substitute towards good&nbsp;A
-  - This can [reduce]{.fg style="color: #5cb85c;"} the excess burden on good A by increasing its consumption
-  - Overall excess burden may increase or decrease because of the new tax on good B
+- [Example 1: A Tax on Gin When Rum Is Already Taxed]{.fg style="color: #555;"}
+  - The rum tax distorts consumption away from rum
+  - Gin and rum are substitutes, so a tax on gin leads consumers to substitute towards&nbsp;rum
+  - This can [reduce]{.fg style="color: #5cb85c;"} the excess burden in the rum market by increasing its consumption
+  - Overall excess burden may increase or decrease because of the new tax on gin
+- So excess burdens in related markets cannot simply be added up
+  - In practice, analysts usually assume the cross-effects are small enough to ignore
 
 ## Pre-existing Distortions
 
@@ -543,14 +586,27 @@ If the economic optimum cannot be achieved (due to existing distortions), the ne
 - General lesson is that impact of tax is not limited to the market it directly affects
   - Overall excess burden depends on interactions with other markets and distortions
 
+## Pre-existing Distortions
+
+- [Example 4: The Double Dividend]{.fg style="color: #555;"}
+  - A tax on pollution corrects an externality (see the externalities section)
+  - [Double-dividend hypothesis]{.fg style="color: #2780e3;"}: use the revenue to cut income taxes and gain twice
+    - Less pollution, and a less distorted labour market
+- But pollution taxes raise the prices of goods, which lowers the real wage
+  - So they act partly as a tax on earnings, adding to the labour-market distortion
+  - This added excess burden can outweigh the gain from correcting the externality (Parry and Oates, 2000)
+- With an income tax already in place, the efficient pollution tax can be lower
+
 ## Excess Burden of a Subsidy
 
 - A [subsidy]{.fg style="color: #2780e3;"} is a negative tax
-  - It lowers the price paid by consumers or received by producers
+  - It lowers the price paid by consumers and/or raises the price received by producers
 - Problem is that it can lead to [over-consumption]{.fg style="color: #c7254e;"} or [over-production]{.fg style="color: #c7254e;"}
   - This creates inefficiencies and excess burden
 - A subsidy will increase consumer surplus, but with no other distortions the cost to the government exceeds this increase
   - The difference is the [excess burden]{.fg style="color: #2780e3;"} of the subsidy
+- A cash grant equal to the gain in consumer surplus would leave people just as well off, at lower cost
+  - One reason economists prefer direct transfers to subsidies on particular goods
 
 ## Excess Burden of a Subsidy
 
@@ -563,10 +619,10 @@ If the economic optimum cannot be achieved (due to existing distortions), the ne
 
 ::: {.column width="50%"}
 - Picture a housing subsidy
-- Prior to subsidy, optimal consumption is $H_0$ at price $P_h$
+- Prior to subsidy, optimal consumption is $H_1$ at price $P_h$
 - Subsidy lowers price to $(1-s)P_h$
-- New optimal consumption is $H_1$
-- Cost of subsidy is the rectangle between the two prices, out to $H_1$
+- New optimal consumption is $H_2$
+- Cost of subsidy is the rectangle between the two prices, out to $H_2$
 - Increase in consumer surplus is the area to the left of demand between the two prices
 - [Excess burden]{.fg style="color: #2780e3;"} is the blue triangle: cost minus the gain
 :::
@@ -574,16 +630,16 @@ If the economic optimum cannot be achieved (due to existing distortions), the ne
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-A housing subsidy lowers the price renters pay, and they rent more housing. Housing is supplied at a constant cost and there are no other distortions in the market. Which statement is correct?
+A housing subsidy lowers the price households pay for housing, and they consume more of it. Housing is supplied at a constant cost and there are no other distortions in the market. Which statement is correct?
 
-A\) The subsidy has an excess burden — it costs the government more than renters gain\
-B) There is no excess burden — renters are better off\
+A\) The subsidy has an excess burden — it costs the government more than households gain\
+B) There is no excess burden — households are better off\
 C) The excess burden is negative — a subsidy is a negative tax, so it reverses the distortion\
 D) The excess burden equals the full cost of the subsidy\
-E) There is no excess burden — with constant-cost supply, renters receive the full subsidy
+E) There is no excess burden — with constant-cost supply, households receive the full subsidy
 
 ::: {.notes}
-Answer: A. The subsidy pays for the extra units at more than renters value them; that gap is the excess burden (the blue triangle). B confuses a gain to recipients with efficiency. E is the incidence-versus-efficiency mix-up: renters do get the whole subsidy, but it still costs more than they gain. C is the sign trap: with no pre-existing distortion there is nothing to reverse, so the subsidy creates a distortion just as a tax does. D counts the whole transfer as lost.
+Answer: A. The subsidy pays for the extra units at more than households value them; that gap is the excess burden (the blue triangle). B confuses a gain to recipients with efficiency. E is the incidence-versus-efficiency mix-up: households do get the whole subsidy, but it still costs more than they gain. C is the sign trap: with no pre-existing distortion there is nothing to reverse, so the subsidy creates a distortion just as a tax does. D counts the whole transfer as lost.
 :::
 
 ## Excess Burden of Income Tax
@@ -607,7 +663,7 @@ Answer: A. The subsidy pays for the extra units at more than renters value them;
   - So a tax on labour is borne entirely by&nbsp;workers
 - An income tax shifts down labour demand curve from $D_0$ to $D_1$
   - Reduces wage from $W$ to $(1-t)W$
-- Initially worker surplus is area below demand curve and above supply
+- Initially worker surplus is area below demand curve and above (compensated) supply
 - After tax, surplus falls by yellow plus green&nbsp;areas
 :::
 ::::::
@@ -635,17 +691,27 @@ Answer: A. The subsidy pays for the extra units at more than renters value them;
 
 ::: {.callout-note}
 ## Excess Burden of Income Tax Formula
-$$\text{Excess Burden} = \frac{1}{2} \times (\epsilon \times L_{0}) \times (t^2 W) $$
+$$\text{Excess Burden} = \frac{1}{2} \times \epsilon \times (WL_{1}) \times t^2 $$
 :::
 
-- Where $\epsilon$ is the compensated elasticity of labour supply
+- Where $\epsilon$ is the compensated elasticity of labour supply and $L_1$ is hours before the tax
 - Excess burden depends on
   1. [Size of tax]{.fg style="color: #2780e3;"} $t$
      - Excess burden rises with square of tax rate
-  2. [Elasticity of labour supply]{.fg style="color: #2780e3;"} $\epsilon$
+  2. [Compensated elasticity of labour supply]{.fg style="color: #2780e3;"} $\epsilon$
      - More elastic labour supply means larger excess burden
-  3. [Initial earnings]{.fg style="color: #2780e3;"} $WL_{0}$
+  3. [Initial earnings]{.fg style="color: #2780e3;"} $WL_{1}$
      - Larger initial earnings means larger excess burden
+
+## How Big Is the Excess Burden of Income Taxes?
+
+- Example: a Canadian man earns \$20 an hour and works 2,000 hours a year
+  - Compensated labour supply elasticity of about 0.2, and a 40% tax on earnings
+  - Excess burden $= \frac{1}{2} \times 0.2 \times (20 \times 2000) \times 0.4^2 \approx \$640$ a year
+  - About 4% of the tax collected: 4¢ of excess burden per dollar of revenue
+- Estimates vary with wages, tax rates, and elasticities
+  - United States: about 27% of labour-income tax revenue (Jorgenson and Yun, 2001)
+  - Canada, 2006: the marginal excess burden of the personal income tax averaged \$1.28 per dollar for the provinces and \$0.17 for the federal government (Dahlby and Ferede, 2011)
 
 ## iClicker Question {background-color="#f0f4f8"}
 
@@ -658,20 +724,24 @@ D) Neither — income taxes have only income effects\
 E) Second earners — more elastic supply means a larger substitution response
 
 ::: {.notes}
-Answer: E. Excess burden rises with the (compensated) elasticity, so the more responsive group has the larger triangle. C carries over the incidence lesson (whoever can't respond bears the tax). Inelastic workers pay the tax without changing behaviour, which is exactly why they create *less* excess burden: who bears a tax and how much it distorts are separate questions. A ignores that excess burden depends on earnings ($W \times L_0$), which are held equal. B forgets the elasticity. D forgets the substitution between work and leisure.
+Answer: E. Excess burden rises with the (compensated) elasticity, so the more responsive group has the larger triangle. C carries over the incidence lesson (whoever can't respond bears the tax). Inelastic workers pay the tax without changing behaviour, which is exactly why they create *less* excess burden: who bears a tax and how much it distorts are separate questions. A ignores that excess burden depends on earnings ($W \times L_1$), which are held equal. B forgets the elasticity. D forgets the substitution between work and leisure.
 :::
 
 # Summary
 
-## Summary
+## Summary {.smaller}
 
 - Taxes are used in part to raise revenue for the government
 - They impose a [direct cost]{.fg style="color: #2780e3;"} to consumers of the tax revenue collected
 - But they also distort behaviour and create an [excess burden]{.fg style="color: #2780e3;"}
   - Loss in welfare beyond tax revenue collected
 - Excess burden arises from the [substitution effect]{.fg style="color: #2780e3;"} of a tax
-- The size of the excess burden depends on [pre-existing distortions]{.fg style="color: #2780e3;"}
-- [Theory of the Second Best]{.fg style="color: #2780e3;"} says that when distortions exist, best outcome may involve additional distortions
+  - It can arise even if the quantity of the taxed good does not change
+- Excess burden rises with the compensated elasticity and the square of the tax rate
+  - So the [marginal excess burden]{.fg style="color: #2780e3;"} exceeds the average, and belongs in cost–benefit analysis
+- Subsidies create excess burden too
+- With [pre-existing distortions]{.fg style="color: #2780e3;"}, excess burdens interact across markets
+  - [Theory of the Second Best]{.fg style="color: #2780e3;"}: when distortions exist, adding a distortion can improve&nbsp;efficiency
 
 # References
 
