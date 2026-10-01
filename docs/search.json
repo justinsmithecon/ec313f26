@@ -3222,7 +3222,7 @@
     "href": "slides/efficiency/index.html#excess-burden-1",
     "title": "EC313 - Taxation",
     "section": "Excess Burden",
-    "text": "Excess Burden\n\nAn ad valorem tax on one good creates two effects\n\nIncome effect: consumer is poorer, so consumes less of all normal goods\nSubstitution effect: relative price of taxed good rises, so consumer substitutes away from taxed good\n\nExcess burden arises because of the substitution effect\n\nConsumer substitutes away from taxed good to other goods\nThis leads to a loss in welfare beyond the tax revenue collected\n\nOne way to see this is to compare an ad valorem tax to a lump-sum tax\n\nLump-sum tax only has income effect, no substitution effect\nSo no excess burden"
+    "text": "Excess Burden\n\nAn ad valorem tax on one good creates two effects\n\nIncome effect: consumer is poorer, so consumes less of all normal goods\nSubstitution effect: relative price of taxed good rises, so consumer substitutes away from taxed good\n\nExcess burden arises because of the substitution effect\n\nConsumer substitutes away from taxed good to other goods\nThis leads to a loss in welfare beyond the tax revenue collected"
   },
   {
     "objectID": "slides/efficiency/index.html#lump-sum-tax",
@@ -3257,7 +3257,7 @@
     "href": "slides/efficiency/index.html#income-taxes",
     "title": "EC313 - Taxation",
     "section": "Income Taxes",
-    "text": "Income Taxes\n\nDoes an income tax create excess burden? Usually, yes\nIf income were fixed, an income tax would be lump-sum\n\nBut people choose how much to work, so it is not\n\nThink of three goods: barley, corn, and leisure\n\nA proportional income tax is like an equal-rate tax on barley and corn, so \\(MRS_{BC} = MRT_{BC}\\) still holds\nBut workers get \\((1-t)W\\) while employers pay \\(W\\): a wedge between leisure and each good\n\nIs an income tax more efficient than taxing goods at different rates?\n\nNo presumption either way: it is an empirical question"
+    "text": "Income Taxes\n\nDoes an income tax create excess burden? Usually, yes\nIf income were fixed, an income tax would be lump-sum\n\nBut people choose how much to work, so it is not\n\nThink of three goods: barley, corn, and leisure\n\nA proportional income tax is like an equal-rate tax on barley and corn, so it leaves their relative price unchanged\nBut it lowers the after-tax wage from \\(W\\) to \\((1-t)W\\), making leisure cheaper relative to goods\nSo people substitute towards leisure, which creates excess burden\n\nIs an income tax more efficient than taxing goods at different rates?\n\nNo presumption either way: it is an empirical question"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-with-inelastic-demand",
@@ -4691,5 +4691,19 @@
       "Course content",
       "Tax Incidence"
     ]
+  },
+  {
+    "objectID": "slides/efficiency/index.html#why-is-tax-revenue-less-than-the-welfare-loss",
+    "href": "slides/efficiency/index.html#why-is-tax-revenue-less-than-the-welfare-loss",
+    "title": "EC313 - Taxation",
+    "section": "Why Is Tax Revenue Less Than the Welfare Loss?",
+    "text": "Why Is Tax Revenue Less Than the Welfare Loss?\n\nSubstituting away from barley lets the consumer avoid part of the tax\n\nTax is only collected on the barley they still buy: revenue is \\(tP_B B_2\\)\nThe more they substitute, the less revenue the government collects\n\nBut avoiding the tax is not free\n\nThe consumer ends up with a bundle they would not choose if the same money were taken without changing prices\nThat lowers their welfare, but brings in no revenue\n\nSo the welfare loss (the equivalent variation) is larger than the revenue\n\nThe gap is the excess burden\n\nA lump-sum tax only has an income effect: the amount owed doesn’t depend on what is bought\n\nNothing to avoid by substituting, so no excess burden"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#lump-sum-tax-with-the-same-revenue",
+    "href": "slides/efficiency/index.html#lump-sum-tax-with-the-same-revenue",
+    "title": "EC313 - Taxation",
+    "section": "Lump-Sum Tax with the Same Revenue",
+    "text": "Lump-Sum Tax with the Same Revenue\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow set the lump sum equal to the ad valorem tax revenue: \\(T = tP_B B_2\\)\nThe new budget line is parallel to the original and passes through \\((B_2, C_2)\\)\n\nThe consumer could still buy the ad valorem bundle\n\nBut at the original prices they can do better\n\nThey move to \\((B_L, C_L)\\) on a higher indifference curve, \\(U_L\\)\n\nSame revenue, but the consumer is better off\n\nTaking a further amount equal to the excess burden would bring them back down to \\(U_1\\)"
   }
 ]

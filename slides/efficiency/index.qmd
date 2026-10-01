@@ -201,9 +201,19 @@ $$P_{C}(C^{'} - C_{2}) = tP_{B}B_2$$
 - [Excess burden]{.fg style="color: #2780e3;"} arises because of the substitution effect
   - Consumer substitutes away from taxed good to other goods
   - This leads to a loss in welfare beyond the tax revenue collected
-- One way to see this is to compare an ad valorem tax to a lump-sum tax
-  - [Lump-sum tax]{.fg style="color: #2780e3;"} only has income effect, no substitution effect
-  - So [no excess burden]{.fg style="color: #5cb85c;"}
+
+## Why Is Tax Revenue Less Than the Welfare Loss?
+
+- Substituting away from barley lets the consumer avoid part of the tax
+  - Tax is only collected on the barley they still buy: revenue is $tP_B B_2$
+  - The more they substitute, the less revenue the government collects
+- But avoiding the tax is not free
+  - The consumer ends up with a bundle they would not choose if the same money were taken without changing prices
+  - That lowers their welfare, but brings in no revenue
+- So the welfare loss (the equivalent variation) is larger than the revenue
+  - The gap is the [excess burden]{.fg style="color: #2780e3;"}
+- A [lump-sum tax]{.fg style="color: #2780e3;"} only has an income effect: the amount owed doesn't depend on what is bought
+  - Nothing to avoid by substituting, so [no excess burden]{.fg style="color: #5cb85c;"}
 
 ## Lump-Sum Tax
 
@@ -248,6 +258,26 @@ $$C = \frac{I-T}{P_{C}} - \frac{P_{B}}{P_{C}}B$$
 :::
 ::::::
 
+## Lump-Sum Tax with the Same Revenue
+
+:::::: columns
+:::: {.column width="50%"}
+::: {layout="[[-1], [1], [-1]]"}
+![](images/lumpsum-same-revenue.png)
+:::
+::::
+
+::: {.column width="50%"}
+- Now set the lump sum equal to the ad valorem tax revenue: $T = tP_B B_2$
+- The new budget line is parallel to the original and passes through $(B_2, C_2)$
+  - The consumer could still buy the ad valorem bundle
+- But at the original prices they can do better
+  - They move to $(B_L, C_L)$ on a higher indifference curve, $U_L$
+- Same revenue, but the consumer is better off
+  - Taking a further amount equal to the excess burden would bring them back down to $U_1$
+:::
+::::::
+
 ## iClicker Question {background-color="#f0f4f8"}
 
 Households are identical. A province can raise \$500 per household either with a sales tax on restaurant meals or with a flat \$500 charge that every household pays no matter what it buys. Judged only by households' own well-being, how do the two compare?
@@ -287,28 +317,15 @@ Answer: C. Under the flat charge, a household could still afford the bundle it c
   - Clarenville charges \$325; Corner Brook eliminated its poll tax in 2020
   - Critics say it is regressive; supporters say everyone who uses services should&nbsp;contribute
 
-## Excess Burden and Pareto Efficiency
-
-- Pareto efficiency requires $MRS_{BC} = MRT_{BC}$
-- With the tax, consumers pay $(1+t)P_B$ for barley, so they set
-
-$$MRS_{BC} = \frac{(1+t)P_B}{P_C}$$
-
-- Producers receive only $P_B$, so they set
-
-$$MRT_{BC} = \frac{P_B}{P_C}$$
-
-- So $MRS_{BC} > MRT_{BC}$: the tax drives a [wedge]{.fg style="color: #2780e3;"} between what consumers pay and what producers receive
-- A lump-sum tax leaves relative prices alone, so there is no wedge
-
 ## Income Taxes
 
 - Does an income tax create [excess burden]{.fg style="color: #2780e3;"}? Usually, yes
 - If income were fixed, an income tax would be lump-sum
   - But people choose how much to work, so it is not
 - Think of three goods: barley, corn, and [leisure]{.fg style="color: #2780e3;"}
-  - A proportional income tax is like an equal-rate tax on barley and corn, so $MRS_{BC} = MRT_{BC}$ still holds
-  - But workers get $(1-t)W$ while employers pay $W$: a wedge between leisure and each good
+  - A proportional income tax is like an equal-rate tax on barley and corn, so it leaves their relative price unchanged
+  - But it lowers the after-tax wage from $W$ to $(1-t)W$, making leisure cheaper relative to&nbsp;goods
+  - So people substitute towards leisure, which creates excess burden
 - Is an income tax more efficient than taxing goods at different rates?
   - No presumption either way: it is an empirical question
 
