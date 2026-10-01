@@ -3166,7 +3166,7 @@
     "href": "slides/efficiency/index.html#introduction",
     "title": "EC313 - Taxation",
     "section": "Introduction",
-    "text": "Introduction\n\nGovernments levy taxes mainly to raise revenue to fund public goods and services\nTaxes can impose different types of costs on consumers\n\nDirect cost: sending money to the government\nBehavioural cost: taxes can distort behaviour because of changes in prices\n\nWithout taxes consumers make choices about consumption\nTaxes force them to substitute away from the taxed good and make sub-optimal choices\n\n\nIdeally a tax imposes the least possible cost in order to raise revenue\n\nWhen the costs are larger, we say there is an excess burden"
+    "text": "Introduction\n\nGovernments levy taxes mainly to raise revenue to fund public goods and services\nTaxes can impose different types of costs on consumers\n\nDirect cost: sending money to the government\nBehavioural cost: taxes can distort behaviour because of changes in prices\n\nWithout taxes consumers make choices about consumption\nTaxes force them to substitute away from the taxed good and make sub-optimal choices\n\n\nIdeally a tax imposes the least possible cost in order to raise revenue\n\nWhen the cost exceeds the revenue raised, the difference is the excess burden"
   },
   {
     "objectID": "slides/efficiency/index.html#ad-valorem-tax-on-consumers",
@@ -3194,21 +3194,21 @@
     "href": "slides/efficiency/index.html#ad-valorem-tax-on-consumers-3",
     "title": "EC313 - Taxation",
     "section": "Ad Valorem Tax on Consumers",
-    "text": "Ad Valorem Tax on Consumers\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nVertical distance between budget lines is tax collected\nOn the old budget line if consumer buys \\(B_2\\) barley, corn consumption is\n\n\\[C^{'} = \\frac{I}{P_{C}} - \\frac{P_{B}}{P_{C}}B_2\\]\n\nOn the new budget line if consumer buys \\(B_2\\) barley, corn consumption is\n\n\\[C_{2} = \\frac{I}{P_{C}} - \\frac{P_{B}(1+t)}{P_{C}}B_2\\]"
+    "text": "Ad Valorem Tax on Consumers\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nVertical distance between budget lines at \\(B_2\\) is tax collected\nOn the old budget line if consumer buys \\(B_2\\) barley, corn consumption is\n\n\\[C^{'} = \\frac{I}{P_{C}} - \\frac{P_{B}}{P_{C}}B_2\\]\n\nOn the new budget line if consumer buys \\(B_2\\) barley, corn consumption is\n\n\\[C_{2} = \\frac{I}{P_{C}} - \\frac{P_{B}(1+t)}{P_{C}}B_2\\]"
   },
   {
     "objectID": "slides/efficiency/index.html#ad-valorem-tax-on-consumers-4",
     "href": "slides/efficiency/index.html#ad-valorem-tax-on-consumers-4",
     "title": "EC313 - Taxation",
     "section": "Ad Valorem Tax on Consumers",
-    "text": "Ad Valorem Tax on Consumers\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nDifference is\n\n\\[C^{'} - C_{2} = \\frac{P_{B}t}{P_{C}}B_2\\]\n\nMeasures reduction in corn consumption due to tax\nTo measure in dollar terms\n\n\\[P_{C}(C^{'} - C_{2}) = tP_{B}B_2\\]\n\nThis is the tax rate times the value of barley consumed"
+    "text": "Ad Valorem Tax on Consumers\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nDifference is\n\n\\[C^{'} - C_{2} = \\frac{P_{B}t}{P_{C}}B_2\\]\n\nMeasures the tax paid, in units of corn\nTo measure in dollar terms\n\n\\[P_{C}(C^{'} - C_{2}) = tP_{B}B_2\\]\n\nThis is the tax rate times the value of barley consumed"
   },
   {
     "objectID": "slides/efficiency/index.html#equivalent-variation",
     "href": "slides/efficiency/index.html#equivalent-variation",
     "title": "EC313 - Taxation",
     "section": "Equivalent Variation",
-    "text": "Equivalent Variation\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nAs a comparison, consider leaving prices unchanged and reducing income to reach the same utility as we got with the tax\n\nThis income reduction is the equivalent variation\n\nShift the original budget line parallel in until it is tangent to the new indifference curve\nDistance between the original and new budget lines is the equivalent variation"
+    "text": "Equivalent Variation\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nAs a comparison, consider leaving prices unchanged and reducing income to reach the same utility as we got with the tax\n\nThis income reduction is the equivalent variation\n\nShift the original budget line parallel in until it is tangent to the new indifference curve\nDistance between the original and new budget lines is the equivalent variation"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden",
@@ -3228,15 +3228,15 @@
     "objectID": "slides/efficiency/index.html#lump-sum-tax",
     "href": "slides/efficiency/index.html#lump-sum-tax",
     "title": "EC313 - Taxation",
-    "section": "Lump Sum Tax",
-    "text": "Lump Sum Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA lump-sum tax \\(T\\) is imposed\nNew budget constraint is \\(I -T = P_{B}B + P_{C}C\\)\nRearranging gives\n\n\\[C = \\frac{I-T}{P_{C}} - \\frac{P_{B}}{P_{C}}B\\]\n\nBudget line shifts down in parallel by \\(T\\)\n\nPrices do not change, so slope does not either\n\nNew optimal bundle is \\(B_3\\) and \\(C_3\\)"
+    "section": "Lump-Sum Tax",
+    "text": "Lump-Sum Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA lump-sum tax \\(T\\) is imposed\nNew budget constraint is \\(I -T = P_{B}B + P_{C}C\\)\nRearranging gives\n\n\\[C = \\frac{I-T}{P_{C}} - \\frac{P_{B}}{P_{C}}B\\]\n\nBudget line shifts down in parallel by \\(T\\)\n\nPrices do not change, so slope does not either\n\nNew optimal bundle is \\(B_3\\) and \\(C_3\\)"
   },
   {
     "objectID": "slides/efficiency/index.html#lump-sum-tax-1",
     "href": "slides/efficiency/index.html#lump-sum-tax-1",
     "title": "EC313 - Taxation",
-    "section": "Lump Sum Tax",
-    "text": "Lump Sum Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTax revenue is \\(T\\)\n\nDoes not depend on how much of each good is consumed\n\nEquivalent variation is also \\(T\\)\n\nDistance between original and new budget lines is \\(T\\)\n\nSo there is no excess burden\n\nWelfare loss equals tax revenue collected\n\nArises because a lump sum tax is a pure income effect\n\nNo substitution effect, so no excess burden"
+    "section": "Lump-Sum Tax",
+    "text": "Lump-Sum Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTax revenue is \\(T\\)\n\nDoes not depend on how much of each good is consumed\n\nEquivalent variation is also \\(T\\)\n\nDistance between original and new budget lines is \\(T\\)\n\nSo there is no excess burden\n\nWelfare loss equals tax revenue collected\n\nArises because a lump-sum tax has only an income effect\n\nNo substitution effect, so no excess burden"
   },
   {
     "objectID": "slides/efficiency/index.html#section",
@@ -3250,28 +3250,28 @@
     "href": "slides/efficiency/index.html#efficiency",
     "title": "EC313 - Taxation",
     "section": "Efficiency",
-    "text": "Efficiency\n\nIf lump sum taxes do not create excess burden, why not use them?\nOften they are unattractive politically\n\nA fixed tax on everyone is viewed as unfair\nIt is also regressive\n\nThere are few examples in the world\n\nUK had a poll (head) tax in the late 80s that was unpopular\nSome municipal governments charge fixed fees for licenses/permits\n\nSo governments widely use distortionary taxes instead"
+    "text": "Efficiency\n\nIf lump-sum taxes do not create excess burden, why not use them?\nOften they are unattractive politically\n\nA fixed tax on everyone is viewed as unfair\nIt is also regressive\n\nThere are few examples in the world\n\nUK had a poll (head) tax from 1989 to 1993 that was very unpopular\nSome municipal governments charge fixed fees for licences/permits (close to lump-sum)\n\nSo governments widely use distortionary taxes instead"
   },
   {
     "objectID": "slides/efficiency/index.html#income-taxes",
     "href": "slides/efficiency/index.html#income-taxes",
     "title": "EC313 - Taxation",
-    "section": "Income taxes",
-    "text": "Income taxes\n\nIncome taxes can also involve excess burdens\nIncome taxes distort labour supply decisions\n\nHigher tax rates reduce the after-tax wage\nThis causes people to substitute away from labour towards leisure\nThis is a substitution effect that creates excess burden\n\nLike with goods, income taxes change relative prices, and therefore behaviour\nChanges the price of leisure relative to consumption"
+    "section": "Income Taxes",
+    "text": "Income Taxes\n\nIncome taxes can also involve excess burdens\nIncome taxes distort labour supply decisions\n\nHigher tax rates reduce the after-tax wage\nThis causes people to substitute away from labour towards leisure\nThis is a substitution effect that creates excess burden\n\nLike with goods, income taxes change relative prices, and therefore behaviour\nChanges the price of leisure relative to consumption"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-with-inelastic-demand",
     "href": "slides/efficiency/index.html#excess-burden-with-inelastic-demand",
     "title": "EC313 - Taxation",
     "section": "Excess Burden with Inelastic Demand",
-    "text": "Excess Burden with Inelastic Demand\n\nSuppose that a tax is introduced on barley, but barley consumption does not change\nDoes this mean there is no excess burden?\n\n\n\n\n\n\n\nCommon Misconception\n\n\nThe answer is no — even with inelastic demand for the taxed good, there is still excess burden. The consumer faces different relative prices, which distort the consumer’s choices across all goods, leading to inefficiency."
+    "text": "Excess Burden with Inelastic Demand\n\nSuppose that a tax is introduced on barley, but barley consumption does not change\nDoes this mean there is no excess burden?\n\n\n\n\n\n\n\nCommon Misconception\n\n\nThe answer is no — even if the quantity of the taxed good does not change, there can still be excess burden. The consumer faces different relative prices, which distort the consumer’s choices across all goods, leading to inefficiency."
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-with-inelastic-demand-1",
     "href": "slides/efficiency/index.html#excess-burden-with-inelastic-demand-1",
     "title": "EC313 - Taxation",
     "section": "Excess Burden with Inelastic Demand",
-    "text": "Excess Burden with Inelastic Demand\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph looks similar to before\nThis time barley consumption stays constant\nCorn consumption rises due to relatively lower price\nExcess burden is about the change in the consumption bundle\n\nNot just the change in quantity of one good"
+    "text": "Excess Burden with Inelastic Demand\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph looks similar to before\nThis time barley consumption stays constant\nCorn consumption falls since the same barley now costs more\nBut compensated barley demand still falls, from \\(B_3\\) to \\(B_2\\)\n\nA substitution effect, offset here by the income effect\n\nExcess burden is about the change in the consumption bundle\n\nNot just the change in quantity of one good"
   },
   {
     "objectID": "slides/efficiency/index.html#section-1",
@@ -3292,28 +3292,28 @@
     "href": "slides/efficiency/index.html#aside-compensated-vs-ordinary-demand-curves-1",
     "title": "EC313 - Taxation",
     "section": "Aside: Compensated vs Ordinary Demand Curves",
-    "text": "Aside: Compensated vs Ordinary Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nConsider a tax on barley\n\nPrice of barley rises from \\(P_{B}\\) to \\(P_{B}(1+t)\\)\n\nThe ordinary demand curve measures change from old equilibrium at old prices to new equilibrium at new prices\n\nIncludes both income and substitution effects\n\nThe compensated demand curve starts from the new utility level at old prices, then traces to the new equilibrium at new prices\n\nOnly includes substitution effect\n\nThe drop in demand is larger for ordinary demand"
+    "text": "Aside: Compensated vs Ordinary Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nConsider a tax on barley\n\nPrice of barley rises from \\(P_{B}\\) to \\(P_{B}(1+t)\\)\n\nThe ordinary demand curve measures change from old equilibrium at old prices to new equilibrium at new prices\n\nIncludes both income and substitution effects\n\nThe compensated demand curve starts from the new utility level at old prices, then traces to the new equilibrium at new prices\n\nOnly includes substitution effect\n\nFor a normal good, the drop in demand is larger for ordinary demand"
   },
   {
     "objectID": "slides/efficiency/index.html#aside-compensated-vs-ordinary-demand-curves-2",
     "href": "slides/efficiency/index.html#aside-compensated-vs-ordinary-demand-curves-2",
     "title": "EC313 - Taxation",
     "section": "Aside: Compensated vs Ordinary Demand Curves",
-    "text": "Aside: Compensated vs Ordinary Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nDemand curve is plot of price vs quantity demanded\nOn left we plot price before and after tax against quantities\nDrop in quantity is larger for ordinary demand curve\n\nIncludes both income and substitution effects\nSo ordinary demand curve is flatter\n\nCompensated demand curve is steeper because it only includes substitution effect"
+    "text": "Aside: Compensated vs Ordinary Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nDemand curve is plot of price vs quantity demanded\nOn left we plot price before and after tax against quantities\nFor a normal good, drop in quantity is larger for ordinary demand curve\n\nIncludes both income and substitution effects\nSo ordinary demand curve is flatter\n\nCompensated demand curve is steeper because it only includes substitution effect"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-with-demand-curves-1",
     "href": "slides/efficiency/index.html#excess-burden-with-demand-curves-1",
     "title": "EC313 - Taxation",
     "section": "Excess Burden with Demand Curves",
-    "text": "Excess Burden with Demand Curves\n\nExcess burden of a tax is related to the substitution effect\nWe can use compensated demand curve to measure it\nRecall that it is loss in welfare beyond tax revenue collected\nThe loss in welfare to the consumer is measured by the drop in consumer surplus\n\nThis is the area under the compensated demand curve between old and new prices\n\nPart of that loss is tax revenue collected\n\nThis is the rectangle with height equal to the tax and width equal to new quantity\n\nThe other part is lost entirely to the consumer\n\nThis is the excess burden"
+    "text": "Excess Burden with Demand Curves\n\nExcess burden of a tax is related to the substitution effect\nWe can use compensated demand curve to measure it\nRecall that it is loss in welfare beyond tax revenue collected\nThe loss in welfare to the consumer is measured by the drop in consumer surplus\n\nThis is the area to the left of the compensated demand curve between old and new prices\n\nPart of that loss is tax revenue collected\n\nThis is the rectangle with height equal to the tax and width equal to new quantity\n\nThe other part is lost entirely to the consumer\n\nThis is the excess burden"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-with-demand-curves-2",
     "href": "slides/efficiency/index.html#excess-burden-with-demand-curves-2",
     "title": "EC313 - Taxation",
     "section": "Excess Burden with Demand Curves",
-    "text": "Excess Burden with Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine a tax is imposed on barley\nSupply is perfectly elastic\n\nSo economic incidence falls entirely on consumers\n\nPrice rises from \\(P_{B}\\) to \\(P_{B}(1+t)\\)\nCompensated quantity demanded falls from \\(B_{3}\\) to \\(B_{2}\\)\nTax revenue is green rectangle\nTotal fall in consumer surplus is green + blue areas\nExcess burden is blue area"
+    "text": "Excess Burden with Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine a tax is imposed on barley\nSupply is perfectly elastic\n\nSo economic incidence falls entirely on consumers\n\nPrice rises from \\(P_{B}\\) to \\(P_{B}(1+t)\\)\nCompensated quantity demanded falls from \\(B_{3}\\) to \\(B_{2}\\)\nTax revenue is green rectangle\nTotal fall in consumer surplus is green + blue areas\nExcess burden is blue area"
   },
   {
     "objectID": "slides/efficiency/index.html#section-2",
@@ -3334,28 +3334,28 @@
     "href": "slides/efficiency/index.html#pre-existing-distortions-1",
     "title": "EC313 - Taxation",
     "section": "Pre-existing Distortions",
-    "text": "Pre-existing Distortions\n\nExample 1: pre-existing tax on good A\n\nThis tax distorts consumption away from good A\nIntroducing a tax on good B may lead consumers to substitute towards good A\nThis can reduce the excess burden on good A by increasing its consumption\nOverall excess burden may increase or decrease because of the new tax on good B"
+    "text": "Pre-existing Distortions\n\nExample 1: Pre-existing Tax on Good A\n\nThis tax distorts consumption away from good A\nIf A and B are substitutes, a tax on good B may lead consumers to substitute towards good A\nThis can reduce the excess burden on good A by increasing its consumption\nOverall excess burden may increase or decrease because of the new tax on good B"
   },
   {
     "objectID": "slides/efficiency/index.html#pre-existing-distortions-2",
     "href": "slides/efficiency/index.html#pre-existing-distortions-2",
     "title": "EC313 - Taxation",
     "section": "Pre-existing Distortions",
-    "text": "Pre-existing Distortions\n\nExample 2: Minimum Wages\n\nA labour market monopsony leads to lower wages and employment than in a competitive market\nImposing a minimum wage can increase employment and reduce the excess burden caused by monopsony power\n\nExample 3: Externalities from Carbon\n\nA country has a negative externality from emissions and cannot impose a carbon tax\nThe next best outcome might involve subsidies for renewable energy, even if they distort energy markets\n\nGeneral lesson is that impact of tax is not limited to the market it directly affects\n\nOverall excess burden depends on interactions with other markets and distortions"
+    "text": "Pre-existing Distortions\n\nExample 2: Minimum Wages\n\nA labour market monopsony leads to lower wages and employment than in a competitive market\nImposing a minimum wage can increase employment and reduce the deadweight loss caused by monopsony power\n\nExample 3: Externalities from Carbon\n\nA country has a negative externality from emissions and cannot impose a carbon tax\nThe next best outcome might involve subsidies for renewable energy, even if they distort energy markets\n\nGeneral lesson is that impact of tax is not limited to the market it directly affects\n\nOverall excess burden depends on interactions with other markets and distortions"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-of-a-subsidy",
     "href": "slides/efficiency/index.html#excess-burden-of-a-subsidy",
     "title": "EC313 - Taxation",
     "section": "Excess Burden of a Subsidy",
-    "text": "Excess Burden of a Subsidy\n\nA subsidy is a negative tax\n\nIt lowers the price paid by consumers or received by producers\n\nProblem is that it can lead to over-consumption or over-production\n\nThis creates inefficiencies and excess burden\n\nA subsidy will increase welfare (consumer surplus) but the cost to the government may exceed this increase\n\nThe difference is the excess burden of the subsidy"
+    "text": "Excess Burden of a Subsidy\n\nA subsidy is a negative tax\n\nIt lowers the price paid by consumers or received by producers\n\nProblem is that it can lead to over-consumption or over-production\n\nThis creates inefficiencies and excess burden\n\nA subsidy will increase consumer surplus, but with no other distortions the cost to the government exceeds this increase\n\nThe difference is the excess burden of the subsidy"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-of-a-subsidy-1",
     "href": "slides/efficiency/index.html#excess-burden-of-a-subsidy-1",
     "title": "EC313 - Taxation",
     "section": "Excess Burden of a Subsidy",
-    "text": "Excess Burden of a Subsidy\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nPicture a housing subsidy\nPrior to subsidy, optimal consumption is \\(H_0\\) at price \\(P_h\\)\nSubsidy lowers price to \\((1-s)P_h\\)\nNew optimal consumption is \\(H_1\\)\nCost of subsidy is green plus blue rectangle\nIncrease in consumer surplus is green area\nExcess burden is blue triangle"
+    "text": "Excess Burden of a Subsidy\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nPicture a housing subsidy\nPrior to subsidy, optimal consumption is \\(H_0\\) at price \\(P_h\\)\nSubsidy lowers price to \\((1-s)P_h\\)\nNew optimal consumption is \\(H_1\\)\nCost of subsidy is the rectangle between the two prices, out to \\(H_1\\)\nIncrease in consumer surplus is the area to the left of demand between the two prices\nExcess burden is the blue triangle: cost minus the gain"
   },
   {
     "objectID": "slides/efficiency/index.html#section-3",
@@ -3376,7 +3376,7 @@
     "href": "slides/efficiency/index.html#excess-burden-of-income-tax-1",
     "title": "EC313 - Taxation",
     "section": "Excess Burden of Income Tax",
-    "text": "Excess Burden of Income Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine a labour market with elastic labour demand\n\nSo a tax on labour is borne entirely by workers\n\nAn income tax shifts down labour demand curve from \\(D_0\\) to \\(D_1\\)\n\nReduces wage from \\(W\\) to \\((1-t)W\\)\n\nInitially worker surplus is area below demand curve and above supply\nAfter tax, surplus falls by yellow plus green areas"
+    "text": "Excess Burden of Income Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine a labour market with perfectly elastic labour demand\n\nSo a tax on labour is borne entirely by workers\n\nAn income tax shifts down labour demand curve from \\(D_0\\) to \\(D_1\\)\n\nReduces wage from \\(W\\) to \\((1-t)W\\)\n\nInitially worker surplus is area below demand curve and above supply\nAfter tax, surplus falls by yellow plus green areas"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-of-income-tax-2",
@@ -3390,7 +3390,7 @@
     "href": "slides/efficiency/index.html#excess-burden-of-income-tax-3",
     "title": "EC313 - Taxation",
     "section": "Excess Burden of Income Tax",
-    "text": "Excess Burden of Income Tax\n\n\n\n\n\n\nExcess Burden of Income Tax Formula\n\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times (\\epsilon \\times L_{0}) \\times (t^2 W) \\]\n\n\n\n\nWhere \\(\\epsilon\\) is the elasticity of labour supply\nExcess burden depends on\n\nSize of tax \\(t\\)\n\n\nExcess burden rises with square of tax rate\n\n\nElasticity of labour supply \\(\\epsilon\\)\n\n\nMore elastic labour supply means larger excess burden\n\n\nInitial earnings \\(WL_{0}\\)\n\n\nLarger initial earnings means larger excess burden"
+    "text": "Excess Burden of Income Tax\n\n\n\n\n\n\nExcess Burden of Income Tax Formula\n\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times (\\epsilon \\times L_{0}) \\times (t^2 W) \\]\n\n\n\n\nWhere \\(\\epsilon\\) is the compensated elasticity of labour supply\nExcess burden depends on\n\nSize of tax \\(t\\)\n\nExcess burden rises with square of tax rate\n\nElasticity of labour supply \\(\\epsilon\\)\n\nMore elastic labour supply means larger excess burden\n\nInitial earnings \\(WL_{0}\\)\n\nLarger initial earnings means larger excess burden"
   },
   {
     "objectID": "slides/efficiency/index.html#summary-1",
@@ -3404,7 +3404,7 @@
     "href": "slides/efficiency/index.html#references-1",
     "title": "EC313 - Taxation",
     "section": "References",
-    "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
+    "text": "References\n\nRosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
   },
   {
     "objectID": "slides/externalities/index.html#goals-of-this-section-1",
@@ -4553,5 +4553,82 @@
     "title": "EC313 - Taxation",
     "section": "References",
     "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question",
+    "href": "slides/efficiency/index.html#iclicker-question",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nHouseholds are identical. A province can raise $500 per household either with a sales tax on restaurant meals or with a flat $500 charge that every household pays no matter what it buys. Judged only by households’ own well-being, how do the two compare?\nA) Equally well off — both take $500\nB) Better off with the sales tax — they can pay less by eating out less\nC) Better off with the flat charge — it leaves relative prices unchanged\nD) Better off with the sales tax, because the flat charge is regressive\nE) Better off with the flat charge, because it has no income effect\n\nAnswer: C. Under the flat charge, a household could still afford the bundle it chose under the sales tax (the same $500 is gone, at the old prices), so it does at least as well, and strictly better as long as it would substitute at all. B is the trap: eating out less to avoid the tax is the distortion, and that substitution is where the excess burden comes from. A counts only the direct cost. D mixes equity into an efficiency question; with identical households, regressivity is beside the point. E has the mechanism backwards: the flat charge is a pure income effect; what it lacks is a substitution effect."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-1",
+    "href": "slides/efficiency/index.html#iclicker-question-1",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAfter a tax on barley, a consumer buys exactly the same amount of barley as before. A classmate concludes the tax has no excess burden for this consumer. Is the classmate right?\nA) Yes — barley purchases did not change, so there is no distortion\nB) Yes — the consumer bears the whole tax, so the only cost is the tax paid\nC) No — the excess burden equals the full amount of tax the consumer pays\nD) Yes — if the quantity does not change, the tax has only an income effect\nE) Not necessarily — an unchanged quantity can hide a substitution effect\n\nAnswer: E. The change in quantity is the sum of the income and substitution effects, and the two can offset. The substitution effect is still there, and it is what creates the excess burden. The offset needs barley to be inferior (being poorer raises barley purchases), as in the previous graph where \\(B_3 &gt; B_1\\). For a normal good both effects push quantity down, so an unchanged quantity would mean no substitution effect — which is why the answer is “not necessarily” rather than “always”. D is the precise version of the classmate’s mistake; A is the everyday version. B confuses who bears the tax with how large the welfare loss is. C treats the revenue itself as lost, but revenue is a transfer to the government, not a deadweight loss."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-2",
+    "href": "slides/efficiency/index.html#iclicker-question-2",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nFor a normal good, suppose we measured the excess burden of a tax using the ordinary demand curve instead of the compensated one. Our estimate would be:\nA) Too small — the ordinary curve is steeper because it leaves out the income effect\nB) Too large — the ordinary curve is flatter because it also includes the income effect\nC) Correct — the two curves give the same triangle\nD) Too large — the ordinary curve includes only the substitution effect\nE) Too small — for a normal good, the income effect partly offsets the substitution effect\n\nAnswer: B. For a normal good the income effect reinforces the substitution effect, so the ordinary curve shows a bigger quantity drop for the same price rise. A flatter curve means a wider triangle, which overstates the excess burden. A gets the slopes backwards. E gets the direction of the income effect wrong: for a normal good it works with the substitution effect, not against it. D mixes up which effects each curve contains: the ordinary curve has both, the compensated curve has only the substitution effect."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-1",
+    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-1",
+    "title": "EC313 - Taxation",
+    "section": "Excess Burden with Elasticities",
+    "text": "Excess Burden with Elasticities\n\nWe can translate the excess burden area into a formula using elasticities\nThe excess burden is the blue triangle in the demand-curve figure\nArea of triangle is \\(\\frac{1}{2} \\times \\text{base} \\times \\text{height}\\)\n\nBase: change in quantity: \\(\\Delta B = B_{3} - B_{2}\\)\nHeight: tax: \\(tP_{B}\\)\n\nThe compensated elasticity (in absolute value) at the original price is\n\n\\[\\eta = \\frac{\\Delta B}{\\Delta P} \\times \\frac{P_B}{B_3}\\]"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-2",
+    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-2",
+    "title": "EC313 - Taxation",
+    "section": "Excess Burden with Elasticities",
+    "text": "Excess Burden with Elasticities\n\nRearranging gives\n\n\\[\\Delta B = \\eta \\times \\frac{\\Delta P}{P_B} \\times B_3\\]\n\nIn our case, \\(\\Delta P = tP_{B}\\), so\n\n\\[\\Delta B = \\eta \\times t \\times B_{3}\\]\n\nThe area is then\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times (\\eta \\times t \\times B_{3}) \\times (tP_{B}) = \\frac{1}{2} \\times (\\eta\\times B_{3}) \\times (t^2 P_{B}) \\]"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-3",
+    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-3",
+    "title": "EC313 - Taxation",
+    "section": "Excess Burden with Elasticities",
+    "text": "Excess Burden with Elasticities\n\n\n\n\n\n\nExcess Burden Formula\n\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times (\\eta\\times B_{3}) \\times (t^2 P_{B}) \\]\n\n\n\n\nExcess burden depends on three things\n\nSize of tax \\(t\\)\n\nExcess burden rises with square of tax rate\n\nCompensated elasticity of demand \\(\\eta\\)\n\nMore elastic demand means larger excess burden\n\nInitial spending \\(P_{B}B_{3}\\)\n\nLarger initial spending means larger excess burden"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-3",
+    "href": "slides/efficiency/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA household spends $1,000 a year on a good before the tax. Supply is perfectly elastic, and the good’s compensated demand elasticity is 0.5 (in absolute value). A 10% ad valorem tax is imposed. What is the excess burden?\nA) $1.25\nB) $2.50\nC) $5.00\nD) $12.50\nE) $25.00\n\nAnswer: B. \\(\\frac{1}{2} \\times 0.5 \\times (0.1)^2 \\times 1000 = 2.50\\). Each distractor is one slip: C drops the \\(\\frac{1}{2}\\); E forgets to square the tax rate; D squares the elasticity instead of the tax rate; A squares both."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-4",
+    "href": "slides/efficiency/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nTwo goods, out of the many that households buy, have the same prices, spending, and compensated demand elasticities, and their demands are unrelated. To raise about the same revenue, the government can tax one of them at 20% or tax both at 10%. Which has the smaller total excess burden?\nA) Taxing one good at 20% — only one market is distorted\nB) Neither — both raise the same revenue, so the excess burden is the same\nC) Taxing both at 10% — total excess burden is one quarter as large\nD) Taxing both at 10% — total excess burden is half as large\nE) Taxing one good at 20% — consumers can avoid it by switching to untaxed goods\n\nAnswer: D. With spending \\(S\\) on each good, one good at 20% gives \\(\\frac{1}{2}\\eta S(0.2)^2 = 0.02\\eta S\\); both at 10% give \\(2 \\times \\frac{1}{2}\\eta S(0.1)^2 = 0.01\\eta S\\). Half. C is the near miss: squaring the rate cuts each market’s burden to a quarter, but there are now two markets. A is the intuition that fewer distortions must be better, which the squared term overturns. B is linear thinking about the tax rate. E calls the distortion itself an advantage."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-5",
+    "href": "slides/efficiency/index.html#iclicker-question-5",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA housing subsidy lowers the price renters pay, and they rent more housing. Housing is supplied at a constant cost and there are no other distortions in the market. Which statement is correct?\nA) The subsidy has an excess burden — it costs the government more than renters gain\nB) There is no excess burden — renters are better off\nC) The excess burden is negative — a subsidy is a negative tax, so it reverses the distortion\nD) The excess burden equals the full cost of the subsidy\nE) There is no excess burden — with constant-cost supply, renters receive the full subsidy\n\nAnswer: A. The subsidy pays for the extra units at more than renters value them; that gap is the excess burden (the blue triangle). B confuses a gain to recipients with efficiency. E is the incidence-versus-efficiency mix-up: renters do get the whole subsidy, but it still costs more than they gain. C is the sign trap: with no pre-existing distortion there is nothing to reverse, so the subsidy creates a distortion just as a tax does. D counts the whole transfer as lost."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-6",
+    "href": "slides/efficiency/index.html#iclicker-question-6",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSecond earners in couples tend to have more elastic labour supply than primary earners. If both groups have the same earnings and face the same tax rate, a tax on which group creates the larger excess burden?\nA) Primary earners — they supply more total hours, so there is more labour to distort\nB) The same — excess burden depends only on the tax rate\nC) Primary earners — their less elastic supply means they cannot escape the tax\nD) Neither — income taxes have only income effects\nE) Second earners — more elastic supply means a larger substitution response\n\nAnswer: E. Excess burden rises with the (compensated) elasticity, so the more responsive group has the larger triangle. C carries over the incidence lesson (whoever can’t respond bears the tax). Inelastic workers pay the tax without changing behaviour, which is exactly why they create less excess burden: who bears a tax and how much it distorts are separate questions. A ignores that excess burden depends on earnings (\\(W \\times L_0\\)), which are held equal. B forgets the elasticity. D forgets the substitution between work and leisure."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#goals-of-this-section-1",
+    "href": "slides/efficiency/index.html#goals-of-this-section-1",
+    "title": "EC313 - Taxation",
+    "section": "Goals of This Section",
+    "text": "Goals of This Section\nIn this section we will:\n\nDiscuss the effects of price changes on consumer behaviour\nIntroduce the concept of excess burden of a tax\nShow how to measure excess burden using indifference curves\nShow how to measure excess burden using demand/supply curves\nShow equivalent interpretation with elasticities\nDiscuss factors that affect excess burden"
   }
 ]

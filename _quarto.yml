@@ -41,9 +41,9 @@ website:
               file: content/incidence.qmd
             - text: "Introduction to R and Quarto"
               file: content/introtor.qmd
+            - text: "Taxation and Efficiency"
+              file: content/efficiency.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "Taxation and Efficiency"
-            #   file: content/efficiency.qmd
             # - text: "Efficient and Equitable Taxation"
             #   file: content/equitable.qmd
             # - text: "The Personal Income Tax"
