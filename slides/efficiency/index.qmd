@@ -157,6 +157,22 @@ $$P_{C}(C^{'} - C_{2}) = tP_{B}B_2$$
 :::
 ::::::
 
+## Measuring the Welfare Loss
+
+- The tax moves the consumer from indifference curve $U_0$ down to $U_1$
+  - Utility has no units, so we need a way to put this loss in dollars
+- Idea: find a loss of income that hurts the consumer exactly as much as the tax
+
+::: {.callout-important}
+## Key Definition
+The [equivalent variation]{.fg style="color: #2780e3;"} (EV) is the amount of income we would have to take away, at the original prices, to leave the consumer exactly as well off as they are under the tax.
+:::
+
+- The consumer is indifferent between facing the tax and losing the EV from their income
+  - So the EV is the dollar value of the welfare loss from the tax
+- Prices stay at their original levels, so this is a pure income loss with no distortion
+- Comparing the EV with the tax revenue tells us whether the tax costs the consumer more than it raises
+
 ## Equivalent Variation
 
 :::::: columns
@@ -167,10 +183,11 @@ $$P_{C}(C^{'} - C_{2}) = tP_{B}B_2$$
 ::::
 
 ::: {.column width="50%"}
-- As a comparison, consider leaving prices unchanged and reducing income to reach the same utility as we got with the tax
-  - This income reduction is the [**equivalent&nbsp;variation**]{.fg style="color: #2780e3;"}
-- Shift the original budget line parallel in until it is tangent to the new indifference curve
-- Distance between the original and new budget lines is the equivalent variation
+- Graphically: keep prices unchanged and reduce income until the consumer can just reach $U_1$
+  - Shift the original budget line parallel in until it is tangent to $U_1$ (dashed blue line)
+- The consumer ends up at $(B_3, C_3)$: the same utility as with the tax, but at the original prices
+- The vertical distance between the two lines (green arrow) is the equivalent variation
+  - Measured in units of corn; multiply by $P_C$ to convert to dollars
 :::
 ::::::
 

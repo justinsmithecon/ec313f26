@@ -3208,7 +3208,7 @@
     "href": "slides/efficiency/index.html#equivalent-variation",
     "title": "EC313 - Taxation",
     "section": "Equivalent Variation",
-    "text": "Equivalent Variation\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nAs a comparison, consider leaving prices unchanged and reducing income to reach the same utility as we got with the tax\n\nThis income reduction is the equivalent variation\n\nShift the original budget line parallel in until it is tangent to the new indifference curve\nDistance between the original and new budget lines is the equivalent variation"
+    "text": "Equivalent Variation\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraphically: keep prices unchanged and reduce income until the consumer can just reach \\(U_1\\)\n\nShift the original budget line parallel in until it is tangent to \\(U_1\\) (dashed blue line)\n\nThe consumer ends up at \\((B_3, C_3)\\): the same utility as with the tax, but at the original prices\nThe vertical distance between the two lines (green arrow) is the equivalent variation\n\nMeasured in units of corn; multiply by \\(P_C\\) to convert to dollars"
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden",
@@ -4705,5 +4705,12 @@
     "title": "EC313 - Taxation",
     "section": "Lump-Sum Tax with the Same Revenue",
     "text": "Lump-Sum Tax with the Same Revenue\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nInstead of the ad valorem tax, take a lump sum \\(T\\) equal to its revenue: \\(T = tP_B B_2\\)\nThe new budget line is parallel to the original and passes through \\((B_2, C_2)\\)\n\nThe consumer could still buy the ad valorem bundle\n\nBut at the original prices they can do better\n\nThey move to \\((B_L, C_L)\\) on a higher indifference curve, \\(U_L\\)\n\nSame revenue, but the consumer is better off\n\nTaking a further amount equal to the excess burden would bring them back down to \\(U_1\\)"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#measuring-the-welfare-loss",
+    "href": "slides/efficiency/index.html#measuring-the-welfare-loss",
+    "title": "EC313 - Taxation",
+    "section": "Measuring the Welfare Loss",
+    "text": "Measuring the Welfare Loss\n\nThe tax moves the consumer from indifference curve \\(U_0\\) down to \\(U_1\\)\n\nUtility has no units, so we need a way to put this loss in dollars\n\nIdea: find a loss of income that hurts the consumer exactly as much as the tax\n\n\n\n\n\n\n\nKey Definition\n\n\nThe equivalent variation (EV) is the amount of income we would have to take away, at the original prices, to leave the consumer exactly as well off as they are under the tax.\n\n\n\n\nThe consumer is indifferent between facing the tax and losing the EV from their income\n\nSo the EV is the dollar value of the welfare loss from the tax\n\nPrices stay at their original levels, so this is a pure income loss with no distortion\nComparing the EV with the tax revenue tells us whether the tax costs the consumer more than it raises"
   }
 ]
