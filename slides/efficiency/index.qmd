@@ -212,8 +212,26 @@ $$P_{C}(C^{'} - C_{2}) = tP_{B}B_2$$
   - That lowers their welfare, but brings in no revenue
 - So the welfare loss (the equivalent variation) is larger than the revenue
   - The gap is the [excess burden]{.fg style="color: #2780e3;"}
-- A [lump-sum tax]{.fg style="color: #2780e3;"} only has an income effect: the amount owed doesn't depend on what is bought
-  - Nothing to avoid by substituting, so [no excess burden]{.fg style="color: #5cb85c;"}
+
+## Lump-Sum Tax with the Same Revenue
+
+:::::: columns
+:::: {.column width="50%"}
+::: {layout="[[-1], [1], [-1]]"}
+![](images/lumpsum-same-revenue.png)
+:::
+::::
+
+::: {.column width="50%"}
+- Instead of the ad valorem tax, take a lump sum $T$ equal to its revenue: $T = tP_B B_2$
+- The new budget line is parallel to the original and passes through $(B_2, C_2)$
+  - The consumer could still buy the ad valorem bundle
+- But at the original prices they can do better
+  - They move to $(B_L, C_L)$ on a higher indifference curve, $U_L$
+- Same revenue, but the consumer is better off
+  - Taking a further amount equal to the excess burden would bring them back down to $U_1$
+:::
+::::::
 
 ## Lump-Sum Tax
 
@@ -255,26 +273,6 @@ $$C = \frac{I-T}{P_{C}} - \frac{P_{B}}{P_{C}}B$$
   - Welfare loss equals tax revenue collected
 - Arises because a lump-sum tax has only an income effect
   - No substitution effect, so no excess burden
-:::
-::::::
-
-## Lump-Sum Tax with the Same Revenue
-
-:::::: columns
-:::: {.column width="50%"}
-::: {layout="[[-1], [1], [-1]]"}
-![](images/lumpsum-same-revenue.png)
-:::
-::::
-
-::: {.column width="50%"}
-- Now set the lump sum equal to the ad valorem tax revenue: $T = tP_B B_2$
-- The new budget line is parallel to the original and passes through $(B_2, C_2)$
-  - The consumer could still buy the ad valorem bundle
-- But at the original prices they can do better
-  - They move to $(B_L, C_L)$ on a higher indifference curve, $U_L$
-- Same revenue, but the consumer is better off
-  - Taking a further amount equal to the excess burden would bring them back down to $U_1$
 :::
 ::::::
 
