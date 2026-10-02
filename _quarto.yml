@@ -4,11 +4,14 @@ project:
   post-render: "scripts/decktape.sh"   
   render:
     - "*.qmd"
-    - "!assignments/"
+    - "!assignments/files/"
+    - "!assignments/assign2.qmd"   # Fall 2025 version; remove once A2 is updated
     - "!files/tutorials/"
   resources:
     - files/tutorials/ec313-r-template.qmd
     - files/tutorials/ec313cis.csv
+    - assignments/files/ec313assign1.qmd
+    - assignments/files/ec313assign1.csv
 
 website:
   title: "EC313 - Taxation"
@@ -22,6 +25,8 @@ website:
         text: Syllabus
       - text: "Content"
         file: content/index.qmd
+      - text: "Assignments"
+        file: assignments/index.qmd
 
   sidebar:
     - title: "Content"
@@ -57,6 +62,20 @@ website:
             # - text: "The Corporation Tax"
             #   file: content/corptax.qmd
               
+    - title: "Assignments"
+      style: "docked"
+      search: false
+      background: dark
+      contents:
+
+        - section: "Overview"
+          contents:
+            - assignments/index.qmd
+        - section: "Assignments"
+          contents:
+            - text: "Assignment 1"
+              file: assignments/assign1.qmd
+
 format:
   html:
     code-overflow: wrap

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Taxation and Efficiency – EC313 - Taxation</title>
+<title>Assignment 1 – EC313 - Taxation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-de0ba6961a17a27743d2149ec60878f6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Content</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assignments/index.html"> 
+    <a class="nav-link active" href="../assignments/index.html" aria-current="page"> 
 <span class="menu-text">Assignments</span></a>
   </li>  
 </ul>
@@ -109,27 +111,83 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/assign1.html">Assignments</a></li><li class="breadcrumb-item"><a href="../assignments/assign1.html">Assignment 1</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Assignments</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments/assign1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Assignment 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The data</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  <li><a href="#marking" id="toc-marking" class="nav-link" data-scroll-target="#marking">Marking</a></li>
+  <li><a href="#generative-ai" id="toc-generative-ai" class="nav-link" data-scroll-target="#generative-ai">Generative AI</a></li>
+  <li><a href="#plagiarism" id="toc-plagiarism" class="nav-link" data-scroll-target="#plagiarism">Plagiarism</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/assign1.html">Assignments</a></li><li class="breadcrumb-item"><a href="../assignments/assign1.html">Assignment 1</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Taxation and Efficiency</h1>
+<h1 class="title">Assignment 1</h1>
 </div>
 
 
@@ -146,18 +204,162 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="readings" class="level2">
-<h2 class="anchored" data-anchor-id="readings">Readings</h2>
-<ul>
-<li>RTTWS Chapter 16</li>
-</ul>
-</section>
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p>The slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead <a href="../slides/equitable/index.html" target="_blank">pop them out in a new window</a> or <a href="../slides/equitable/index.pdf" target="_blank">download a PDF</a>.</p>
-<div>
-<p align="center"><iframe width="890" height="500" class="slide-deck" src="../slides/equitable/"></iframe></p>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>On April 1, 2025, the federal carbon charge on fuel was set to zero, and British Columbia ended its own carbon tax on the same day. Quebec, which prices carbon through cap-and-trade instead, was unaffected. In this assignment you will use Statistics Canada data on gasoline prices to measure how much of the tax cut reached drivers at the pump, and use that measurement to work out who bore the carbon tax.</p>
+<p>The assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use a change in policy to measure the incidence of a tax.</p>
+<p><strong>Due: Friday, October 9, 2026 at 9:00pm.</strong></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+Download both files into the same folder
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="../assignments/files/ec313assign1.qmd" download="ec313assign1.qmd"><i class="fa-solid fa-file-export" aria-hidden="true"></i> <code>ec313assign1.qmd</code></a> — the assignment questions, as a Quarto document you write your answers into</p>
+<p><a href="../assignments/files/ec313assign1.csv" download="ec313assign1.csv"><i class="fa-solid fa-file-export" aria-hidden="true"></i> <code>ec313assign1.csv</code></a> — the data</p>
+</div>
+</div>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p>The questions are in the Quarto document above. Open it in RStudio and press <strong>Render</strong> before you change anything: it should produce a PDF. If it does not, fix that first, using the <a href="../content/introtor.html">Introduction to R and Quarto</a> page.</p>
+<p>Then work through the questions, writing your R code in the chunks provided and your answers in the text below each question. The hints under each question point to sections of the <a href="../content/introtor.html">Introduction to R and Quarto</a> page, which has a worked example of each step. Wherever a written answer is needed, the question has a <strong>Comment on the results</strong> prompt, just above the answer space, that says what to cover. Tables must be made with <code>modelsummary()</code>, <code>datasummary()</code> or <code>datasummary_df()</code>, and graphs must have readable axis labels. Do not copy and paste, or screenshot, console output.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Some of your answers are marked by computer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Several questions ask you to store a result under a particular name, such as <code>q2</code> or <code>pt_naive</code>. Those objects are checked automatically, so:</p>
+<ul>
+<li>use exactly the names given in the question;</li>
+<li>do not change the code in the <code>setup</code> and <code>load-data</code> chunks;</li>
+<li>do not round the numbers you store (round only when displaying them).</li>
+</ul>
+<p>The last chunk in the document tells you whether any of the required objects are missing.</p>
+</div>
+</div>
+</section>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The data</h2>
+<p>The data come from Statistics Canada’s monthly survey of retail gasoline prices, <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000101">Table 18-10-0001-01</a>. They are the average price of regular unleaded gasoline at self-service stations in 15 cities, for each month from October 2024 to September 2025: six months before the carbon tax was removed and six months after, 180 rows in all.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>city</code></td>
+<td style="text-align: left;">City</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>province</code></td>
+<td style="text-align: left;">Province</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>date</code></td>
+<td style="text-align: left;">The month, stored as a date (the first day of the month)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>month</code></td>
+<td style="text-align: left;">The month, as text, such as “2025-03” for March 2025</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>gas</code></td>
+<td style="text-align: left;">Average price of regular gasoline, in cents per litre, including all taxes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>salestax</code></td>
+<td style="text-align: left;">The GST or HST rate charged on gasoline in the province (plus the QST in Quebec), as a proportion: 0.13 means 13%</td>
+</tr>
+</tbody>
+</table>
+<p>Three cities in the Statistics Canada table are left out on purpose:</p>
+<ul>
+<li><strong>Winnipeg</strong>, because Manitoba’s gas tax holiday ended on January 1, 2025, adding 12.5 cents a litre of provincial tax in the middle of the period, for reasons that have nothing to do with the carbon tax.</li>
+<li><strong>Whitehorse and Yellowknife</strong>, because prices in the territories come from few stations and often do not change for months at a time.</li>
+</ul>
+<p>One city that is kept has a second change to account for: <strong>Halifax</strong>, where the HST also fell from 15% to 14% on April 1, 2025. That lowered the price there by about one more cent.</p>
+<p>Source: Statistics Canada, Table 18-10-0001-01, Monthly average retail prices for gasoline and fuel oil, by geography, October 2024 to September 2025. Reproduced and distributed on an “as is” basis with the permission of Statistics Canada.</p>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>Submit two files on Gradescope, both by the due date:</p>
+<ol type="1">
+<li><strong>Your <code>.qmd</code> file</strong>, to the assignment called <strong>Assignment 1 - Code</strong>. This is the file that is marked by computer.</li>
+<li><strong>The PDF produced by rendering it</strong>, to the assignment called <strong>Assignment 1 - Written</strong>. When you upload it, match each question to the page it is on. Your tables, graphs, and written answers are marked from this file.</li>
+</ol>
+<p>Results from the computer marking are released after the due date, not when you submit, so use the check at the end of the document before you submit.</p>
+<p>A document that does not render cannot produce a PDF, so render after every question, not only at the end.</p>
+</section>
+<section id="marking" class="level2">
+<h2 class="anchored" data-anchor-id="marking">Marking</h2>
+<p>The assignment is marked out of 30.</p>
+<ul>
+<li><strong>Each of the five questions is marked out of 5</strong> from your PDF, using the rubric below. The mark reflects the whole answer: code, tables, graphs, and writing.</li>
+<li><strong>Your code is marked out of 5 by computer</strong>, from how many of the objects you were asked to create are correct.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Points</th>
+<th style="text-align: left;">Rubric</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Fully correct</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Mostly correct with a minor mistake, or slightly lacking detail</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Mostly correct with multiple minor mistakes, a more substantial mistake, or a more significant lack of detail</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Mostly incorrect with a major mistake or several minor mistakes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Mostly incorrect with multiple major and minor mistakes</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">0</td>
+<td style="text-align: left;">Blank or entirely incorrect</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="generative-ai">Generative AI</h2>
+<p>You may use generative AI for this assignment, but you must say how you used it. The document has a section at the end for this. Failing to disclose its use is academic misconduct.</p>
+</section>
+<section id="plagiarism" class="level2">
+<h2 class="anchored" data-anchor-id="plagiarism">Plagiarism</h2>
+<p>This is an independent assignment, which I expect you to complete on your own. It is plagiarism to copy someone else’s work verbatim, which includes R code. Any work you submit should be yours only. However, you are encouraged to talk to each other to try to figure out how to do the assignment.</p>
 
 
 </section>

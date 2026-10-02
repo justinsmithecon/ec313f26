@@ -25,7 +25,7 @@
     "href": "syllabus.html#course-material",
     "title": "EC313 Syllabus",
     "section": "Course Material",
-    "text": "Course Material\n\nTextbook\nThe required textbook for the course is\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nThis book is available in various locations, including but not limited to the Laurier Bookstore, Amazon, and direct fom the publisher, McGraw Hill. Here are the approximate prices you can expect\n\n\n\nSource\nBook Type\nPrice\n\n\n\n\nWLU Bookstore\nPhysical, Paperback\nTBD\n\n\nAmazon\nPhysical, Paperback\n$157\n\n\nMcGraw Hill\nPhysical, Paperback\n$129\n\n\nMcGraw Hill\nOnline, 180 Day Rental\n$69\n\n\nMcGraw Hill\nOnline, Lifetime\n$99\n\n\n\nMake sure to buy the book on its own, and not the version that comes bundled with Connect, as we will not use Connect in this course\n\n\nSoftware\nThe assignments will ask you to manipulate data with the statistical software R, which you will use through RStudio. You will also write up your assignments in Quarto, a publishing system that runs inside RStudio and lets you combine your code, results, and written answers in a single document.\nAll three are free and open source, and you can install them on your own computer. Download R from https://cran.r-project.org, and RStudio from https://posit.co/download/rstudio-desktop/. Quarto comes bundled with RStudio, so you do not need to download it separately. The first time you render a document, RStudio may prompt you to install the rmarkdown package; say yes. R and RStudio are also available in the in-person and virtual computer labs, if you would rather not install anything. To access the virtual labs, follow the instructions outlined here\nhttps://students.wlu.ca/services-and-spaces/tech-services/computers-and-equipment/virtual-computer-labs.html\nNo prior programming experience is assumed. We will cover what you need in class, and there is an introduction to R on the course website.\n\n\nGenerative AI\nMy opinion is that the best way to succeed in this course is to engage with the lectures, lecture notes, textbook, and to ask questions in office hours. That said, I recognize that people will use AI.\nYou are permitted to use generative AI for your assignments. In all submissions in which you use generative AI, you must cite its usage. Failing to cite the use of generative AI is a form of academic misconduct and Senate Policy 12.2 Student Code of Conduct: Academic Misconduct will be applied. Treat the AI as you would any other source, meaning that you cannot directly copy and paste AI output into your assignments.\nUse these tools with caution. As we all know, generative AI does not always produce reliable output, and as such you may get wrong answers to your questions."
+    "text": "Course Material\n\nTextbook\nThe required textbook for the course is\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nThis book is available in various locations, including but not limited to the Laurier Bookstore, Amazon, and direct fom the publisher, McGraw Hill. Here are the approximate prices you can expect\n\n\n\nSource\nBook Type\nPrice\n\n\n\n\nWLU Bookstore\nPhysical, Paperback\nTBD\n\n\nAmazon\nPhysical, Paperback\n$157\n\n\nMcGraw Hill\nPhysical, Paperback\n$140\n\n\nMcGraw Hill\nOnline, 180 Day Rental\n$69\n\n\nMcGraw Hill\nOnline, Lifetime\n$99\n\n\n\nMake sure to buy the book on its own, and not the version that comes bundled with Connect, as we will not use Connect in this course\n\n\nSoftware\nThe assignments will ask you to manipulate data with the statistical software R, which you will use through RStudio. You will also write up your assignments in Quarto, a publishing system that runs inside RStudio and lets you combine your code, results, and written answers in a single document.\nAll three are free and open source, and you can install them on your own computer. Download R from https://cran.r-project.org, and RStudio from https://posit.co/download/rstudio-desktop/. Quarto comes bundled with RStudio, so you do not need to download it separately. The first time you render a document, RStudio may prompt you to install the rmarkdown package; say yes. R and RStudio are also available in the in-person and virtual computer labs, if you would rather not install anything. To access the virtual labs, follow the instructions outlined here\nhttps://students.wlu.ca/services-and-spaces/tech-services/computers-and-equipment/virtual-computer-labs.html\nNo prior programming experience is assumed. We will cover what you need in class, and there is an introduction to R on the course website.\n\n\nGenerative AI\nMy opinion is that the best way to succeed in this course is to engage with the lectures, lecture notes, textbook, and to ask questions in office hours. That said, I recognize that people will use AI.\nYou are permitted to use generative AI for your assignments. In all submissions in which you use generative AI, you must cite its usage. Failing to cite the use of generative AI is a form of academic misconduct and Senate Policy 12.2 Student Code of Conduct: Academic Misconduct will be applied. Treat the AI as you would any other source, meaning that you cannot directly copy and paste AI output into your assignments.\nUse these tools with caution. As we all know, generative AI does not always produce reliable output, and as such you may get wrong answers to your questions."
   },
   {
     "objectID": "syllabus.html#evaluation",
@@ -2244,36 +2244,21 @@
     "href": "content/taxbehaviour.html",
     "title": "Personal Taxation and Behaviour",
     "section": "",
-    "text": "RTTWS Chapter 18",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Personal Taxation and Behaviour"
-    ]
+    "text": "RTTWS Chapter 18"
   },
   {
     "objectID": "content/taxbehaviour.html#readings",
     "href": "content/taxbehaviour.html#readings",
     "title": "Personal Taxation and Behaviour",
     "section": "",
-    "text": "RTTWS Chapter 18",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Personal Taxation and Behaviour"
-    ]
+    "text": "RTTWS Chapter 18"
   },
   {
     "objectID": "content/taxbehaviour.html#slides",
     "href": "content/taxbehaviour.html#slides",
     "title": "Personal Taxation and Behaviour",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Personal Taxation and Behaviour"
-    ]
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
     "objectID": "content/introtostata.html",
@@ -2376,75 +2361,157 @@
     ]
   },
   {
+    "objectID": "content/incidence.html#other-resources",
+    "href": "content/incidence.html#other-resources",
+    "title": "Tax Incidence",
+    "section": "Other Resources",
+    "text": "Other Resources\n\nYes, government cuts to fuel taxes really do lower your price at the pump (Trevor Tombe, The Hub, September 30, 2026)\n\nTrevor Tombe, one of the authors of our textbook, looks at recent federal and provincial fuel tax cuts and finds that pump prices fell by roughly the full amount of each cut. A good real-world application of tax incidence: who actually benefits when a tax is cut?",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Tax Incidence"
+    ]
+  },
+  {
     "objectID": "content/equitable.html",
     "href": "content/equitable.html",
     "title": "Taxation and Efficiency",
     "section": "",
-    "text": "RTTWS Chapter 16",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Efficient and Equitable Taxation"
-    ]
+    "text": "RTTWS Chapter 16"
   },
   {
     "objectID": "content/equitable.html#readings",
     "href": "content/equitable.html#readings",
     "title": "Taxation and Efficiency",
     "section": "",
-    "text": "RTTWS Chapter 16",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Efficient and Equitable Taxation"
-    ]
+    "text": "RTTWS Chapter 16"
   },
   {
     "objectID": "content/equitable.html#slides",
     "href": "content/equitable.html#slides",
     "title": "Taxation and Efficiency",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Efficient and Equitable Taxation"
-    ]
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
     "objectID": "content/corptax.html",
     "href": "content/corptax.html",
     "title": "The Corporation Tax",
     "section": "",
-    "text": "RTTWS Chapter 21",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "The Corporation Tax"
-    ]
+    "text": "RTTWS Chapter 21"
   },
   {
     "objectID": "content/corptax.html#readings",
     "href": "content/corptax.html#readings",
     "title": "The Corporation Tax",
     "section": "",
-    "text": "RTTWS Chapter 21",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "The Corporation Tax"
-    ]
+    "text": "RTTWS Chapter 21"
   },
   {
     "objectID": "content/corptax.html#slides",
     "href": "content/corptax.html#slides",
     "title": "The Corporation Tax",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
+  },
+  {
+    "objectID": "assignments/index.html",
+    "href": "assignments/index.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Here you will find the problem sets for all your assignments, and any other information related to your assignments.",
     "crumbs": [
-      "Content",
-      "Course content",
-      "The Corporation Tax"
+      "Assignments",
+      "Overview",
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html",
+    "href": "assignments/assign1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "On April 1, 2025, the federal carbon charge on fuel was set to zero, and British Columbia ended its own carbon tax on the same day. Quebec, which prices carbon through cap-and-trade instead, was unaffected. In this assignment you will use Statistics Canada data on gasoline prices to measure how much of the tax cut reached drivers at the pump, and use that measurement to work out who bore the carbon tax.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use a change in policy to measure the incidence of a tax.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec313assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec313assign1.csv — the data",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#description",
+    "href": "assignments/assign1.html#description",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "On April 1, 2025, the federal carbon charge on fuel was set to zero, and British Columbia ended its own carbon tax on the same day. Quebec, which prices carbon through cap-and-trade instead, was unaffected. In this assignment you will use Statistics Canada data on gasoline prices to measure how much of the tax cut reached drivers at the pump, and use that measurement to work out who bore the carbon tax.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use a change in policy to measure the incidence of a tax.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec313assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec313assign1.csv — the data",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#instructions",
+    "href": "assignments/assign1.html#instructions",
+    "title": "Assignment 1",
+    "section": "Instructions",
+    "text": "Instructions\nThe questions are in the Quarto document above. Open it in RStudio and press Render before you change anything: it should produce a PDF. If it does not, fix that first, using the Introduction to R and Quarto page.\nThen work through the questions, writing your R code in the chunks provided and your answers in the text below each question. The hints under each question point to sections of the Introduction to R and Quarto page, which has a worked example of each step. Wherever a written answer is needed, the question has a Comment on the results prompt, just above the answer space, that says what to cover. Tables must be made with modelsummary(), datasummary() or datasummary_df(), and graphs must have readable axis labels. Do not copy and paste, or screenshot, console output.\n\n\n\n\n\n\nSome of your answers are marked by computer\n\n\n\nSeveral questions ask you to store a result under a particular name, such as q2 or pt_naive. Those objects are checked automatically, so:\n\nuse exactly the names given in the question;\ndo not change the code in the setup and load-data chunks;\ndo not round the numbers you store (round only when displaying them).\n\nThe last chunk in the document tells you whether any of the required objects are missing.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#the-data",
+    "href": "assignments/assign1.html#the-data",
+    "title": "Assignment 1",
+    "section": "The data",
+    "text": "The data\nThe data come from Statistics Canada’s monthly survey of retail gasoline prices, Table 18-10-0001-01. They are the average price of regular unleaded gasoline at self-service stations in 15 cities, for each month from October 2024 to September 2025: six months before the carbon tax was removed and six months after, 180 rows in all.\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\ncity\nCity\n\n\nprovince\nProvince\n\n\ndate\nThe month, stored as a date (the first day of the month)\n\n\nmonth\nThe month, as text, such as “2025-03” for March 2025\n\n\ngas\nAverage price of regular gasoline, in cents per litre, including all taxes\n\n\nsalestax\nThe GST or HST rate charged on gasoline in the province (plus the QST in Quebec), as a proportion: 0.13 means 13%\n\n\n\nThree cities in the Statistics Canada table are left out on purpose:\n\nWinnipeg, because Manitoba’s gas tax holiday ended on January 1, 2025, adding 12.5 cents a litre of provincial tax in the middle of the period, for reasons that have nothing to do with the carbon tax.\nWhitehorse and Yellowknife, because prices in the territories come from few stations and often do not change for months at a time.\n\nOne city that is kept has a second change to account for: Halifax, where the HST also fell from 15% to 14% on April 1, 2025. That lowered the price there by about one more cent.\nSource: Statistics Canada, Table 18-10-0001-01, Monthly average retail prices for gasoline and fuel oil, by geography, October 2024 to September 2025. Reproduced and distributed on an “as is” basis with the permission of Statistics Canada.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#submission",
+    "href": "assignments/assign1.html#submission",
+    "title": "Assignment 1",
+    "section": "Submission",
+    "text": "Submission\nSubmit two files on Gradescope, both by the due date:\n\nYour .qmd file, to the assignment called Assignment 1 - Code. This is the file that is marked by computer.\nThe PDF produced by rendering it, to the assignment called Assignment 1 - Written. When you upload it, match each question to the page it is on. Your tables, graphs, and written answers are marked from this file.\n\nResults from the computer marking are released after the due date, not when you submit, so use the check at the end of the document before you submit.\nA document that does not render cannot produce a PDF, so render after every question, not only at the end.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#marking",
+    "href": "assignments/assign1.html#marking",
+    "title": "Assignment 1",
+    "section": "Marking",
+    "text": "Marking\nThe assignment is marked out of 30.\n\nEach of the five questions is marked out of 5 from your PDF, using the rubric below. The mark reflects the whole answer: code, tables, graphs, and writing.\nYour code is marked out of 5 by computer, from how many of the objects you were asked to create are correct.\n\n\n\n\n\n\n\n\nPoints\nRubric\n\n\n\n\n5\nFully correct\n\n\n4\nMostly correct with a minor mistake, or slightly lacking detail\n\n\n3\nMostly correct with multiple minor mistakes, a more substantial mistake, or a more significant lack of detail\n\n\n2\nMostly incorrect with a major mistake or several minor mistakes\n\n\n1\nMostly incorrect with multiple major and minor mistakes\n\n\n0\nBlank or entirely incorrect",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#generative-ai",
+    "href": "assignments/assign1.html#generative-ai",
+    "title": "Assignment 1",
+    "section": "Generative AI",
+    "text": "Generative AI\nYou may use generative AI for this assignment, but you must say how you used it. The document has a section at the end for this. Failing to disclose its use is academic misconduct.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#plagiarism",
+    "href": "assignments/assign1.html#plagiarism",
+    "title": "Assignment 1",
+    "section": "Plagiarism",
+    "text": "Plagiarism\nThis is an independent assignment, which I expect you to complete on your own. It is plagiarism to copy someone else’s work verbatim, which includes R code. Any work you submit should be yours only. However, you are encouraged to talk to each other to try to figure out how to do the assignment.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
@@ -2452,36 +2519,21 @@
     "href": "content/constax.html",
     "title": "Consumption Taxes",
     "section": "",
-    "text": "RTTWS Chapter 19",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Consumption Taxes"
-    ]
+    "text": "RTTWS Chapter 19"
   },
   {
     "objectID": "content/constax.html#readings",
     "href": "content/constax.html#readings",
     "title": "Consumption Taxes",
     "section": "",
-    "text": "RTTWS Chapter 19",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Consumption Taxes"
-    ]
+    "text": "RTTWS Chapter 19"
   },
   {
     "objectID": "content/constax.html#slides",
     "href": "content/constax.html#slides",
     "title": "Consumption Taxes",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Consumption Taxes"
-    ]
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
     "objectID": "content/efficiency.html",
@@ -2524,48 +2576,28 @@
     "href": "content/externalities.html",
     "title": "Externalities and Pigouvian Taxes",
     "section": "",
-    "text": "RTTWS Chapter 5",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Externalities and Pigouvian Taxes"
-    ]
+    "text": "RTTWS Chapter 5"
   },
   {
     "objectID": "content/externalities.html#readings",
     "href": "content/externalities.html#readings",
     "title": "Externalities and Pigouvian Taxes",
     "section": "",
-    "text": "RTTWS Chapter 5",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Externalities and Pigouvian Taxes"
-    ]
+    "text": "RTTWS Chapter 5"
   },
   {
     "objectID": "content/externalities.html#slides",
     "href": "content/externalities.html#slides",
     "title": "Externalities and Pigouvian Taxes",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Externalities and Pigouvian Taxes"
-    ]
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
     "objectID": "content/externalities.html#sample-questions",
     "href": "content/externalities.html#sample-questions",
     "title": "Externalities and Pigouvian Taxes",
     "section": "Sample Questions",
-    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Externalities and Pigouvian Taxes"
-    ]
+    "text": "Sample Questions\nA PDF with all the in-class questions covered in class is here. Note that we cover the solutions live in class, so they are not posted here."
   },
   {
     "objectID": "content/index.html",
@@ -2620,7 +2652,7 @@
     "href": "content/introtor.html#r-basics",
     "title": "Introduction to R and Quarto",
     "section": "R basics",
-    "text": "R basics\nEverything you work with in R is an object: a named thing that holds something. A single income is an object. A column of 50,000 incomes is an object. A whole survey, a graph, the results of a regression — all objects. You give each one a name, and it appears in the Environment pane the moment you create it.\nWhat distinguishes one kind of object from another is what it holds and how much of it. The rest of this section introduces them in order of size, starting with the smallest.\n\nScalars and vectors\nR works by storing things in named objects. You create one with the assignment arrow &lt;-:\n\nincome &lt;- 52000\nincome\n#&gt; [1] 52000\n\nThe name goes on the left, the value on the right. An object holding a single value like this is called a scalar. Once it exists, you can compute with it:\n\ntaxrate &lt;- 0.15\nincome * taxrate\n#&gt; [1] 7800\n\nNames are case sensitive: income and Income are different objects. This is the single most common source of beginner errors.\nMost of the time you want more than one value. A vector holds several values of the same type, in order, and you build one with c(), which is short for “combine”:\n\nincomes &lt;- c(52000, 61000, 44500, 89000, 120000)\nincomes\n#&gt; [1]  52000  61000  44500  89000 120000\n\nVectors are the fundamental data structure in R. A variable in a dataset — everyone’s total income, everyone’s age — is a vector.\n\nVectors have a type\nEvery element of a vector must be the same type. The three you will meet constantly:\n\ntaxpaid &lt;- c(8500.50, 12400.00, 3150.25)   # numeric\nperson  &lt;- c(\"Ali\", \"Bea\", \"Cal\")          # character (text, in quotes)\nfiled   &lt;- c(TRUE, FALSE, TRUE)            # logical\n\nclass() tells you which you have:\n\nclass(taxpaid)\n#&gt; [1] \"numeric\"\nclass(person)\n#&gt; [1] \"character\"\nclass(filed)\n#&gt; [1] \"logical\"\n\nIf you mix types, R quietly converts everything to the most accommodating one rather than complaining:\n\nc(1, \"two\", 3)\n#&gt; [1] \"1\"   \"two\" \"3\"\n\nEverything became text — note the quotation marks. This is worth remembering, because a numeric variable that arrives as text will refuse to average, and this is usually why. When it happens, convert it deliberately with as.numeric():\n\nas.numeric(c(\"8500.50\", \"12400.00\"))\n#&gt; [1]  8500.5 12400.0\n\n\n\n\nData frames\n\nA dataset is vectors side by side\nA single vector holds one variable. Real data has many variables measured on the same people, and we need to keep them lined up: the third age must belong to the same person as the third income.\nThat is all a data frame is — a set of vectors of equal length, standing side by side as columns. Each column is one variable. Each row is one observation, usually one person.\nWe can build a small one by hand to see the structure. data.frame() takes named vectors and stacks them into columns:\n\npeople &lt;- data.frame(\n  name   = c(\"Ali\", \"Bea\", \"Cal\", \"Dee\", \"Eli\"),\n  age    = c(24, 38, 51, 29, 45),\n  educ   = c(\"High school\", \"University\", \"College\", \"University\", \"High school\"),\n  totinc = c(31000, 74000, 52500, 66000, 43000)\n)\n\npeople\n#&gt;   name age        educ totinc\n#&gt; 1  Ali  24 High school  31000\n#&gt; 2  Bea  38  University  74000\n#&gt; 3  Cal  51     College  52500\n#&gt; 4  Dee  29  University  66000\n#&gt; 5  Eli  45 High school  43000\n\nFive people, four variables. Notice that the columns have different types — name and educ are text, age and totinc are numeric — but within a column the type is the same, exactly as with a vector.\nEvery dataset you meet in this course has this shape. The Canadian Income Survey extract for your assignment is the same thing with more rows and more columns.\n\n\nColumns are vectors\nThe $ operator pulls one column out of a data frame, and what comes back is an ordinary vector:\n\npeople$totinc\n#&gt; [1] 31000 74000 52500 66000 43000\n\nThis is the connection worth holding on to. A data frame is not a new kind of thing to learn — it is a tidy arrangement of the vectors you already understand.\n\n\nPicking out elements\nSquare brackets select elements of a vector by position:\n\nincomes[1]\n#&gt; [1] 52000\nincomes[2:3]\n#&gt; [1] 61000 44500\n\nMore useful, you can select by condition:\n\nincomes &gt; 60000\n#&gt; [1] FALSE  TRUE FALSE  TRUE  TRUE\nincomes[incomes &gt; 60000]\n#&gt; [1]  61000  89000 120000\n\nThe first line returns a logical vector answering the question for each element; the second keeps only the elements where the answer was TRUE.\nBecause a column of a data frame is just a vector, the very same brackets work on it:\n\npeople$totinc[2]\n#&gt; [1] 74000\npeople$totinc[people$totinc &gt; 50000]\n#&gt; [1] 74000 52500 66000\n\nPicking out whole rows and columns of a data frame works a little differently, and we will do it with two much friendlier functions, filter() and select(), once the tidyverse is loaded.\n\n\n\nOther kinds of object\nVectors and data frames are the two you will use constantly, and between them they cover almost everything in this course.\nR does have other kinds of object, and a few of them will turn up later once we start running regressions. There is no need to learn them in advance — we will deal with each one when it appears and there is something useful to do with it.\n\n\nFunctions\nObjects hold your data. Functions are what you do to them. You call one by writing its name followed by parentheses, with the thing you want it to work on inside:\n\nsqrt(16)\n#&gt; [1] 4\nround(24.567, 1)\n#&gt; [1] 24.6\n\nYou have already used one: c() is a function that takes a set of values and returns a vector.\nThe things inside the parentheses are called arguments. Above, round() took two: the number to round, and how many decimal places to keep. Many arguments are optional and have sensible defaults — writing round(24.567) alone rounds to a whole number.\nFunctions that summarise data take a whole vector and return a single number:\n\nmean(incomes)\n#&gt; [1] 73300\nmedian(incomes)\n#&gt; [1] 61000\nlength(incomes)\n#&gt; [1] 5\n\n\n\n\n\n\n\nGetting help\n\n\n\nTyping ?round in the Console opens the help page for a function, which lists every argument it accepts. Help pages are dense, but scroll to the bottom: there are almost always worked examples.\n\n\n\nMissing values\nArguments matter more than they first appear. Real survey data is full of gaps, which R writes as NA, meaning “not available.” R refuses to guess what a missing value should be:\n\nincomes_missing &lt;- c(52000, 61000, NA, 89000, 120000)\nmean(incomes_missing)\n#&gt; [1] NA\n\nThe answer is NA, because the true mean genuinely is unknown. To average the values you do have, say so explicitly with an argument:\n\nmean(incomes_missing, na.rm = TRUE)\n#&gt; [1] 80500\n\n\n\n\n\n\n\nWarning\n\n\n\nGetting NA where you expected a number almost always means missing values in your data, not a mistake in your code. Check with sum(is.na(x)) to see how many there are before deciding what to do.\n\n\n\n\n\nPackages\nR comes with a great deal built in, but most of the convenient tools live in packages: bundles of extra functions that somebody has written and shared. There are thousands of them, and they are free.\nInstalling a package downloads it onto your computer. You do this once, in the Console:\n\ninstall.packages(\"packagename\")\n\nLoading a package makes its functions available for use. You do this every time you start a new session, at the top of your document:\n\nlibrary(packagename)\n\n\n\n\n\n\n\nNote\n\n\n\ninstall.packages() is like buying a book; library() is like taking it off the shelf. You buy once, but you take it off the shelf every time you sit down to work.\n\n\n\n\nBase R and the tidyverse\nEverything we have done so far — c(), class(), data.frame(), square brackets — is base R: the functions that come with R itself, no packages needed.\nBase R can do everything this course requires, but a lot of it is awkward. The tidyverse is a set of packages whose functions are built specifically for working with data, and they make the common jobs far easier to write and to read. Three of them do most of the work:\n\n\n\n\n\n\n\nPackage\nWhat its functions are for\n\n\n\n\nreadr\nGetting data from a file into R\n\n\ndplyr\nWorking with data once it is there: keeping certain rows, creating new variables, computing averages by group\n\n\nggplot2\nTurning data into graphs\n\n\n\nYou will meet all three in the sections that follow. They are built to a common design, so the habits you pick up with one carry over to the others, and they are meant to be chained together — the output of one function becomes the input of the next.\nThe convenient part is that you do not install them one at a time. Installing the tidyverse installs the whole set, and a single library() call loads them all.\nInstall it once:\n\ninstall.packages(\"tidyverse\")\n\nAnd load it now, since everything below depends on it:\n\nlibrary(tidyverse)\n\n\n\n\n\n\n\nTip\n\n\n\nWhen you search for help online you will find answers written in both styles, sometimes for the same question. Neither is wrong. Use whichever you understand, but expect the code in lectures and assignments to look like the tidyverse.",
+    "text": "R basics\nEverything you work with in R is an object: a named thing that holds something. A single income is an object. A column of 50,000 incomes is an object. A whole survey, a graph, the results of a regression — all objects. You give each one a name, and it appears in the Environment pane the moment you create it.\nWhat distinguishes one kind of object from another is what it holds and how much of it. The rest of this section introduces them in order of size, starting with the smallest.\n\nScalars and vectors\nR works by storing things in named objects. You create one with the assignment arrow &lt;-:\n\nincome &lt;- 52000\nincome\n#&gt; [1] 52000\n\nThe name goes on the left, the value on the right. An object holding a single value like this is called a scalar. Once it exists, you can compute with it:\n\ntaxrate &lt;- 0.15\nincome * taxrate\n#&gt; [1] 7800\n\nNames are case sensitive: income and Income are different objects. This is the single most common source of beginner errors.\nMost of the time you want more than one value. A vector holds several values of the same type, in order, and you build one with c(), which is short for “combine”:\n\nincomes &lt;- c(52000, 61000, 44500, 89000, 120000)\nincomes\n#&gt; [1]  52000  61000  44500  89000 120000\n\nVectors are the fundamental data structure in R. A variable in a dataset — everyone’s total income, everyone’s age — is a vector.\n\nVectors have a type\nEvery element of a vector must be the same type. The three you will meet constantly:\n\ntaxpaid &lt;- c(8500.50, 12400.00, 3150.25)   # numeric\nperson  &lt;- c(\"Ali\", \"Bea\", \"Cal\")          # character (text, in quotes)\nfiled   &lt;- c(TRUE, FALSE, TRUE)            # logical\n\nclass() tells you which you have:\n\nclass(taxpaid)\n#&gt; [1] \"numeric\"\nclass(person)\n#&gt; [1] \"character\"\nclass(filed)\n#&gt; [1] \"logical\"\n\nIf you mix types, R quietly converts everything to the most accommodating one rather than complaining:\n\nc(1, \"two\", 3)\n#&gt; [1] \"1\"   \"two\" \"3\"\n\nEverything became text — note the quotation marks. This is worth remembering, because a numeric variable that arrives as text will refuse to average, and this is usually why. When it happens, convert it deliberately with as.numeric():\n\nas.numeric(c(\"8500.50\", \"12400.00\"))\n#&gt; [1]  8500.5 12400.0\n\nas.numeric() also turns a logical vector into numbers, with TRUE becoming 1 and FALSE becoming 0. This is the usual way to make a dummy variable:\n\nfiled\n#&gt; [1]  TRUE FALSE  TRUE\nas.numeric(filed)\n#&gt; [1] 1 0 1\n\n\n\n\nData frames\n\nA dataset is vectors side by side\nA single vector holds one variable. Real data has many variables measured on the same people, and we need to keep them lined up: the third age must belong to the same person as the third income.\nThat is all a data frame is — a set of vectors of equal length, standing side by side as columns. Each column is one variable. Each row is one observation, usually one person.\nWe can build a small one by hand to see the structure. data.frame() takes named vectors and stacks them into columns:\n\npeople &lt;- data.frame(\n  name   = c(\"Ali\", \"Bea\", \"Cal\", \"Dee\", \"Eli\"),\n  age    = c(24, 38, 51, 29, 45),\n  educ   = c(\"High school\", \"University\", \"College\", \"University\", \"High school\"),\n  totinc = c(31000, 74000, 52500, 66000, 43000)\n)\n\npeople\n#&gt;   name age        educ totinc\n#&gt; 1  Ali  24 High school  31000\n#&gt; 2  Bea  38  University  74000\n#&gt; 3  Cal  51     College  52500\n#&gt; 4  Dee  29  University  66000\n#&gt; 5  Eli  45 High school  43000\n\nFive people, four variables. Notice that the columns have different types — name and educ are text, age and totinc are numeric — but within a column the type is the same, exactly as with a vector.\nEvery dataset you meet in this course has this shape. The data used later on this page, and the data in your assignments, are the same thing with more rows and more columns.\n\n\nColumns are vectors\nThe $ operator pulls one column out of a data frame, and what comes back is an ordinary vector:\n\npeople$totinc\n#&gt; [1] 31000 74000 52500 66000 43000\n\nThis is the connection worth holding on to. A data frame is not a new kind of thing to learn — it is a tidy arrangement of the vectors you already understand.\n\n\nPicking out elements\nSquare brackets select elements of a vector by position:\n\nincomes[1]\n#&gt; [1] 52000\nincomes[2:3]\n#&gt; [1] 61000 44500\n\nMore useful, you can select by condition:\n\nincomes &gt; 60000\n#&gt; [1] FALSE  TRUE FALSE  TRUE  TRUE\nincomes[incomes &gt; 60000]\n#&gt; [1]  61000  89000 120000\n\nThe first line returns a logical vector answering the question for each element; the second keeps only the elements where the answer was TRUE.\nThe other comparisons work the same way: &gt;= means greater than or equal to, &lt; and &lt;= are less than (or equal to), == is equal to, and != is not equal to:\n\nperson != \"Bea\"\n#&gt; [1]  TRUE FALSE  TRUE\n\nBecause a column of a data frame is just a vector, the very same brackets work on it:\n\npeople$totinc[2]\n#&gt; [1] 74000\npeople$totinc[people$totinc &gt; 50000]\n#&gt; [1] 74000 52500 66000\n\nPicking out whole rows and columns of a data frame works a little differently, and we will do it with two much friendlier functions, filter() and select(), once the tidyverse is loaded.\n\n\nDates\nDates have their own type. as.Date() turns text written as year-month-day into a date:\n\ndeadline &lt;- as.Date(\"2025-04-30\")\ndeadline\n#&gt; [1] \"2025-04-30\"\nclass(deadline)\n#&gt; [1] \"Date\"\n\nDates can be compared just like numbers, with later dates counting as larger. Which of these three tax returns were filed by the deadline?\n\nfiled_on &lt;- as.Date(c(\"2025-03-15\", \"2025-04-30\", \"2025-05-12\"))\nfiled_on &lt;= deadline\n#&gt; [1]  TRUE  TRUE FALSE\n\nWhen you read a data file, a column written as dates, such as 2025-04-30, usually arrives as a date already, so you can compare it with as.Date() straight away.\n\n\n\nOther kinds of object\nVectors and data frames are the two you will use constantly, and between them they cover almost everything in this course.\nR does have other kinds of object, and a few of them will turn up later once we start running regressions. There is no need to learn them in advance — we will deal with each one when it appears and there is something useful to do with it.\n\n\nFunctions\nObjects hold your data. Functions are what you do to them. You call one by writing its name followed by parentheses, with the thing you want it to work on inside:\n\nsqrt(16)\n#&gt; [1] 4\nround(24.567, 1)\n#&gt; [1] 24.6\n\nYou have already used one: c() is a function that takes a set of values and returns a vector.\nThe things inside the parentheses are called arguments. Above, round() took two: the number to round, and how many decimal places to keep. Many arguments are optional and have sensible defaults — writing round(24.567) alone rounds to a whole number.\nFunctions that summarise data take a whole vector and return a single number:\n\nmean(incomes)\n#&gt; [1] 73300\nmedian(incomes)\n#&gt; [1] 61000\nlength(incomes)\n#&gt; [1] 5\n\n\n\n\n\n\n\nGetting help\n\n\n\nTyping ?round in the Console opens the help page for a function, which lists every argument it accepts. Help pages are dense, but scroll to the bottom: there are almost always worked examples.\n\n\n\nMissing values\nArguments matter more than they first appear. Real survey data is full of gaps, which R writes as NA, meaning “not available.” R refuses to guess what a missing value should be:\n\nincomes_missing &lt;- c(52000, 61000, NA, 89000, 120000)\nmean(incomes_missing)\n#&gt; [1] NA\n\nThe answer is NA, because the true mean genuinely is unknown. To average the values you do have, say so explicitly with an argument:\n\nmean(incomes_missing, na.rm = TRUE)\n#&gt; [1] 80500\n\n\n\n\n\n\n\nWarning\n\n\n\nGetting NA where you expected a number almost always means missing values in your data, not a mistake in your code. Check with sum(is.na(x)) to see how many there are before deciding what to do.\n\n\n\n\n\nPackages\nR comes with a great deal built in, but most of the convenient tools live in packages: bundles of extra functions that somebody has written and shared. There are thousands of them, and they are free.\nInstalling a package downloads it onto your computer. You do this once, in the Console:\n\ninstall.packages(\"packagename\")\n\nLoading a package makes its functions available for use. You do this every time you start a new session, at the top of your document:\n\nlibrary(packagename)\n\n\n\n\n\n\n\nNote\n\n\n\ninstall.packages() is like buying a book; library() is like taking it off the shelf. You buy once, but you take it off the shelf every time you sit down to work.\n\n\n\n\nBase R and the tidyverse\nEverything we have done so far — c(), class(), data.frame(), square brackets — is base R: the functions that come with R itself, no packages needed.\nBase R can do everything this course requires, but a lot of it is awkward. The tidyverse is a set of packages whose functions are built specifically for working with data, and they make the common jobs far easier to write and to read. Three of them do most of the work:\n\n\n\n\n\n\n\nPackage\nWhat its functions are for\n\n\n\n\nreadr\nGetting data from a file into R\n\n\ndplyr\nWorking with data once it is there: keeping certain rows, creating new variables, computing averages by group\n\n\nggplot2\nTurning data into graphs\n\n\n\nYou will meet all three in the sections that follow. They are built to a common design, so the habits you pick up with one carry over to the others, and they are meant to be chained together — the output of one function becomes the input of the next.\nThe convenient part is that you do not install them one at a time. Installing the tidyverse installs the whole set, and a single library() call loads them all.\nInstall it once:\n\ninstall.packages(\"tidyverse\")\n\nAnd load it now, since everything below depends on it:\n\nlibrary(tidyverse)\n\n\n\n\n\n\n\nTip\n\n\n\nWhen you search for help online you will find answers written in both styles, sometimes for the same question. Neither is wrong. Use whichever you understand, but expect the code in lectures and assignments to look like the tidyverse.",
     "crumbs": [
       "Content",
       "Course content",
@@ -2644,7 +2676,7 @@
     "href": "content/introtor.html#manipulating-data",
     "title": "Introduction to R and Quarto",
     "section": "Manipulating data",
-    "text": "Manipulating data\nFive verbs cover most of what you will do. Each takes a data frame and returns a modified data frame.\n\nThe pipe\nBefore the verbs themselves, one piece of punctuation. You are about to see the symbol |&gt; everywhere. It is the pipe, and it takes the thing on its left and feeds it into the function on its right. These two lines do exactly the same thing:\n\nmean(incomes)\n#&gt; [1] 73300\nincomes |&gt; mean()\n#&gt; [1] 73300\n\nFor a single function the pipe is not worth the trouble. Its value is in what comes next: when several operations happen one after another, the pipe lets you read them left to right, in the order they actually happen, instead of from the inside out.\n\n\nfilter() — keep some rows\nHow many people in the sample paid no income tax at all?\n\ncis |&gt;\n  filter(inctax == 0) |&gt;\n  nrow()\n#&gt; [1] 16\n\nNote the double equals ==. A single = assigns; a double == tests for equality. Conditions can be combined with & (and) and | (or):\n\ncis |&gt;\n  filter(educ == \"University\" & age &lt; 30) |&gt;\n  nrow()\n#&gt; [1] 29\n\n\n\nselect() — keep some columns\n\ncis |&gt;\n  select(id, educ, totinc, inctax) |&gt;\n  head(3)\n#&gt; # A tibble: 3 × 4\n#&gt;      id educ       totinc inctax\n#&gt;   &lt;int&gt; &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;\n#&gt; 1     1 College     37930   3385\n#&gt; 2     2 College     52173   6223\n#&gt; 3     3 University 119541  28414\n\n\n\nmutate() — create variables\nThe average tax rate — tax paid as a share of income — is the workhorse variable of tax analysis, and it is not in the data. Create it:\n\ncis &lt;- cis |&gt;\n  mutate(atr = inctax / totinc)\n\n\n\nsummarise() — boil the data down\nsummarise() collapses a whole dataset into a single row of summary numbers. You name each thing you want, and say how to calculate it:\n\ncis |&gt;\n  summarise(\n    n        = n(),\n    mean_inc = mean(totinc),\n    mean_atr = mean(atr)\n  )\n#&gt; # A tibble: 1 × 3\n#&gt;       n mean_inc mean_atr\n#&gt;   &lt;int&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n#&gt; 1   500   71464.    0.145\n\nThree numbers describing all 500 people: how many there are, their average income, and the average share of income they pay in tax. n() is a special helper that counts rows.\nNote what happened to the shape of things. filter(), select() and mutate() all handed back a dataset with one row per person. summarise() hands back one row, full stop — the people are gone, and what remains is a description of them.\n\n\ngroup_by() — do it separately for each group\nA single average for everyone is rarely what you want. The interesting question is almost always comparative: do incomes and tax rates differ by education, by sex, by province?\ngroup_by() answers that. On its own it changes nothing you can see — it simply marks the dataset as divided into groups. The work happens when summarise() runs afterwards, because it now produces one row per group rather than one row overall:\n\ncis |&gt;\n  group_by(educ) |&gt;\n  summarise(\n    n        = n(),\n    mean_inc = mean(totinc),\n    mean_atr = mean(atr)\n  )\n#&gt; # A tibble: 4 × 4\n#&gt;   educ             n mean_inc mean_atr\n#&gt;   &lt;chr&gt;        &lt;int&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n#&gt; 1 College        146   73019.    0.146\n#&gt; 2 High school    169   63371.    0.133\n#&gt; 3 Less than HS    42   49473.    0.107\n#&gt; 4 University     143   85901.    0.168\n\nThat is the identical summarise() call as before, with one line added above it — and the result is already a public finance finding: income rises with education, and the average tax rate rises with it. People with higher incomes pay a larger share of their income in tax, which is what it means for an income tax to be progressive.\nGroup by something else and you ask a different question. Here is the raw gender income gap:\n\ncis |&gt;\n  group_by(female) |&gt;\n  summarise(mean_inc = mean(totinc), n = n())\n#&gt; # A tibble: 2 × 3\n#&gt;   female mean_inc     n\n#&gt;    &lt;int&gt;    &lt;dbl&gt; &lt;int&gt;\n#&gt; 1      0   76930.   249\n#&gt; 2      1   66042.   251\n\nThis pairing is the workhorse of applied work. Most tables you will ever produce are some version of “group by one thing, summarise another.”\n\n\n\n\n\n\nOrdering categories\n\n\n\nNotice that education came out alphabetically, which is not the natural order. To fix that, make it a factor with the levels you want:\n\ncis &lt;- cis |&gt;\n  mutate(educ = factor(\n    educ,\n    levels = c(\"Less than HS\", \"High school\", \"College\", \"University\")\n  ))\n\ncount(cis, educ)\n#&gt; # A tibble: 4 × 2\n#&gt;   educ             n\n#&gt;   &lt;fct&gt;        &lt;int&gt;\n#&gt; 1 Less than HS    42\n#&gt; 2 High school    169\n#&gt; 3 College        146\n#&gt; 4 University     143",
+    "text": "Manipulating data\nFive verbs cover most of what you will do. Each takes a data frame and returns a modified data frame.\n\nThe pipe\nBefore the verbs themselves, one piece of punctuation. You are about to see the symbol |&gt; everywhere. It is the pipe, and it takes the thing on its left and feeds it into the function on its right. These two lines do exactly the same thing:\n\nmean(incomes)\n#&gt; [1] 73300\nincomes |&gt; mean()\n#&gt; [1] 73300\n\nFor a single function the pipe is not worth the trouble. Its value is in what comes next: when several operations happen one after another, the pipe lets you read them left to right, in the order they actually happen, instead of from the inside out.\n\n\nfilter() — keep some rows\nHow many people in the sample paid no income tax at all?\n\ncis |&gt;\n  filter(inctax == 0) |&gt;\n  nrow()\n#&gt; [1] 16\n\nNote the double equals ==. A single = assigns; a double == tests for equality. Conditions can be combined with & (and) and | (or):\n\ncis |&gt;\n  filter(educ == \"University\" & age &lt; 30) |&gt;\n  nrow()\n#&gt; [1] 29\n\n| keeps a row if either condition holds. To count everyone with a college or university education:\n\ncis |&gt;\n  filter(educ == \"College\" | educ == \"University\") |&gt;\n  nrow()\n#&gt; [1] 289\n\nWriting & here would be a mistake: nobody’s education is both college and university, so it would keep no one.\n\n\nselect() — keep some columns\n\ncis |&gt;\n  select(id, educ, totinc, inctax) |&gt;\n  head(3)\n#&gt; # A tibble: 3 × 4\n#&gt;      id educ       totinc inctax\n#&gt;   &lt;int&gt; &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;\n#&gt; 1     1 College     37930   3385\n#&gt; 2     2 College     52173   6223\n#&gt; 3     3 University 119541  28414\n\n\n\nmutate() — create variables\nThe average tax rate — tax paid as a share of income — is the workhorse variable of tax analysis, and it is not in the data. Create it:\n\ncis &lt;- cis |&gt;\n  mutate(atr = inctax / totinc)\n\nNotice that the result is saved back into cis with cis &lt;- cis |&gt;. Without that, R shows you the new variable but does not keep it.\nif_else() creates a variable that takes one value where a condition is true and another where it is false. It takes three arguments: the condition, the value where it is TRUE, and the value where it is FALSE. Either value can be a calculation. One mutate() can create several variables, and a variable created on one line can be used on the lines below it. Here is an imaginary tax credit worth 5% of income for people under 30 with incomes below $40,000:\n\ncis &lt;- cis |&gt;\n  mutate(\n    young  = as.numeric(age &lt; 30),\n    credit = if_else(young == 1 & totinc &lt; 40000, 0.05 * totinc, 0)\n  )\n\ncis |&gt;\n  select(age, totinc, young, credit) |&gt;\n  head(5)\n#&gt; # A tibble: 5 × 4\n#&gt;     age totinc young credit\n#&gt;   &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;\n#&gt; 1    28  37930     1  1896.\n#&gt; 2    41  52173     0     0 \n#&gt; 3    52 119541     0     0 \n#&gt; 4    42  78953     0     0 \n#&gt; 5    39  37549     0     0\n\n\n\nsummarise() — boil the data down\nsummarise() collapses a whole dataset into a single row of summary numbers. You name each thing you want, and say how to calculate it:\n\ncis |&gt;\n  summarise(\n    n        = n(),\n    mean_inc = mean(totinc),\n    mean_atr = mean(atr)\n  )\n#&gt; # A tibble: 1 × 3\n#&gt;       n mean_inc mean_atr\n#&gt;   &lt;int&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n#&gt; 1   500   71464.    0.145\n\nThree numbers describing all 500 people: how many there are, their average income, and the average share of income they pay in tax. n() is a special helper that counts rows.\nNote what happened to the shape of things. filter(), select() and mutate() all handed back a dataset with one row per person. summarise() hands back one row, full stop — the people are gone, and what remains is a description of them.\n\n\ngroup_by() — do it separately for each group\nA single average for everyone is rarely what you want. The interesting question is almost always comparative: do incomes and tax rates differ by education, by sex, by province?\ngroup_by() answers that. On its own it changes nothing you can see — it simply marks the dataset as divided into groups. The work happens when summarise() runs afterwards, because it now produces one row per group rather than one row overall:\n\ncis |&gt;\n  group_by(educ) |&gt;\n  summarise(\n    n        = n(),\n    mean_inc = mean(totinc),\n    mean_atr = mean(atr)\n  )\n#&gt; # A tibble: 4 × 4\n#&gt;   educ             n mean_inc mean_atr\n#&gt;   &lt;chr&gt;        &lt;int&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n#&gt; 1 College        146   73019.    0.146\n#&gt; 2 High school    169   63371.    0.133\n#&gt; 3 Less than HS    42   49473.    0.107\n#&gt; 4 University     143   85901.    0.168\n\nThat is the identical summarise() call as before, with one line added above it — and the result is already a public finance finding: income rises with education, and the average tax rate rises with it. People with higher incomes pay a larger share of their income in tax, which is what it means for an income tax to be progressive.\nGroup by something else and you ask a different question. Here is the raw gender income gap:\n\ncis |&gt;\n  group_by(female) |&gt;\n  summarise(mean_inc = mean(totinc), n = n())\n#&gt; # A tibble: 2 × 3\n#&gt;   female mean_inc     n\n#&gt;    &lt;int&gt;    &lt;dbl&gt; &lt;int&gt;\n#&gt; 1      0   76930.   249\n#&gt; 2      1   66042.   251\n\nThis pairing is the workhorse of applied work. Most tables you will ever produce are some version of “group by one thing, summarise another.”\nSquare brackets work inside summarise() too. There they pick out the values in the rows that meet a condition, within each group. This calculates the gender income gap separately for each level of education, along with the highest income in each:\n\ncis |&gt;\n  group_by(educ) |&gt;\n  summarise(\n    gap     = mean(totinc[female == 0]) - mean(totinc[female == 1]),\n    max_inc = max(totinc)\n  )\n#&gt; # A tibble: 4 × 3\n#&gt;   educ            gap max_inc\n#&gt;   &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;\n#&gt; 1 College       5473.  476675\n#&gt; 2 High school   3303.  287822\n#&gt; 3 Less than HS 20024.  118725\n#&gt; 4 University   20497.  262474\n\ngap is the average income of men minus the average income of women, and max() gives the largest value.\n\n\n\n\n\n\nOrdering categories\n\n\n\nNotice that education came out alphabetically, which is not the natural order. To fix that, make it a factor with the levels you want:\n\ncis &lt;- cis |&gt;\n  mutate(educ = factor(\n    educ,\n    levels = c(\"Less than HS\", \"High school\", \"College\", \"University\")\n  ))\n\ncount(cis, educ)\n#&gt; # A tibble: 4 × 2\n#&gt;   educ             n\n#&gt;   &lt;fct&gt;        &lt;int&gt;\n#&gt; 1 Less than HS    42\n#&gt; 2 High school    169\n#&gt; 3 College        146\n#&gt; 4 University     143",
     "crumbs": [
       "Content",
       "Course content",
@@ -2656,7 +2688,7 @@
     "href": "content/introtor.html#graphs",
     "title": "Introduction to R and Quarto",
     "section": "Graphs",
-    "text": "Graphs\nGraphs in R are built with ggplot2, loaded as part of the tidyverse. Every plot has the same three ingredients: the data, a mapping from variables to visual properties (aes), and a geometry (geom_) saying what to draw.\n\nggplot(cis, aes(x = totinc)) +\n  geom_histogram(bins = 30) +\n  labs(x = \"Total income ($)\", y = \"Number of people\")\n\n\n\n\n\n\n\nFigure 2: Distribution of total income\n\n\n\n\n\nThe long right tail — most people bunched at moderate incomes, a few far out to the right — is characteristic of income data, and you will see it in every income survey you ever open.\nNote that ggplot layers are joined with +, not the pipe. This is an historical quirk and a common source of confusion.\nMapping a variable to colour or to the x axis of a boxplot lets you compare groups:\n\nggplot(cis, aes(x = educ, y = atr)) +\n  geom_boxplot() +\n  labs(x = NULL, y = \"Average tax rate\")\n\n\n\n\n\n\n\nFigure 3: Average tax rates by education level\n\n\n\n\n\nAnd a scatterplot shows how two continuous variables move together. Adding geom_smooth(method = \"lm\") draws the regression line through the points:\n\nggplot(cis, aes(x = totinc, y = inctax)) +\n  geom_point(alpha = 0.3) +\n  geom_smooth(method = \"lm\") +\n  labs(x = \"Total income ($)\", y = \"Income tax paid ($)\")\n\n\n\n\n\n\n\nFigure 4: Income tax paid against total income\n\n\n\n\n\nThe upward slope is the tax schedule at work: more income, more tax. With this many points the cloud is dense, which is normal for survey microdata. The line is what carries the message.\n\n\n\n\n\n\nAssignment graphs need labels\n\n\n\nDefault axis labels are variable names, which are not acceptable in submitted work. Always set labs() with readable labels and units.",
+    "text": "Graphs\nGraphs in R are built with ggplot2, loaded as part of the tidyverse. Every plot has the same three ingredients: the data, a mapping from variables to visual properties (aes), and a geometry (geom_) saying what to draw.\n\nggplot(cis, aes(x = totinc)) +\n  geom_histogram(bins = 30) +\n  labs(x = \"Total income ($)\", y = \"Number of people\")\n\n\n\n\n\n\n\nFigure 2: Distribution of total income\n\n\n\n\n\nThe long right tail — most people bunched at moderate incomes, a few far out to the right — is characteristic of income data, and you will see it in every income survey you ever open.\nNote that ggplot layers are joined with +, not the pipe. This is an historical quirk and a common source of confusion.\nMapping a variable to colour or to the x axis of a boxplot lets you compare groups:\n\nggplot(cis, aes(x = educ, y = atr)) +\n  geom_boxplot() +\n  labs(x = NULL, y = \"Average tax rate\")\n\n\n\n\n\n\n\nFigure 3: Average tax rates by education level\n\n\n\n\n\nAnd a scatterplot shows how two continuous variables move together. Adding geom_smooth(method = \"lm\") draws the regression line through the points:\n\nggplot(cis, aes(x = totinc, y = inctax)) +\n  geom_point(alpha = 0.3) +\n  geom_smooth(method = \"lm\") +\n  labs(x = \"Total income ($)\", y = \"Income tax paid ($)\")\n\n\n\n\n\n\n\nFigure 4: Income tax paid against total income\n\n\n\n\n\nThe upward slope is the tax schedule at work: more income, more tax. With this many points the cloud is dense, which is normal for survey microdata. The line is what carries the message.\n\nLine graphs and groups\nA line graph joins points from left to right, which suits something that changes along the horizontal axis, such as time. To draw a separate line for each group, map the group to colour inside aes(). First, calculate average income by years of schooling, separately for men and women:\n\ninc_school &lt;- cis |&gt;\n  group_by(yrschool, female) |&gt;\n  summarise(mean_inc = mean(totinc))\n\nThen draw one line for each:\n\nggplot(inc_school, aes(x = yrschool, y = mean_inc, colour = factor(female))) +\n  geom_line() +\n  geom_vline(xintercept = 12, linetype = \"dashed\") +\n  scale_colour_discrete(labels = c(\"Men\", \"Women\")) +\n  labs(x = \"Years of schooling\", y = \"Average income ($)\", colour = NULL)\n\n\n\n\n\n\n\nFigure 5: Average income by years of schooling\n\n\n\n\n\nThree things to notice:\n\ncolour = factor(female) draws one line for each group, in its own colour. factor() matters: female is a number, 0 or 1, and without factor() R treats it as a quantity rather than as two groups, and draws a single line.\ngeom_vline() draws a vertical line where xintercept says, here at 12 years of schooling, the end of high school. When the horizontal axis holds dates, give xintercept a date, such as as.Date(\"2025-04-30\").\nscale_colour_discrete(labels = ...) replaces the 0 and 1 in the legend with words, in the same order. In labs(), colour = NULL removes the legend’s title.\n\n\n\n\n\n\n\nAssignment graphs need labels\n\n\n\nDefault axis labels are variable names, which are not acceptable in submitted work. Always set labs() with readable labels and units.",
     "crumbs": [
       "Content",
       "Course content",
@@ -2668,7 +2700,7 @@
     "href": "content/introtor.html#regression",
     "title": "Introduction to R and Quarto",
     "section": "Regression",
-    "text": "Regression\nLinear regression uses lm(), with a formula written outcome ~ predictor1 + predictor2:\n\nmodel1 &lt;- lm(inctax ~ totinc, data = cis)\nsummary(model1)\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = inctax ~ totinc, data = cis)\n#&gt; \n#&gt; Residuals:\n#&gt;    Min     1Q Median     3Q    Max \n#&gt;  -7731  -1683   -219   1768  37973 \n#&gt; \n#&gt; Coefficients:\n#&gt;               Estimate Std. Error t value Pr(&gt;|t|)    \n#&gt; (Intercept) -1.074e+04  2.753e+02  -39.01   &lt;2e-16 ***\n#&gt; totinc       3.367e-01  3.241e-03  103.92   &lt;2e-16 ***\n#&gt; ---\n#&gt; Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n#&gt; \n#&gt; Residual standard error: 3330 on 498 degrees of freedom\n#&gt; Multiple R-squared:  0.9559, Adjusted R-squared:  0.9558 \n#&gt; F-statistic: 1.08e+04 on 1 and 498 DF,  p-value: &lt; 2.2e-16\n\nThat is a lot of output, but only a few parts matter:\n\nEstimate — the coefficient. Here it says that an extra dollar of income raises tax paid by about 34 cents on average — an estimate of the effective marginal tax rate in this sample.\nStd. Error — how precisely the coefficient is estimated.\nPr(&gt;|t|) — the p-value for the test that the coefficient is zero. Small means the estimate is distinguishable from no effect.\nMultiple R-squared — the share of the variation in tax paid the model explains.\n\nA second regression asks a different question: is the tax system progressive? If the average tax rate rises with income, it is — that is essentially the definition:\n\ncis &lt;- cis |&gt;\n  mutate(lntotinc = log(totinc))\n\nmodel2 &lt;- lm(atr ~ lntotinc, data = cis)\n\nThe positive coefficient on log income confirms that people with higher incomes pay a larger share of their income in tax.\n\nCategorical predictors\nYou can put a categorical variable straight into a regression, and R creates the dummy variables for you:\n\nmodel3 &lt;- lm(atr ~ educ, data = cis)\ncoef(model3)\n#&gt;     (Intercept) educHigh school     educCollege  educUniversity \n#&gt;      0.10693646      0.02649943      0.03885500      0.06067432\n\nNotice there are only three coefficients for four education categories. R leaves one out — here “Less than HS” — as the base group, and every other coefficient says how that group compares to it. There is no way to include all four; the base group is what the others are measured against.\ncoef() was used above to show just the coefficients. It returns a named vector, which is the same kind of object from the start of this page.\nTo compare against a different group, change which level comes first:\n\ncis_hs &lt;- mutate(cis, educ = relevel(educ, ref = \"High school\"))\nmodel4 &lt;- lm(atr ~ educ, data = cis_hs)\ncoef(model4)\n#&gt;      (Intercept) educLess than HS      educCollege   educUniversity \n#&gt;       0.13343589      -0.02649943       0.01235557       0.03417489\n\nNow everything is relative to high school graduates, and the “Less than HS” coefficient is negative, as you would expect from a progressive tax paired with lower incomes.\n\n\nPresenting results\nConsole output is not acceptable in submitted work. Use modelsummary to produce a proper table:\n\nlibrary(modelsummary)\n\nmodelsummary(\n  list(\"Tax schedule\" = model1, \"Progressivity\" = model2),\n  stars = TRUE\n)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                 \n                Tax schedule\n                Progressivity\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  -10739.049***\n                  -1.181***\n                \n                \n                  \n                  (275.327)\n                  (0.014)\n                \n                \n                  totinc\n                  0.337***\n                  \n                \n                \n                  \n                  (0.003)\n                  \n                \n                \n                  lntotinc\n                  \n                  0.120***\n                \n                \n                  \n                  \n                  (0.001)\n                \n                \n                  Num.Obs.\n                  500\n                  500\n                \n                \n                  R2\n                  0.956\n                  0.946\n                \n                \n                  R2 Adj.\n                  0.956\n                  0.946\n                \n                \n                  AIC\n                  9533.6\n                  -2657.9\n                \n                \n                  BIC\n                  9546.2\n                  -2645.2\n                \n                \n                  Log.Lik.\n                  -4763.794\n                  1331.933\n                \n                \n                  F\n                  10798.571\n                  8728.105\n                \n                \n                  RMSE\n                  3323.09\n                  0.02\n                \n        \n      \n    \n\n\n\nThis is the format your assignments should use.",
+    "text": "Regression\nLinear regression uses lm(), with a formula written outcome ~ predictor1 + predictor2:\n\nmodel1 &lt;- lm(inctax ~ totinc, data = cis)\nsummary(model1)\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = inctax ~ totinc, data = cis)\n#&gt; \n#&gt; Residuals:\n#&gt;    Min     1Q Median     3Q    Max \n#&gt;  -7731  -1683   -219   1768  37973 \n#&gt; \n#&gt; Coefficients:\n#&gt;               Estimate Std. Error t value Pr(&gt;|t|)    \n#&gt; (Intercept) -1.074e+04  2.753e+02  -39.01   &lt;2e-16 ***\n#&gt; totinc       3.367e-01  3.241e-03  103.92   &lt;2e-16 ***\n#&gt; ---\n#&gt; Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n#&gt; \n#&gt; Residual standard error: 3330 on 498 degrees of freedom\n#&gt; Multiple R-squared:  0.9559, Adjusted R-squared:  0.9558 \n#&gt; F-statistic: 1.08e+04 on 1 and 498 DF,  p-value: &lt; 2.2e-16\n\nThat is a lot of output, but only a few parts matter:\n\nEstimate — the coefficient. Here it says that an extra dollar of income raises tax paid by about 34 cents on average — an estimate of the effective marginal tax rate in this sample.\nStd. Error — how precisely the coefficient is estimated.\nPr(&gt;|t|) — the p-value for the test that the coefficient is zero. Small means the estimate is distinguishable from no effect.\nMultiple R-squared — the share of the variation in tax paid the model explains.\n\nA second regression asks a different question: is the tax system progressive? If the average tax rate rises with income, it is — that is essentially the definition:\n\ncis &lt;- cis |&gt;\n  mutate(lntotinc = log(totinc))\n\nmodel2 &lt;- lm(atr ~ lntotinc, data = cis)\n\nThe positive coefficient on log income confirms that people with higher incomes pay a larger share of their income in tax.\n\nCategorical predictors\nYou can put a categorical variable straight into a regression, and R creates the dummy variables for you:\n\nmodel3 &lt;- lm(atr ~ educ, data = cis)\ncoef(model3)\n#&gt;     (Intercept) educHigh school     educCollege  educUniversity \n#&gt;      0.10693646      0.02649943      0.03885500      0.06067432\n\nNotice there are only three coefficients for four education categories. R leaves one out — here “Less than HS” — as the base group, and every other coefficient says how that group compares to it. There is no way to include all four; the base group is what the others are measured against.\ncoef() was used above to show just the coefficients. It returns a named vector, which is the same kind of object from the start of this page. To keep just one coefficient, put its name in square brackets. This stores the marginal tax rate from the first regression as a single number you can calculate with:\n\nmtr &lt;- coef(model1)[\"totinc\"]\nmtr\n#&gt;    totinc \n#&gt; 0.3367429\n\nTo compare against a different group, change which level comes first:\n\ncis_hs &lt;- mutate(cis, educ = relevel(educ, ref = \"High school\"))\nmodel4 &lt;- lm(atr ~ educ, data = cis_hs)\ncoef(model4)\n#&gt;      (Intercept) educLess than HS      educCollege   educUniversity \n#&gt;       0.13343589      -0.02649943       0.01235557       0.03417489\n\nNow everything is relative to high school graduates, and the “Less than HS” coefficient is negative, as you would expect from a progressive tax paired with lower incomes.\n\n\nPresenting results\nConsole output is not acceptable in submitted work. Use modelsummary to produce a proper table:\n\nlibrary(modelsummary)\n\nmodelsummary(\n  list(\"Tax schedule\" = model1, \"Progressivity\" = model2),\n  stars = TRUE\n)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                 \n                Tax schedule\n                Progressivity\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  -10739.049***\n                  -1.181***\n                \n                \n                  \n                  (275.327)\n                  (0.014)\n                \n                \n                  totinc\n                  0.337***\n                  \n                \n                \n                  \n                  (0.003)\n                  \n                \n                \n                  lntotinc\n                  \n                  0.120***\n                \n                \n                  \n                  \n                  (0.001)\n                \n                \n                  Num.Obs.\n                  500\n                  500\n                \n                \n                  R2\n                  0.956\n                  0.946\n                \n                \n                  R2 Adj.\n                  0.956\n                  0.946\n                \n                \n                  AIC\n                  9533.6\n                  -2657.9\n                \n                \n                  BIC\n                  9546.2\n                  -2645.2\n                \n                \n                  Log.Lik.\n                  -4763.794\n                  1331.933\n                \n                \n                  F\n                  10798.571\n                  8728.105\n                \n                \n                  RMSE\n                  3323.09\n                  0.02\n                \n        \n      \n    \n\n\n\nThis is the format your assignments should use.\nTwo arguments help when a regression has many dummy variables. coef_omit leaves out every coefficient whose name contains the text you give it, and gof_map chooses which statistics appear at the bottom. Here the education dummies are left out:\n\nmodel5 &lt;- lm(atr ~ lntotinc + educ, data = cis)\n\nmodelsummary(\n  list(\"Without education\" = model2, \"With education\" = model5),\n  coef_omit = \"educ\", gof_map = c(\"nobs\", \"r.squared\")\n)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                 \n                Without education\n                With education\n              \n        \n        \n        \n                \n                  (Intercept)\n                  -1.181\n                  -1.182\n                \n                \n                  \n                  (0.014)\n                  (0.014)\n                \n                \n                  lntotinc\n                  0.120\n                  0.121\n                \n                \n                  \n                  (0.001)\n                  (0.001)\n                \n                \n                  Num.Obs.\n                  500\n                  500\n                \n                \n                  R2\n                  0.946\n                  0.946\n                \n        \n      \n    \n\n\n\nTo leave out more than one kind of coefficient, separate them with |, as in coef_omit = \"educ|female\".\n\n\nTables of data\nmodelsummary() is for regressions. For tables of data, the same package has two more functions.\ndatasummary_df() turns a data frame, such as one you have made with summarise(), into a table. fmt sets the number of decimal places:\n\ncis |&gt;\n  group_by(educ) |&gt;\n  summarise(mean_inc = mean(totinc), mean_atr = mean(atr)) |&gt;\n  datasummary_df(fmt = 2)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                educ\n                mean_inc\n                mean_atr\n              \n        \n        \n        \n                \n                  Less than HS\n                  49472.57\n                  0.11\n                \n                \n                  High school\n                  63371.10\n                  0.13\n                \n                \n                  College\n                  73019.02\n                  0.15\n                \n                \n                  University\n                  85901.06\n                  0.17\n                \n        \n      \n    \n\n\n\ndatasummary() builds a table from a formula, rows ~ columns. Here each level of education is a row, and the column is the mean of totinc:\n\ndatasummary(educ ~ totinc * Mean, data = cis, fmt = 0)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                educ\n                Mean\n              \n        \n        \n        \n                \n                  Less than HS\n                  49473\n                \n                \n                  High school\n                  63371\n                \n                \n                  College\n                  73019\n                \n                \n                  University\n                  85901\n                \n        \n      \n    \n\n\n\nThe column is headed “Mean”, which is not very informative. Heading() replaces the heading of whatever comes after it:\n\ndatasummary(educ ~ totinc * Heading(\"Average income ($)\") * Mean,\n            data = cis, fmt = 0)\n\n\n\n    \n\n    \n\n    \n    \n    \n      \n        \n        \n              \n                educ\n                Average income ($)\n              \n        \n        \n        \n                \n                  Less than HS\n                  49473\n                \n                \n                  High school\n                  63371\n                \n                \n                  College\n                  73019\n                \n                \n                  University\n                  85901\n                \n        \n      \n    \n\n\n\nGive datasummary() its data with data =, as above. Its first argument is the formula, so piping a data frame into it does not work.",
     "crumbs": [
       "Content",
       "Course content",
@@ -2752,36 +2784,21 @@
     "href": "content/personaltax.html",
     "title": "The Personal Income Tax",
     "section": "",
-    "text": "RTTWS Chapter 17",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "The Personal Income Tax"
-    ]
+    "text": "RTTWS Chapter 17"
   },
   {
     "objectID": "content/personaltax.html#readings",
     "href": "content/personaltax.html#readings",
     "title": "The Personal Income Tax",
     "section": "",
-    "text": "RTTWS Chapter 17",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "The Personal Income Tax"
-    ]
+    "text": "RTTWS Chapter 17"
   },
   {
     "objectID": "content/personaltax.html#slides",
     "href": "content/personaltax.html#slides",
     "title": "The Personal Income Tax",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "The Personal Income Tax"
-    ]
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
   },
   {
     "objectID": "index.html",
@@ -3155,8 +3172,8 @@
     "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.\nBazel, Philip. Marginal Effective Tax Rates for Working Families in Canada. Fraser Institute, 2024.\nHansen, Jeff, and Devan Mescall, and Graham Purse. “Policy Forum: The Effects of Indexation and Inflation on Tax System Design.” Canadian Tax Journal 71, no. 2 (2023): 398-404."
   },
   {
-    "objectID": "slides/efficiency/index.html#goals-of-this-section",
-    "href": "slides/efficiency/index.html#goals-of-this-section",
+    "objectID": "slides/efficiency/index.html#goals-of-this-section-1",
+    "href": "slides/efficiency/index.html#goals-of-this-section-1",
     "title": "EC313 - Taxation",
     "section": "Goals of This Section",
     "text": "Goals of This Section\nIn this section we will:\n\nDiscuss the effects of price changes on consumer behaviour\nIntroduce the concept of excess burden of a tax\nShow how to measure excess burden using indifference curves\nShow how to measure excess burden using demand/supply curves\nShow equivalent interpretation with elasticities\nDiscuss factors that affect excess burden"
@@ -3204,6 +3221,13 @@
     "text": "Ad Valorem Tax on Consumers\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nDifference is\n\n\\[C^{'} - C_{2} = \\frac{P_{B}t}{P_{C}}B_2\\]\n\nMeasures the tax paid, in units of corn\nTo measure in dollar terms\n\n\\[P_{C}(C^{'} - C_{2}) = tP_{B}B_2\\]\n\nThis is the tax rate times the value of barley consumed"
   },
   {
+    "objectID": "slides/efficiency/index.html#measuring-the-welfare-loss",
+    "href": "slides/efficiency/index.html#measuring-the-welfare-loss",
+    "title": "EC313 - Taxation",
+    "section": "Measuring the Welfare Loss",
+    "text": "Measuring the Welfare Loss\n\nThe tax moves the consumer from indifference curve \\(U_0\\) down to \\(U_1\\)\n\nUtility has no units, so we need a way to put this loss in dollars\n\nIdea: find a loss of income that hurts the consumer exactly as much as the tax\n\n\n\n\n\n\n\nKey Definition\n\n\nThe equivalent variation (EV) is the amount of income we would have to take away, at the original prices, to leave the consumer exactly as well off as they are under the tax.\n\n\n\n\nThe consumer is indifferent between facing the tax and losing the EV from their income\n\nSo the EV is the dollar value of the welfare loss from the tax\n\nPrices stay at their original levels, so this is a pure income loss with no distortion\nComparing the EV with the tax revenue tells us whether the tax costs the consumer more than it raises"
+  },
+  {
     "objectID": "slides/efficiency/index.html#equivalent-variation",
     "href": "slides/efficiency/index.html#equivalent-variation",
     "title": "EC313 - Taxation",
@@ -3225,6 +3249,20 @@
     "text": "Excess Burden\n\nAn ad valorem tax on one good creates two effects\n\nIncome effect: consumer is poorer, so consumes less of all normal goods\nSubstitution effect: relative price of taxed good rises, so consumer substitutes away from taxed good\n\nExcess burden arises because of the substitution effect\n\nConsumer substitutes away from taxed good to other goods\nThis leads to a loss in welfare beyond the tax revenue collected"
   },
   {
+    "objectID": "slides/efficiency/index.html#why-is-tax-revenue-less-than-the-welfare-loss",
+    "href": "slides/efficiency/index.html#why-is-tax-revenue-less-than-the-welfare-loss",
+    "title": "EC313 - Taxation",
+    "section": "Why Is Tax Revenue Less Than the Welfare Loss?",
+    "text": "Why Is Tax Revenue Less Than the Welfare Loss?\n\nSubstituting away from barley lets the consumer avoid part of the tax\n\nTax is only collected on the barley they still buy: revenue is \\(tP_B B_2\\)\nThe more they substitute, the less revenue the government collects\n\nBut avoiding the tax is not free\n\nThe consumer ends up with a bundle they would not choose if the same money were taken without changing prices\nThat lowers their welfare, but brings in no revenue\n\nSo the welfare loss (the equivalent variation) is larger than the revenue\n\nThe gap is the excess burden"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#lump-sum-tax-with-the-same-revenue",
+    "href": "slides/efficiency/index.html#lump-sum-tax-with-the-same-revenue",
+    "title": "EC313 - Taxation",
+    "section": "Lump-Sum Tax with the Same Revenue",
+    "text": "Lump-Sum Tax with the Same Revenue\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nInstead of the ad valorem tax, take a lump sum \\(T\\) equal to its revenue: \\(T = tP_B B_2\\)\nThe new budget line is parallel to the original and passes through \\((B_2, C_2)\\)\n\nThe consumer could still buy the ad valorem bundle\n\nBut at the original prices they can do better\n\nThey move to \\((B_L, C_L)\\) on a higher indifference curve, \\(U_L\\)\n\nSame revenue, but the consumer is better off\n\nTaking a further amount equal to the excess burden would bring them back down to \\(U_1\\)"
+  },
+  {
     "objectID": "slides/efficiency/index.html#lump-sum-tax",
     "href": "slides/efficiency/index.html#lump-sum-tax",
     "title": "EC313 - Taxation",
@@ -3239,11 +3277,11 @@
     "text": "Lump-Sum Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nTax revenue is \\(T\\)\n\nDoes not depend on how much of each good is consumed\n\nEquivalent variation is also \\(T\\)\n\nDistance between original and new budget lines is \\(T\\)\n\nSo there is no excess burden\n\nWelfare loss equals tax revenue collected\n\nArises because a lump-sum tax has only an income effect\n\nNo substitution effect, so no excess burden"
   },
   {
-    "objectID": "slides/efficiency/index.html#section",
-    "href": "slides/efficiency/index.html#section",
+    "objectID": "slides/efficiency/index.html#iclicker-question",
+    "href": "slides/efficiency/index.html#iclicker-question",
     "title": "EC313 - Taxation",
-    "section": "",
-    "text": "Think About It\nA lump-sum tax raises the same revenue as an ad valorem tax with no excess burden. If lump-sum taxes are more efficient, why do you think governments almost never use them? What trade-offs might policymakers face when choosing between efficiency and other goals of taxation?"
+    "section": "iClicker Question",
+    "text": "iClicker Question\nHouseholds are identical. A province can raise $500 per household either with a sales tax on restaurant meals or with a flat $500 charge that every household pays no matter what it buys. Judged only by households’ own well-being, how do the two compare?\nA) Equally well off — both take $500\nB) Better off with the sales tax — they can pay less by eating out less\nC) Better off with the flat charge — it leaves relative prices unchanged\nD) Better off with the sales tax, because the flat charge is regressive\nE) Better off with the flat charge, because it has no income effect\n\nAnswer: C. Under the flat charge, a household could still afford the bundle it chose under the sales tax (the same $500 is gone, at the old prices), so it does at least as well, and strictly better as long as it would substitute at all. B is the trap: eating out less to avoid the tax is the distortion, and that substitution is where the excess burden comes from. A counts only the direct cost. D mixes equity into an efficiency question; with identical households, regressivity is beside the point. E has the mechanism backwards: the flat charge is a pure income effect; what it lacks is a substitution effect."
   },
   {
     "objectID": "slides/efficiency/index.html#efficiency",
@@ -3253,6 +3291,13 @@
     "text": "Efficiency\n\nIf lump-sum taxes do not create excess burden, why not use them?\nOften they are unattractive politically\n\nA fixed tax on everyone is viewed as unfair\nIt is also regressive\n\nA tax that varies with income is not lump-sum\n\nPeople can change how much they earn\n\nA truly lump-sum tax would have to be based on ability, which governments cannot observe\n\nSo lump-sum taxes are a benchmark for efficiency, not a realistic policy option\n\nSo governments widely use distortionary taxes instead"
   },
   {
+    "objectID": "slides/efficiency/index.html#lump-sum-taxes-in-practice",
+    "href": "slides/efficiency/index.html#lump-sum-taxes-in-practice",
+    "title": "EC313 - Taxation",
+    "section": "Lump-Sum Taxes in Practice",
+    "text": "Lump-Sum Taxes in Practice\n\nIn 1990 the UK replaced local property taxes with a flat “poll tax”\n\nIts perceived unfairness helped bring down Margaret Thatcher’s government that year\nHer successor announced its repeal in 1991\n\nSeven Canadian provinces had a poll tax as late as 1962\nAbout a dozen Newfoundland and Labrador towns still levy one\n\nA flat fee on adults who use town services but don’t own property there\nClarenville charges $325; Corner Brook eliminated its poll tax in 2020\nCritics say it is regressive; supporters say everyone who uses services should contribute"
+  },
+  {
     "objectID": "slides/efficiency/index.html#income-taxes",
     "href": "slides/efficiency/index.html#income-taxes",
     "title": "EC313 - Taxation",
@@ -3260,25 +3305,25 @@
     "text": "Income Taxes\n\nDoes an income tax create excess burden? Usually, yes\nIf income were fixed, an income tax would be lump-sum\n\nBut people choose how much to work, so it is not\n\nThink of three goods: barley, corn, and leisure\n\nA proportional income tax is like an equal-rate tax on barley and corn, so it leaves their relative price unchanged\nBut it lowers the after-tax wage from \\(W\\) to \\((1-t)W\\), making leisure cheaper relative to goods\nSo people substitute towards leisure, which creates excess burden\n\nIs an income tax more efficient than taxing goods at different rates?\n\nNo presumption either way: it is an empirical question"
   },
   {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-inelastic-demand",
-    "href": "slides/efficiency/index.html#excess-burden-with-inelastic-demand",
+    "objectID": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand",
+    "href": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand",
     "title": "EC313 - Taxation",
-    "section": "Excess Burden with Inelastic Demand",
-    "text": "Excess Burden with Inelastic Demand\n\nSuppose that a tax is introduced on barley, but barley consumption does not change\nDoes this mean there is no excess burden?\n\n\n\n\n\n\n\nCommon Misconception\n\n\nThe answer is no — even if the quantity of the taxed good does not change, there can still be excess burden. The consumer faces different relative prices, which distort the consumer’s choices across all goods, leading to inefficiency."
+    "section": "Excess Burden with Perfectly Inelastic Demand",
+    "text": "Excess Burden with Perfectly Inelastic Demand\n\nSuppose that a tax is introduced on barley, but barley consumption does not change\n\nThe (ordinary) demand curve for barley is perfectly inelastic\n\nDoes this mean there is no excess burden?\n\n\n\n\n\n\n\nCommon Misconception\n\n\nThe answer is no — even if the quantity of the taxed good does not change, there can still be excess burden. The consumer faces different relative prices, which distort the consumer’s choices across all goods, leading to inefficiency."
   },
   {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-inelastic-demand-1",
-    "href": "slides/efficiency/index.html#excess-burden-with-inelastic-demand-1",
+    "objectID": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand-1",
+    "href": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand-1",
     "title": "EC313 - Taxation",
-    "section": "Excess Burden with Inelastic Demand",
-    "text": "Excess Burden with Inelastic Demand\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph looks similar to before\nThis time barley consumption stays constant\nCorn consumption falls since the same barley now costs more\nBut compensated barley demand still falls, from \\(B_3\\) to \\(B_2\\)\n\nA substitution effect, offset here by the income effect\n\nExcess burden is about the change in the consumption bundle\n\nNot just the change in quantity of one good"
+    "section": "Excess Burden with Perfectly Inelastic Demand",
+    "text": "Excess Burden with Perfectly Inelastic Demand\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph looks similar to before\nThis time barley consumption stays constant\nCorn consumption falls since the same barley now costs more\nBut compensated barley demand still falls, from \\(B_3\\) to \\(B_2\\)\n\nCompensated demand holds utility fixed, so it shows only the substitution effect\nHere the income effect offsets it\n\nExcess burden is about the change in the consumption bundle\n\nNot just the change in quantity of one good"
   },
   {
-    "objectID": "slides/efficiency/index.html#section-1",
-    "href": "slides/efficiency/index.html#section-1",
+    "objectID": "slides/efficiency/index.html#iclicker-question-1",
+    "href": "slides/efficiency/index.html#iclicker-question-1",
     "title": "EC313 - Taxation",
-    "section": "",
-    "text": "Think About It\nWe just saw that even when demand for the taxed good is perfectly inelastic, excess burden can still exist. Can you think of a real-world good with very inelastic demand? How might a tax on that good still distort a consumer’s overall spending decisions?"
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAfter a tax on barley, a consumer buys exactly the same amount of barley as before. A classmate concludes the tax has no excess burden for this consumer. Is the classmate right?\nA) Yes — barley purchases did not change, so there is no distortion\nB) Yes — the consumer bears the whole tax, so the only cost is the tax paid\nC) No — the excess burden equals the full amount of tax the consumer pays\nD) Yes — if the quantity does not change, the tax has only an income effect\nE) Not necessarily — an unchanged quantity can hide a substitution effect\n\nAnswer: E. The change in quantity is the sum of the income and substitution effects, and the two can offset. The substitution effect is still there, and it is what creates the excess burden. The offset needs barley to be inferior (being poorer raises barley purchases), as in the previous graph where \\(B_3 &gt; B_1\\). For a normal good both effects push quantity down, so an unchanged quantity would mean no substitution effect — which is why the answer is “not necessarily” rather than “always”. D is the precise version of the classmate’s mistake; A is the everyday version. B confuses who bears the tax with how large the welfare loss is. C treats the revenue itself as lost, but revenue is a transfer to the government, not a deadweight loss."
   },
   {
     "objectID": "slides/efficiency/index.html#aside-compensated-vs-ordinary-demand-curves",
@@ -3316,11 +3361,53 @@
     "text": "Excess Burden with Demand Curves\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine a tax is imposed on barley\nSupply is perfectly elastic\n\nSo economic incidence falls entirely on consumers\n\nPrice rises from \\(P_{B}\\) to \\(P_{B}(1+t)\\)\nCompensated quantity demanded falls from \\(B_{3}\\) to \\(B_{2}\\)\nTax revenue is green rectangle\nTotal fall in consumer surplus is green + blue areas\nExcess burden is blue area"
   },
   {
-    "objectID": "slides/efficiency/index.html#section-2",
-    "href": "slides/efficiency/index.html#section-2",
+    "objectID": "slides/efficiency/index.html#iclicker-question-2",
+    "href": "slides/efficiency/index.html#iclicker-question-2",
     "title": "EC313 - Taxation",
-    "section": "",
-    "text": "Think About It\nThe excess burden formula tells us that doubling the tax rate quadruples the excess burden. What does this imply about the choice between taxing one good at a high rate versus taxing many goods at lower rates to raise the same total revenue?"
+    "section": "iClicker Question",
+    "text": "iClicker Question\nFor a normal good, suppose we measured the excess burden of a tax using the ordinary demand curve instead of the compensated one. Our estimate would be:\nA) Too small — the ordinary curve is steeper because it leaves out the income effect\nB) Too large — the ordinary curve is flatter because it also includes the income effect\nC) Correct — the two curves give the same triangle\nD) Too large — the ordinary curve includes only the substitution effect\nE) Too small — for a normal good, the income effect partly offsets the substitution effect\n\nAnswer: B. For a normal good the income effect reinforces the substitution effect, so the ordinary curve shows a bigger quantity drop for the same price rise. A flatter curve means a wider triangle, which overstates the excess burden. A gets the slopes backwards. E gets the direction of the income effect wrong: for a normal good it works with the substitution effect, not against it. D mixes up which effects each curve contains: the ordinary curve has both, the compensated curve has only the substitution effect."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-1",
+    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-1",
+    "title": "EC313 - Taxation",
+    "section": "Excess Burden with Elasticities",
+    "text": "Excess Burden with Elasticities\n\nWe can translate the excess burden area into a formula using elasticities\nThe excess burden is the blue triangle in the demand-curve figure\nArea of triangle is \\(\\frac{1}{2} \\times \\text{base} \\times \\text{height}\\)\n\nBase: change in quantity: \\(\\Delta B = B_{3} - B_{2}\\)\nHeight: tax: \\(tP_{B}\\)\n\nThe compensated elasticity (in absolute value) at the original price is\n\n\\[\\eta = \\frac{\\Delta B}{\\Delta P} \\times \\frac{P_B}{B_3}\\]"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-2",
+    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-2",
+    "title": "EC313 - Taxation",
+    "section": "Excess Burden with Elasticities",
+    "text": "Excess Burden with Elasticities\n\nRearranging gives\n\n\\[\\Delta B = \\eta \\times \\frac{\\Delta P}{P_B} \\times B_3\\]\n\nIn our case, \\(\\Delta P = tP_{B}\\), so\n\n\\[\\Delta B = \\eta \\times t \\times B_{3}\\]\n\nThe area is then\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times (\\eta \\times t \\times B_{3}) \\times (tP_{B}) = \\frac{1}{2} \\times \\eta \\times (P_{B}B_{3}) \\times t^2 \\]"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-3",
+    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-3",
+    "title": "EC313 - Taxation",
+    "section": "Excess Burden with Elasticities",
+    "text": "Excess Burden with Elasticities\n\n\n\n\n\n\nExcess Burden Formula\n\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times \\eta \\times (P_{B}B_{3}) \\times t^2 \\]\n\n\n\n\nExcess burden depends on three things\n\nSize of tax \\(t\\)\n\nExcess burden rises with square of tax rate\n\nCompensated elasticity of demand \\(\\eta\\)\n\nMore elastic demand means larger excess burden\n\nInitial spending \\(P_{B}B_{3}\\)\n\nLarger initial spending means larger excess burden\n\n\nAssumes perfectly elastic supply; with upward-sloping supply, excess burden also depends on the supply elasticity"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#marginal-excess-burden",
+    "href": "slides/efficiency/index.html#marginal-excess-burden",
+    "title": "EC313 - Taxation",
+    "section": "Marginal Excess Burden",
+    "text": "Marginal Excess Burden\n\nBecause excess burden rises with \\(t^2\\), each extra dollar of revenue adds more excess burden than the last\n\nThe marginal excess burden is larger than the average\n\nPlausible Canadian figures: about 20¢ average and 40¢ marginal excess burden per dollar raised (Dahlby, 2006)\n\nSo a tax-financed public project must deliver more than $1.40 of benefit per dollar of spending\n\nThe same logic favours a broad base with low rates\n\nIn 1991 the GST replaced the manufacturers’ sales tax (MST), which had a narrow base and high rates\nEstimated marginal excess burden: 35¢ for the MST, 7.3¢ for a broad tax like the GST (Whalley and Fretz, 1990)"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-3",
+    "href": "slides/efficiency/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA household spends $1,000 a year on a good before the tax. Supply is perfectly elastic, and the good’s compensated demand elasticity is 0.5 (in absolute value). A 10% ad valorem tax is imposed. What is the excess burden?\nA) $1.25\nB) $2.50\nC) $5.00\nD) $12.50\nE) $25.00\n\nAnswer: B. \\(\\frac{1}{2} \\times 0.5 \\times (0.1)^2 \\times 1000 = 2.50\\). Each distractor is one slip: C drops the \\(\\frac{1}{2}\\); E forgets to square the tax rate; D squares the elasticity instead of the tax rate; A squares both."
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-4",
+    "href": "slides/efficiency/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nTwo goods, out of the many that households buy, have the same prices, spending, and compensated demand elasticities, and their demands are unrelated. To raise about the same revenue, the government can tax one of them at 20% or tax both at 10%. Which has the smaller total excess burden?\nA) Taxing one good at 20% — only one market is distorted\nB) Neither — both raise the same revenue, so the excess burden is the same\nC) Taxing both at 10% — total excess burden is one quarter as large\nD) Taxing both at 10% — total excess burden is half as large\nE) Taxing one good at 20% — consumers can avoid it by switching to untaxed goods\n\nAnswer: D. With spending \\(S\\) on each good, one good at 20% gives \\(\\frac{1}{2}\\eta S(0.2)^2 = 0.02\\eta S\\); both at 10% give \\(2 \\times \\frac{1}{2}\\eta S(0.1)^2 = 0.01\\eta S\\). Half. C is the near miss: squaring the rate cuts each market’s burden to a quarter, but there are now two markets. A is the intuition that fewer distortions must be better, which the squared term overturns. B is linear thinking about the tax rate. E calls the distortion itself an advantage."
   },
   {
     "objectID": "slides/efficiency/index.html#pre-existing-distortions",
@@ -3344,6 +3431,13 @@
     "text": "Pre-existing Distortions\n\nExample 2: Minimum Wages\n\nA labour market monopsony leads to lower wages and employment than in a competitive market\nImposing a minimum wage can increase employment and reduce the deadweight loss caused by monopsony power\n\nExample 3: Externalities from Carbon\n\nA country has a negative externality from emissions and cannot impose a carbon tax\nThe next best outcome might involve subsidies for renewable energy, even if they distort energy markets\n\nGeneral lesson is that impact of tax is not limited to the market it directly affects\n\nOverall excess burden depends on interactions with other markets and distortions"
   },
   {
+    "objectID": "slides/efficiency/index.html#pre-existing-distortions-3",
+    "href": "slides/efficiency/index.html#pre-existing-distortions-3",
+    "title": "EC313 - Taxation",
+    "section": "Pre-existing Distortions",
+    "text": "Pre-existing Distortions\n\nExample 4: The Double Dividend\n\nA tax on pollution corrects an externality (see the externalities section)\nDouble-dividend hypothesis: use the revenue to cut income taxes and gain twice\n\nLess pollution, and a less distorted labour market\n\n\nBut pollution taxes raise the prices of goods, which lowers the real wage\n\nSo they act partly as a tax on earnings, adding to the labour-market distortion\nThis added excess burden can outweigh the gain from correcting the externality (Parry and Oates, 2000)\n\nWith an income tax already in place, the efficient pollution tax can be lower"
+  },
+  {
     "objectID": "slides/efficiency/index.html#excess-burden-of-a-subsidy",
     "href": "slides/efficiency/index.html#excess-burden-of-a-subsidy",
     "title": "EC313 - Taxation",
@@ -3358,11 +3452,11 @@
     "text": "Excess Burden of a Subsidy\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nPicture a housing subsidy\nPrior to subsidy, optimal consumption is \\(H_1\\) at price \\(P_h\\)\nSubsidy lowers price to \\((1-s)P_h\\)\nNew optimal consumption is \\(H_2\\)\nCost of subsidy is the rectangle between the two prices, out to \\(H_2\\)\nIncrease in consumer surplus is the area to the left of demand between the two prices\nExcess burden is the blue triangle: cost minus the gain"
   },
   {
-    "objectID": "slides/efficiency/index.html#section-3",
-    "href": "slides/efficiency/index.html#section-3",
+    "objectID": "slides/efficiency/index.html#iclicker-question-5",
+    "href": "slides/efficiency/index.html#iclicker-question-5",
     "title": "EC313 - Taxation",
-    "section": "",
-    "text": "Discussion\nGovernments often use subsidies for housing, education, or childcare to make these goods more affordable. Given what we have learned about the excess burden of subsidies, can you think of alternative policy tools that could achieve similar goals with less distortion to consumer behaviour?"
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA housing subsidy lowers the price households pay for housing, and they consume more of it. Housing is supplied at a constant cost and there are no other distortions in the market. Which statement is correct?\nA) The subsidy has an excess burden — it costs the government more than households gain\nB) There is no excess burden — households are better off\nC) The excess burden is negative — a subsidy is a negative tax, so it reverses the distortion\nD) The excess burden equals the full cost of the subsidy\nE) There is no excess burden — with constant-cost supply, households receive the full subsidy\n\nAnswer: A. The subsidy pays for the extra units at more than households value them; that gap is the excess burden (the blue triangle). B confuses a gain to recipients with efficiency. E is the incidence-versus-efficiency mix-up: households do get the whole subsidy, but it still costs more than they gain. C is the sign trap: with no pre-existing distortion there is nothing to reverse, so the subsidy creates a distortion just as a tax does. D counts the whole transfer as lost."
   },
   {
     "objectID": "slides/efficiency/index.html#excess-burden-of-income-tax",
@@ -3391,6 +3485,20 @@
     "title": "EC313 - Taxation",
     "section": "Excess Burden of Income Tax",
     "text": "Excess Burden of Income Tax\n\n\n\n\n\n\nExcess Burden of Income Tax Formula\n\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times \\epsilon \\times (WL_{1}) \\times t^2 \\]\n\n\n\n\nWhere \\(\\epsilon\\) is the compensated elasticity of labour supply and \\(L_1\\) is hours before the tax\nExcess burden depends on\n\nSize of tax \\(t\\)\n\nExcess burden rises with square of tax rate\n\nCompensated elasticity of labour supply \\(\\epsilon\\)\n\nMore elastic labour supply means larger excess burden\n\nInitial earnings \\(WL_{1}\\)\n\nLarger initial earnings means larger excess burden"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#how-big-is-the-excess-burden-of-income-taxes",
+    "href": "slides/efficiency/index.html#how-big-is-the-excess-burden-of-income-taxes",
+    "title": "EC313 - Taxation",
+    "section": "How Big Is the Excess Burden of Income Taxes?",
+    "text": "How Big Is the Excess Burden of Income Taxes?\n\nExample: a Canadian man earns $20 an hour and works 2,000 hours a year\n\nCompensated labour supply elasticity of about 0.2, and a 40% tax on earnings\nExcess burden \\(= \\frac{1}{2} \\times 0.2 \\times (20 \\times 2000) \\times 0.4^2 \\approx \\$640\\) a year\nAbout 4% of the tax collected: 4¢ of excess burden per dollar of revenue\n\nEstimates vary with wages, tax rates, and elasticities\n\nUnited States: about 27% of labour-income tax revenue (Jorgenson and Yun, 2001)\nCanada, 2006: the marginal excess burden of the personal income tax averaged $1.28 per dollar for the provinces and $0.17 for the federal government (Dahlby and Ferede, 2011)"
+  },
+  {
+    "objectID": "slides/efficiency/index.html#iclicker-question-6",
+    "href": "slides/efficiency/index.html#iclicker-question-6",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSecond earners in couples tend to have more elastic labour supply than primary earners. If both groups have the same earnings and face the same tax rate, a tax on which group creates the larger excess burden?\nA) Primary earners — they supply more total hours, so there is more labour to distort\nB) The same — excess burden depends only on the tax rate\nC) Primary earners — their less elastic supply means they cannot escape the tax\nD) Neither — income taxes have only income effects\nE) Second earners — more elastic supply means a larger substitution response\n\nAnswer: E. Excess burden rises with the (compensated) elasticity, so the more responsive group has the larger triangle. C carries over the incidence lesson (whoever can’t respond bears the tax). Inelastic workers pay the tax without changing behaviour, which is exactly why they create less excess burden: who bears a tax and how much it distorts are separate questions. A ignores that excess burden depends on earnings (\\(W \\times L_1\\)), which are held equal. B forgets the elasticity. D forgets the substitution between work and leisure."
   },
   {
     "objectID": "slides/efficiency/index.html#summary-1",
@@ -4553,164 +4661,5 @@
     "title": "EC313 - Taxation",
     "section": "References",
     "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question",
-    "href": "slides/efficiency/index.html#iclicker-question",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nHouseholds are identical. A province can raise $500 per household either with a sales tax on restaurant meals or with a flat $500 charge that every household pays no matter what it buys. Judged only by households’ own well-being, how do the two compare?\nA) Equally well off — both take $500\nB) Better off with the sales tax — they can pay less by eating out less\nC) Better off with the flat charge — it leaves relative prices unchanged\nD) Better off with the sales tax, because the flat charge is regressive\nE) Better off with the flat charge, because it has no income effect\n\nAnswer: C. Under the flat charge, a household could still afford the bundle it chose under the sales tax (the same $500 is gone, at the old prices), so it does at least as well, and strictly better as long as it would substitute at all. B is the trap: eating out less to avoid the tax is the distortion, and that substitution is where the excess burden comes from. A counts only the direct cost. D mixes equity into an efficiency question; with identical households, regressivity is beside the point. E has the mechanism backwards: the flat charge is a pure income effect; what it lacks is a substitution effect."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question-1",
-    "href": "slides/efficiency/index.html#iclicker-question-1",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nAfter a tax on barley, a consumer buys exactly the same amount of barley as before. A classmate concludes the tax has no excess burden for this consumer. Is the classmate right?\nA) Yes — barley purchases did not change, so there is no distortion\nB) Yes — the consumer bears the whole tax, so the only cost is the tax paid\nC) No — the excess burden equals the full amount of tax the consumer pays\nD) Yes — if the quantity does not change, the tax has only an income effect\nE) Not necessarily — an unchanged quantity can hide a substitution effect\n\nAnswer: E. The change in quantity is the sum of the income and substitution effects, and the two can offset. The substitution effect is still there, and it is what creates the excess burden. The offset needs barley to be inferior (being poorer raises barley purchases), as in the previous graph where \\(B_3 &gt; B_1\\). For a normal good both effects push quantity down, so an unchanged quantity would mean no substitution effect — which is why the answer is “not necessarily” rather than “always”. D is the precise version of the classmate’s mistake; A is the everyday version. B confuses who bears the tax with how large the welfare loss is. C treats the revenue itself as lost, but revenue is a transfer to the government, not a deadweight loss."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question-2",
-    "href": "slides/efficiency/index.html#iclicker-question-2",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nFor a normal good, suppose we measured the excess burden of a tax using the ordinary demand curve instead of the compensated one. Our estimate would be:\nA) Too small — the ordinary curve is steeper because it leaves out the income effect\nB) Too large — the ordinary curve is flatter because it also includes the income effect\nC) Correct — the two curves give the same triangle\nD) Too large — the ordinary curve includes only the substitution effect\nE) Too small — for a normal good, the income effect partly offsets the substitution effect\n\nAnswer: B. For a normal good the income effect reinforces the substitution effect, so the ordinary curve shows a bigger quantity drop for the same price rise. A flatter curve means a wider triangle, which overstates the excess burden. A gets the slopes backwards. E gets the direction of the income effect wrong: for a normal good it works with the substitution effect, not against it. D mixes up which effects each curve contains: the ordinary curve has both, the compensated curve has only the substitution effect."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-1",
-    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-1",
-    "title": "EC313 - Taxation",
-    "section": "Excess Burden with Elasticities",
-    "text": "Excess Burden with Elasticities\n\nWe can translate the excess burden area into a formula using elasticities\nThe excess burden is the blue triangle in the demand-curve figure\nArea of triangle is \\(\\frac{1}{2} \\times \\text{base} \\times \\text{height}\\)\n\nBase: change in quantity: \\(\\Delta B = B_{3} - B_{2}\\)\nHeight: tax: \\(tP_{B}\\)\n\nThe compensated elasticity (in absolute value) at the original price is\n\n\\[\\eta = \\frac{\\Delta B}{\\Delta P} \\times \\frac{P_B}{B_3}\\]"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-2",
-    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-2",
-    "title": "EC313 - Taxation",
-    "section": "Excess Burden with Elasticities",
-    "text": "Excess Burden with Elasticities\n\nRearranging gives\n\n\\[\\Delta B = \\eta \\times \\frac{\\Delta P}{P_B} \\times B_3\\]\n\nIn our case, \\(\\Delta P = tP_{B}\\), so\n\n\\[\\Delta B = \\eta \\times t \\times B_{3}\\]\n\nThe area is then\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times (\\eta \\times t \\times B_{3}) \\times (tP_{B}) = \\frac{1}{2} \\times \\eta \\times (P_{B}B_{3}) \\times t^2 \\]"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-elasticities-3",
-    "href": "slides/efficiency/index.html#excess-burden-with-elasticities-3",
-    "title": "EC313 - Taxation",
-    "section": "Excess Burden with Elasticities",
-    "text": "Excess Burden with Elasticities\n\n\n\n\n\n\nExcess Burden Formula\n\n\n\\[\\text{Excess Burden} = \\frac{1}{2} \\times \\eta \\times (P_{B}B_{3}) \\times t^2 \\]\n\n\n\n\nExcess burden depends on three things\n\nSize of tax \\(t\\)\n\nExcess burden rises with square of tax rate\n\nCompensated elasticity of demand \\(\\eta\\)\n\nMore elastic demand means larger excess burden\n\nInitial spending \\(P_{B}B_{3}\\)\n\nLarger initial spending means larger excess burden\n\n\nAssumes perfectly elastic supply; with upward-sloping supply, excess burden also depends on the supply elasticity"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question-3",
-    "href": "slides/efficiency/index.html#iclicker-question-3",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nA household spends $1,000 a year on a good before the tax. Supply is perfectly elastic, and the good’s compensated demand elasticity is 0.5 (in absolute value). A 10% ad valorem tax is imposed. What is the excess burden?\nA) $1.25\nB) $2.50\nC) $5.00\nD) $12.50\nE) $25.00\n\nAnswer: B. \\(\\frac{1}{2} \\times 0.5 \\times (0.1)^2 \\times 1000 = 2.50\\). Each distractor is one slip: C drops the \\(\\frac{1}{2}\\); E forgets to square the tax rate; D squares the elasticity instead of the tax rate; A squares both."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question-4",
-    "href": "slides/efficiency/index.html#iclicker-question-4",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nTwo goods, out of the many that households buy, have the same prices, spending, and compensated demand elasticities, and their demands are unrelated. To raise about the same revenue, the government can tax one of them at 20% or tax both at 10%. Which has the smaller total excess burden?\nA) Taxing one good at 20% — only one market is distorted\nB) Neither — both raise the same revenue, so the excess burden is the same\nC) Taxing both at 10% — total excess burden is one quarter as large\nD) Taxing both at 10% — total excess burden is half as large\nE) Taxing one good at 20% — consumers can avoid it by switching to untaxed goods\n\nAnswer: D. With spending \\(S\\) on each good, one good at 20% gives \\(\\frac{1}{2}\\eta S(0.2)^2 = 0.02\\eta S\\); both at 10% give \\(2 \\times \\frac{1}{2}\\eta S(0.1)^2 = 0.01\\eta S\\). Half. C is the near miss: squaring the rate cuts each market’s burden to a quarter, but there are now two markets. A is the intuition that fewer distortions must be better, which the squared term overturns. B is linear thinking about the tax rate. E calls the distortion itself an advantage."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question-5",
-    "href": "slides/efficiency/index.html#iclicker-question-5",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nA housing subsidy lowers the price households pay for housing, and they consume more of it. Housing is supplied at a constant cost and there are no other distortions in the market. Which statement is correct?\nA) The subsidy has an excess burden — it costs the government more than households gain\nB) There is no excess burden — households are better off\nC) The excess burden is negative — a subsidy is a negative tax, so it reverses the distortion\nD) The excess burden equals the full cost of the subsidy\nE) There is no excess burden — with constant-cost supply, households receive the full subsidy\n\nAnswer: A. The subsidy pays for the extra units at more than households value them; that gap is the excess burden (the blue triangle). B confuses a gain to recipients with efficiency. E is the incidence-versus-efficiency mix-up: households do get the whole subsidy, but it still costs more than they gain. C is the sign trap: with no pre-existing distortion there is nothing to reverse, so the subsidy creates a distortion just as a tax does. D counts the whole transfer as lost."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#iclicker-question-6",
-    "href": "slides/efficiency/index.html#iclicker-question-6",
-    "title": "EC313 - Taxation",
-    "section": "iClicker Question",
-    "text": "iClicker Question\nSecond earners in couples tend to have more elastic labour supply than primary earners. If both groups have the same earnings and face the same tax rate, a tax on which group creates the larger excess burden?\nA) Primary earners — they supply more total hours, so there is more labour to distort\nB) The same — excess burden depends only on the tax rate\nC) Primary earners — their less elastic supply means they cannot escape the tax\nD) Neither — income taxes have only income effects\nE) Second earners — more elastic supply means a larger substitution response\n\nAnswer: E. Excess burden rises with the (compensated) elasticity, so the more responsive group has the larger triangle. C carries over the incidence lesson (whoever can’t respond bears the tax). Inelastic workers pay the tax without changing behaviour, which is exactly why they create less excess burden: who bears a tax and how much it distorts are separate questions. A ignores that excess burden depends on earnings (\\(W \\times L_1\\)), which are held equal. B forgets the elasticity. D forgets the substitution between work and leisure."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#goals-of-this-section-1",
-    "href": "slides/efficiency/index.html#goals-of-this-section-1",
-    "title": "EC313 - Taxation",
-    "section": "Goals of This Section",
-    "text": "Goals of This Section\nIn this section we will:\n\nDiscuss the effects of price changes on consumer behaviour\nIntroduce the concept of excess burden of a tax\nShow how to measure excess burden using indifference curves\nShow how to measure excess burden using demand/supply curves\nShow equivalent interpretation with elasticities\nDiscuss factors that affect excess burden"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#lump-sum-taxes-in-practice",
-    "href": "slides/efficiency/index.html#lump-sum-taxes-in-practice",
-    "title": "EC313 - Taxation",
-    "section": "Lump-Sum Taxes in Practice",
-    "text": "Lump-Sum Taxes in Practice\n\nIn 1990 the UK replaced local property taxes with a flat “poll tax”\n\nIts perceived unfairness helped bring down Margaret Thatcher’s government that year\nHer successor announced its repeal in 1991\n\nSeven Canadian provinces had a poll tax as late as 1962\nAbout a dozen Newfoundland and Labrador towns still levy one\n\nA flat fee on adults who use town services but don’t own property there\nClarenville charges $325; Corner Brook eliminated its poll tax in 2020\nCritics say it is regressive; supporters say everyone who uses services should contribute"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#excess-burden-and-pareto-efficiency",
-    "href": "slides/efficiency/index.html#excess-burden-and-pareto-efficiency",
-    "title": "EC313 - Taxation",
-    "section": "Excess Burden and Pareto Efficiency",
-    "text": "Excess Burden and Pareto Efficiency\n\nPareto efficiency requires \\(MRS_{BC} = MRT_{BC}\\)\nWith the tax, consumers pay \\((1+t)P_B\\) for barley, so they set\n\n\\[MRS_{BC} = \\frac{(1+t)P_B}{P_C}\\]\n\nProducers receive only \\(P_B\\), so they set\n\n\\[MRT_{BC} = \\frac{P_B}{P_C}\\]\n\nSo \\(MRS_{BC} &gt; MRT_{BC}\\): the tax drives a wedge between what consumers pay and what producers receive\nA lump-sum tax leaves relative prices alone, so there is no wedge"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand",
-    "href": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand",
-    "title": "EC313 - Taxation",
-    "section": "Excess Burden with Perfectly Inelastic Demand",
-    "text": "Excess Burden with Perfectly Inelastic Demand\n\nSuppose that a tax is introduced on barley, but barley consumption does not change\n\nThe (ordinary) demand curve for barley is perfectly inelastic\n\nDoes this mean there is no excess burden?\n\n\n\n\n\n\n\nCommon Misconception\n\n\nThe answer is no — even if the quantity of the taxed good does not change, there can still be excess burden. The consumer faces different relative prices, which distort the consumer’s choices across all goods, leading to inefficiency."
-  },
-  {
-    "objectID": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand-1",
-    "href": "slides/efficiency/index.html#excess-burden-with-perfectly-inelastic-demand-1",
-    "title": "EC313 - Taxation",
-    "section": "Excess Burden with Perfectly Inelastic Demand",
-    "text": "Excess Burden with Perfectly Inelastic Demand\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGraph looks similar to before\nThis time barley consumption stays constant\nCorn consumption falls since the same barley now costs more\nBut compensated barley demand still falls, from \\(B_3\\) to \\(B_2\\)\n\nCompensated demand holds utility fixed, so it shows only the substitution effect\nHere the income effect offsets it\n\nExcess burden is about the change in the consumption bundle\n\nNot just the change in quantity of one good"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#marginal-excess-burden",
-    "href": "slides/efficiency/index.html#marginal-excess-burden",
-    "title": "EC313 - Taxation",
-    "section": "Marginal Excess Burden",
-    "text": "Marginal Excess Burden\n\nBecause excess burden rises with \\(t^2\\), each extra dollar of revenue adds more excess burden than the last\n\nThe marginal excess burden is larger than the average\n\nPlausible Canadian figures: about 20¢ average and 40¢ marginal excess burden per dollar raised (Dahlby, 2006)\n\nSo a tax-financed public project must deliver more than $1.40 of benefit per dollar of spending\n\nThe same logic favours a broad base with low rates\n\nIn 1991 the GST replaced the manufacturers’ sales tax (MST), which had a narrow base and high rates\nEstimated marginal excess burden: 35¢ for the MST, 7.3¢ for a broad tax like the GST (Whalley and Fretz, 1990)"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#pre-existing-distortions-3",
-    "href": "slides/efficiency/index.html#pre-existing-distortions-3",
-    "title": "EC313 - Taxation",
-    "section": "Pre-existing Distortions",
-    "text": "Pre-existing Distortions\n\nExample 4: The Double Dividend\n\nA tax on pollution corrects an externality (see the externalities section)\nDouble-dividend hypothesis: use the revenue to cut income taxes and gain twice\n\nLess pollution, and a less distorted labour market\n\n\nBut pollution taxes raise the prices of goods, which lowers the real wage\n\nSo they act partly as a tax on earnings, adding to the labour-market distortion\nThis added excess burden can outweigh the gain from correcting the externality (Parry and Oates, 2000)\n\nWith an income tax already in place, the efficient pollution tax can be lower"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#how-big-is-the-excess-burden-of-income-taxes",
-    "href": "slides/efficiency/index.html#how-big-is-the-excess-burden-of-income-taxes",
-    "title": "EC313 - Taxation",
-    "section": "How Big Is the Excess Burden of Income Taxes?",
-    "text": "How Big Is the Excess Burden of Income Taxes?\n\nExample: a Canadian man earns $20 an hour and works 2,000 hours a year\n\nCompensated labour supply elasticity of about 0.2, and a 40% tax on earnings\nExcess burden \\(= \\frac{1}{2} \\times 0.2 \\times (20 \\times 2000) \\times 0.4^2 \\approx \\$640\\) a year\nAbout 4% of the tax collected: 4¢ of excess burden per dollar of revenue\n\nEstimates vary with wages, tax rates, and elasticities\n\nUnited States: about 27% of labour-income tax revenue (Jorgenson and Yun, 2001)\nCanada, 2006: the marginal excess burden of the personal income tax averaged $1.28 per dollar for the provinces and $0.17 for the federal government (Dahlby and Ferede, 2011)"
-  },
-  {
-    "objectID": "content/incidence.html#other-resources",
-    "href": "content/incidence.html#other-resources",
-    "title": "Tax Incidence",
-    "section": "Other Resources",
-    "text": "Other Resources\n\nYes, government cuts to fuel taxes really do lower your price at the pump (Trevor Tombe, The Hub, September 30, 2026)\n\nTrevor Tombe, one of the authors of our textbook, looks at recent federal and provincial fuel tax cuts and finds that pump prices fell by roughly the full amount of each cut. A good real-world application of tax incidence: who actually benefits when a tax is cut?",
-    "crumbs": [
-      "Content",
-      "Course content",
-      "Tax Incidence"
-    ]
-  },
-  {
-    "objectID": "slides/efficiency/index.html#why-is-tax-revenue-less-than-the-welfare-loss",
-    "href": "slides/efficiency/index.html#why-is-tax-revenue-less-than-the-welfare-loss",
-    "title": "EC313 - Taxation",
-    "section": "Why Is Tax Revenue Less Than the Welfare Loss?",
-    "text": "Why Is Tax Revenue Less Than the Welfare Loss?\n\nSubstituting away from barley lets the consumer avoid part of the tax\n\nTax is only collected on the barley they still buy: revenue is \\(tP_B B_2\\)\nThe more they substitute, the less revenue the government collects\n\nBut avoiding the tax is not free\n\nThe consumer ends up with a bundle they would not choose if the same money were taken without changing prices\nThat lowers their welfare, but brings in no revenue\n\nSo the welfare loss (the equivalent variation) is larger than the revenue\n\nThe gap is the excess burden"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#lump-sum-tax-with-the-same-revenue",
-    "href": "slides/efficiency/index.html#lump-sum-tax-with-the-same-revenue",
-    "title": "EC313 - Taxation",
-    "section": "Lump-Sum Tax with the Same Revenue",
-    "text": "Lump-Sum Tax with the Same Revenue\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nInstead of the ad valorem tax, take a lump sum \\(T\\) equal to its revenue: \\(T = tP_B B_2\\)\nThe new budget line is parallel to the original and passes through \\((B_2, C_2)\\)\n\nThe consumer could still buy the ad valorem bundle\n\nBut at the original prices they can do better\n\nThey move to \\((B_L, C_L)\\) on a higher indifference curve, \\(U_L\\)\n\nSame revenue, but the consumer is better off\n\nTaking a further amount equal to the excess burden would bring them back down to \\(U_1\\)"
-  },
-  {
-    "objectID": "slides/efficiency/index.html#measuring-the-welfare-loss",
-    "href": "slides/efficiency/index.html#measuring-the-welfare-loss",
-    "title": "EC313 - Taxation",
-    "section": "Measuring the Welfare Loss",
-    "text": "Measuring the Welfare Loss\n\nThe tax moves the consumer from indifference curve \\(U_0\\) down to \\(U_1\\)\n\nUtility has no units, so we need a way to put this loss in dollars\n\nIdea: find a loss of income that hurts the consumer exactly as much as the tax\n\n\n\n\n\n\n\nKey Definition\n\n\nThe equivalent variation (EV) is the amount of income we would have to take away, at the original prices, to leave the consumer exactly as well off as they are under the tax.\n\n\n\n\nThe consumer is indifferent between facing the tax and losing the EV from their income\n\nSo the EV is the dollar value of the welfare loss from the tax\n\nPrices stay at their original levels, so this is a pure income loss with no distortion\nComparing the EV with the tax revenue tells us whether the tax costs the consumer more than it raises"
   }
 ]

@@ -182,6 +182,15 @@ deliberately with `as.numeric()`:
 as.numeric(c("8500.50", "12400.00"))
 ```
 
+`as.numeric()` also turns a logical vector into numbers, with `TRUE`
+becoming 1 and `FALSE` becoming 0. This is the usual way to make a
+**dummy variable**:
+
+```{r}
+filed
+as.numeric(filed)
+```
+
 ### Data frames
 
 #### A dataset is vectors side by side
@@ -212,9 +221,9 @@ Five people, four variables. Notice that the columns have different
 types — `name` and `educ` are text, `age` and `totinc` are numeric — but
 *within* a column the type is the same, exactly as with a vector.
 
-Every dataset you meet in this course has this shape. The Canadian
-Income Survey extract for your assignment is the same thing with more
-rows and more columns.
+Every dataset you meet in this course has this shape. The data used
+later on this page, and the data in your assignments, are the same thing
+with more rows and more columns.
 
 #### Columns are vectors
 
@@ -248,6 +257,14 @@ incomes[incomes > 60000]
 The first line returns a logical vector answering the question for each
 element; the second keeps only the elements where the answer was `TRUE`.
 
+The other comparisons work the same way: `>=` means greater than or
+equal to, `<` and `<=` are less than (or equal to), `==` is equal to,
+and `!=` is not equal to:
+
+```{r}
+person != "Bea"
+```
+
 Because a column of a data frame is just a vector, the very same
 brackets work on it:
 
@@ -259,6 +276,29 @@ people$totinc[people$totinc > 50000]
 Picking out whole rows and columns of a data frame works a little
 differently, and we will do it with two much friendlier functions,
 `filter()` and `select()`, once the tidyverse is loaded.
+
+#### Dates
+
+Dates have their own type. `as.Date()` turns text written as
+year-month-day into a date:
+
+```{r}
+deadline <- as.Date("2025-04-30")
+deadline
+class(deadline)
+```
+
+Dates can be compared just like numbers, with later dates counting as
+larger. Which of these three tax returns were filed by the deadline?
+
+```{r}
+filed_on <- as.Date(c("2025-03-15", "2025-04-30", "2025-05-12"))
+filed_on <= deadline
+```
+
+When you read a data file, a column written as dates, such as
+2025-04-30, usually arrives as a date already, so you can compare it
+with `as.Date()` straight away.
 
 ### Other kinds of object
 
@@ -639,6 +679,18 @@ cis |>
   nrow()
 ```
 
+`|` keeps a row if either condition holds. To count everyone with a
+college or university education:
+
+```{r}
+cis |>
+  filter(educ == "College" | educ == "University") |>
+  nrow()
+```
+
+Writing `&` here would be a mistake: nobody's education is both college
+*and* university, so it would keep no one.
+
 ### `select()` — keep some columns
 
 ```{r}
@@ -656,6 +708,29 @@ it:
 ```{r}
 cis <- cis |>
   mutate(atr = inctax / totinc)
+```
+
+Notice that the result is saved back into `cis` with `cis <- cis |>`.
+Without that, R shows you the new variable but does not keep it.
+
+`if_else()` creates a variable that takes one value where a condition is
+true and another where it is false. It takes three arguments: the
+condition, the value where it is `TRUE`, and the value where it is
+`FALSE`. Either value can be a calculation. One `mutate()` can create
+several variables, and a variable created on one line can be used on the
+lines below it. Here is an imaginary tax credit worth 5% of income for
+people under 30 with incomes below \$40,000:
+
+```{r}
+cis <- cis |>
+  mutate(
+    young  = as.numeric(age < 30),
+    credit = if_else(young == 1 & totinc < 40000, 0.05 * totinc, 0)
+  )
+
+cis |>
+  select(age, totinc, young, credit) |>
+  head(5)
 ```
 
 ### `summarise()` — boil the data down
@@ -719,6 +794,23 @@ cis |>
 
 This pairing is the workhorse of applied work. Most tables you will ever
 produce are some version of "group by one thing, summarise another."
+
+Square brackets work inside `summarise()` too. There they pick out the
+values in the rows that meet a condition, within each group. This
+calculates the gender income gap separately for each level of
+education, along with the highest income in each:
+
+```{r}
+cis |>
+  group_by(educ) |>
+  summarise(
+    gap     = mean(totinc[female == 0]) - mean(totinc[female == 1]),
+    max_inc = max(totinc)
+  )
+```
+
+`gap` is the average income of men minus the average income of women,
+and `max()` gives the largest value.
 
 ::: callout-note
 ## Ordering categories
@@ -794,6 +886,49 @@ The upward slope is the tax schedule at work: more income, more tax.
 With this many points the cloud is dense, which is normal for survey
 microdata. The line is what carries the message.
 
+### Line graphs and groups
+
+A line graph joins points from left to right, which suits something
+that changes along the horizontal axis, such as time. To draw a separate
+line for each group, map the group to `colour` inside `aes()`. First,
+calculate average income by years of schooling, separately for men and
+women:
+
+```{r}
+#| message: false
+inc_school <- cis |>
+  group_by(yrschool, female) |>
+  summarise(mean_inc = mean(totinc))
+```
+
+Then draw one line for each:
+
+```{r}
+#| label: fig-inc-school
+#| fig-cap: "Average income by years of schooling"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(inc_school, aes(x = yrschool, y = mean_inc, colour = factor(female))) +
+  geom_line() +
+  geom_vline(xintercept = 12, linetype = "dashed") +
+  scale_colour_discrete(labels = c("Men", "Women")) +
+  labs(x = "Years of schooling", y = "Average income ($)", colour = NULL)
+```
+
+Three things to notice:
+
+-   `colour = factor(female)` draws one line for each group, in its own
+    colour. `factor()` matters: `female` is a number, 0 or 1, and
+    without `factor()` R treats it as a quantity rather than as two
+    groups, and draws a single line.
+-   `geom_vline()` draws a vertical line where `xintercept` says, here
+    at 12 years of schooling, the end of high school. When the
+    horizontal axis holds dates, give `xintercept` a date, such as
+    `as.Date("2025-04-30")`.
+-   `scale_colour_discrete(labels = ...)` replaces the 0 and 1 in the
+    legend with words, in the same order. In `labs()`, `colour = NULL`
+    removes the legend's title.
+
 ::: callout-important
 ## Assignment graphs need labels
 
@@ -854,7 +989,14 @@ against.
 
 `coef()` was used above to show just the coefficients. It returns a
 named vector, which is the same kind of object from the start of this
-page.
+page. To keep just one coefficient, put its name in square brackets.
+This stores the marginal tax rate from the first regression as a single
+number you can calculate with:
+
+```{r}
+mtr <- coef(model1)["totinc"]
+mtr
+```
 
 To compare against a different group, change which level comes first:
 
@@ -884,6 +1026,57 @@ modelsummary(
 ```
 
 This is the format your assignments should use.
+
+Two arguments help when a regression has many dummy variables.
+`coef_omit` leaves out every coefficient whose name contains the text
+you give it, and `gof_map` chooses which statistics appear at the
+bottom. Here the education dummies are left out:
+
+```{r}
+model5 <- lm(atr ~ lntotinc + educ, data = cis)
+
+modelsummary(
+  list("Without education" = model2, "With education" = model5),
+  coef_omit = "educ", gof_map = c("nobs", "r.squared")
+)
+```
+
+To leave out more than one kind of coefficient, separate them with `|`,
+as in `coef_omit = "educ|female"`.
+
+### Tables of data
+
+`modelsummary()` is for regressions. For tables of data, the same
+package has two more functions.
+
+`datasummary_df()` turns a data frame, such as one you have made with
+`summarise()`, into a table. `fmt` sets the number of decimal places:
+
+```{r}
+cis |>
+  group_by(educ) |>
+  summarise(mean_inc = mean(totinc), mean_atr = mean(atr)) |>
+  datasummary_df(fmt = 2)
+```
+
+`datasummary()` builds a table from a formula, `rows ~ columns`. Here
+each level of education is a row, and the column is the mean of
+`totinc`:
+
+```{r}
+datasummary(educ ~ totinc * Mean, data = cis, fmt = 0)
+```
+
+The column is headed "Mean", which is not very informative. `Heading()`
+replaces the heading of whatever comes after it:
+
+```{r}
+datasummary(educ ~ totinc * Heading("Average income ($)") * Mean,
+            data = cis, fmt = 0)
+```
+
+Give `datasummary()` its data with `data =`, as above. Its first
+argument is the formula, so piping a data frame into it does not work.
 
 # Part 2: Quarto
 
