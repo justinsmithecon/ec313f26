@@ -1194,7 +1194,7 @@
     "href": "slides/equitable/index.html#introduction",
     "title": "EC313 - Taxation",
     "section": "Introduction",
-    "text": "Introduction\n\nAs we have discussed, government raise taxes mainly to raise revenue\nBut taxes involve costs\n\nThe direct cost of the revenue raised\nAdditional costs from distortions in behaviour (excess burden)\n\nGiven that revenue needs to be raised, how should taxes be designed to minimize costs?\nOptimal taxation addresses this question"
+    "text": "Introduction\n\nAs we have discussed, governments raise taxes mainly to raise revenue\nBut taxes involve costs\n\nThe direct cost of the revenue raised\nAdditional costs from distortions in behaviour (excess burden)\n\nGiven that revenue needs to be raised, how should taxes be designed to minimize costs?\nOptimal taxation addresses this question"
   },
   {
     "objectID": "slides/equitable/index.html#model",
@@ -1222,7 +1222,7 @@
     "href": "slides/equitable/index.html#model-3",
     "title": "EC313 - Taxation",
     "section": "Model",
-    "text": "Model\n\n\n\n\n\n\nWhy Taxing Everything Equally Is Non-Distortionary\n\n\nIf we could tax all goods and leisure at the same rate, we would not distort behaviour because relative prices are unchanged. The commodity taxes are equivalent to a lump-sum tax that reduces income.\n\n\n\n\nBut in practice, we cannot tax all goods and leisure at the same rate\n\nWe cannot tax leisure directly\nCan only tax \\(X\\) and \\(Y\\) in this setup\n\nTaxing some goods (\\(X\\) and \\(Y\\)) but not others (\\(L\\)) distorts relative prices and leads to excess burden"
+    "text": "Model\n\n\n\n\n\n\nWhy Taxing Everything Equally Is Non-Distortionary\n\n\nIf we could tax all goods and leisure at the same rate, we would not distort behaviour because relative prices are unchanged. The commodity taxes are equivalent to a lump-sum tax that reduces income.\n\n\n\n\nBut in practice, we cannot tax all goods and leisure at the same rate\n\nWe cannot tax leisure directly\nCan only tax \\(X\\) and \\(Y\\) in this setup\n\nTaxing some goods (\\(X\\) and \\(Y\\)) but not others (\\(L\\)) distorts relative prices and leads to excess burden"
   },
   {
     "objectID": "slides/equitable/index.html#ramsey-rule",
@@ -1243,14 +1243,14 @@
     "href": "slides/equitable/index.html#ramsey-rule-2",
     "title": "EC313 - Taxation",
     "section": "Ramsey Rule",
-    "text": "Ramsey Rule\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nConsumer initially consumes \\(X_{0}\\) at price \\(P_{0}\\)\nAfter tax \\(u_{X}\\) is imposed, price rises to \\(P_{0} + u_{X}\\)\nConsumer reduces consumption to \\(X_{1}\\)\nAs we have learned this involves an excess burden\n\nEquals area of yellow triangle\nRepresents the loss in consumer surplus"
+    "text": "Ramsey Rule\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nConsumer initially consumes \\(X_{0}\\) at price \\(P_{0}\\)\nAfter tax \\(u_{X}\\) is imposed, price rises to \\(P_{0} + u_{X}\\)\nConsumer reduces consumption to \\(X_{1}\\)\nAs we have learned this involves an excess burden\n\nEquals area of yellow triangle\nRepresents the loss in consumer surplus beyond the tax revenue collected"
   },
   {
     "objectID": "slides/equitable/index.html#ramsey-rule-3",
     "href": "slides/equitable/index.html#ramsey-rule-3",
     "title": "EC313 - Taxation",
     "section": "Ramsey Rule",
-    "text": "Ramsey Rule\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow imagine raising the tax further from \\(u_{X}\\) to \\(u_{X} + 1\\)\nThe additional excess burden created is the marginal excess burden\n\nEquals area of purple triangle\n\nPart of that excess burden was tax revenue (purple rectangle)\nOther part is additional loss in consumer surplus (purple triangle)"
+    "text": "Ramsey Rule\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nNow imagine raising the tax further from \\(u_{X}\\) to \\(u_{X} + 1\\)\nThe additional excess burden created is the marginal excess burden\n\nEquals area of purple trapezoid (triangle plus rectangle)\n\nPart of that excess burden was tax revenue (purple rectangle)\nOther part is additional loss in consumer surplus (purple triangle)"
   },
   {
     "objectID": "slides/equitable/index.html#ramsey-rule-4",
@@ -1278,7 +1278,7 @@
     "href": "slides/equitable/index.html#ramsey-rule-7",
     "title": "EC313 - Taxation",
     "section": "Ramsey Rule",
-    "text": "Ramsey Rule\n\nIF we pretend that \\(\\Delta x\\) is very small, we can ignore it\n\nSo marginal tax revenue is approximately \\(X_{1} - \\Delta X\\)\n\nThe marginal excess burden per dollar of additional revenue is\n\n\\[ \\frac{\\Delta X}{X_{1} - \\Delta X} \\]\n\nIf we repeat this exact exercise for good \\(Y\\), we find that the marginal excess burden per dollar of additional revenue is\n\n\\[ \\frac{\\Delta Y}{Y_{1} - \\Delta Y} \\]"
+    "text": "Ramsey Rule\n\nIf we pretend that \\(\\Delta x\\) is very small, we can ignore it\n\nSo marginal tax revenue is approximately \\(X_{1} - \\Delta X\\)\n\nThe marginal excess burden per dollar of additional revenue is\n\n\\[ \\frac{\\Delta X}{X_{1} - \\Delta X} \\]\n\nIf we repeat this exact exercise for good \\(Y\\), we find that the marginal excess burden per dollar of additional revenue is\n\n\\[ \\frac{\\Delta Y}{Y_{1} - \\Delta Y} \\]"
   },
   {
     "objectID": "slides/equitable/index.html#ramsey-rule-8",
@@ -1292,7 +1292,7 @@
     "href": "slides/equitable/index.html#ramsey-rule-with-elasticities",
     "title": "EC313 - Taxation",
     "section": "Ramsey Rule with Elasticities",
-    "text": "Ramsey Rule with Elasticities\n\nEconomists enjoy expressing things in terms of elasticities\nThe price elasticity of demand is\n\n\\[ \\eta_{X} = \\frac{\\Delta X}{\\Delta P_{X}} \\times \\frac{P_{X}}{X} \\]\n\nRearrange that to get\n\n\\[ \\frac{\\Delta X}{X} = \\eta_{X} \\times \\frac{\\Delta P_{X}}{P_{X}} \\]"
+    "text": "Ramsey Rule with Elasticities\n\nEconomists enjoy expressing things in terms of elasticities\nThe compensated price elasticity of demand is\n\n\\[ \\eta_{X} = \\frac{\\Delta X}{\\Delta P_{X}} \\times \\frac{P_{X}}{X} \\]\n\nRearrange that to get\n\n\\[ \\frac{\\Delta X}{X} = \\eta_{X} \\times \\frac{\\Delta P_{X}}{P_{X}} \\]"
   },
   {
     "objectID": "slides/equitable/index.html#ramsey-rule-with-elasticities-1",
@@ -1313,7 +1313,7 @@
     "href": "slides/equitable/index.html#ramsey-rule-with-elasticities-3",
     "title": "EC313 - Taxation",
     "section": "Ramsey Rule with Elasticities",
-    "text": "Ramsey Rule with Elasticities\n\n\n\n\n\n\nThe Inverse Elasticity Rule\n\n\nThe optimal tax rate on a good is inversely proportional to its price elasticity of demand. If good \\(Y\\) has a high elasticity relative to good \\(X\\), then \\(t_{X}\\) should be higher than \\(t_{Y}\\).\n\n\n\n\nWhy?\n\nBecause a tax on a good with a high elasticity will cause a large reduction in quantity demanded\nThis creates a large excess burden\nSo to minimize excess burden, tax goods with high elasticities less"
+    "text": "Ramsey Rule with Elasticities\n\n\n\n\n\n\nThe Inverse Elasticity Rule\n\n\nWhen goods are unrelated in consumption, the optimal tax rate on a good is inversely proportional to its compensated price elasticity of demand. If good \\(Y\\) has a high elasticity relative to good \\(X\\), then \\(t_{X}\\) should be higher than \\(t_{Y}\\).\n\n\n\n\nWhy?\n\nBecause a tax on a good with a high elasticity will cause a large reduction in quantity demanded\nThis creates a large excess burden\nSo to minimize excess burden, tax goods with high elasticities less"
   },
   {
     "objectID": "slides/equitable/index.html#section",
@@ -1327,14 +1327,14 @@
     "href": "slides/equitable/index.html#corlett-hague-rule",
     "title": "EC313 - Taxation",
     "section": "Corlett-Hague Rule",
-    "text": "Corlett-Hague Rule\n\nRecall that we could not tax leisure directly\n\nAnd therefore could not apply an efficient (lump-sum equivalent) tax\nThis created the excess burden\n\n\n\n\n\n\n\n\nThe Corlett-Hague Rule\n\n\nApproximate a leisure tax by taxing goods that are complements (used together with) to leisure. Examples: tax sporting equipment, household appliances, recreational vehicles, etc.\n\n\n\n\nThis indirectly lowers demand for leisure and acts like a tax on leisure\nGets us a bit closer to the most efficient outcome"
+    "text": "Corlett-Hague Rule\n\nRecall that we could not tax leisure directly\n\nAnd therefore could not apply an efficient (lump-sum equivalent) tax\nThis created the excess burden\n\n\n\n\n\n\n\n\nThe Corlett-Hague Rule\n\n\nWith two goods, tax the good that is complementary to leisure (used together with it) at the relatively higher rate. Examples: yachts, ski equipment, recreational vehicles.\n\n\n\n\nThis indirectly lowers demand for leisure and acts like a tax on leisure\nGets us a bit closer to the most efficient outcome"
   },
   {
     "objectID": "slides/equitable/index.html#equity-in-taxation",
     "href": "slides/equitable/index.html#equity-in-taxation",
     "title": "EC313 - Taxation",
     "section": "Equity in Taxation",
-    "text": "Equity in Taxation\n\nRamsey rule implies taxing goods that are inelastic more heavily\nMakes sense when those goods are socially undesirable (e.g., cigarettes, alcohol)\nBut what if those goods are necessities (e.g., food, clothing, housing, medicine)?\nProblematic for a few reasons, but one is that it lacks vertical equity\n\nVertical equity: people with greater ability to pay should pay more in taxes\n\nYou can modify the Ramsey rule to account for vertical equity\n\nA modified rule may tax necessities less heavily\nEssentially allows for larger excess burden to achieve greater equity"
+    "text": "Equity in Taxation\n\nRamsey rule implies taxing goods that are inelastic more heavily\nMakes sense when those goods are socially undesirable (e.g., cigarettes, alcohol)\nBut what if those goods are necessities (e.g., food, clothing, housing, medicine)?\nProblematic for a few reasons, but one is that it lacks vertical equity\n\nVertical equity: people with greater ability to pay should pay more in taxes\n\nYou can modify the Ramsey rule to account for vertical equity (Diamond, 1975)\n\nA modified rule may tax necessities less heavily\nEssentially allows for larger excess burden to achieve greater equity\nHow far to depart depends on how strongly society values equality, and how differently rich and poor consume\n\n\n\nDiamond’s example: the poor spend a bigger share on bread, the rich on caviar. If social welfare weights the poor more heavily, it can pay to tax caviar at the higher rate even if bread is the more inelastic good. If society only cares about efficiency, stick with Ramsey. If rich and poor buy the two goods in the same proportions, different rates can’t redistribute anything, so there is no reason to depart."
   },
   {
     "objectID": "slides/equitable/index.html#section-1",
@@ -1362,7 +1362,7 @@
     "href": "slides/equitable/index.html#government-production",
     "title": "EC313 - Taxation",
     "section": "Government Production",
-    "text": "Government Production\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGovernments sometimes produce goods/services when there is a natural monopoly\n\nNatural Monopoly: a market where a single firm can produce the entire output at lower cost than multiple firms\nHappens with continuously decreasing average costs\nExamples: water, electricity, public transit, etc.\n\nNatural monopoly depicted to the left\nMarginal cost fixed for ease of analysis\n\nCould also draw it downward sloping as in the text"
+    "text": "Government Production\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGovernments sometimes produce goods/services when there is a natural monopoly\n\nNatural Monopoly: a market where a single firm can produce the entire output at lower cost than multiple firms\nHappens with continuously decreasing average costs\nExamples: water, electricity, public transit, etc.\n\nNatural monopoly depicted to the left\nMarginal cost fixed for ease of analysis\n\nCould also draw it downward sloping as in the text"
   },
   {
     "objectID": "slides/equitable/index.html#government-production-1",
@@ -1383,21 +1383,21 @@
     "href": "slides/equitable/index.html#government-production-3",
     "title": "EC313 - Taxation",
     "section": "Government Production",
-    "text": "Government Production\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nAnother option is average cost pricing\nProduce \\(Q_{2}\\) where \\(P = AC\\)\nGovernment incurs no excess profits or losses\nPrice \\(P_{2}\\) is above \\(MC\\), so there is still some deadweight loss (excess burden) equal to red area"
+    "text": "Government Production\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nAnother option is average cost pricing\nProduce \\(Q_{3}\\) where \\(P = AC\\)\nGovernment incurs no excess profits or losses\nPrice \\(P_{3}\\) is above \\(MC\\), so there is still some deadweight loss (excess burden) equal to red area"
   },
   {
     "objectID": "slides/equitable/index.html#government-production-4",
     "href": "slides/equitable/index.html#government-production-4",
     "title": "EC313 - Taxation",
     "section": "Government Production",
-    "text": "Government Production\n\nA third option is to set P=MC and charge a lump sum tax to cover the loss\n\nHard to do in practice because generally cannot levy lump sum taxes\nConsumers not using the good would pay for it\n\nA fourth option is a two-part tariff\n\nSet P=MC and charge a fixed fee to cover the loss\nOnly users of the good pay the fee\nDivide the fee by the number of users to get the fee per user"
+    "text": "Government Production\n\nA third option is to set P=MC and charge a lump sum tax to cover the loss\n\nHard to do in practice because generally cannot levy lump sum taxes\nNon-users would pay for it, violating the benefits-received principle: those who use a public service should pay for it\n\nA fourth option is a two-part tariff\n\nSet P=MC and charge a fixed fee to cover the loss\nOnly users of the good pay the fee\nDivide the loss by the number of users to get the fee per user"
   },
   {
     "objectID": "slides/equitable/index.html#government-production-5",
     "href": "slides/equitable/index.html#government-production-5",
     "title": "EC313 - Taxation",
     "section": "Government Production",
-    "text": "Government Production\n\nLastly, use the Ramsey Rule\n\nIf government produces multiple goods/services, set user fees for each\nOptimally set them so that the percent reduction in quantity demanded is the same for all goods/services\nWe saw that this involves setting higher fees for goods/services with inelastic demand\nThe user fee effectively acts like a tax on the good/service"
+    "text": "Government Production\n\nLastly, use the Ramsey Rule\n\nIf government produces multiple goods/services, set user fees for each\nOptimally set them so that the percent reduction in quantity demanded is the same for all goods/services\nWe saw that this involves setting higher fees for goods/services with inelastic demand\nThe user fee effectively acts like a tax on the good/service\n\nIn practice, Canada uses average cost pricing in many cases for public and regulated enterprises\n\nInefficient, but simple and consistent with the benefits-received principle"
   },
   {
     "objectID": "slides/equitable/index.html#section-2",
@@ -1411,14 +1411,14 @@
     "href": "slides/equitable/index.html#introduction-2",
     "title": "EC313 - Taxation",
     "section": "Introduction",
-    "text": "Introduction\n\nSo far we have discussed optimal commodity taxes and user fees\nIncome taxes are another major source of government revenue\nIncome taxes are different because they tax a person’s ability to pay\n\nAbility to pay is determined by income\nIncome taxes therefore affect both labour supply and consumption\n\nYou can design an income tax optimally"
+    "text": "Introduction\n\nSo far we have discussed optimal commodity taxes and user fees\nIncome taxes are another major source of government revenue\nIncome taxes are different because they tax a person’s ability to pay\n\nOne common view is that income measures ability to pay (we return to this under horizontal equity)\nIncome taxes therefore affect both labour supply and consumption\n\nYou can design an income tax optimally"
   },
   {
     "objectID": "slides/equitable/index.html#old-school-optimal-tax",
     "href": "slides/equitable/index.html#old-school-optimal-tax",
     "title": "EC313 - Taxation",
     "section": "Old School Optimal Tax",
-    "text": "Old School Optimal Tax\n\nA very old approach to optimal income taxation is Edgeworth’s Model\n\n\n\n\n\n\n\nEdgeworth’s Model Assumptions\n\n\n\nMaximize social welfare: the combination of individual utilities\nSocial welfare is utilitarian: the sum of individual utilities\nEach person’s utility is the same, depends only on income\nHas diminishing marginal utility of income\nTotal amount of income in society is fixed\n\n\n\n\n\nThis model predicts that after-tax income is the same for everyone\n\nInvolves taxing rich and giving to poor until equality is reached\n\nThis is not a realistic model, but it is a starting point"
+    "text": "Old School Optimal Tax\n\nA very old approach to optimal income taxation is Edgeworth’s Model\n\n\n\n\n\n\n\nEdgeworth’s Model Assumptions\n\n\n\nMaximize social welfare: the combination of individual utilities\nSocial welfare is utilitarian: the sum of individual utilities\nEveryone has an identical utility function that depends only on income\nHas diminishing marginal utility of income\nTotal amount of income in society is fixed\n\n\n\n\n\nThis model predicts that after-tax income is the same for everyone\n\nInvolves taxing rich and giving to poor until equality is reached\nIncomes are levelled from the top down: a 100% marginal tax rate on the highest incomes\n\nThis is not a realistic model, but it is a starting point"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax",
@@ -1432,49 +1432,49 @@
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-1",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA simplified version of this model is depicted to the left\nIn this setup revenue is\n\n\\[ Revenue = -\\alpha + t \\times Income \\]\n\nThe term \\(-\\alpha\\) is a fixed payment to everyone\n\nIf \\(\\alpha &gt; 0\\), it is a subsidy\nIf \\(\\alpha &lt; 0\\), it is a lump-sum tax\n\nThe term \\(t\\) is the marginal income tax"
+    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA simplified version of this model is depicted to the left\nIn this setup revenue is\n\n\\[ Revenue = -\\alpha + t \\times Income \\]\n\nThe term \\(\\alpha\\) is a fixed payment to everyone\n\nIf \\(\\alpha &gt; 0\\), it is a subsidy\nIf \\(\\alpha &lt; 0\\), it is a lump-sum tax\n\nThe term \\(t\\) is the marginal income tax"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-2",
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-2",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA constant marginal tax is a flat tax\n\nComes from a linear tax schedule\n\nStudies find that the optimal income tax is non-linear\n\nMarginal tax rate rises with income\nImplies a progressive tax system\nThis exists in many countries, including Canada and the US\n\nHowever, they also find that the optimal non-linear tax is approximated a flat tax\n\nSo we can still gain insights from the flat tax"
+    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA constant marginal tax is a flat tax\n\nComes from a linear tax schedule\n\nWith the grant, it is still a progressive tax system\n\nShare of income paid in tax rises with income\n\nCanada and the US have marginal rates that rise with income\n\nOptimal tax result: top rate should be lower than the bottom rate (Gruber and Saez, 2002)\n\nOptimal non-linear tax is close to a flat tax (Mankiw, Weinzierl and Yagan, 2009)\n\nSo we can still gain insights from the flat tax"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-3",
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-3",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn example with different flat taxes is shown to the left\nGraph plots total revenue\nThere are three curves\n\n\\(\\alpha = -3000\\), \\(t = 0.25\\)\n\\(\\alpha = -5000\\), \\(t = 0.25\\)\n\\(\\alpha = -3000\\), \\(t = 0.5\\)\n\n\\(\\alpha\\) changes the intercept\n\\(t\\) changes the slope"
+    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn example with different flat taxes is shown to the left\nGraph plots total revenue\nThere are three curves\n\n\\(\\alpha = 3000\\), \\(t = 0.25\\)\n\\(\\alpha = 5000\\), \\(t = 0.25\\)\n\\(\\alpha = 3000\\), \\(t = 0.5\\)\n\n\\(\\alpha\\) changes the intercept\n\\(t\\) changes the slope"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-4",
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-4",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNow plot the proportion of income paid in tax\nHere you can see the progressivity of the tax\nThe tax with the highest marginal tax rate (\\(t=0.5\\)) and the lowest fixed payment (\\(\\alpha = -3000\\)) is the most progressive\nThe higher the marginal tax rate, the more progressive the tax\nThe lower the fixed payment, the more progressive the tax"
+    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNow plot the proportion of income paid in tax\nHere you can see the progressivity of the tax\nWith the same \\(t\\), the bigger grant, \\(\\alpha = 5000\\), is the most progressive\nRaising \\(t\\) with the same grant shifts the curve up without making it steeper\nIn the optimal tax problem, a higher \\(t\\) pays for a larger grant\n\nThe tax becomes more progressive, at the cost of more excess burden\n\n\n\n\nThe average tax rate is \\(t - \\alpha/\\text{income}\\). The grant term shrinks as income rises, which is what makes a flat tax progressive, and a bigger grant makes the average rate climb faster. Raising \\(t\\) adds the same amount at every income. In the optimal tax problem the two are tied together by the revenue requirement: a bigger grant has to be paid for with a higher \\(t\\), and a higher \\(t\\) means more excess burden. The book says simply that a higher \\(t\\) makes the system more progressive; that is the case where the extra revenue pays for a bigger grant. The slide holds the grant fixed to separate the two effects."
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-5",
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-5",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\nThe specific optimal tax rates depend on the model assumptions\n\nLabour supply elasticity\nSocial welfare function\nAbility to pay\nIncome distribution\n\nWith the utilitarian social welfare function, optimal is around 50%\n\nOptimal grant \\(\\alpha\\) is about 60% of average worker income\n\nUsing a more egalitarian social welfare function, optimal tax is higher\n\nEgalitarian social welfare function puts more weight on poorer individuals\nOptimal rate around 80%\n\nFinally, some studies find that if tax rates are allowed to be different, rich should pay lower marginal rate"
+    "text": "Newer Approach to Optimal Tax\n\nThe specific optimal tax rates depend on the model assumptions\n\nLabour supply elasticity: more elastic labour supply means a lower optimal \\(t\\)\nSocial welfare function\nAbility to pay\nIncome distribution\n\nMankiw, Weinzierl and Yagan (2009): optimal \\(t\\) is around 48–50%\n\nOptimal grant \\(\\alpha\\) is just over 60% of average income per worker\n\nUsing a more egalitarian social welfare function, optimal tax is higher\n\nEgalitarian social welfare function puts more weight on poorer individuals\nStern (1976), maximin criterion: optimal rate around 80%\n\nGruber and Saez (2002), four brackets: the top bracket gets a lower marginal rate than the lowest bracket\n\nBut average rates still rise with income, so the tax is still progressive\n\n\n\nWhy elasticity matters: the cost of redistributing is the excess burden it creates, and the more elastic labour supply is, the bigger that burden. Mankiw, Weinzierl and Yagan’s 48–50% is far below Edgeworth’s 100%, so even modest work responses matter a lot. Maximin puts all the weight on the worst-off person, and even then the rate stops short of 100%. Gruber and Saez: a lower top rate gets more work out of high earners, and the extra revenue lowers taxes at the bottom. The chapter summary states the stronger textbook result: the marginal rate on the very highest income should be zero, since taxing income above the top earner raises no revenue but still discourages that person’s work. Don’t oversell the precision here: the welfare function is a value judgement and the elasticities are uncertain."
   },
   {
     "objectID": "slides/equitable/index.html#introduction-3",
     "href": "slides/equitable/index.html#introduction-3",
     "title": "EC313 - Taxation",
     "section": "Introduction",
-    "text": "Introduction\n\nOptimal tax theory provides purely theoretical guidance on how to design taxes\nIn practice, tax policy is determined by politics\n\nPoliticians care about getting elected\nVoters care about their own taxes and benefits\n\nSo the optimal tax is not a realistic outcome\nIt is possible that in the real world, implementing the optimal tax is not even desirable"
+    "text": "Introduction\n\nOptimal tax theory provides purely theoretical guidance on how to design taxes\nIn practice, tax policy is determined by politics\n\nPoliticians care about getting elected\nVoters care about their own taxes and benefits\n\nSo the optimal tax is not a realistic outcome\nIt is possible that in the real world, implementing the optimal tax is not even desirable (Holcombe, 2002)"
   },
   {
     "objectID": "slides/equitable/index.html#time-inconsistency-problem",
     "href": "slides/equitable/index.html#time-inconsistency-problem",
     "title": "EC313 - Taxation",
     "section": "Time Inconsistency Problem",
-    "text": "Time Inconsistency Problem\n\nImagine a government wants to tax society to raise revenue\nThere are three possible goods that people can consume\n\n\\(X\\), \\(Y\\), and Leisure \\(L\\)\n\nLabour has a fixed supply so income is also fixed\nThe government currently taxes only \\(X\\), not \\(Y\\)\nA tax economist suggests lowering the tax on \\(X\\) and taxing both \\(X\\) and \\(Y\\) at the same rate\n\nEfficient because relative prices are unchanged, no change in labour\nNo excess burden"
+    "text": "Time Inconsistency Problem\n\nIn 2012 the UK deputy prime minister proposed a one-time tax on the wealth of the rich (Frank, 2012)\n\nIt taxes wealth already built up, so it works like a lump-sum tax: no excess burden\n\nBut the government has an incentive to renege and do it again next year\n\nThe wealthy expect this and save less, so the tax distorts behaviour after all\n\nUnless the promise is credible, the efficient policy can’t be carried out\n\n\n\n\n\n\n\nTime Inconsistency Problem\n\n\nA policy is time inconsistent when the government announces it but later has an incentive to abandon it. If people expect this, the announcement is not credible, and they act on what they expect the government to do rather than on what it says. An optimal tax plan can fail for this reason.\n\n\n\n\nThe government needs a way to commit, for example constitutional limits on going back on its word. As long as the incentive to renege is there, people will stay suspicious. The lesson: before recommending a policy from optimal tax theory, ask whether the government can credibly stick to it."
   },
   {
     "objectID": "slides/equitable/index.html#time-inconsistency-problem-1",
@@ -1495,49 +1495,49 @@
     "href": "slides/equitable/index.html#horizontal-equity",
     "title": "EC313 - Taxation",
     "section": "Horizontal Equity",
-    "text": "Horizontal Equity\n\n\n\n\n\n\nHorizontal Equity\n\n\nPeople in “equal positions” should be treated equally. When it comes to taxation, equal positions might mean equal ability to pay, out of income, consumption, or wealth.\n\n\n\n\nHorizontal equity is desirable because it is viewed as fair\n\nPeople in equal positions should pay the same tax\nIf not, people may view the tax system as unfair and try to avoid taxes\n\nDefining horizontal equity in terms of income or wage is problematic\n\nTwo people who earn the same wage but work different hours have different abilities to pay\nTaxing wage instead is a problem because it is based on human capital investments"
+    "text": "Horizontal Equity\n\n\n\n\n\n\nHorizontal Equity\n\n\nPeople in “equal positions” should be treated equally. When it comes to taxation, equal positions might mean equal ability to pay, out of income, consumption, or wealth.\n\n\n\n\nHorizontal equity is desirable because it is viewed as fair\n\nPeople in equal positions should pay the same tax\nIf not, people may view the tax system as unfair and try to avoid taxes\n\nDefining horizontal equity in terms of income or wage is problematic\n\nTwo people with the same wage who work different hours have different incomes but the same earning capacity\nSo they are arguably in equal positions, and income is a poor measure of position\nUsing the wage rate instead has problems: it reflects human capital investments, and hours are hard to observe and can be misreported"
   },
   {
     "objectID": "slides/equitable/index.html#horizontal-equity-2",
     "href": "slides/equitable/index.html#horizontal-equity-2",
     "title": "EC313 - Taxation",
     "section": "Horizontal Equity",
-    "text": "Horizontal Equity\n\nCould instead define horizontal equity in terms of utility\n\nUtility definition of horizontal equity: people with the same pre-tax utility should have the same after-tax utility, and taxes should not alter the utility ordering\n\nSeveral problems with this approach\n\nUtility is unobservable\nIf taxing only income, it can penalize people who\n\nConsume goods that are income intensive\nWork in jobs where the pay is purely monetary instead of non-income benefits (e.g. nice work environment, flexible work)\n\nDepends on utility ordering prior to any new taxes being imposed (i.e. biased towards status quo)\n\nBasic idea is that while horizontal equity is desirable, it is hard to define and implement in practice"
+    "text": "Horizontal Equity\n\nCould instead define horizontal equity in terms of utility (Feldstein, 1976)\n\nUtility definition of horizontal equity: people with the same pre-tax utility should have the same after-tax utility, and taxes should not alter the utility ordering\n\nSeveral problems with this approach\n\nUtility is unobservable\nIf tastes differ, any income tax violates it: people who value goods bought with income are hit harder than people who value leisure\n\nSome jobs pay partly in untaxed amenities (e.g. nice work environment, flexible work)\n\nWith identical tastes and free choice of job, pre-tax wages adjust until net returns are equal\nSo this is a horizontal inequity under the traditional definition, but not under the utility definition\n\n\n\nTastes: the book’s gourmets and sunbathers start equally well off. A proportional income tax hurts the gourmets more, because they need income to buy food, while the sunbathers mostly want leisure, which isn’t taxed. Amenities: if the job with the pool and the nice office came out ahead after tax, people would move into it, and the extra supply of workers would push its pre-tax wage down until the two jobs were equally attractive again."
   },
   {
     "objectID": "slides/equitable/index.html#administrative-costs",
     "href": "slides/equitable/index.html#administrative-costs",
     "title": "EC313 - Taxation",
     "section": "Administrative Costs",
-    "text": "Administrative Costs\n\nTaxes are costly to administer\n\nDirect costs of about $1 to collect $100 of tax revenue in Canada\nAverage taxpayer pays about $200-$250 in tax preparation costs per year\nOverall it costs about 2% of GDP to collect taxes in Canada\n\nTax design must balance revenue benefits against administrative costs\nSome changes have led to smaller costs\n\nOnline filing, automatic download of tax forms\nPotential for future: automatic filing"
+    "text": "Administrative Costs\n\nTaxes are costly to administer\n\nDirect costs of about $1 to collect $100 of personal income and payroll tax (Vaillancourt, 1989)\n\nIgnoring administration can backfire: cigarette smuggling in 1993–94\n\nCombined federal and provincial taxes reached $2.75–$3 a pack, and smuggling from the US became rampant\nTaxes were cut by up to 60% in Quebec and Ontario, and Ottawa stepped up border enforcement\n\nTax design must balance excess burden against administrative costs\n\nE.g. a different rate on every good, as the Ramsey rule suggests, is cumbersome to run"
   },
   {
     "objectID": "slides/equitable/index.html#compliance",
     "href": "slides/equitable/index.html#compliance",
     "title": "EC313 - Taxation",
     "section": "Compliance",
-    "text": "Compliance\n\nCanada and other countries operate on a self-assessment system\n\nTaxpayers are responsible for reporting their income and calculating their taxes\nGovernment audits a small percentage of taxpayers to ensure compliance\n\nSome people engage in tax avoidance\n\nLegal ways: changing behaviour to minimize taxes\nIllegal ways: tax evasion, not reporting income, fraud\n\nIt is not always easy to catch tax evasion\n\nGovernment has to balance the costs of enforcement against the benefits\nIf enforcement is too costly, it may not be worth it\n\nThere is an economic theory that determines “optimal” tax evasion"
+    "text": "Compliance\n\nCanada and other countries operate on a self-assessment system\n\nTaxpayers are responsible for reporting their income and calculating their taxes\nGovernment audits a small percentage of taxpayers to ensure compliance\n\nSome people try to pay less tax\n\nTax avoidance: legally changing your behaviour to reduce your tax liability\nTax evasion: illegally not paying taxes you legally owe\n\nIt is not always easy to catch tax evasion\n\nGovernment has to balance the costs of enforcement against the benefits\nIf enforcement is too costly, it may not be worth it\n\nThere is an economic theory that determines “optimal” tax evasion"
   },
   {
     "objectID": "slides/equitable/index.html#compliance-1",
     "href": "slides/equitable/index.html#compliance-1",
     "title": "EC313 - Taxation",
     "section": "Compliance",
-    "text": "Compliance\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine that costs of evasion rise with the amount evaded\n\nPenalty rises with amount evaded\nThere is some probability that you get caught\nCould be psychic costs to cheating\nRisk aversion might play a role\n\nBenefit is constant\n\nGain is \\(t\\) per $1 evaded\n\nAs with many economic decisions, optimal evasion occurs where marginal benefit equals marginal cost\nThis person would evade \\(R^{*}\\)"
+    "text": "Compliance\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nImagine that costs of evasion rise with the amount evaded\n\nPenalty rises with amount evaded\nThere is some probability that you get caught\nCould be psychic costs to cheating\nRisk aversion might play a role\n\nBenefit is constant\n\nGain is \\(t\\) per $1 evaded\n\nAs with many economic decisions, optimal evasion occurs where marginal benefit equals marginal cost\nThis person would evade \\(R^{*}\\)"
   },
   {
     "objectID": "slides/equitable/index.html#compliance-2",
     "href": "slides/equitable/index.html#compliance-2",
     "title": "EC313 - Taxation",
     "section": "Compliance",
-    "text": "Compliance\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf costs are too high, no evasion occurs\n\nProbability of getting caught might be high\nPenalty might be high\nLarge psychic costs or very risk averse"
+    "text": "Compliance\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nIf costs are too high, no evasion occurs\n\nProbability of getting caught might be high\nPenalty might be high\nLarge psychic costs or very risk averse\n\nA higher audit probability or a higher penalty shifts marginal cost up, so evasion falls\nEvidence: we don’t know whether bigger fines or more audits deter more\n\nAudits raise later compliance for most groups, but the effect is small (Blumenthal, Christian and Slemrod, 2001)"
   },
   {
     "objectID": "slides/equitable/index.html#compliance-3",
     "href": "slides/equitable/index.html#compliance-3",
     "title": "EC313 - Taxation",
     "section": "Compliance",
-    "text": "Compliance\n\nAlso the normative question about tax evasion: do we care?\nSome economies have large underground or informal economies\n\nDeveloping countries often have significant employment in informal economies\n\nWhile it is incorrect to call them tax evaders, people in informal employment do not pay taxes\nIt might be desirable to have the underground/informal economy even if they pay no tax\n\nThey are often poor and would not pay much tax\nThey often provide goods/services that are beneficial to society\nTrying to eliminate the informal economy might do more harm than good"
+    "text": "Compliance\n\nAlso the normative question about tax evasion: do we care about the welfare of evaders?\nSome economies have large underground or informal economies\n\nDeveloping countries often have significant employment in informal economies\n\nHiding legal work from the tax authorities is still tax evasion, so many informal workers are evaders\nIf their welfare counts, it might be desirable to have the underground/informal economy even if they pay no tax\n\nThey are often poor and would not pay much tax; some would be jobless under regular taxes and rules\nThey often provide goods/services that are beneficial to society\nTrying to eliminate the informal economy might do more harm than good\n\n\n\nTwo more reasons from optimal tax theory if evaders’ welfare counts. If labour supply to the underground economy is more elastic, the inverse elasticity rule says it should be taxed lightly anyway. If it employs people who would be unemployed under regular taxes and rules like the minimum wage, an egalitarian society might want to leave it alone. If evaders’ welfare doesn’t count, the goal is just to stop cheating at the lowest cost: the penalty can always be raised high enough, but we don’t do that because we care about just punishment, not only the result."
   },
   {
     "objectID": "slides/equitable/index.html#summary-2",
@@ -1551,7 +1551,7 @@
     "href": "slides/equitable/index.html#references-1",
     "title": "EC313 - Taxation",
     "section": "References",
-    "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
+    "text": "References\n\nRosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-François Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.\nStudies cited by author and year on the slides are as reported in Rosen et al. (2023), Chapter 16."
   },
   {
     "objectID": "slides/corptax/index.html#goals-of-this-section-1",
@@ -4661,5 +4661,103 @@
     "title": "EC313 - Taxation",
     "section": "References",
     "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question",
+    "href": "slides/equitable/index.html#iclicker-question",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nThe compensated price elasticity of demand is \\(-0.25\\) for gasoline and \\(-1.0\\) for restaurant meals. As in our model, supply of both is horizontal and the two goods are unrelated in consumption. To raise a given amount of revenue with the least excess burden, the tax rate on gasoline should be:\nA) One-quarter of the rate on restaurant meals\nB) The same as the rate on restaurant meals\nC) High enough to raise all the revenue, with no tax on restaurant meals\nD) Four times the rate on restaurant meals\nE) Whatever rate makes the two taxes raise the same revenue\n\nAnswer: D. The inverse elasticity rule gives \\(t_G / t_M = \\eta_M / \\eta_G = 1.0 / 0.25 = 4\\). A is the most common slip: the ratio flipped. B is neutral taxation, which minimizes excess burden only if leisure could be taxed too, or if the elasticities happened to be equal. C overshoots: the rule equalizes the percent drop in quantity across goods, so both goods carry some tax. Loading everything onto gasoline pushes its marginal excess burden per dollar above the meal tax’s. E aims for equal revenue, but the condition is equal marginal excess burden per extra dollar of revenue, not equal revenue."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-1",
+    "href": "slides/equitable/index.html#iclicker-question-1",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSki-lift tickets and work boots have the same price elasticity of demand. Leisure cannot be taxed. Which tax structure raises a given revenue with less excess burden, and why?\nA) The same rate on both, because their elasticities are equal\nB) A higher rate on lift tickets, because skiing is a complement to leisure\nC) A higher rate on work boots, because they are a substitute for leisure\nD) A higher rate on lift tickets, because skiing is a luxury and this makes the tax more progressive\nE) No tax on lift tickets, because pushing people from leisure toward work adds to the distortion\n\nAnswer: B. Taxing goods but not leisure makes leisure relatively cheap. Taxing a complement to leisure makes leisure less attractive, which works like the leisure tax we cannot levy. A is the inverse elasticity rule on its own; it ignores how each good relates to leisure, which is what Corlett-Hague adds. C reverses the rule: goods that go with work should get the lower rate, since taxing them discourages work. D picks the right policy for the wrong reason: Corlett-Hague is an efficiency argument, not an equity one. E treats any change in behaviour as a distortion. Here the untaxed leisure is the distortion, and nudging people back toward work offsets it."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-2",
+    "href": "slides/equitable/index.html#iclicker-question-2",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA provincial ferry is a natural monopoly: average cost falls as trips increase, so marginal cost is below average cost. Assume no regular rider would stop riding because of a fixed annual fee. Which pricing scheme gives the efficient number of trips with no excess burden anywhere, including in whatever pays for the ferry’s costs?\nA) Charge marginal cost per trip\nB) Charge average cost per trip\nC) Charge the price where marginal revenue equals marginal cost\nD) Charge marginal cost per trip and cover the deficit from provincial income tax\nE) Charge marginal cost per trip, plus a fixed annual fee for each rider\n\nAnswer: E, the two-part tariff. The per-trip price equals marginal cost, so riders take the efficient number of trips. The fixed fee covers the deficit, and because nobody quits over it, it works like a lump-sum tax on riders: it changes no decision at the margin. A gets the quantity right but leaves a deficit that has to be paid somehow. D pays it, but the income tax distorts labour supply, so the excess burden has moved rather than gone, and non-riders pay for a service they don’t use. B breaks even, but price is above marginal cost, so some trips worth more than they cost aren’t taken. C is the unregulated monopolist: profits and the largest deadweight loss. The assumption in the question matters: in practice a fixed fee can drive off occasional riders, which is the two-part tariff’s weak spot."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-3",
+    "href": "slides/equitable/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAnn earns $90,000 and Bo earns $30,000. They have identical utility functions with diminishing marginal utility of income, and the government needs $20,000 in revenue. The government can pay transfers as well as collect taxes. Under Edgeworth’s model, the tax system that maximizes social welfare has:\nA) Ann paying $40,000 and Bo receiving $20,000\nB) Each paying $10,000\nC) Ann paying $15,000 and Bo paying $5,000\nD) Ann paying all $20,000 and Bo paying nothing\nE) Ann paying $30,000 and Bo receiving $30,000\n\nAnswer: A. With identical utility and diminishing marginal utility, moving a dollar from the richer person to the poorer one raises total utility, right up until after-tax incomes are equal. Total after-tax income is $120,000 - $20,000 = $100,000, so each ends with $50,000: Ann pays $40,000 and Bo receives $20,000. D is the trap: Edgeworth does not just tax the rich, it transfers to the poor as well. E equalizes incomes but forgets the government’s revenue. B is an equal lump-sum tax; C is a proportional tax at one-sixth of income. Bridge to the next slide: in a large population, full equality means almost every extra dollar anyone earns is shared out, a marginal rate near 100%. If people work less under that rate, the fixed-income assumption fails."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-4",
+    "href": "slides/equitable/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nChris and Dana have the same income and are equally well off. Chris spends spare money on craft beer; Dana spends spare money on concerts. The province puts a new tax on beer only. Under the utility definition of horizontal equity, the beer tax is:\nA) Equitable, because the tax does not depend on income\nB) Equitable, because Chris could switch to concerts and avoid the tax\nC) Equitable, because both face the same tax rate on beer\nD) Impossible to judge, because utility cannot be observed\nE) Not equitable, because Chris ends up worse off than Dana\n\nAnswer: E. The utility definition asks whether people who were equally well off before a tax are equally well off after it. Chris either pays the tax or changes plans to avoid it; Dana is untouched. B is the trap: switching to concerts avoids the tax but still leaves Chris worse off, because Chris preferred beer, and that loss is what the definition counts. C is equal treatment on paper: everyone faces the same rate on beer. The utility definition judges outcomes, not rules, so that doesn’t settle it. It doesn’t pass the rule definition either: taxing one taste and not another is the kind of distinction that test questions, like the book’s angel-food-versus-chocolate-cake example. D confuses a practical objection with the verdict: in practice we can’t see utility, but here we are told they start equally well off. A treats horizontal equity as a test only for income taxes, but it applies to any tax."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-5",
+    "href": "slides/equitable/index.html#iclicker-question-5",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich of these is tax evasion rather than tax avoidance?\nA) Splitting pension income with a lower-income spouse\nB) Moving from Ontario to Alberta for its lower provincial income tax\nC) Deducting a home office for a room that is really a guest room\nD) Holding savings in a TFSA so the investment income is not taxed\nE) Selling a stock in January instead of December to report the gain in a lower-income year\n\nAnswer: C. Evasion is illegal: not paying tax you legally owe, here by claiming a deduction you aren’t entitled to. Avoidance is legal: changing what you do so that you legally owe less. A and B are the traps. Both are done mainly to cut taxes and can feel like dodging, but the tax rules allow pension-income splitting, and where you live sets which province’s tax applies. Wanting to pay less tax is not what separates the two; misreporting is. D and E are ordinary avoidance: using a shelter the law provides, and timing a sale."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-6",
+    "href": "slides/equitable/index.html#iclicker-question-6",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nIn the evasion model, the benefit of each dollar of income hidden is the tax rate \\(t\\), and the marginal cost of evading rises with the amount hidden. The tax rate is cut from 30% to 25%, and nothing else changes. What happens to evasion, and why?\nA) It falls, because a lower tax rate raises the marginal cost of evading\nB) It rises, because a lower tax rate lowers the marginal cost of evading\nC) No change, because the chance of getting caught and the penalty are the same\nD) It falls, because each dollar hidden now saves less tax\nE) It falls, because people have more after-tax income and need to evade less\n\nAnswer: D. The marginal benefit line drops from 0.30 to 0.25 per dollar hidden. The marginal cost curve doesn’t move, so the two now cross at a smaller amount evaded. A and B put the tax rate in the wrong curve: in this model \\(t\\) is the benefit of evading, and the cost depends on the chance of an audit, the penalty and attitudes to risk. C assumes only enforcement matters. E tells an income-effect story the model doesn’t have. If someone asks: when the penalty is a multiple of the tax evaded rather than the income hidden, the expected penalty moves with \\(t\\) too. For someone who cares only about expected income the two effects cancel, so the rate cut changes nothing; with risk aversion the cut can even raise evasion (Yitzhaki 1974, not in the text)."
+  },
+  {
+    "objectID": "slides/equitable/index.html#iclicker-question-7",
+    "href": "slides/equitable/index.html#iclicker-question-7",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA province offers a tax amnesty: anyone who reports unpaid tax from past years pays what they owe with no penalty. The government promises it will never offer another one. How could the time inconsistency problem make evasion rise afterward?\nA) It can’t, because the amnesty only covers taxes from past years\nB) It can’t, because the government has promised in public and taxpayers will take it at its word\nC) Another amnesty will tempt the government later, so people expect one and evade now\nD) The amnesty lowers the penalty for evading this year\nE) Honest taxpayers see evaders let off and become less willing to comply\n\nAnswer: C. Before anyone evades, the best policy is a firm “never again”. Once evasion has happened it is in the past, and forgiving penalties to collect the back taxes is attractive, so the promise is not credible. Taxpayers who expect another amnesty see a lower expected cost of evading today. A is static thinking: the amnesty applies to the past, but expectations about the next one shape behaviour now. B assumes the government can commit, which is exactly what time inconsistency says it can’t. D misreads the policy. E is a real worry (tax morale), but it is a different mechanism: it doesn’t depend on the government’s incentive to break its promise."
+  },
+  {
+    "objectID": "slides/equitable/index.html#politics-and-optimal-tax",
+    "href": "slides/equitable/index.html#politics-and-optimal-tax",
+    "title": "EC313 - Taxation",
+    "section": "Politics and Optimal Tax",
+    "text": "Politics and Optimal Tax\n\nImagine a government wants to tax society to raise revenue\nThere are three possible goods that people can consume\n\n\\(X\\), \\(Y\\), and Leisure \\(L\\)\n\nLabour has a fixed supply so income is also fixed\nThe government currently taxes only \\(X\\); its constitution forbids taxing \\(Y\\)\nA tax economist suggests lowering the tax on \\(X\\) and taxing both \\(X\\) and \\(Y\\) at the same rate, raising the same revenue\n\nEfficient because relative prices are unchanged, no change in labour\nNo excess burden"
+  },
+  {
+    "objectID": "slides/equitable/index.html#politics-and-optimal-tax-1",
+    "href": "slides/equitable/index.html#politics-and-optimal-tax-1",
+    "title": "EC313 - Taxation",
+    "section": "Politics and Optimal Tax",
+    "text": "Politics and Optimal Tax\n\nCitizens are cynical\n\nThey think the government will implement the tax on \\(Y\\) but not lower it on \\(X\\)\nView the government as trying to maximize revenue at their expense\nIn certain situations they might be right\n\nIf they are correct, the ban on taxing \\(Y\\) protects them from an inefficiently large public sector\n\nWhat looks inefficient to optimal tax theory may be efficient in a larger setting\n\n\n\nSome supporting evidence: governments whose tax systems carry large excess burdens tend to grow more slowly (Becker and Mulligan, 2003). The same argument comes up over taxing online purchases: taxing store sales but not online sales distorts where people shop, but opponents say the extra revenue would just feed a public sector that is already too big."
+  },
+  {
+    "objectID": "slides/equitable/index.html#rule-definition-of-horizontal-equity",
+    "href": "slides/equitable/index.html#rule-definition-of-horizontal-equity",
+    "title": "EC313 - Taxation",
+    "section": "Rule Definition of Horizontal Equity",
+    "text": "Rule Definition of Horizontal Equity\n\nThe utility definition judges the outcomes of taxation; another approach judges the rules\n\nRule definition of horizontal equity: taxes should not be capricious or based on irrelevant characteristics\nRules out, e.g., a special tax on red-haired people, even if it were efficient or redistributive\n\nComparing the three definitions\n\nTraditional: equal income, spending or wealth; but these reflect people’s choices\nUtility: equal well-being; but unobservable and biased towards the status quo\nRule: fair rules; but which characteristics are relevant is disputed\n\nBasic idea is that while horizontal equity is desirable, it is hard to define and implement in practice\n\n\nWhich characteristics count? Almost everyone agrees race and religion should not affect tax owed. Marital status is still argued over. Serious disability should count, but how impaired, and how much relief? The definition is vague, but equal treatment of equals stays a powerful idea in tax debates."
+  },
+  {
+    "objectID": "slides/equitable/index.html#compliance-costs",
+    "href": "slides/equitable/index.html#compliance-costs",
+    "title": "EC313 - Taxation",
+    "section": "Compliance Costs",
+    "text": "Compliance Costs\n\nTaxpayers also bear compliance costs: their time plus spending on tax help\n\nPersonal income tax, 2012: at least $190 per taxpayer, $235 including appeals and planning\nGST: 17% of tax collected for firms with sales up to $100,000, 2.65% above $1 million\n\nAdministration plus compliance, all taxes: 1.5–1.8% of GDP (Vaillancourt, Roy-César and Barros, 2013)\nSome changes have led to smaller costs\n\nOnline filing, automatic download of tax forms\nPotential for future: automatic filing\n\n\n\nThe 2012 figures are from Speer, Palacios, Lugo and Vaillancourt (2014): about five hours on your own return plus two on appeals and planning, or about $108 if you pay someone. Across 26.9 million taxpaying units that is about $6.3 billion, 2.9% of personal income tax collected. Employers’ compliance costs come on top. The 1.5–1.8% of GDP works out to roughly $754–$917 per Canadian. The GST’s administrative cost was also high, about 3% of revenue, well above similar taxes elsewhere."
+  },
+  {
+    "objectID": "slides/equitable/index.html#tax-evasion-in-canada",
+    "href": "slides/equitable/index.html#tax-evasion-in-canada",
+    "title": "EC313 - Taxation",
+    "section": "Tax Evasion in Canada",
+    "text": "Tax Evasion in Canada\n\nCommon ways to commit tax fraud\n\nTwo sets of books: one real, one shown to the tax authorities\nMoonlighting for cash: no record, so the income goes unreported\nBartering: payment in kind is taxable, but seldom reported\nDealing in cash: hard for the CRA to trace\n\nUnderreporting is most common among the self-employed: 12–21% of self-employment income goes unreported (Schuetze, 2002)\nSize of the underground economy in Canada\n\nEvasion on legal activity: at most 5.2% of GDP; 8–16% of GDP including illegal activity (Pigeon, 2004)\n\n\n\nThe CRA doesn’t publish its own estimates of tax cheating, so these numbers are rough. The underground economy covers legal work kept hidden from the tax authorities, like cash home repairs, as well as activity that is illegal in itself. The 5.2% figure is Statistics Canada’s upper bound for the legal part."
+  },
+  {
+    "objectID": "slides/equitable/index.html#horizontal-equity-and-existing-taxes",
+    "href": "slides/equitable/index.html#horizontal-equity-and-existing-taxes",
+    "title": "EC313 - Taxation",
+    "section": "Horizontal Equity and Existing Taxes",
+    "text": "Horizontal Equity and Existing Taxes\n\nWith identical tastes and free choice, an existing tax system creates no horizontal inequity\n\nPeople choose knowing the taxes, and wages and prices adjust, e.g. lower pay in jobs with untaxed perks\n\nInequities come from changes in tax law\n\nPeople make hard-to-reverse commitments under the old law, e.g. a bigger house because housing is tax-favoured\nMacEachen’s 1981 budget: base broadening was attacked for turning incentives people relied on into “loopholes”\n\nHence the saying: “the only good tax is an old tax”\nTransitional equity: how to change tax regimes fairly, e.g. by phasing reforms in\nThe utility definition depends on the utility ordering before any new tax (i.e. biased towards status quo)\n\n\nTax changes can still improve efficiency or vertical equity, so “don’t change anything” doesn’t follow. One way to ease the transition is to announce a reform now and start it a few years later. Finding fair ways to change tax regimes is hard, and there isn’t much research on it. The status quo point: the utility definition treats the pre-tax ordering as if it had special ethical standing, and it is not obvious why it should. For assets such as housing, the adjustment is capitalization, as with the land tax in the incidence section: the tax advantage gets built into the price, so whoever owns the asset when the law changes takes the gain or loss."
   }
 ]
