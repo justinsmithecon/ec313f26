@@ -676,6 +676,19 @@ plotprop
 The average tax rate is $t - \alpha/\text{income}$. The grant term shrinks as income rises, which is what makes a flat tax progressive, and a bigger grant makes the average rate climb faster. Raising $t$ adds the same amount at every income. In the optimal tax problem the two are tied together by the revenue requirement: a bigger grant has to be paid for with a higher $t$, and a higher $t$ means more excess burden. The book says simply that a higher $t$ makes the system more progressive; that is the case where the extra revenue pays for a bigger grant. The slide holds the grant fixed to separate the two effects.
 :::
 
+## Choosing the Optimal Tax
+
+- Government picks $t$ and $\alpha$ to maximize social welfare
+- It must raise a set amount of revenue, so a bigger grant needs a higher $t$
+  - Picking $t$ fixes $\alpha$: the problem comes down to choosing one tax rate
+- A higher $t$ pays for a [bigger grant]{.fg style="color: #5cb85c;"}: more redistribution
+- But it also discourages work: [more excess burden]{.fg style="color: #c7254e;"}
+- The optimal $t$ balances the two
+
+::: {.notes}
+Each person pays $tY - \alpha$, so tax is linear in income. Revenue is not linear in $t$: as $t$ rises people work less, average income falls, and each extra point of tax raises less than the last. That shrinking base is the cost of a higher $t$; without it nothing stops the rate at 100%, which is Edgeworth's answer. If asked where the grant comes from: average tax collected is $t\bar{Y} - \alpha$, so a revenue requirement of $R$ per person gives $\alpha = t\bar{Y} - R$. After-tax income is then $(1-t)Y + t\bar{Y} - R$, a weighted average of your own income and the average, with $t$ the weight on the average. Because excess burden rises with $t^2$, the first bit of redistribution is nearly free, so the optimal $t$ is above zero; the rising excess burden keeps it below 100%.
+:::
+
 ## Newer Approach to Optimal Tax {.smaller}
 
 - The specific optimal tax rates depend on the model assumptions
