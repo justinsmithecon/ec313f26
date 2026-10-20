@@ -48,9 +48,9 @@ website:
               file: content/introtor.qmd
             - text: "Taxation and Efficiency"
               file: content/efficiency.qmd
+            - text: "Efficient and Equitable Taxation"
+              file: content/equitable.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "Efficient and Equitable Taxation"
-            #   file: content/equitable.qmd
             # - text: "The Personal Income Tax"
             #   file: content/personaltax.qmd
             # - text: "Personal Taxation and Behaviour"

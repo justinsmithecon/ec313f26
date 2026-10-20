@@ -2375,23 +2375,38 @@
   {
     "objectID": "content/equitable.html",
     "href": "content/equitable.html",
-    "title": "Taxation and Efficiency",
+    "title": "Efficient and Equitable Taxation",
     "section": "",
-    "text": "RTTWS Chapter 16"
+    "text": "RTTWS Chapter 16",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Efficient and Equitable Taxation"
+    ]
   },
   {
     "objectID": "content/equitable.html#readings",
     "href": "content/equitable.html#readings",
-    "title": "Taxation and Efficiency",
+    "title": "Efficient and Equitable Taxation",
     "section": "",
-    "text": "RTTWS Chapter 16"
+    "text": "RTTWS Chapter 16",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Efficient and Equitable Taxation"
+    ]
   },
   {
     "objectID": "content/equitable.html#slides",
     "href": "content/equitable.html#slides",
-    "title": "Taxation and Efficiency",
+    "title": "Efficient and Equitable Taxation",
     "section": "Slides",
-    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF."
+    "text": "Slides\nThe slides are embedded in this page, and you can scroll through them with the arrow keys. If you prefer you can instead pop them out in a new window or download a PDF.",
+    "crumbs": [
+      "Content",
+      "Course content",
+      "Efficient and Equitable Taxation"
+    ]
   },
   {
     "objectID": "content/corptax.html",
@@ -4744,7 +4759,7 @@
     "href": "slides/equitable/index.html#compliance-costs",
     "title": "EC313 - Taxation",
     "section": "Compliance Costs",
-    "text": "Compliance Costs\n\nTaxpayers also bear compliance costs: their time plus spending on tax help\n\nPersonal income tax, 2012: at least $190 per taxpayer, $235 including appeals and planning\nGST: 17% of tax collected for firms with sales up to $100,000, 2.65% above $1 million\n\nAdministration plus compliance, all taxes: 1.5–1.8% of GDP (Vaillancourt, Roy-César and Barros, 2013)\nSome changes have led to smaller costs\n\nOnline filing, automatic download of tax forms\nPotential for future: automatic filing\n\n\n\nThe 2012 figures are from Speer, Palacios, Lugo and Vaillancourt (2014): about five hours on your own return plus two on appeals and planning, or about $108 if you pay someone. Across 26.9 million taxpaying units that is about $6.3 billion, 2.9% of personal income tax collected. Employers’ compliance costs come on top. The 1.5–1.8% of GDP works out to roughly $754–$917 per Canadian. The GST’s administrative cost was also high, about 3% of revenue, well above similar taxes elsewhere."
+    "text": "Compliance Costs\n\nTaxpayers also bear compliance costs: their time plus spending on tax help\n\nPersonal income tax, 2012: at least $190 per taxpayer, $235 including appeals and planning\nGST: 17% of tax collected for firms with sales up to $100,000, 2.65% above $1 million\n\nAdministration plus compliance, all taxes: 1.5–1.8% of GDP (Vaillancourt, Roy-César and Barros, 2013)\nSome changes have led to smaller costs\n\nOnline filing, automatic download of tax forms, SimpleFile for low-income filers\nProposed: the CRA files for lower-income people who owe no tax, from the 2026 tax year\n\n\n\nThe 2012 figures are from Speer, Palacios, Lugo and Vaillancourt (2014): about five hours on your own return plus two on appeals and planning, or about $108 if you pay someone. Across 26.9 million taxpaying units that is about $6.3 billion, 2.9% of personal income tax collected. Employers’ compliance costs come on top. The 1.5–1.8% of GDP works out to roughly $754–$917 per Canadian. The GST’s administrative cost was also high, about 3% of revenue, well above similar taxes elsewhere.\nSimpleFile (by phone, online or paper) has been offered to eligible people with low or fixed incomes since 2018. Automatic filing was proposed in Budget 2025 and is in Bill C-31, the Budget 2025 Implementation Act, No. 2, which was still in committee in the House of Commons in October 2026. If it passes, the CRA plans pre-filled returns from spring 2027 for the 2026 tax year, reaching up to 5.5 million people by the 2028 tax year. It would not file for anyone who owes tax. Check the bill’s status before lecture."
   },
   {
     "objectID": "slides/equitable/index.html#tax-evasion-in-canada",
