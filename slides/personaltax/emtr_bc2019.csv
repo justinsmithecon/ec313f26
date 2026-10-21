@@ -1,0 +1,26 @@
+income,change,rate,provision
+0,1.62,1.62,Start of EI premiums
+3000,-26.00,-24.38,Start of CWB phase-in
+3500,4.95,-19.43,Start of CPP premiums
+11981,26.00,6.57,End of CWB phase-in
+17025,12.00,18.57,Start of CWB clawback
+20744,5.06,23.63,Start of 1st provincial bracket
+24138,15.00,38.63,Start of 1st federal bracket
+31711,13.50,52.13,Start of CCB clawback
+36483,-12.00,40.13,End of CWB clawback
+38507,5.00,45.13,Start of GST credit clawback
+40707,2.64,47.77,Start of 2nd provincial bracket
+47630,5.50,53.27,Start of 2nd federal bracket
+53100,-1.62,51.65,Maximum EI premiums
+56547,-5.00,46.65,End of GST credit clawback
+57400,-4.95,41.70,Maximum CPP premiums
+69708,-7.80,33.90,CCB clawback second threshold
+76137,-5.70,28.20,End of CCB clawback
+81416,2.80,31.00,Start of 3rd provincial bracket
+93476,1.79,32.79,Start of 4th provincial bracket
+95259,5.50,38.29,Start of 3rd federal bracket
+113506,2.41,40.70,Start of 5th provincial bracket
+147667,3.00,43.70,Start of 4th federal bracket
+153900,2.10,45.80,Start of 6th provincial bracket
+210371,4.00,49.80,Start of 5th federal bracket (book prints +0.25 and 40.00; corrected)
+250000,0.00,49.80,End of chart range (not in table)
