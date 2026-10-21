@@ -12,6 +12,8 @@ project:
     - files/tutorials/ec313cis.csv
     - assignments/files/ec313assign1.qmd
     - assignments/files/ec313assign1.csv
+    - assignments/files/ec313assign1-key.qmd
+    - assignments/files/ec313assign1-key.pdf
 
 website:
   title: "EC313 - Taxation"

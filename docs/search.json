@@ -2446,7 +2446,7 @@
     "href": "assignments/assign1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "On April 1, 2025, the federal carbon charge on fuel was set to zero, and British Columbia ended its own carbon tax on the same day. Quebec, which prices carbon through cap-and-trade instead, was unaffected. In this assignment you will use Statistics Canada data on gasoline prices to measure how much of the tax cut reached drivers at the pump, and use that measurement to work out who bore the carbon tax.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use a change in policy to measure the incidence of a tax.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec313assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec313assign1.csv — the data",
+    "text": "Answer Key\n\n\n\nYou can download the solutions using the links below\n ec313assign1-key.qmd\n ec313assign1-key.pdf",
     "crumbs": [
       "Assignments",
       "Assignment 1"
@@ -2456,8 +2456,8 @@
     "objectID": "assignments/assign1.html#description",
     "href": "assignments/assign1.html#description",
     "title": "Assignment 1",
-    "section": "",
-    "text": "On April 1, 2025, the federal carbon charge on fuel was set to zero, and British Columbia ended its own carbon tax on the same day. Quebec, which prices carbon through cap-and-trade instead, was unaffected. In this assignment you will use Statistics Canada data on gasoline prices to measure how much of the tax cut reached drivers at the pump, and use that measurement to work out who bore the carbon tax.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use a change in policy to measure the incidence of a tax.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec313assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec313assign1.csv — the data",
+    "section": "Description",
+    "text": "Description\nOn April 1, 2025, the federal carbon charge on fuel was set to zero, and British Columbia ended its own carbon tax on the same day. Quebec, which prices carbon through cap-and-trade instead, was unaffected. In this assignment you will use Statistics Canada data on gasoline prices to measure how much of the tax cut reached drivers at the pump, and use that measurement to work out who bore the carbon tax.\nThe assignment is designed to give you practice analysing data in R and writing up your results in Quarto, and to show how economists use a change in policy to measure the incidence of a tax.\nDue: Friday, October 9, 2026 at 9:00pm.\n\n\n\n\n\n\nDownload both files into the same folder\n\n\n\n ec313assign1.qmd — the assignment questions, as a Quarto document you write your answers into\n ec313assign1.csv — the data",
     "crumbs": [
       "Assignments",
       "Assignment 1"

@@ -2,6 +2,14 @@
 title: "Assignment 1"
 ---
 
+::: {.callout-warning title="Answer Key"}
+You can download the solutions using the links below
+
+[{{< fa solid file-export >}} `ec313assign1-key.qmd`](/assignments/files/ec313assign1-key.qmd){download="ec313assign1-key.qmd"}
+
+[{{< fa solid file-export >}} `ec313assign1-key.pdf`](/assignments/files/ec313assign1-key.pdf)
+:::
+
 ## Description
 
 On April 1, 2025, the federal carbon charge on fuel was set to zero, and

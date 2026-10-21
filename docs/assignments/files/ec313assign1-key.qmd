@@ -1,0 +1,626 @@
+---
+title: "EC313 Assignment 1: Who Paid the Carbon Tax at the Pump? (Answer Key)"
+author: "Answer key"
+date: today
+format:
+  pdf:
+    fig-width: 6
+    fig-height: 3.5
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \floatplacement{figure}{H}
+execute:
+  message: false
+  warning: false
+---
+
+<!--
+  HOW TO USE THIS FILE
+  --------------------
+  1. Put this file and ec313assign1.csv in the SAME folder.
+  2. Open this file in RStudio and press Render. It should produce a PDF
+     before you have written anything. If it does not, fix that first.
+  3. Write your code in the chunks provided and your answers where it
+     says "Write your answer here." Render after every question.
+  4. When you are finished, upload THIS .qmd file to the Gradescope
+     assignment "Assignment 1 - Code", and the PDF it produces to
+     "Assignment 1 - Written".
+
+  Some answers are checked by computer. The computer looks for the
+  objects named in each question, so use exactly those names, and do not
+  change the code in the "setup" and "load-data" chunks.
+-->
+
+## Background
+
+From 2019 to 2025, the federal government charged a carbon price on
+fuel in provinces that did not have a carbon pricing system of their
+own that met the federal standard. The charge was paid to the
+government by fuel distributors, not by drivers, and from April 2024 it
+was 17.61 cents per litre of gasoline.
+British Columbia had its own carbon tax at the same rate. Quebec prices
+carbon through a cap-and-trade system instead, with no separate charge
+per litre at the pump. Most of the revenue from the federal charge was
+returned to households as the Canada Carbon Rebate, a payment that did
+not depend on how much fuel a household bought.
+
+On April 1, 2025, the federal charge was set to zero, and British
+Columbia ended its carbon tax on the same day. Nothing changed in
+Quebec.
+
+Who bore the carbon tax at the pump? The theory of tax incidence says
+that the answer depends on the elasticities of supply and demand, not on
+who sends the money to the government. If sellers had passed the whole
+tax on to drivers, the price of gasoline should have fallen by the full
+amount of the tax when it was removed. If sellers had absorbed part of
+the tax themselves, the price should have fallen by less. In this
+assignment you will measure how much the price fell, and use that
+measurement to work out who bore the tax.
+
+## The data
+
+The data come from Statistics Canada's monthly survey of retail
+gasoline prices (Table 18-10-0001-01). They are the average price of
+regular unleaded gasoline at self-service stations in 15 cities, for
+each month from October 2024 to September 2025: six months before the
+carbon tax was removed, and six months after.
+
+| Variable   | Description                                                                  |
+|:-----------|:-----------------------------------------------------------------------------|
+| `city`     | City                                                                         |
+| `province` | Province                                                                     |
+| `date`     | The month, stored as a date (the first day of the month)                     |
+| `month`    | The month, as text, such as "2025-03" for March 2025                         |
+| `gas`      | Average price of regular gasoline, in cents per litre, including all taxes   |
+| `salestax` | The GST or HST rate charged on gasoline in the province (plus the QST in Quebec), as a proportion: 0.13 means 13% |
+
+The GST and HST are charged on the price of gasoline *including* the
+carbon charge, so removing the 17.61 cent charge removes
+17.61 × (1 + `salestax`) cents from the price at the pump.
+
+Winnipeg is left out, because Manitoba's own gas tax went back up by
+12.5 cents in January 2025, in the middle of the period. Whitehorse and
+Yellowknife are left out too, because prices there come from few
+stations and often do not change for months at a time. In Halifax, the
+HST also fell from 15% to 14% on April 1, 2025, which lowered the price
+there by about one cent more.
+
+Source: Statistics Canada, Table 18-10-0001-01, Monthly average retail
+prices for gasoline and fuel oil, by geography, October 2024 to
+September 2025. Reproduced and distributed on an "as is" basis with the
+permission of Statistics Canada.
+
+## Instructions
+
+-   Write your R code in the chunks provided. You can add more chunks if
+    you need them.
+-   When a question tells you to store a result under a particular name,
+    such as `q2` or `pt_naive`, use exactly that name. Those objects are
+    marked by computer, and a different name counts as missing.
+-   Do not round the numbers you store. Round only when you display them.
+-   Tables and graphs must be presentable: use `modelsummary()`,
+    `datasummary()` or `datasummary_df()` for tables, and give every
+    graph readable axis labels.
+-   The hints under each question point to sections of the R tutorial,
+    the Introduction to R and Quarto page on the course website. Each
+    section has a worked example of the step the hint describes, using
+    different data.
+-   Render the document after each question, not only at the end.
+-   Every written answer goes under **Answer:**, and what it must cover is
+    set out just above, under **Comment on the results**.
+-   Each question is marked out of 5 from your PDF, using the rubric on
+    the assignment page. The objects you are told to create are also
+    checked by computer, for another 5 marks, so the assignment is out
+    of 30.
+
+## Setup
+
+Do not change this chunk or the next one.
+
+```{r}
+#| label: setup
+library(tidyverse)
+library(modelsummary)
+```
+
+```{r}
+#| label: load-data
+gas <- read_csv("ec313assign1.csv")
+
+glimpse(gas)
+```
+
+## Question 1 (5 marks)
+
+Create the following variables and add them to `gas`:
+
+-   `removed`: 1 if the city's carbon tax was removed on April 1, 2025
+    (every city outside Quebec), 0 for the two Quebec cities
+-   `post`: 1 for April 2025 and every month after it, 0 for the months
+    before
+-   `carbon`: the carbon tax included in the price, in cents per litre,
+    counting the sales tax charged on it. It is 17.61 × (1 + `salestax`)
+    in cities where the tax was removed, in the months before April 2025.
+    It is 0 in every other case: in those cities from April 2025 on, and
+    in the Quebec cities in every month.
+
+Then make a table showing the value of `carbon` in each of the 15
+cities in March 2025, the last month before the tax was removed.
+
+*Hints.*
+
+-   Create all three variables with `mutate()`, and save the result back
+    into `gas`; otherwise the new variables are not kept. Inside one
+    `mutate()`, a variable you have just created can be used in the
+    lines below it. See "`mutate()` — create variables" in the R
+    tutorial.
+-   For `removed`, a comparison such as `province == "Quebec"` gives
+    `TRUE` or `FALSE` for every row, and `!=` means "is not equal to".
+    `as.numeric()` turns `TRUE` and `FALSE` into 1 and 0. See "Picking
+    out elements" and "Vectors have a type" in the R tutorial.
+-   For `post`, comparisons such as `>=` also work on dates. To compare
+    `date` with April 1, 2025, write that date as
+    `as.Date("2025-04-01")`. See "Dates" in the R tutorial.
+-   For `carbon`, `if_else(condition, a, b)` gives `a` in the rows where
+    the condition is `TRUE` and `b` in the rows where it is `FALSE`. A
+    condition can combine two others with `&` (and), such as one about
+    `removed` and one about `post`. In R, multiplication is `*`, not ×.
+    See "`mutate()` — create variables" in the R tutorial.
+-   For the table, use `datasummary(city ~ carbon * Mean, data = ...)`,
+    with `data` set to the March 2025 rows of `gas` (use `filter()`).
+    Each city has only one row in March, so its mean is just its March
+    value. Give the column a clearer heading than "Mean". See "Tables of
+    data" in the R tutorial.
+
+```{r}
+#| label: q1-variables
+gas <- gas |>
+  mutate(
+    removed = as.numeric(province != "Quebec"),
+    post    = as.numeric(date >= as.Date("2025-04-01")),
+    carbon  = if_else(removed == 1 & post == 0, 17.61 * (1 + salestax), 0)
+  )
+```
+
+```{r}
+#| label: q1-table
+datasummary(city ~ carbon * Heading("Carbon tax (cents per litre)") * Mean,
+            data = filter(gas, month == "2025-03"), fmt = 2)
+```
+
+**Comment on the results.** Use the theory of tax incidence from class
+to predict what should have happened to the price of gasoline in
+Toronto when the tax was removed. By how much should the price have
+fallen if the supply of gasoline were perfectly elastic? By how much if
+it were perfectly inelastic? Which of the two do you expect to be closer
+to what happened, and why?
+
+**Answer:**
+
+The carbon tax in the price in Toronto was 19.90 cents a litre: the
+17.61 cent charge plus the 13% HST charged on it.
+
+If the supply of gasoline were perfectly elastic, sellers would supply
+any quantity at the same price, net of tax, and nothing at a lower one.
+They could not absorb any of the tax, so drivers would bear all of it,
+and the price at the pump should have fallen by the full 19.90 cents.
+
+If supply were perfectly inelastic, sellers would supply the same
+quantity whatever the price, so the price drivers pay would be set by
+demand at that quantity, which the tax does not change. The price at
+the pump would not have changed at all. Sellers would have borne the
+whole tax, and removing it would have raised the price they receive by
+19.90 cents.
+
+I expect the price to have fallen by close to the full 19.90 cents, for
+two reasons. The supply of gasoline to one city is likely to be very
+elastic: refiners and wholesalers sell into a North American market,
+and if the price they could get in Toronto fell, they would send their
+gasoline somewhere else. And demand for gasoline is inelastic in the
+short run, because drivers cannot quickly change how far they drive or
+what car they own. The more elastic supply is relative to demand, the
+larger the share of the tax that drivers bear.
+
+## Question 2 (5 marks)
+
+For each month, calculate the average price of gasoline in the cities
+where the carbon tax was removed, and the average in the two Quebec
+cities. That gives 24 averages: 12 months, for each of the two groups.
+Store the result in a data frame called `q2`, with the averages in a
+column called `avg_gas`.
+
+Then make a line graph of the two averages over time, with the date on
+the horizontal axis, one line for each group, and a vertical line
+marking April 2025.
+
+*Hints.*
+
+-   For the averages, use `group_by(date, removed)` and then
+    `summarise()`. Grouping by both variables gives a separate average
+    for each month in each group: the 24 rows. See "`group_by()` — do it
+    separately for each group" in the R tutorial.
+-   You will need the averages for your comment. To see them, run the
+    chunk (the green arrow at its top right), then type `q2` in the
+    Console.
+-   For the graph, start with `ggplot(q2, aes(x = date, y = avg_gas))`
+    and add `geom_line()`. See "Line graphs and groups" in the R
+    tutorial, which has a graph like this one.
+-   Add `colour = factor(removed)` inside `aes()`. This gives each group
+    its own line. Without `factor()`, R treats `removed` as a number
+    rather than as two groups, and draws a single zigzag line.
+-   Add `geom_vline(xintercept = as.Date("2025-04-01"), linetype = "dashed")`
+    to put in the vertical line at April 2025.
+-   Use `scale_colour_discrete()` to replace the 0 and 1 in the legend
+    with words, giving the labels in the order 0, then 1, and use
+    `labs()` to give the axes readable titles. See "Line graphs and
+    groups" in the R tutorial.
+
+```{r}
+#| label: q2-averages
+q2 <- gas |>
+  group_by(date, removed) |>
+  summarise(avg_gas = mean(gas), .groups = "drop")
+```
+
+```{r}
+#| label: q2-graph
+ggplot(q2, aes(x = date, y = avg_gas, colour = factor(removed))) +
+  geom_line() +
+  geom_vline(xintercept = as.Date("2025-04-01"), linetype = "dashed") +
+  scale_colour_discrete(labels = c("Quebec", "Tax removed")) +
+  labs(x = NULL, y = "Average price (cents per litre)", colour = NULL)
+```
+
+**Comment on the results.** Describe how the two lines move before
+April 2025, and what happens to the gap between them in April 2025. How
+does the change in the gap compare with the size of the carbon tax you
+found in Question 1?
+
+**Answer:**
+
+Before April 2025 the two lines move closely together. Both rise in
+January and fall back in March, and the gap between them stays within
+about 3 cents, between −2.9 cents (December) and +3.2 cents (March). In
+April the average price in the cities where the tax was removed falls
+by 18.4 cents, while the average in the two Quebec cities rises by 0.75
+cents, so the gap changes by −19.1 cents in a single month. That is
+almost exactly the average carbon tax per litre in those 13 cities from
+Question 1, 19.4 cents. No other month-to-month change in the gap is
+larger than 4 cents.
+
+After April the gap stays wide, between −11 and −16 cents, although it
+narrows by a few cents over the summer.
+
+## Question 3 (5 marks)
+
+The simplest way to measure how much of the tax cut reached drivers is
+to compare the price just before the tax was removed with the price
+just after.
+
+For each city, calculate the change in the price of gasoline from March
+2025 to April 2025 (the April price minus the March price, so a fall is
+negative). Store the result in a data frame called `q3`, with one row
+per city and columns called `city`, `removed`, `carbon` (the tax in
+March) and `change`. Present `q3` as a table.
+
+Then calculate the **pass-through rate** for each of the 13 cities where
+the tax was removed: the fall in price divided by the tax removed, or
+`-change / carbon`. A pass-through rate of 1 means the price fell by
+exactly the amount of the tax. Store the average of the 13 rates, as a
+single number, in `pt_naive`.
+
+*Hints.*
+
+-   Keep only March and April 2025 with `filter()`. A row cannot be in
+    both months at once, so combine the two conditions with `|` (or),
+    not `&`. See "`filter()` — keep some rows" in the R tutorial.
+-   Then group by `city` and `removed` (grouping by `removed` as well
+    keeps it as a column in `q3`), and use `summarise()` to create
+    `carbon` and `change`.
+-   Inside `summarise()`, square brackets pick out the values in the
+    rows that meet a condition: `gas[month == "2025-04"]` is the city's
+    April price. See the income gap example under "`group_by()` — do it
+    separately for each group" in the R tutorial.
+-   `carbon` is positive in March and 0 in April, so `max(carbon)` gives
+    the tax in March.
+-   `datasummary_df()` turns a data frame into a table, and `fmt = 2`
+    shows the numbers in it to two decimal places. See "Tables of data"
+    in the R tutorial.
+-   For `pt_naive`, save the rows of `q3` where `removed == 1` as a new
+    data frame. Calculate the 13 rates from its columns, which you can
+    pick out with `$`, and take their `mean()`. See "Columns are
+    vectors" in the R tutorial.
+
+```{r}
+#| label: q3-table
+q3 <- gas |>
+  filter(month == "2025-03" | month == "2025-04") |>
+  group_by(city, removed) |>
+  summarise(
+    carbon = max(carbon),
+    change = gas[month == "2025-04"] - gas[month == "2025-03"],
+    .groups = "drop"
+  )
+
+datasummary_df(q3, fmt = 2)
+```
+
+```{r}
+#| label: q3-passthrough
+q3_removed <- q3 |> filter(removed == 1)
+pt_naive <- mean(-q3_removed$change / q3_removed$carbon)
+pt_naive
+```
+
+**Comment on the results.** Report `pt_naive` and explain what it
+means. What happened to the price in Montreal and Quebec City over the
+same month, when their taxes did not change? What does that tell you
+about using the before-and-after change to measure pass-through?
+
+**Answer:**
+
+`pt_naive` is 0.948: on average, the price fell by 94.8% of the carbon
+tax removed between March and April 2025. The rates range from about
+0.81 (Charlottetown and Regina) to 1.07 (Ottawa); Toronto's price fell
+by 20.2 cents against a tax of 19.9 cents (1.02).
+
+Over the same month, the price rose by 0.3 cents in Montreal and 1.2
+cents in Quebec City, even though nothing changed in their taxes. The
+before-and-after change assumes that nothing other than the tax
+affected prices between March and April. The Quebec cities show that
+something else did: prices would probably have risen by a little under
+a cent everywhere without the tax change. (Crude oil actually got
+cheaper in April 2025, by roughly 5 to 6 cents a litre, but other costs,
+such as refining margins, which usually rise in the spring, more than
+offset it.) So the before-and-after
+comparison slightly *understates* pass-through here. The bias happens to
+be small this month, but it need not be: from December to January,
+prices rose by 4.7 cents in Quebec and 6.5 cents elsewhere, with no tax
+change at all. And without a comparison group we would not know how
+large the bias is.
+
+## Question 4 (5 marks)
+
+The price of gasoline changes from month to month for many reasons
+other than taxes, such as the price of crude oil, the exchange rate and
+the season. A regression with **fixed effects** separates the effect of
+the tax from those other changes:
+
+$$
+gas_{it} = \beta_0 + \beta_1 carbon_{it} + \text{city dummies} + \text{month dummies} + \epsilon_{it}
+$$
+
+where $i$ is a city and $t$ is a month. The city dummies absorb
+differences between cities that stay the same over time, such as
+provincial fuel taxes and transport costs. The month dummies absorb
+changes that hit every city at the same time, such as a fall in the
+price of crude oil. What is left to estimate $\beta_1$ is how prices
+changed in the cities whose tax changed *compared with* the Quebec
+cities, whose tax did not. $\beta_1$ is the pass-through rate.
+
+Because `city` and `month` are text, R creates the dummies for you when
+you put them in the formula.
+
+**(a)** Keep only March and April 2025, and estimate
+`lm(gas ~ carbon + city + month, data = ...)` on those two months.
+Store the regression as `q4_model`, and store the coefficient on
+`carbon`, as a single number, in `pt_fe`.
+
+*Hints.*
+
+-   Save the March and April rows as a new data frame with `filter()`,
+    as in Question 3, and use it as the `data`.
+-   `coef()` gives all the coefficients of a regression. To keep just
+    one, put its name in square brackets after it. See "Categorical
+    predictors" in the R tutorial.
+
+```{r}
+#| label: q4a
+marapr   <- gas |> filter(month == "2025-03" | month == "2025-04")
+q4_model <- lm(gas ~ carbon + city + month, data = marapr)
+pt_fe    <- coef(q4_model)["carbon"]
+pt_fe
+```
+
+**(b)** Estimate the same regression using all 12 months, and store it
+as `q4_all`. Present both regressions in one table, one in each column,
+without the city and month dummies.
+
+*Hints.*
+
+-   `modelsummary()` takes a list of regressions, and the names you give
+    them become the column headings. See "Presenting results" in the R
+    tutorial.
+-   `coef_omit = "city|month"` leaves the city and month dummies out of
+    the table, which would otherwise run to 25 rows, and
+    `gof_map = c("nobs", "r.squared")` keeps just the number of
+    observations and the R² at the bottom.
+
+```{r}
+#| label: q4b
+q4_all <- lm(gas ~ carbon + city + month, data = gas)
+
+modelsummary(list("March-April 2025" = q4_model, "All 12 months" = q4_all),
+             coef_omit = "city|month", gof_map = c("nobs", "r.squared"))
+```
+
+**Comment on the results.** Interpret the coefficient on `carbon` in
+the March-April regression, and compare it with `pt_naive` from
+Question 3. Why are they different? Then explain why the estimate from
+all 12 months is different again. Look at your graph from Question 2:
+does the gap between the two lines stay the same from October 2024 to
+March 2025? Which of the two estimates do you find more convincing, and
+why?
+
+**Answer:**
+
+The coefficient on `carbon` in the March-April regression is 0.985:
+compared with the change in the Quebec cities over the same month,
+removing one cent of carbon tax lowered the price by 0.985 cents. The
+standard error is 0.056, so the 95% confidence interval runs from about
+0.86 to 1.10, which includes 1: we cannot reject that the tax was passed
+through to drivers in full.
+
+It is higher than `pt_naive` (0.948) because the month dummy absorbs
+the change that hit every city, which the Quebec cities show was a
+small *rise* in price. The regression measures each city's fall against
+that rise, rather than against no change at all, and so attributes a
+slightly larger fall to the tax. (It also weights the cities
+differently from a simple average of the 13 rates, but that matters
+less.)
+
+The estimate from all 12 months is lower, 0.745, because it compares
+the average gap between the two groups over the six months before the
+change with the average gap over the six months after. That is the
+right comparison only if the gap would otherwise have stayed constant,
+and the graph in Question 2 shows it did not. Before April it drifted
+up, from about −3 cents in December to +3 cents in March, and after
+April it narrowed again, from −16 cents in April to −11 cents in
+August. These movements have nothing to do with the tax. They reflect
+things like regional differences in refinery supply, seasonal patterns
+in prices and other policy changes (Quebec, for example, ended its
+regulated minimum price for gasoline in June 2025). But the 12-month regression counts them as part of
+the tax effect, and here they work against it: the pre-period average
+gap is lower than the March gap, and the post-period gap is narrower
+than the April gap.
+
+The March-April estimate is more convincing. Over one month there is
+little time for the two groups to drift apart for other reasons, and
+the 19-cent change in the gap in April dwarfs every other
+month-to-month change, none of which is larger than 4 cents. Either
+regression measures pass-through only if, without the tax change,
+prices outside Quebec would have moved the same way as prices in
+Quebec. That assumption is much easier to believe for one month than
+for six. Even so, month-to-month changes in the gap of a few cents mean
+the one-month estimate could be off by 0.1 or more.
+
+## Question 5 (5 marks)
+
+In class we found that a unit tax $t$ raises the price consumers pay by
+
+$$
+\Delta P_c = \frac{\varepsilon_s}{\varepsilon_s + |\varepsilon_d|}\, t
+$$
+
+so the pass-through rate is
+$\theta = \varepsilon_s / (\varepsilon_s + |\varepsilon_d|)$.
+
+**(a)** Rearrange this equation to express the elasticity of supply,
+$\varepsilon_s$, in terms of $\theta$ and $|\varepsilon_d|$, and show
+your steps under **Answer:** below. Then take the short-run elasticity of demand
+for gasoline to be $-0.2$, and calculate the elasticity of supply
+implied by `pt_fe`, your estimate from Question 4(a). Store it, as a
+single number, in `eps_s`.
+
+*Hint.* Calculate `eps_s` from `pt_fe` itself, not from a number copied
+out of your table. The table rounds `pt_fe`, and because `pt_fe` is
+close to 1, even a small rounding error changes `eps_s` a lot.
+
+```{r}
+#| label: q5a
+eps_s <- pt_fe * 0.2 / (1 - pt_fe)
+eps_s
+
+# For comparison, with the all-months estimate from Question 4(b):
+pt_all <- coef(q4_all)["carbon"]
+pt_all * 0.2 / (1 - pt_all)
+```
+
+**(b)** **Comment on the results.** Who bore the economic burden of the
+carbon tax at the pump? In your answer, consider:
+
+-   the value of `eps_s`, and why the supply of gasoline to a single
+    province might be this elastic. How would `eps_s` change if you used
+    the all-months estimate from Question 4(b) instead?
+-   the charge was paid to the government by fuel distributors, not by
+    drivers. Does that change who bore it?
+-   the Canada Carbon Rebate ended along with the tax. A household's
+    rebate depended on its province, its size and whether it lived in a
+    rural area, but not on how much fuel it bought, while the tax it
+    paid rose with every litre. Given your answer about who bore the
+    tax, which households were better off when the tax and the rebate
+    ended together, and which were worse off?
+
+**Answer:**
+
+**(a)** Starting from $\theta = \varepsilon_s / (\varepsilon_s + |\varepsilon_d|)$:
+
+$$
+\theta \varepsilon_s + \theta |\varepsilon_d| = \varepsilon_s
+\quad\Rightarrow\quad
+\theta |\varepsilon_d| = \varepsilon_s (1 - \theta)
+\quad\Rightarrow\quad
+\varepsilon_s = \frac{\theta |\varepsilon_d|}{1 - \theta}
+$$
+
+With $\theta = 0.985$ and $|\varepsilon_d| = 0.2$, the implied
+elasticity of supply is `eps_s` = 12.97.
+
+**(b)** Drivers bore almost all of the carbon tax. With pass-through
+close to 1, removing the tax lowered the price drivers pay by nearly
+the full amount of the tax, so the price sellers receive, net of tax,
+hardly changed. An elasticity of supply of about 13, against an
+elasticity of demand of −0.2, means supply is roughly 65 times as
+elastic as demand, so the formula puts 98.5% of the burden on
+consumers.
+
+Supply to a single province is this elastic because gasoline is sold
+in a North American market. Refiners and wholesalers can ship gasoline
+to another province or state, so they will not accept a lower net
+price in one province than they can get elsewhere, and one province is
+too small a part of the market to move that price. The estimate is very
+sensitive to $\theta$ when $\theta$ is close to 1: with the
+all-months estimate of 0.745, `eps_s` falls to 0.59, which would put
+about a quarter of the burden on sellers. Since the March-April
+confidence interval includes 1, the data are also consistent with
+perfectly elastic supply, where consumers bear the whole tax.
+
+That distributors, not drivers, paid the charge to the government makes
+no difference. As we saw in class, statutory incidence does not
+determine economic incidence. Distributors remitted the tax but raised
+their prices by almost the full amount, so the burden fell on drivers.
+The result would have been the same if drivers had paid the charge
+directly.
+
+Because drivers bore the tax, each household's tax rose with the fuel
+it bought, while its rebate did not. When both ended, households that
+bought a lot of fuel gained: their savings at the pump exceeded the
+rebate they lost. That includes households with long commutes or
+several vehicles, which are more often rural and higher-income
+households. Households that bought little fuel lost more rebate than
+they saved at the pump. That includes households without a car, those
+who rely on transit, and on average lower-income households. So
+removing the tax and the rebate together made the system less
+progressive: the rebate had been worth more, relative to income, to
+lower-income households.
+
+## Use of generative AI
+
+If you used a generative AI tool for any part of this assignment, name
+the tool and describe what you used it for. If you did not use one, say
+so.
+
+Not applicable: this is the answer key. Students must say whether and how they used generative AI.
+
+## Before you submit
+
+This chunk lists any required objects that are still missing. It should
+say "All required objects found" before you submit.
+
+```{r}
+#| label: check
+#| echo: false
+required <- c("gas", "q2", "q3", "pt_naive", "q4_model", "pt_fe", "q4_all", "eps_s")
+missing  <- required[!sapply(required, exists)]
+if (exists("gas")) {
+  missing_cols <- setdiff(c("removed", "post", "carbon"), names(gas))
+  if (length(missing_cols) > 0) missing <- c(missing, paste0("gas$", missing_cols))
+}
+if (length(missing) == 0) {
+  cat("All required objects found\n")
+} else {
+  cat("Still missing:", missing, sep = "\n  ")
+}
+```
