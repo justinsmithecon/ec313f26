@@ -737,16 +737,17 @@ Why elasticity matters: the cost of redistributing is the excess burden it creat
 ## Politics and Optimal Tax
 
 - Imagine a government wants to tax society to raise revenue
-- There are three possible goods that people can consume
-  - $X$, $Y$, and Leisure $L$
-- Labour has a fixed supply so income is also fixed
+- People consume three goods: $X$, $Y$, and leisure $L$
+- Labour supply is fixed, so income is fixed and nobody can substitute into or out of leisure
 - The government currently taxes only $X$; its constitution forbids taxing $Y$
+  - [Inefficient]{.fg style="color: #c7254e;"}: it raises the price of $X$ relative to $Y$, so people switch from $X$ to $Y$
 - A tax economist suggests lowering the tax on $X$ and taxing both $X$ and $Y$ at the same rate, raising the same revenue
-  - [Efficient]{.fg style="color: #5cb85c;"}: the price of $X$ relative to $Y$ is unchanged, and with labour fixed, leisure cannot&nbsp;respond
-  - So the tax works like a [lump-sum tax]{.fg style="color: #2780e3;"}: no excess burden
+  - [Efficient]{.fg style="color: #5cb85c;"}: the price of $X$ relative to $Y$ doesn't change, so nobody switches
+  - With income fixed, a tax on all spending works like a [lump-sum tax]{.fg style="color: #2780e3;"}: no excess burden
+  - Different elasticities for $X$ and $Y$ don't change this: with leisure fixed, the Ramsey rule itself gives equal&nbsp;rates
 
 ::: {.notes}
-Why equal rates here, when the Ramsey rule said rates should differ? Ramsey and Corlett-Hague assume people can substitute toward leisure, which can't be taxed. Different goods push people into leisure by different amounts, so their rates should differ. Here labour is fixed, so leisure can't change, and a tax on $X$ and $Y$ at the same rate is a tax on a fixed income: the lump-sum case from the start of the section, where all goods and leisure are taxed at one rate. The current tax on $X$ alone is inefficient because it distorts the choice between $X$ and $Y$.
+Why equal rates, when the inverse elasticity rule said rates should differ? The elasticities in the Ramsey rule are compensated ones: they measure substitution, not the drop in demand from being poorer. Under equal rates nothing people can substitute between changes price: $X$ relative to $Y$ is unchanged and leisure is fixed. So there is no substitution and no excess burden, however different the elasticities, and no tax does better than zero. $X$ and $Y$ may still fall by different amounts, but that is an income effect, which a lump-sum tax causes too. The inverse elasticity rule assumed goods unrelated in consumption, with all substitution going to leisure. With leisure fixed, the only substitute for $X$ is $Y$, so that assumption fails. The general Ramsey rule still works: with income fixed, the compensated own-price elasticity of $X$ equals minus its cross-price elasticity with $Y$, so the percent change in compensated demand is $\varepsilon_X(t_X - t_Y)$ for $X$ and $\varepsilon_Y(t_Y - t_X)$ for $Y$. Setting them equal gives $t_X = t_Y$, whatever $\varepsilon_X$ and $\varepsilon_Y$ are. This is the lump-sum case from the start of the section, where all goods and leisure are taxed at one rate.
 :::
 
 ## Politics and Optimal Tax
