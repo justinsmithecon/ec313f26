@@ -765,6 +765,11 @@ E) No tax on lift tickets, because pushing people from leisure toward work adds 
 <li>Set P=MC and charge a fixed fee to cover the loss</li>
 <li>Only users of the good pay the fee</li>
 <li>Divide the loss by the number of users to get the fee per user</li>
+<li><span class="fg" style="color: #c7254e;">Drawbacks</span>
+<ul>
+<li>Light users may quit rather than pay the fee, so use falls below the efficient level</li>
+<li>Everyone pays the same fee, so it is regressive</li>
+</ul></li>
 </ul></li>
 </ul>
 </section>
@@ -782,6 +787,60 @@ E) No tax on lift tickets, because pushing people from leisure toward work adds 
 <ul>
 <li>Inefficient, but simple and consistent with the benefits-received principle</li>
 </ul></li>
+</ul>
+</section>
+<section id="comparing-the-pricing-options" class="slide level2 smaller">
+<h2>Comparing the Pricing Options</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 12%">
+<col style="width: 29%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Option</th>
+<th style="text-align: center;">Efficient quantity?</th>
+<th>Who covers the loss</th>
+<th>Main problem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P = MC + lump-sum tax</td>
+<td style="text-align: center;"><span class="fg" style="color: #5cb85c;">Yes</span></td>
+<td>Everyone</td>
+<td>Lump-sum taxes aren’t available; non-users pay</td>
+</tr>
+<tr class="even">
+<td>Two-part tariff</td>
+<td style="text-align: center;"><span class="fg" style="color: #5cb85c;">Yes</span></td>
+<td>Users only, via a fixed fee</td>
+<td>Only works if the fee doesn’t drive users away</td>
+</tr>
+<tr class="odd">
+<td>Ramsey rule</td>
+<td style="text-align: center;"><span class="fg" style="color: #c7254e;">No</span></td>
+<td>Users, with higher fees on inelastic services</td>
+<td>Some deadweight loss, kept as small as possible</td>
+</tr>
+<tr class="even">
+<td>Average cost pricing</td>
+<td style="text-align: center;"><span class="fg" style="color: #c7254e;">No</span></td>
+<td>Users, through the price</td>
+<td>Deadweight loss</td>
+</tr>
+<tr class="odd">
+<td>Unregulated monopoly</td>
+<td style="text-align: center;"><span class="fg" style="color: #c7254e;">No</span></td>
+<td>No loss; the firm earns profits</td>
+<td>Largest deadweight loss</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The <span class="fg" style="color: #2780e3;">two-part tariff</span> is best in theory; <span class="fg" style="color: #2780e3;">average cost pricing</span> is common in practice</li>
 </ul>
 </section>
 <section id="iclicker-question-2" class="slide level2" data-background-color="#f0f4f8">
@@ -886,14 +945,18 @@ E) Ann paying $30,000 and Bo receiving $30,000</p>
 <ul>
 <li>People will supply less labour if taxed heavily</li>
 </ul></li>
-<li>We know from previous sections that taxes affect labour supply</li>
 <li>Modern models take this into account
 <ul>
-<li>Taxes raise <span class="fg" style="color: #2780e3;">revenue</span></li>
+<li>Taxes raise <span class="fg" style="color: #2780e3;">revenue</span> that pays for redistribution</li>
 <li>But also create <span class="fg" style="color: #2780e3;">excess burden</span> by distorting labour supply</li>
 <li>Optimal tax balances these two effects</li>
 </ul></li>
-<li>These models compute optimal tax in a world where people choose labour and leisure</li>
+<li>The government chooses a <span class="fg" style="color: #2780e3;">tax schedule</span>: the tax owed at each level of income
+<ul>
+<li>The schedule could take any shape, which makes the problem hard to solve</li>
+<li>The simplest case is a straight line: a <span class="fg" style="color: #2780e3;">linear income tax</span></li>
+<li>Not as limiting as it sounds: the optimal non-linear tax is close to linear (Mankiw, Weinzierl and Yagan,&nbsp;2009)</li>
+</ul></li>
 </ul>
 </section>
 <section id="newer-approach-to-optimal-tax-1" class="slide level2">
@@ -914,8 +977,8 @@ E) Ann paying $30,000 and Bo receiving $30,000</p>
 </div>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>A simplified version of this model is depicted to the left</li>
-<li>In this setup revenue is</li>
+<li>A linear income tax schedule is depicted to the left</li>
+<li>Revenue collected from a person with a given income is</li>
 </ul>
 <p><span class="math display">\[ Revenue = -\alpha + t \times Income \]</span></p>
 <ul>
@@ -957,10 +1020,6 @@ E) Ann paying $30,000 and Bo receiving $30,000</p>
 <li>Canada and the US have marginal rates that rise with&nbsp;income
 <ul>
 <li>Optimal tax result: top rate should be lower than the bottom rate (Gruber and Saez, 2002)</li>
-</ul></li>
-<li>Optimal non-linear tax is close to a flat tax (Mankiw, Weinzierl and Yagan, 2009)
-<ul>
-<li>So we can still gain insights from the flat tax</li>
 </ul></li>
 </ul>
 </div></div>
@@ -1144,10 +1203,23 @@ E) Ann paying $30,000 and Bo receiving $30,000</p>
 <li>The government currently taxes only <span class="math inline">\(X\)</span>; its constitution forbids taxing <span class="math inline">\(Y\)</span></li>
 <li>A tax economist suggests lowering the tax on <span class="math inline">\(X\)</span> and taxing both <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> at the same rate, raising the same revenue
 <ul>
-<li><span class="fg" style="color: #5cb85c;">Efficient</span> because relative prices are unchanged, no change in labour</li>
-<li>No excess burden</li>
+<li><span class="fg" style="color: #5cb85c;">Efficient</span>: the price of <span class="math inline">\(X\)</span> relative to <span class="math inline">\(Y\)</span> is unchanged, and with labour fixed, leisure cannot&nbsp;respond</li>
+<li>So the tax works like a <span class="fg" style="color: #2780e3;">lump-sum tax</span>: no excess burden</li>
 </ul></li>
 </ul>
+<aside class="notes">
+<p>Why equal rates here, when the Ramsey rule said rates should differ? Ramsey and Corlett-Hague assume people can substitute toward leisure, which can’t be taxed. Different goods push people into leisure by different amounts, so their rates should differ. Here labour is fixed, so leisure can’t change, and a tax on <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> at the same rate is a tax on a fixed income: the lump-sum case from the start of the section, where all goods and leisure are taxed at one rate. The current tax on <span class="math inline">\(X\)</span> alone is inefficient because it distorts the choice between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="politics-and-optimal-tax-1" class="slide level2">
 <h2>Politics and Optimal Tax</h2>
@@ -1251,26 +1323,91 @@ E) Ann paying $30,000 and Bo receiving $30,000</p>
 </ul></li>
 </ul>
 </section>
-<section id="horizontal-equity-2" class="slide level2">
-<h2>Horizontal Equity</h2>
+<section id="utility-definition-of-horizontal-equity" class="slide level2 smaller">
+<h2>Utility Definition of Horizontal Equity</h2>
 <ul>
 <li>Could instead define horizontal equity in terms of utility (Feldstein, 1976)
 <ul>
 <li><span class="fg" style="color: #2780e3;"><strong>Utility definition of horizontal equity</strong></span>: people with the same pre-tax utility should have the same after-tax utility, and taxes should not alter the utility ordering</li>
 </ul></li>
-<li>Several problems with this approach
+<li>Problems with this approach
 <ul>
 <li>Utility is <span class="fg" style="color: #c7254e;">unobservable</span></li>
-<li>If tastes differ, any income tax <span class="fg" style="color: #c7254e;">violates it</span>: people who value goods bought with income are hit harder than people who value leisure</li>
+<li>With different tastes, “equally well off” means equal utility numbers, so utility must be comparable across&nbsp;people</li>
+<li>If tastes differ, an income tax generally <span class="fg" style="color: #c7254e;">violates it</span>: it taxes goods bought with income, but not leisure</li>
 </ul></li>
-<li>Some jobs pay partly in untaxed amenities (e.g.&nbsp;nice work environment, flexible work)
+<li><span class="fg" style="color: #555;">Example</span>: a gourmet and a sunbather each earn $20 an hour and start with the same utility
 <ul>
-<li>With identical tastes and free choice of job, pre-tax wages adjust until net returns are equal</li>
-<li>So this is a horizontal inequity under the traditional definition, but not under the utility&nbsp;definition</li>
+<li>The gourmet works 50 hours a week to buy food; the sunbather works 10 and spends the rest at the beach</li>
+<li>A 25% income tax cuts the gourmet’s food spending by $250 a week; the sunbather pays $50 and keeps every hour at the beach</li>
+<li>The gourmet ends up <span class="fg" style="color: #c7254e;">worse off</span>; the traditional definition sees no problem, since their incomes&nbsp;differ</li>
 </ul></li>
 </ul>
 <aside class="notes">
-<p>Tastes: the book’s gourmets and sunbathers start equally well off. A proportional income tax hurts the gourmets more, because they need income to buy food, while the sunbathers mostly want leisure, which isn’t taxed. Amenities: if the job with the pool and the nice office came out ahead after tax, people would move into it, and the extra supply of workers would push its pre-tax wage down until the two jobs were equally attractive again.</p>
+<p>The gourmet and sunbather are the book’s example; the numbers are made up. On “start with the same utility”: the two have different utility functions, so they don’t share an indifference map, and “equally well off” can only mean their utility numbers are equal. With ordinal utility, rescaling one person’s utility function changes none of their choices but can flip the comparison, so the definition needs utility that can be compared across people. That is a value judgement on top of the measurement problem. Contrast the perk example on the next slide: tastes are identical there, so equally well off just means the same indifference curve.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="horizontal-equity-and-untaxed-perks" class="slide level2 smaller">
+<h2>Horizontal Equity and Untaxed Perks</h2>
+<ul>
+<li>Some jobs pay partly in untaxed perks (e.g.&nbsp;nice work environment, flexible hours)</li>
+<li>Assume identical tastes and free choice of job; with no tax, Jobs A and B are equally attractive</li>
+</ul>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Job A</th>
+<th style="text-align: right;">Job B, before workers move</th>
+<th style="text-align: right;">Job B, after workers move</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cash wage</td>
+<td style="text-align: right;">$50,000</td>
+<td style="text-align: right;">$45,000</td>
+<td style="text-align: right;">$43,750</td>
+</tr>
+<tr class="even">
+<td>Untaxed perk</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">$5,000</td>
+<td style="text-align: right;">$5,000</td>
+</tr>
+<tr class="odd">
+<td>20% income tax</td>
+<td style="text-align: right;">$10,000</td>
+<td style="text-align: right;">$9,000</td>
+<td style="text-align: right;">$8,750</td>
+</tr>
+<tr class="even">
+<td>After-tax cash plus perk</td>
+<td style="text-align: right;">$40,000</td>
+<td style="text-align: right;">$41,000</td>
+<td style="text-align: right;">$40,000</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="fg" style="color: #555;">Traditional</span>: the perk is pay that escapes tax, so B pays less tax on the same $50,000: a <span class="fg" style="color: #c7254e;">horizontal inequity</span></li>
+<li><span class="fg" style="color: #555;">Utility</span>: B’s advantage draws workers in until its wage falls and the jobs are equally attractive again: <span class="fg" style="color: #5cb85c;">no inequity</span>
+<ul>
+<li>The lower wage is a hidden tax that the traditional definition misses</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Job A’s wage is held at $50,000 to keep the arithmetic simple. In practice A’s wage rises a little as workers leave and B’s falls; where they settle depends on demand for each kind of worker, but the after-tax values end up equal either way. The perk’s tax advantage is competed away in a lower wage, the same idea as capitalization in the incidence section. This is why the next slide says an existing tax system creates no horizontal inequity. Identical tastes matter: if some workers valued the perk more than others, the ones who valued it most would still come out ahead.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

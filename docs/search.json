@@ -1390,7 +1390,7 @@
     "href": "slides/equitable/index.html#government-production-4",
     "title": "EC313 - Taxation",
     "section": "Government Production",
-    "text": "Government Production\n\nA third option is to set P=MC and charge a lump sum tax to cover the loss\n\nHard to do in practice because generally cannot levy lump sum taxes\nNon-users would pay for it, violating the benefits-received principle: those who use a public service should pay for it\n\nA fourth option is a two-part tariff\n\nSet P=MC and charge a fixed fee to cover the loss\nOnly users of the good pay the fee\nDivide the loss by the number of users to get the fee per user"
+    "text": "Government Production\n\nA third option is to set P=MC and charge a lump sum tax to cover the loss\n\nHard to do in practice because generally cannot levy lump sum taxes\nNon-users would pay for it, violating the benefits-received principle: those who use a public service should pay for it\n\nA fourth option is a two-part tariff\n\nSet P=MC and charge a fixed fee to cover the loss\nOnly users of the good pay the fee\nDivide the loss by the number of users to get the fee per user\nDrawbacks\n\nLight users may quit rather than pay the fee, so use falls below the efficient level\nEveryone pays the same fee, so it is regressive"
   },
   {
     "objectID": "slides/equitable/index.html#government-production-5",
@@ -1425,21 +1425,21 @@
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\nMajor problem with Edgeworth’s model is that it ignores behavioural responses\n\nPeople will supply less labour if taxed heavily\n\nWe know from previous sections that taxes affect labour supply\nModern models take this into account\n\nTaxes raise revenue\nBut also create excess burden by distorting labour supply\nOptimal tax balances these two effects\n\nThese models compute optimal tax in a world where people choose labour and leisure"
+    "text": "Newer Approach to Optimal Tax\n\nMajor problem with Edgeworth’s model is that it ignores behavioural responses\n\nPeople will supply less labour if taxed heavily\n\nModern models take this into account\n\nTaxes raise revenue that pays for redistribution\nBut also create excess burden by distorting labour supply\nOptimal tax balances these two effects\n\nThe government chooses a tax schedule: the tax owed at each level of income\n\nThe schedule could take any shape, which makes the problem hard to solve\nThe simplest case is a straight line: a linear income tax\nNot as limiting as it sounds: the optimal non-linear tax is close to linear (Mankiw, Weinzierl and Yagan, 2009)"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-1",
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-1",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA simplified version of this model is depicted to the left\nIn this setup revenue is\n\n\\[ Revenue = -\\alpha + t \\times Income \\]\n\nThe term \\(\\alpha\\) is a fixed payment to everyone\n\nIf \\(\\alpha &gt; 0\\), it is a subsidy\nIf \\(\\alpha &lt; 0\\), it is a lump-sum tax\n\nThe term \\(t\\) is the marginal income tax"
+    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA linear income tax schedule is depicted to the left\nRevenue collected from a person with a given income is\n\n\\[ Revenue = -\\alpha + t \\times Income \\]\n\nThe term \\(\\alpha\\) is a fixed payment to everyone\n\nIf \\(\\alpha &gt; 0\\), it is a subsidy\nIf \\(\\alpha &lt; 0\\), it is a lump-sum tax\n\nThe term \\(t\\) is the marginal income tax"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-2",
     "href": "slides/equitable/index.html#newer-approach-to-optimal-tax-2",
     "title": "EC313 - Taxation",
     "section": "Newer Approach to Optimal Tax",
-    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA constant marginal tax is a flat tax\n\nComes from a linear tax schedule\n\nWith the grant, it is still a progressive tax system\n\nShare of income paid in tax rises with income\n\nCanada and the US have marginal rates that rise with income\n\nOptimal tax result: top rate should be lower than the bottom rate (Gruber and Saez, 2002)\n\nOptimal non-linear tax is close to a flat tax (Mankiw, Weinzierl and Yagan, 2009)\n\nSo we can still gain insights from the flat tax"
+    "text": "Newer Approach to Optimal Tax\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nA constant marginal tax is a flat tax\n\nComes from a linear tax schedule\n\nWith the grant, it is still a progressive tax system\n\nShare of income paid in tax rises with income\n\nCanada and the US have marginal rates that rise with income\n\nOptimal tax result: top rate should be lower than the bottom rate (Gruber and Saez, 2002)"
   },
   {
     "objectID": "slides/equitable/index.html#newer-approach-to-optimal-tax-3",
@@ -4738,7 +4738,7 @@
     "href": "slides/equitable/index.html#politics-and-optimal-tax",
     "title": "EC313 - Taxation",
     "section": "Politics and Optimal Tax",
-    "text": "Politics and Optimal Tax\n\nImagine a government wants to tax society to raise revenue\nThere are three possible goods that people can consume\n\n\\(X\\), \\(Y\\), and Leisure \\(L\\)\n\nLabour has a fixed supply so income is also fixed\nThe government currently taxes only \\(X\\); its constitution forbids taxing \\(Y\\)\nA tax economist suggests lowering the tax on \\(X\\) and taxing both \\(X\\) and \\(Y\\) at the same rate, raising the same revenue\n\nEfficient because relative prices are unchanged, no change in labour\nNo excess burden"
+    "text": "Politics and Optimal Tax\n\nImagine a government wants to tax society to raise revenue\nThere are three possible goods that people can consume\n\n\\(X\\), \\(Y\\), and Leisure \\(L\\)\n\nLabour has a fixed supply so income is also fixed\nThe government currently taxes only \\(X\\); its constitution forbids taxing \\(Y\\)\nA tax economist suggests lowering the tax on \\(X\\) and taxing both \\(X\\) and \\(Y\\) at the same rate, raising the same revenue\n\nEfficient: the price of \\(X\\) relative to \\(Y\\) is unchanged, and with labour fixed, leisure cannot respond\nSo the tax works like a lump-sum tax: no excess burden\n\n\n\nWhy equal rates here, when the Ramsey rule said rates should differ? Ramsey and Corlett-Hague assume people can substitute toward leisure, which can’t be taxed. Different goods push people into leisure by different amounts, so their rates should differ. Here labour is fixed, so leisure can’t change, and a tax on \\(X\\) and \\(Y\\) at the same rate is a tax on a fixed income: the lump-sum case from the start of the section, where all goods and leisure are taxed at one rate. The current tax on \\(X\\) alone is inefficient because it distorts the choice between \\(X\\) and \\(Y\\)."
   },
   {
     "objectID": "slides/equitable/index.html#politics-and-optimal-tax-1",
@@ -5110,5 +5110,26 @@
     "title": "EC313 - Taxation",
     "section": "iClicker Question",
     "text": "iClicker Question\nYou lend money at a nominal interest rate of 8%. Inflation is 4% and your tax rate on interest income is 25%. What is your real after-tax rate of return?\nA) 2%\nB) 3%\nC) 4%\nD) 6%\nE) It depends on whether the 4% inflation was anticipated\n\nAnswer: A. Eq. 17.1: r = (1 − t)i − π = 0.75 × 8% − 4% = 6% − 4% = 2%. B applies the tax to real interest only, (1 − t)(i − π) = 3%: what you’d get if the tax were indexed for inflation. C ignores the tax and D ignores inflation. E is the misconception: even fully anticipated inflation raises the effective tax, because the tax falls on nominal interest, including the 4 points that only make up for inflation. Here tax takes half the 4% real return, an effective rate of 50%, not 25%."
+  },
+  {
+    "objectID": "slides/equitable/index.html#comparing-the-pricing-options",
+    "href": "slides/equitable/index.html#comparing-the-pricing-options",
+    "title": "EC313 - Taxation",
+    "section": "Comparing the Pricing Options",
+    "text": "Comparing the Pricing Options\n\n\n\n\n\n\n\n\n\nOption\nEfficient quantity?\nWho covers the loss\nMain problem\n\n\n\n\nP = MC + lump-sum tax\nYes\nEveryone\nLump-sum taxes aren’t available; non-users pay\n\n\nTwo-part tariff\nYes\nUsers only, via a fixed fee\nOnly works if the fee doesn’t drive users away\n\n\nRamsey rule\nNo\nUsers, with higher fees on inelastic services\nSome deadweight loss, kept as small as possible\n\n\nAverage cost pricing\nNo\nUsers, through the price\nDeadweight loss\n\n\nUnregulated monopoly\nNo\nNo loss; the firm earns profits\nLargest deadweight loss\n\n\n\n\nThe two-part tariff is best in theory; average cost pricing is common in practice"
+  },
+  {
+    "objectID": "slides/equitable/index.html#utility-definition-of-horizontal-equity",
+    "href": "slides/equitable/index.html#utility-definition-of-horizontal-equity",
+    "title": "EC313 - Taxation",
+    "section": "Utility Definition of Horizontal Equity",
+    "text": "Utility Definition of Horizontal Equity\n\nCould instead define horizontal equity in terms of utility (Feldstein, 1976)\n\nUtility definition of horizontal equity: people with the same pre-tax utility should have the same after-tax utility, and taxes should not alter the utility ordering\n\nProblems with this approach\n\nUtility is unobservable\nWith different tastes, “equally well off” means equal utility numbers, so utility must be comparable across people\nIf tastes differ, an income tax generally violates it: it taxes goods bought with income, but not leisure\n\nExample: a gourmet and a sunbather each earn $20 an hour and start with the same utility\n\nThe gourmet works 50 hours a week to buy food; the sunbather works 10 and spends the rest at the beach\nA 25% income tax cuts the gourmet’s food spending by $250 a week; the sunbather pays $50 and keeps every hour at the beach\nThe gourmet ends up worse off; the traditional definition sees no problem, since their incomes differ\n\n\n\nThe gourmet and sunbather are the book’s example; the numbers are made up. On “start with the same utility”: the two have different utility functions, so they don’t share an indifference map, and “equally well off” can only mean their utility numbers are equal. With ordinal utility, rescaling one person’s utility function changes none of their choices but can flip the comparison, so the definition needs utility that can be compared across people. That is a value judgement on top of the measurement problem. Contrast the perk example on the next slide: tastes are identical there, so equally well off just means the same indifference curve."
+  },
+  {
+    "objectID": "slides/equitable/index.html#horizontal-equity-and-untaxed-perks",
+    "href": "slides/equitable/index.html#horizontal-equity-and-untaxed-perks",
+    "title": "EC313 - Taxation",
+    "section": "Horizontal Equity and Untaxed Perks",
+    "text": "Horizontal Equity and Untaxed Perks\n\nSome jobs pay partly in untaxed perks (e.g. nice work environment, flexible hours)\nAssume identical tastes and free choice of job; with no tax, Jobs A and B are equally attractive\n\n\n\n\n\nJob A\nJob B, before workers move\nJob B, after workers move\n\n\n\n\nCash wage\n$50,000\n$45,000\n$43,750\n\n\nUntaxed perk\n—\n$5,000\n$5,000\n\n\n20% income tax\n$10,000\n$9,000\n$8,750\n\n\nAfter-tax cash plus perk\n$40,000\n$41,000\n$40,000\n\n\n\n\nTraditional: the perk is pay that escapes tax, so B pays less tax on the same $50,000: a horizontal inequity\nUtility: B’s advantage draws workers in until its wage falls and the jobs are equally attractive again: no inequity\n\nThe lower wage is a hidden tax that the traditional definition misses\n\n\n\nJob A’s wage is held at $50,000 to keep the arithmetic simple. In practice A’s wage rises a little as workers leave and B’s falls; where they settle depends on demand for each kind of worker, but the after-tax values end up equal either way. The perk’s tax advantage is competed away in a lower wage, the same idea as capitalization in the incidence section. This is why the next slide says an existing tax system creates no horizontal inequity. Identical tastes matter: if some workers valued the perk more than others, the ones who valued it most would still come out ahead."
   }
 ]
