@@ -86,16 +86,18 @@ The late-filing penalty only applies if you owe tax. The non-filer figure is fro
 
 ## iClicker Question {background-color="#f0f4f8"}
 
-Under the old "tax on tax" system, a province's income tax was 50% of the federal tax each person owed. Suppose Ottawa cuts everyone's federal tax by 10%. What happens to that province's income tax&nbsp;revenue?
+Under the old "tax on tax" system, a province's income tax was 50% of the federal tax each person owed. Ottawa cuts everyone's federal tax by one-tenth: someone who owed \$10,000 now owes \$9,000. What happens to that province's income tax&nbsp;revenue?
 
 A\) Nothing, because the provincial rate is still 50%\
-B) It falls by about 10%, without any decision by the province\
+B) It falls by one-tenth, without any decision by the province\
 C) It rises, because people have more after-tax income to spend\
 D) It falls only if the province decides to cut its own rates\
-E) It falls by about 5%, half of the federal cut
+E) The provincial rate falls from 50% to 45%, matching the federal cut
 
 ::: {.notes}
-Answer: B. Provincial tax was half of federal tax, so when federal tax falls 10%, provincial tax falls 10% too, without the province deciding anything. E is the tempting slip: the province loses half as many dollars as Ottawa, but that is still 10% of its own revenue. D describes the system since 2000–01: provinces apply their own rates to federal taxable income, so a federal rate cut no longer changes provincial tax (a change to the federal definition of taxable income still does). A ignores that the base itself shrank. C confuses tax revenue with spending.
+Answer: B. Provincial tax is half of federal tax, so it falls by the same one-tenth (\$5,000 to \$4,500 for this person) without the province deciding anything. The province loses half as many dollars as Ottawa (\$500 against \$1,000), but the same share of its revenue. E: the provincial rate stays at 50%; what shrank is the base it applies to. A ignores that the base shrank. D describes the system since 2000–01: provinces apply their own rates to federal taxable income, so a federal rate cut no longer changes provincial tax (a change to the federal definition of taxable income still does). C confuses tax revenue with spending.
+
+Why "one-tenth" and dollars, not "10%": a cut of 10 percentage points in federal rates would lower the provincial share of income by only 5 points, though provincial tax would still fall by the same proportion as federal tax. The old wording let "10%" be read either way, which made "falls by about 5%, half of the federal cut" defensible.
 :::
 
 # Computation of Personal Income Tax Liability
@@ -247,24 +249,49 @@ Answer: D. Haig-Simons income is consumption plus the change in net worth. Spend
 Capital gains history: exempt before 1971; half taxed from the 1971 reform; a \$500,000 lifetime exemption in 1985, cut to \$100,000 in 1987 and ended for real estate in 1992 and for other assets in 1994. The share taxed went to two-thirds in 1988 and three-quarters in 1990, then back to half by 2000. The 2024 plan to raise it to two-thirds was cancelled, so 50% stands. Losses beyond gains can be carried back three years or forward indefinitely. The lifetime exemption was raised to \$1.25 million in June 2024 and is indexed.
 :::
 
-## Realization vs Accrual: An Example
+## Realization: Gains Taxed at Sale
 
-- Buy an asset for \$100 that grows 20% a year for 5 years; half of gains taxable, tax rate&nbsp;50%
+- Buy an asset for \$100; it grows 20% a year and is sold after 5 years
+- Half of a capital gain is taxable, at a tax rate of&nbsp;50%
+- [Realization]{.fg style="color: #2780e3;"} (Canada): no tax until the asset is&nbsp;sold
 
-| Year | Value, taxed at sale | Tax paid as gains accrue | Value, taxed as gains accrue |
-|-----:|---------------------:|-------------------------:|-----------------------------:|
-| 1    | 120.00               | 5.00                     | 115.00                       |
-| 2    | 144.00               | 5.75                     | 132.25                       |
-| 3    | 172.80               | 6.61                     | 152.09                       |
-| 4    | 207.36               | 7.60                     | 174.90                       |
-| 5    | 248.83               | 8.75                     | 201.14                       |
+| Year | Start of year | Gain (20%) | Taxable gain (half) | Tax (50%) | End of year |
+|-----:|--------------:|-----------:|--------------------:|----------:|------------:|
+| 1    | 100.00        | 20.00      | 0.00                | 0.00      | 120.00      |
+| 2    | 120.00        | 24.00      | 0.00                | 0.00      | 144.00      |
+| 3    | 144.00        | 28.80      | 0.00                | 0.00      | 172.80      |
+| 4    | 172.80        | 34.56      | 0.00                | 0.00      | 207.36      |
+| 5    | 207.36        | 41.47      | 0.00                | 0.00      | 248.83      |
 
-- Taxed at sale: \$148.83 × 50% × 50% = \$37.21 in tax, leaving **\$211.62**
-- Taxed as gains accrue: \$33.71 in tax along the way, leaving **\$201.14**
-- Less total tax as gains accrue, yet \$10.48 less at the end
+- Sold in year 5: gain \$148.83, taxable half \$74.42, tax at 50% \$37.21
+- Left after tax: 248.83 − 37.21 = **\$211.62**
 
 ::: {.notes}
-Taxed as gains accrue, each year's tax comes out of the asset, so less is left to grow. Taxed at sale, the whole gain keeps compounding until year 5. The book's version: \$100,000 growing 12% a year for 20 years, taxed at 50% on half the gain. Taxed at sale, the owner's net gain is \$648,472; taxed as it accrues, \$460,441, a difference of \$188,031.
+Nothing is taxed while the asset is held, so the whole value grows 20% every year. When it is sold, the gain is 248.83 − 100 = \$148.83; half of that (\$74.42) is taxable, and tax at 50% is \$37.21.
+:::
+
+## Accrual: Gains Taxed Every Year
+
+- Same asset, but [accrual]{.fg style="color: #2780e3;"} (Haig-Simons) taxes each year's gain that year, sold or&nbsp;not
+- The tax comes out of the investment, so each year starts from a smaller&nbsp;value
+
+| Year | Start of year | Gain (20%) | Taxable gain (half) | Tax (50%) | End of year |
+|-----:|--------------:|-----------:|--------------------:|----------:|------------:|
+| 1    | 100.00        | 20.00      | 10.00               | 5.00      | 115.00      |
+| 2    | 115.00        | 23.00      | 11.50               | 5.75      | 132.25      |
+| 3    | 132.25        | 26.45      | 13.23               | 6.62      | 152.08      |
+| 4    | 152.08        | 30.42      | 15.21               | 7.61      | 174.89      |
+| 5    | 174.89        | 34.98      | 17.49               | 8.75      | 201.12      |
+
+- Left after tax: **\$201.12**, which is **\$10.50** less than under realization
+- Less tax in total (\$33.73 vs \$37.21), but only because the gains are smaller (\$134.85 vs&nbsp;\$148.83)
+
+::: {.notes}
+Each row: the gain is 20% of the start-of-year value, half of it is taxable, the tax is 50% of the taxable gain, and end of year = start + gain − tax. Year 2: 20% of \$115 is \$23; half is \$11.50; tax is \$5.75; \$115 + \$23 − \$5.75 = \$132.25. Amounts are rounded to the cent at each step, so every row checks by hand.
+
+Accrual pays less tax and still ends up with less. The tax paid each year leaves less invested, so later gains are smaller. Under realization the unpaid tax stays invested and keeps earning 20% until the sale: the interest-free loan on the next slide. The \$10.50 gap is what that deferral is worth.
+
+The book's version: \$100,000 growing 12% a year for 20 years, taxed at 50% on half the gain. Taxed at sale, the owner's net gain is \$648,472; taxed as it accrues, \$460,441, a difference of \$188,031.
 :::
 
 ## Deferral, Lock-In and Deemed Realization
