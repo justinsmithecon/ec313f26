@@ -297,7 +297,8 @@ The book's version: \$100,000 growing 12% a year for 20 years, taxed at 50% on h
 ## Deferral, Lock-In and Deemed Realization
 
 - Taxing gains only at sale [defers]{.fg style="color: #2780e3;"} the tax
-  - The deferred tax is an [interest-free loan]{.fg style="color: #2780e3;"} from the government, so the asset grows at the pre-tax return
+  - The deferred tax is an [interest-free loan]{.fg style="color: #2780e3;"} from the government, so the asset grows at the [pre-tax return]{style="white-space: nowrap;"}
+  - E.g., the \$5 of tax not paid in year 1 earns \$1 in year 2 (\$0.75 after&nbsp;tax)
   - Hence the accountants' line that taxes deferred are taxes saved
 
 ::: {.callout-important}
@@ -309,6 +310,8 @@ Because selling triggers the tax, owners hold on to assets they would otherwise 
   - Unusual internationally; property left to a spouse rolls over tax-deferred
 
 ::: {.notes}
+The example from the last two slides: under accrual the owner pays \$5 at the end of year 1; under realization that \$5 is owed but stays invested, and earns 20% (\$1) in year 2. Half of the \$1 is taxable at 50% when the asset is sold, so the owner keeps \$0.75. Check: after year 2 the realization asset is worth \$144 with \$11 of tax owed on the \$44 gain, so \$133.00 net, against \$132.25 under accrual. The unpaid tax keeps growing (\$5, \$11, \$18.20, \$26.84, then \$37.21 paid at sale), and the earnings on it build the gap to \$10.50 by year 5.
+
 Many tax shelters are just ways of deferring tax. US studies of realization-based capital gains taxes do find a lock-in effect. Deemed realization means half the gains accrued over a lifetime are taxed in the year of death, so whatever the heirs inherit has already been taxed. That is one reason Canada has no inheritance tax.
 :::
 
