@@ -20,7 +20,6 @@ The slides are embedded in this page, and you can scroll through them with the a
 
 </div>
 
+## In-Class Questions
 
-
-
-
+A PDF of the short-answer questions we work through in class is <a href="/questions/equitable/index.pdf" target="_blank">here</a>. We cover the solutions live in class, so they are not posted here.

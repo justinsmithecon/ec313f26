@@ -26,7 +26,6 @@ The slides are embedded in this page, and you can scroll through them with the a
 
 Trevor Tombe, one of the authors of our textbook, looks at recent federal and provincial fuel tax cuts and finds that pump prices fell by roughly the full amount of each cut. A good real-world application of tax incidence: who actually benefits when a tax is cut?
 
+## In-Class Questions
 
-
-
-
+A PDF of the short-answer questions we work through in class is <a href="/questions/incidence/index.pdf" target="_blank">here</a>. We cover the solutions live in class, so they are not posted here.

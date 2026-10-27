@@ -1,56 +1,22 @@
 ---
-format: 
-  revealjs:
-    theme: [default, hygge.scss]
-    center-title-slide: false
-    slide-number: true
-    height: 900
-    width: 1600
-    chalkboard:
-      theme: whiteboard
-      src: drawings.json
-    post-render: "scripts/decktape.sh"
-editor: visual
+title: "Tax Incidence: In-Class Questions"
+subtitle: "{{< var course.number >}} Public Economics: Taxation, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
 ---
 
-<h1>Tax Incidence In-Class Questions</h1>
+These questions are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
 
-<hr>
+## Question 1
 
-<h2>EC313- Public Economics: Taxation</h2>
+Suppose Niagara Falls proposes raising its tax on hotel rooms from 4% to 8%. City council argues that the increase will cost residents nothing, because almost all hotel guests are visitors.
 
-<h2>Justin Smith</h2>
+a) Evaluate council's claim using the theory of tax incidence.
 
-<h2>Wilfrid Laurier University</h2>
-
-<h2>Fall 2026</h2>
-
-![](/files/img/hexEC313.png){.absolute top="275" left="900" width="550"}
-
-## RTTWS Chapter 14 Problem 4
-
-In the province of Alberta, the tax on hotel rooms is 5 percent. Supporters of this tax argue that the tax benefits the province because its payers are largely out-of-province tourists. Use the theory of tax incidence to analyze this claim.
-
-## RTTWS Chapter 14 Problem 6
-
-Internet purchases are thought to be highly sensitive to tax rates, and applying sales taxes to all such purchases substantially reduces the number of online buyers and the amount of online spending. What are the implications for the incidence of sales taxes that include internet sales?
-
-## RTTWS Chapter 14 Problem 7
-
-Suppose that the demand for cigarettes in a hypothetical country is given by \$Q\_{c} = 2000-200P\_{c}, where $Q_{c}$ is the quantity of packs demanded and $P_{c}$ is the price per pack. The supply of cigarettes is $Q_{s} = 200P_{s}$.
-
-a)  find the price and quantity of cigarettes assuming the market is competitive
-
-## RTTWS Chapter 14 Problem 7
-
-b)  In an effort to reduce smoking, the government levies a tax of \$2 per pack. Compute the quantity of cigarettes after the tax, the price paid by consumers, and the price received by producers.How much revenue does the tax raise for the government? How much revenue comes from consumers and how much from producers?
-
-## RTTWS Chapter 14 Problem 10
-
-According to the studny by Kleven, Jacobsen, Landais, and Saez (2013), the international migration decisions of top-earning European soccer plauers is very sensitive to income tax rates -  when thye tax rates they face in their own country increase substantially, they move to another country.  What are the implacations of this finding for the incidence of income taxes on such players?  Support your answer with a graph.
-
-## RTTWS Chapter 14 Problem 11
-
-Arnie has an income of Y and spends it only on food and music.  Let $P_{F}$ and $P_{M}$ be the prices of food and music, respectively and denote the quantities by $Q_{F}$ and $Q_{M}$.  In the absence of taxes, Arnie's budget constraint is $Y = P_{F}Q_{F} + P_{M}Q_{M}$.  Now suppose an ad valorem tax of 25 percent is imposed on both food and music.  What income tax rate is equivalent to this commidity tax?
-
-
+b) Hotels cannot add rooms quickly, and tourists can easily choose other destinations. Who bears most of the tax? Use a graph to support your answer.

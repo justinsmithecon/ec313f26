@@ -1,0 +1,30 @@
+---
+title: "The Personal Income Tax: In-Class Questions"
+subtitle: "{{< var course.number >}} Public Economics: Taxation, {{< var course.semester >}}"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 2.2cm
+      y: 2.4cm
+    mainfont: "Avenir Next"
+    fontsize: 10.5pt
+---
+
+These questions are written in the style of the short-answer section of the midterm, where each part is worth 5 marks. We work through the answers in class, so solutions are not posted.
+
+## Question 1
+
+Priya bought shares for \$10,000 that are now worth \$20,000. Half of a capital gain is taxable, and her tax rate is 40%. She will sell in one year no matter what she decides now. Her shares will earn 10% over the year; another stock will earn 11%.
+
+a) If she sells her shares now to buy the other stock, how much tax does she pay today, and how much can she invest in the other stock?
+
+b) Should she switch? Use your answer to explain the lock-in effect.
+
+## Question 2
+
+For each of the following, state whether it is true or false, and provide an explanation (all marks come from the explanation).
+
+a) Under the Haig-Simons definition, an increase in the value of shares you still own is not income until you sell them.
+
+b) Taxing a capital gain when the asset is sold is equivalent to taxing it each year as it accrues, as long as the tax rate is the same.
