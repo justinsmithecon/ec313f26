@@ -735,11 +735,23 @@ library(tidyverse)
 
 emtr <- read_csv("emtr_bc2019.csv", show_col_types = FALSE)
 
+key <- emtr |> filter(income %in% c(3000, 31711, 47630, 76137, 210371))
+
 ggplot(emtr, aes(x = income, y = rate)) +
   geom_hline(yintercept = 0, colour = "grey40") +
   geom_step(colour = "#2780e3", linewidth = 1.2) +
+  geom_point(data = key, colour = "#c7254e", size = 2.5) +
+  annotate("text", x = 16000, y = -22, hjust = 0, size = 4.5, colour = "grey25",
+           label = "CWB phases in: -24%") +
+  annotate("text", x = 40000, y = 60, hjust = 0.5, size = 4.5, colour = "grey25",
+           label = "CCB clawback starts: 52%;\n2nd federal bracket: 53%") +
+  annotate("text", x = 76137, y = 22, hjust = 0.5, vjust = 1, size = 4.5, colour = "grey25",
+           label = "CCB clawback\nends: 28%") +
+  annotate("text", x = 250000, y = 57, hjust = 1, size = 4.5, colour = "grey25",
+           label = "Top federal bracket: 50%") +
   scale_x_continuous(labels = scales::dollar, breaks = seq(0, 250000, 50000)) +
-  scale_y_continuous(labels = function(x) paste0(x, "%"), breaks = seq(-20, 60, 20)) +
+  scale_y_continuous(labels = function(x) paste0(x, "%"), breaks = seq(-20, 60, 20),
+                     limits = c(-27, 66)) +
   labs(
     x = "Earned income",
     y = "Effective marginal tax rate",
@@ -759,6 +771,8 @@ ggplot(emtr, aes(x = income, y = rate)) +
 
 ::: {.notes}
 From the book's Table 17.6 (Milligan's Canadian Tax and Credit Simulator), which counts federal and provincial tax, the employee's CPP and EI, and the CWB, CCB and GST credit clawbacks. The book's last row is wrong: at \$210,371 the federal rate rises from 29% to 33%, so the combined rate is 49.80%, not 40.00%. The chart uses the corrected value. The book's table also ends the CCB clawback at \$76,137, which looks too early for two children, so treat the right half of the chart as illustrative. 2019 CWB parameters were lower than today's.
+
+Left to right: the rate drops to -24% at \$3,000 as the CWB phases in at 26%, and rises to 7% when the phase-in ends at \$11,981. The CWB clawback (12%) starts at \$17,025, then provincial and federal tax at \$20,744 and \$24,138. At \$31,711 the CCB clawback (13.5%) lands on top of the CWB clawback, for 52%. The rate dips to 40% when the CWB is gone at \$36,483, then climbs with the GST credit clawback and the second brackets to a peak of 53% at \$47,630. Payroll taxes max out (EI at \$53,100, CPP at \$57,400), the GST credit clawback ends at \$56,547 and the CCB clawback ends at \$76,137, so the rate bottoms out at 28%, lower than at \$25,000. From there it rises with the brackets to 49.8% in the top federal bracket. A family earning \$35,000 faces a higher marginal rate than one earning \$250,000.
 :::
 
 ## iClicker Question {background-color="#f0f4f8"}
