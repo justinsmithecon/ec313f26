@@ -1012,6 +1012,26 @@ $r = (1-t)i - \pi$, where $i$ is the nominal interest rate, $t$ the tax rate and
 Why proportional isn't enough: if wages and prices both double, wage tax doubles and nothing real changes. Capital income is different, because the tax is on nominal gains and nominal interest. The book's example: an asset bought for \$5,000 and sold for \$10,000 after prices double is a zero real gain, but half the \$5,000 nominal gain is taxed. In the interest example, inflation and the nominal rate both rose 3 points, yet the real after-tax return fell. Inflation is not neutral even when fully anticipated, because tax falls on nominal, not real, interest. For borrowers it's the reverse: they deduct interest payments that partly just compensate the lender for inflation.
 :::
 
+## Inflation and Interest: An Example
+
+- You have \$100 and a bike costs \$100. Lend the \$100 for a year, pay 50% tax on the interest, then buy the&nbsp;bike
+
+| | $i$ = 6%, $\pi$ = 3% | $i$ = 9%, $\pi$ = 6% |
+|---|---:|---:|
+| Interest earned | \$6.00 | \$9.00 |
+| Tax at 50% | \$3.00 | \$4.50 |
+| Money after tax | \$103.00 | \$104.50 |
+| Bike price next year | \$103.00 | \$106.00 |
+| Bikes you can buy | 1.000 | 0.986 |
+| **Real after-tax return** | **0%** | **−1.4%** |
+
+- Only about \$3 of the interest is a real gain; the rest just keeps up with the bike's&nbsp;price
+  - The tax takes [100%, then 150%, of the real gain]{.fg style="color: #c7254e;"}
+
+::: {.notes}
+Same numbers as the previous slide. Without the tax, \$106 buys 1.029 bikes and \$109 buys 1.028, so the real return before tax is about 3% in both cases: raising inflation and the interest rate by the same 3 points changes nothing real. After tax it falls from 0 to -1.4%, because the tax rises from \$3 to \$4.50 while the real gain stays at about \$3. In today's dollars the tax is exactly 100% and 150% of the real gain: the effective rate on real interest is ti/(i - π) = 0.5 × 6/3 and 0.5 × 9/3. Eq. 17.1 gives -1.5% for the second case; the exact figure is \$104.50/\$106 - 1 = -1.42%, because the formula is an approximation. If only the real interest were taxed, the first case would pay \$1.50 of tax, leaving \$104.50, or 1.015 bikes: a real return of about 1.5%, which is (1 - t)(i - π), the same comparison as option B in the next iClicker question.
+:::
+
 ## iClicker Question {background-color="#f0f4f8"}
 
 You lend money at a nominal interest rate of 8%. Inflation is 4% and your tax rate on interest income is 25%. What is your real after-tax rate of&nbsp;return?

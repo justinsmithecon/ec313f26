@@ -5047,5 +5047,12 @@
       "Course content",
       "The Personal Income Tax"
     ]
+  },
+  {
+    "objectID": "slides/personaltax/index.html#inflation-and-interest-an-example",
+    "href": "slides/personaltax/index.html#inflation-and-interest-an-example",
+    "title": "EC313 - Taxation",
+    "section": "Inflation and Interest: An Example",
+    "text": "Inflation and Interest: An Example\n\nYou have $100 and a bike costs $100. Lend the $100 for a year, pay 50% tax on the interest, then buy the bike\n\n\n\n\n\n\\(i\\) = 6%, \\(\\pi\\) = 3%\n\\(i\\) = 9%, \\(\\pi\\) = 6%\n\n\n\n\nInterest earned\n$6.00\n$9.00\n\n\nTax at 50%\n$3.00\n$4.50\n\n\nMoney after tax\n$103.00\n$104.50\n\n\nBike price next year\n$103.00\n$106.00\n\n\nBikes you can buy\n1.000\n0.986\n\n\nReal after-tax return\n0%\n−1.4%\n\n\n\n\nOnly about $3 of the interest is a real gain; the rest just keeps up with the bike’s price\n\nThe tax takes 100%, then 150%, of the real gain\n\n\n\nSame numbers as the previous slide. Without the tax, $106 buys 1.029 bikes and $109 buys 1.028, so the real return before tax is about 3% in both cases: raising inflation and the interest rate by the same 3 points changes nothing real. After tax it falls from 0 to -1.4%, because the tax rises from $3 to $4.50 while the real gain stays at about $3. In today’s dollars the tax is exactly 100% and 150% of the real gain: the effective rate on real interest is ti/(i - π) = 0.5 × 6/3 and 0.5 × 9/3. Eq. 17.1 gives -1.5% for the second case; the exact figure is $104.50/$106 - 1 = -1.42%, because the formula is an approximation. If only the real interest were taxed, the first case would pay $1.50 of tax, leaving $104.50, or 1.015 bikes: a real return of about 1.5%, which is (1 - t)(i - π), the same comparison as option B in the next iClicker question."
   }
 ]
