@@ -893,6 +893,7 @@ Principles 2 and 3 have broad support, though both are argued over. Support for 
 
 ## The Marriage Penalty
 
+- Two married couples: Lalan and Rahi, and Emile and Florian
 - Tax schedule: 10% on the first \$6,000 of income, 50% above that
 
 | | Income | Tax filing&nbsp;alone | Couple's tax,&nbsp;separate | Couple's&nbsp;income | Couple's tax,&nbsp;joint |
