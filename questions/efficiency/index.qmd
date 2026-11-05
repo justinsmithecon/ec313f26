@@ -20,3 +20,19 @@ For each of the following, state whether it is true or false, and provide an exp
 a) If a tax leaves the quantity of the taxed good unchanged, the tax has no excess burden.
 
 b) A subsidy lowers the price consumers pay, so unlike a tax it cannot create an excess burden.
+
+## Question 2
+
+A province introduces a 20% tax on food delivery orders. Before the tax, households spend \$2 billion a year on delivery orders. The compensated price elasticity of demand is 1.2 (in absolute value), and supply is perfectly elastic.
+
+a) Calculate the excess burden of the tax, the revenue it raises, and the excess burden per dollar of revenue.
+
+b) In the short run, restaurants and couriers cannot quickly change how many orders they can handle, so supply slopes upward. Is the short-run excess burden larger or smaller than your answer in (a)? Use a graph to support your answer.
+
+## Question 3
+
+For each of the following, state whether it is true or false, and provide an explanation (all marks come from the explanation).
+
+a) A province already taxes movie theatre tickets at 15%. A new 15% tax on streaming subscriptions, a substitute, must increase the total excess burden of the province's taxes, because it adds a second distortion.
+
+b) A tax set so high that people stop buying the good entirely has no excess burden, because it raises no revenue.

@@ -28,3 +28,11 @@ On average, taller people earn more. A newspaper columnist proposes taxing peopl
 a) From the standpoint of efficiency, what is attractive about this tax?
 
 b) Give two objections to it.
+
+## Question 3
+
+Ana and Ben have identical tastes and do the same kind of work. Ben's employer pays him \$60,000 in cash. Ana's employer pays her \$58,500 plus free use of an on-site gym, which she values at \$1,500 a year (what a membership would otherwise cost her). Before any income tax, the two jobs are equally attractive. Then a 25% income tax is introduced, and on-site gyms are not taxed.
+
+a) Does the tax treat Ana and Ben equally under the traditional definition of horizontal equity? Under the utility definition, if workers can move freely between jobs like Ana's and jobs like Ben's? Use numbers to support your answer.
+
+b) Years later, the government starts taxing on-site gyms as income. Explain why this change can create a horizontal inequity, even though it closes a tax break. What could the government do to ease the change?

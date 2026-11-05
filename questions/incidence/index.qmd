@@ -20,3 +20,19 @@ Suppose Niagara Falls proposes raising its tax on hotel rooms from 4% to 8%. Cit
 a) Evaluate council's claim using the theory of tax incidence.
 
 b) Hotels cannot add rooms quickly, and tourists can easily choose other destinations. Who bears most of the tax? Use a graph to support your answer.
+
+## Question 2
+
+A province raises its income tax rate on earnings above \$250,000. Supporters say the increase will be paid by the province's highest earners. Critics point out that many of these workers, such as software engineers, finance professionals and executives, could easily take jobs in another province.
+
+a) Use the theory of tax incidence to evaluate the supporters' claim. Use a graph of the market for these workers to support your answer.
+
+b) Suppose the elasticity of supply of these workers to the province is 3, and employers' elasticity of demand for them is 1 (in absolute value). Roughly what share of the tax do the workers bear, and who bears the rest? Would workers bear a larger or smaller share of a tax on earnings that they could not easily escape by moving? Explain.
+
+## Question 3
+
+For each of the following, state whether it is true or false, and provide an explanation (all marks come from the explanation).
+
+a) In an economy where people spend all of their income, a 25% tax on every good is equivalent to a 25% income tax.
+
+b) Diners are so sensitive to price that restaurants cannot raise their prices when a tax on restaurant meals is introduced. Since the restaurants bear the whole tax, the wages of restaurant workers are unaffected.

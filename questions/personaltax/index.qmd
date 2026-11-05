@@ -28,3 +28,11 @@ For each of the following, state whether it is true or false, and provide an exp
 a) Under the Haig-Simons definition, an increase in the value of shares you still own is not income until you sell them.
 
 b) Taxing a capital gain when the asset is sold is equivalent to taxing it each year as it accrues, as long as the tax rate is the same.
+
+## Question 3
+
+A province introduces a refundable work credit equal to 25% of earnings above \$4,000, up to a maximum of \$2,000. The credit is reduced by 20% of earnings above \$30,000 until it is gone. The province's only other tax is a 20% income tax on earnings above \$15,000. Ignore all other taxes and benefits.
+
+a) At what earnings does the credit reach its maximum, and at what earnings is it gone?
+
+b) Find the effective marginal tax rate for each range of earnings from \$0 to \$50,000. What does this schedule do to the incentive to take a job, and to the incentive for a part-time worker earning \$30,000 to work more hours?
