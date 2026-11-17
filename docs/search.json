@@ -4263,7 +4263,7 @@
     "href": "slides/taxbehaviour/index.html#evidence-on-labour-supply",
     "title": "EC313 - Taxation",
     "section": "Evidence on Labour Supply",
-    "text": "Evidence on Labour Supply\n\nThe theory discusses effect of tax *holding all else equal**\nIn statistical work, this is not easy to do\n\nMany factors affect labour supply\nIsolating the effect of taxes is difficult\n\n\n\n\n\n\n\n\nEmpirical Findings\n\n\n\nElasticity of hours worked for working age men is between -0.2 and 0.2\nFor women it is between -0.2 and 0.5\n\n\n\n\n\nMeans that a reduction in wage based on income tax has a small effect on work hours\nEffect on labour force participation is larger"
+    "text": "Evidence on Labour Supply\n\nStudies regress annual hours on the after-tax wage, plus age, sex and marital status\n\nHolding everything else equal is hard\n\nElasticities of hours with respect to the net wage\n\n\n\n\n\n\n\nWhat the Studies Find\n\n\n\nMen aged about 25–60: −0.2 to 0.2, often not statistically significant (Hum and Simpson, 1991)\nMarried women in Canada: −0.2 to 0.5\n\n\n\n\n\nSand (2005): the 2001 federal, B.C. and Alberta rate cuts barely changed hours\nParticipation responds more than hours do\nThese estimates are decades old\n\n\nPrime-age men’s hours barely move when the net wage changes. Married women respond more, in both hours and participation. That’s the efficiency case for taxing individuals rather than families from the personal income tax deck: joint filing taxes a second earner’s first dollar at the family’s top rate."
   },
   {
     "objectID": "slides/taxbehaviour/index.html#individual-vs-group-effects",
@@ -4529,14 +4529,14 @@
     "href": "slides/taxbehaviour/index.html#summary-1",
     "title": "EC313 - Taxation",
     "section": "Summary",
-    "text": "Summary\n\nIncome taxation affects labour supply through substitution and income effects\nThe Laffer Curve shows the relationship between tax rates and tax revenues\nTaxes on interest income affect saving behaviour through substitution and income effects\nPreferential tax treatment of housing distorts saving behaviour towards housing\nTaxes affect portfolio composition by changing the return and risk of different assets"
+    "text": "Summary\n\nIncome taxes cause substitution and income effects, so hours can rise or fall\nMen’s hours barely respond; married women’s hours and participation respond more\nHuman capital, the compensation package, demand-side effects and spending all complicate the picture\nRevenue peaks at \\(t_A\\) on the Laffer curve: Canada isn’t past it overall, but provincial top rates are at or past the peak for the top 1%\nTaxing interest can raise or lower saving; RRSP-type plans appear to raise it\nUntaxed imputed rent and capital gains pull saving into housing\nA tax on asset returns lowers both return and risk, so its effect on portfolio composition is ambiguous"
   },
   {
     "objectID": "slides/taxbehaviour/index.html#references-1",
     "href": "slides/taxbehaviour/index.html#references-1",
     "title": "EC313 - Taxation",
     "section": "References",
-    "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022."
+    "text": "References\n\nRosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-François Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw Hill, 2023.\nDepartment of Finance Canada. Report on Federal Tax Expenditures 2026.\nCanada Revenue Agency. What is the Home Buyers’ Plan; Reporting the sale of your principal residence; Principal residence and other real estate.\nStatistics Canada. The Daily, September 21, 2022: 2021 Census of Population, housing.\nBDO Canada. Tax Facts 2026.\nFeldstein, Martin. “Effects of Taxes on Economic Behavior.” NBER Working Paper 13745, 2008.\nMilligan, Kevin, and Michael Smart. “Taxation and Top Incomes in Canada.” Canadian Journal of Economics 48(2), 2015: 655–681. NBER Working Paper 20489, 2014.\nStudies cited by author and year on the slides are as reported in Rosen et al. (2023), Chapter 18."
   },
   {
     "objectID": "slides/equitable/index.html#iclicker-question",
@@ -5054,5 +5054,285 @@
     "title": "EC313 - Taxation",
     "section": "Inflation and Interest: An Example",
     "text": "Inflation and Interest: An Example\n\nYou have $100 and a bike costs $100. Lend the $100 for a year, pay 50% tax on the interest, then buy the bike\n\n\n\n\n\n\\(i\\) = 6%, \\(\\pi\\) = 3%\n\\(i\\) = 9%, \\(\\pi\\) = 6%\n\n\n\n\nInterest earned\n$6.00\n$9.00\n\n\nTax at 50%\n$3.00\n$4.50\n\n\nMoney after tax\n$103.00\n$104.50\n\n\nBike price next year\n$103.00\n$106.00\n\n\nBikes you can buy\n1.000\n0.986\n\n\nReal after-tax return\n0%\n−1.4%\n\n\n\n\nOnly about $3 of the interest is a real gain; the rest just keeps up with the bike’s price\n\nThe tax takes 100%, then 150%, of the real gain\n\n\n\nSame numbers as the previous slide. Without the tax, $106 buys 1.029 bikes and $109 buys 1.028, so the real return before tax is about 3% in both cases: raising inflation and the interest rate by the same 3 points changes nothing real. After tax it falls from 0 to -1.4%, because the tax rises from $3 to $4.50 while the real gain stays at about $3. In today’s dollars the tax is exactly 100% and 150% of the real gain: the effective rate on real interest is ti/(i - π) = 0.5 × 6/3 and 0.5 × 9/3. Eq. 17.1 gives -1.5% for the second case; the exact figure is $104.50/$106 - 1 = -1.42%, because the formula is an approximation. If only the real interest were taxed, the first case would pay $1.50 of tax, leaving $104.50, or 1.015 bikes: a real return of about 1.5%, which is (1 - t)(i - π), the same comparison as option B in the next iClicker question."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#goals-of-this-section-1",
+    "href": "slides/taxbehaviour/index.html#goals-of-this-section-1",
+    "title": "EC313 - Taxation",
+    "section": "Goals of This Section",
+    "text": "Goals of This Section\nIn this section we will:\n\nShow how a proportional income tax changes hours of work\nReview what the evidence says about labour supply elasticities\nExplain what the Laffer curve does and does not imply for tax policy\nUse the intertemporal budget constraint to analyze a tax on interest income\nAsk whether tax-assisted savings plans raise total saving\nDescribe the tax treatment of owner-occupied housing, including the principal residence\nExplain why a tax on asset returns has an ambiguous effect on portfolio composition\n\n\nTwo camps frame this chapter. One says taxes barely change what people do: they work, save and invest about the same whatever the rates. The other says high rates discourage work, saving and risk-taking, and that the damage is large. Theory can’t settle it, because almost every effect we look at today goes both ways. That’s why so much of the chapter is about evidence."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#preferences-over-leisure-and-income",
+    "href": "slides/taxbehaviour/index.html#preferences-over-leisure-and-income",
+    "title": "EC313 - Taxation",
+    "section": "Preferences over Leisure and Income",
+    "text": "Preferences over Leisure and Income\n\n\n\n\n\nPeople value two “goods”\n\nIncome: buys goods and services\nLeisure: all time not in paid work, chores and education included\n\n\n\n\n\n\n\n\nMarginal Rate of Substitution (MRS)\n\n\nThe income someone will give up for one more hour of leisure and stay equally well off: the slope of the indifference curve\n\n\n\n\nDiminishing MRS: the more leisure you have, the less income you’ll give up for another hour\nCurves further from the origin are better\n\n\n\nThese are the same tools as the efficiency deck (indifference curves, the MRS), with income and leisure as the two goods.\nWhy this matters: in 2021 more than 19 million Canadians were employed, with total earnings of about $1.3 trillion, roughly 60% of GDP.\nOther shapes are possible. Straight-line indifference curves mean a constant trade-off: you’d give up the same income for an hour of leisure however much leisure you have. L-shaped curves mean income and leisure are only useful in fixed proportions. We stick to smooth, convex curves, and assume both goods are normal.\nIndifference map: draw two more curves further out. Each is a higher level of utility, U₂ &gt; U₁ &gt; U₀, and the person wants the highest one they can reach."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-budget-constraint",
+    "href": "slides/taxbehaviour/index.html#the-budget-constraint",
+    "title": "EC313 - Taxation",
+    "section": "The Budget Constraint",
+    "text": "The Budget Constraint\n\n\n\n\n\n\n\n\n\n\nTime Endowment and Full Income\n\n\nThe time endowment \\(T\\) is the hours available for work or leisure. Working all of them earns full income \\(wT\\)\n\n\n\n\nEach of the \\(T - L\\) hours of work pays the wage \\(w\\)\n\n\\[I = w(T - L)\\]\n\nThe slope is \\(-w\\): an hour of leisure costs the wage\nNo income at \\(L = T\\); income \\(wT\\) at \\(L = 0\\)\n\n\n\nThis is the same full income, wT, as in the equitable deck, where leisure has a price of w. You’ll also see this line called the potential income constraint or the full income constraint."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#a-change-in-the-wage",
+    "href": "slides/taxbehaviour/index.html#a-change-in-the-wage",
+    "title": "EC313 - Taxation",
+    "section": "A Change in the Wage",
+    "text": "A Change in the Wage\n\n\n\n\n\nA lower wage, \\(w_1 &lt; w_0\\), makes the line flatter\nIt swivels around \\(L = T\\): someone who doesn’t work earns nothing at either wage\nFull income falls from \\(w_0T\\) to \\(w_1T\\)\nEach hour of leisure now costs less income\nA tax on earnings does the same thing: it lowers the wage you keep"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#choosing-hours-of-work",
+    "href": "slides/taxbehaviour/index.html#choosing-hours-of-work",
+    "title": "EC313 - Taxation",
+    "section": "Choosing Hours of Work",
+    "text": "Choosing Hours of Work\n\n\n\n\n\nThe best affordable point is where an indifference curve is tangent to the budget line\nThere, MRS = \\(w\\): what you’d give up for an hour of leisure equals what it costs\nHours of work \\(h_0 = T - L_0\\)\nIncome \\(I_0 = wh_0\\)\nIf the best point is \\(L = T\\), the person doesn’t work at all: non-participation\n\n\n\nThe figure labels income “wh”; it is wh₀, the income at L₀.\nNon-participation is a corner: at L = T, the first hour of leisure given up is worth more to the person than the wage it would earn, so they stay out of the labour force. Keep this in mind for the evidence: participation turns out to respond to taxes more than hours do."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#a-proportional-income-tax",
+    "href": "slides/taxbehaviour/index.html#a-proportional-income-tax",
+    "title": "EC313 - Taxation",
+    "section": "A Proportional Income Tax",
+    "text": "A Proportional Income Tax\n\n\n\n\n\nA proportional income tax takes the same share \\(t\\) of every dollar earned\nThe net wage is \\((1 - t)w\\)\nThe budget line pivots on \\(T\\): zero hours means zero tax\nThe slope becomes \\(-(1 - t)w\\)\nFull income falls to \\((1 - t)wT\\)\nIt’s the same picture as a wage cut\n\n\n\nThe figure writes the new slope as −w(1 − t); same thing."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#substitution-and-income-effects",
+    "href": "slides/taxbehaviour/index.html#substitution-and-income-effects",
+    "title": "EC313 - Taxation",
+    "section": "Substitution and Income Effects",
+    "text": "Substitution and Income Effects\n\nThe tax moves the person to a new optimum, through two effects\n\n\n\n\n\n\n\nTwo Effects of the Tax on Hours of Work\n\n\n\nSubstitution effect: leisure is cheaper, since an hour off now costs only \\((1 - t)w\\), so work less\nIncome effect: the person is poorer and, if leisure is a normal good, takes less leisure, so works more\n\n\n\n\n\nThe two effects pull in opposite directions, so the effect on hours is ambiguous\nWhich one is bigger is an empirical question: theory alone can’t say\n\n\nSame decomposition as the efficiency deck, now applied to leisure. Note that the answer isn’t about how “willing to trade” someone is in general; it’s about which of the two effects is larger for that person. If leisure were inferior, both effects would push toward less work."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#hours-can-fall-or-rise",
+    "href": "slides/taxbehaviour/index.html#hours-can-fall-or-rise",
+    "title": "EC313 - Taxation",
+    "section": "Hours Can Fall or Rise",
+    "text": "Hours Can Fall or Rise\n\n\n\nSubstitution effect larger: leisure rises from \\(L_0\\) to \\(L_1\\), so hours fall\n\n\nIncome effect larger: leisure falls from \\(L_0\\) to \\(L_2\\), so hours rise\n\n\nThe book’s characters: Ha-yoon is the left-hand case, and the tax cuts their hours. Totoro earns the same wage and works the same hours before the tax, but works more after it. Neither is irrational: same budget, different tastes.\nFigure labels: wh should read wh₀, and the after-tax incomes (1 − t)wh should read (1 − t)wh₁ on the left and (1 − t)wh₂ on the right."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#a-progressive-income-tax",
+    "href": "slides/taxbehaviour/index.html#a-progressive-income-tax",
+    "title": "EC313 - Taxation",
+    "section": "A Progressive Income Tax",
+    "text": "A Progressive Income Tax\n\n\n\n\n\nUnder a progressive income tax, rates rise with income: \\(t_1 &lt; t_2 &lt; t_3\\)\nThe budget line kinks where each bracket starts\n\nEach segment is flatter, with slope \\(-(1 - t_i)w\\)\nThe kinks come at \\(h_0\\) and \\(h_1\\) hours of work\n\nThe same two effects apply, so the result is still ambiguous\n\nIn this figure, leisure rises from \\(L_0\\) to \\(L_3\\)\n\n\n\n\nThe book’s version: t₁ on the first $5,000 of earnings, t₂ on the next $5,000 and t₃ on everything above $10,000. After-tax income is (1 − t₁) × $5,000 at the first kink and (1 − t₁) × $5,000 + (1 − t₂) × $5,000 at the second.\nFigure: the dashed income lines should read (1 − t₁)wh₀ and (1 − t₁)wh₀ + (1 − t₂)w(h₁ − h₀) (each label has an extra w), and the kinks sit at T − h₀ and T − h₁ on the leisure axis."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#demand-side-and-group-effects",
+    "href": "slides/taxbehaviour/index.html#demand-side-and-group-effects",
+    "title": "EC313 - Taxation",
+    "section": "Demand-Side and Group Effects",
+    "text": "Demand-Side and Group Effects\n\n\nDemand side\n\nA tax change raises married women’s net wage by 10%; with an elasticity of 0.4, they want to work 4% more\n\nHours rise 4% only if employers take on all of them at the new wage\n\nMore likely, the extra supply bids the before-tax wage down, so the final rise is smaller\nThere are knock-on effects in other markets, such as the price of childcare: a general equilibrium problem\nMost studies treat the first-round effect as close enough\n\n\nIndividual vs group\n\nOne reform can cut some people’s rates and raise others’\n\nE.g., moving from a proportional to a progressive tax\nGroups can move in opposite directions, so the total is hard to predict\n\nThe elasticity varies with income\n\nHigh for low-income workers: one reason for the Canada Workers Benefit\nLow for high-income workers"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#other-dimensions-of-labour-supply-human-capital",
+    "href": "slides/taxbehaviour/index.html#other-dimensions-of-labour-supply-human-capital",
+    "title": "EC313 - Taxation",
+    "section": "Other Dimensions of Labour Supply: Human Capital",
+    "text": "Other Dimensions of Labour Supply: Human Capital\n\n\n\n\n\n\nHuman Capital\n\n\nInvestments people make in themselves, such as education and training, that raise their productivity\n\n\n\n\nTrain if the benefits \\(B\\) exceed the costs \\(C\\), mostly forgone earnings: \\(B - C &gt; 0\\) (18.1)\nA proportional tax, with hours fixed, cuts both by the same factor\n\n\\[(1-t)B - (1-t)C = (1-t)(B - C) &gt; 0 \\qquad (18.2)\\]\n\nSo the decision doesn’t change: the tax shrinks the cost as much as the benefit\nIf the tax raises hours, training pays off over more hours, so people train more; if it lowers hours, they train less\nTuition, uncertain returns and progressive rates make the effect ambiguous, and there is little evidence\n\n\nThe neutrality result needs three things: the cost is forgone earnings, taxed at the same rate as the returns; hours don’t change; and the rate is the same while you train and after. Tuition is a cost the tax doesn’t shrink in the same way. Progressive rates tax the higher earnings after training at a higher rate than the earnings given up during it, which discourages training."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-compensation-package-and-the-expenditure-side",
+    "href": "slides/taxbehaviour/index.html#the-compensation-package-and-the-expenditure-side",
+    "title": "EC313 - Taxation",
+    "section": "The Compensation Package and the Expenditure Side",
+    "text": "The Compensation Package and the Expenditure Side\n\n\nThe compensation package\n\nPay is more than wages: dental and eye care, group life insurance, pensions, perks\n\nMuch of it is untaxed (Chapter 17)\n\nHigher rates make untaxed pay more attractive\nSo taxes change the mix of pay, not just hours\n\n\nThe expenditure side\n\nWhat the revenue buys can change labour supply too\n\nSpending on parks may raise the demand for leisure\nSpending on childcare may raise labour supply\n\nIdeally, judge the whole budget, not just the tax side\nThere is little evidence, because public goods are hard to value\n\n\n\nIf firms can easily move pay into untaxed forms, the effect of a tax on hours will be muted. It’s the same point as the shrinking tax base in the Laffer discussion: people respond on margins other than hours."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#tax-rates-hours-and-revenue",
+    "href": "slides/taxbehaviour/index.html#tax-rates-hours-and-revenue",
+    "title": "EC313 - Taxation",
+    "section": "Tax Rates, Hours and Revenue",
+    "text": "Tax Rates, Hours and Revenue\n\n\n\n\n\n\n\n\n\nFigure to come\n\n\nRevenue rectangles at \\(t_1\\), \\(t_2\\) and \\(t_3\\) on an upward-sloping labour supply curve\n\n\n\n\n\nRevenue = tax per hour × hours = \\(twh\\)\n\nThe wage \\(w\\) is fixed; hours \\(h\\) respond to the net wage \\((1 - t)w\\)\n\nSuppose the substitution effect dominates, so hours fall as \\(t\\) rises\nAt \\(t_1\\), revenue is the first rectangle; at \\(t_2\\) it is larger\nAt \\(t_3\\), the tax per hour is high, but hours have fallen so far that revenue is smaller\nAt a rate of 100%, nobody works and revenue is zero\n\n\n\nEach rectangle runs from the wage w down to the net wage (1 − tᵢ)w, a height of tᵢw, and out to the hours worked at that rate. Raising t makes the rectangle taller and narrower; whether its area grows depends on how fast hours fall.\nThe argument also works with a backward-bending supply curve."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-laffer-curve",
+    "href": "slides/taxbehaviour/index.html#the-laffer-curve",
+    "title": "EC313 - Taxation",
+    "section": "The Laffer Curve",
+    "text": "The Laffer Curve\n\n\n\n\n\n\n\n\n\n\nThe Laffer Curve\n\n\nThe relationship between the tax rate and tax revenue: revenue is zero at rates of 0 and 100%, and highest somewhere in between\n\n\n\n\nRevenue peaks at \\(t_A\\), the revenue-maximizing rate\nAbove \\(t_A\\), a rate cut raises revenue, so no government should be there\nThe shape depends on the elasticity of labour supply with respect to the net wage\nLaffer (1979) argued that the US was above \\(t_A\\)\n\nThat fed supply-side economics and the 1980s rate cuts in Canada and the US\n\n\n\n\nt₁, t₂ and t₃ are the rates from the previous slide: t₁ and t₂ are on the rising part, t₃ is past the peak. Hold on to the difference between t_A and the best rate; it comes back on the top bracket slide."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#is-canada-past-the-peak",
+    "href": "slides/taxbehaviour/index.html#is-canada-past-the-peak",
+    "title": "EC313 - Taxation",
+    "section": "Is Canada Past the Peak?",
+    "text": "Is Canada Past the Peak?\n\nHours: elasticities are modest, so the economy as a whole is not above \\(t_A\\)\n\nRate cuts won’t pay for themselves through extra work\n\nTaxable income: people respond on other margins too\n\nUntaxed pay, TFSAs, effort, training and evasion\nThe underground economy was 2.3% of GDP in 2011 (Morissette, 2014)\nThe elasticity of taxable income is about 0.5 (Feldstein, 2008)\n\nExample: cut a high earner’s rate from 40% to 30%\n\nThe net-of-tax rate rises from 0.60 to 0.70, or 16.7%, so taxable income rises about 0.5 × 16.7% ≈ 8%\nRevenue still falls: 0.30 × 1.08 ≈ 0.325 of the old base, against 0.40 before\n\n\n\nThe book says taxable income rises by more than 12%. That treats the 0.5 as an elasticity with respect to the tax rate itself (a 25% cut in the rate × 0.5). Feldstein defines the elasticity of taxable income with respect to the net-of-tax rate, 1 − t, which gives about 8%. Either way revenue falls: to 0.325 of the old base on 8%, or 0.3375 on 12.5%, against 0.40.\nFor this cut to pay for itself, taxable income would have to rise by a third (0.30 × 1.33 = 0.40): an elasticity of about 2."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-top-bracket",
+    "href": "slides/taxbehaviour/index.html#the-top-bracket",
+    "title": "EC313 - Taxation",
+    "section": "The Top Bracket",
+    "text": "The Top Bracket\n\n\n\nMilligan and Smart (2014): elasticities from provincial rate changes\n\nTop 1%: 0.689, so revenue peaks at a combined rate of about 44%\nTop 0.1%: 1.451, a peak of about 28%\n\n2026 top combined rates are 44.5% to 54.8%: for a province raising its own rate, at or past the peak\nA federal increase loses less income to other provinces, so its peak is higher\n\\(t_A\\) maximizes revenue; the best rate also weighs equity (Chapter 16)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFederal plus provincial or territorial top rates on ordinary income, 2026 (BDO Tax Facts 2026): lowest Nunavut 44.5%, highest Newfoundland and Labrador 54.8%; Ontario 53.53%, B.C. 53.5%, Quebec 53.31%.\nWhere the peaks come from: Milligan and Smart use τ* = 1/(1 + a·e), where a ≈ 1.81 measures how thick the top tail of the income distribution is and e is the elasticity of taxable income. With e = 0.689 for the top 1%, τ* = 44.4%. With e = 1.451 for the top 0.1%, τ* = 27.5%. For the rest of the top 1% (the 99th to 99.9th percentiles) e = 0.364, which gives 60.3%.\nThe book says these estimates put the peak for the top 1% at “about 60 percent”. That is the third figure, for the top 1% excluding the top 0.1%. For the top 1% as a whole, the paper’s own calculation is 44.4%.\nTwo caveats from the paper. The peak counts only income tax revenue. And the elasticities come from provincial rate changes, so they include income that moves between provinces, whether people move or report it elsewhere. That is the right number for one province raising its own top rate. A federal increase leaves nowhere in Canada to shift income to, so the elasticity is smaller and the peak higher.\nIn the news: in the 2015 election the Liberals promised a new federal bracket of 33% on income over $200,000, which took effect in 2016. With Ontario’s rates, that put Ontario’s top combined rate at 53.53%, where it still is in 2026. This slide is the question it raised: top earners have the most ways to shift and time their income, so a higher top rate can raise less than the static estimate.\nOther estimates (book footnote 10): Brewer and Browne put t_A near 60% for the UK; Dahlby and Ferede find provincial income tax rates to the left of the peak.\nPulling labour supply together: prime-age men’s hours barely respond, married women’s hours and participation respond more, and the bigger revenue question is how taxable income at the top responds."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-life-cycle-model",
+    "href": "slides/taxbehaviour/index.html#the-life-cycle-model",
+    "title": "EC313 - Taxation",
+    "section": "The Life-Cycle Model",
+    "text": "The Life-Cycle Model\n\n\n\n\n\n\nLife-Cycle Model\n\n\nEach year’s consumption and saving depend on the resources a person expects over their whole life, not just this year’s income (Chapter 11)\n\n\n\n\nTwo periods: income \\(I_0\\) now and \\(I_1\\) later; consumption \\(c_0\\) and \\(c_1\\)\n\nIf \\(c_0 &lt; I_0\\) the person saves; if \\(c_0 &gt; I_0\\) they borrow\nSaving earns, and borrowing costs, the interest rate \\(r\\)\n\nIn present value, lifetime consumption equals lifetime income\n\n\\[c_0 + \\frac{c_1}{1 + r} = I_0 + \\frac{I_1}{1 + r}\\]"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-intertemporal-budget-constraint",
+    "href": "slides/taxbehaviour/index.html#the-intertemporal-budget-constraint",
+    "title": "EC313 - Taxation",
+    "section": "The Intertemporal Budget Constraint",
+    "text": "The Intertemporal Budget Constraint\n\n\n\n\n\nSolve for future consumption\n\n\\[c_1 = (1 + r)(I_0 - c_0) + I_1\\]\n\nThe slope is \\(-(1 + r)\\): a dollar consumed now costs \\(1 + r\\) later\nThe line passes through the endowment point \\((I_0, I_1)\\): consume income as it arrives\nThe optimum is at the tangency, and saving is \\(I_0 - c_0\\)"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#case-i-deductible-interest-payments",
+    "href": "slides/taxbehaviour/index.html#case-i-deductible-interest-payments",
+    "title": "EC313 - Taxation",
+    "section": "Case I: Deductible Interest Payments",
+    "text": "Case I: Deductible Interest Payments\n\n\n\n\n\nA tax at rate \\(t\\) on interest income\n\nA saver keeps \\((1 - t)r\\) per dollar saved\nA borrower who deducts interest pays \\((1 - t)r\\)\n\n\n\n\n\n\n\n\nAfter-Tax Interest Rate\n\n\n\\((1 - t)r\\), for savers and borrowers alike\n\n\n\n\nThe line rotates through the endowment point (no saving, no tax), to slope \\(-[1 + (1 - t)r]\\)\nConsumer and mortgage interest generally isn’t deductible in Canada, but some deals can be set up so it is (Chapter 17)"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#saving-can-fall-or-rise",
+    "href": "slides/taxbehaviour/index.html#saving-can-fall-or-rise",
+    "title": "EC313 - Taxation",
+    "section": "Saving Can Fall or Rise",
+    "text": "Saving Can Fall or Rise\n\n\n\nSaving falls: \\(c_0\\) rises to \\(c_0'\\)\n\n\nSaving rises: \\(c_0\\) falls to \\(c_0'\\)\n\n\n\n\n\n\n\nTwo Effects of the Tax on Saving\n\n\n\nSubstitution effect: \\(c_0\\) is cheaper in terms of \\(c_1\\), so save less\nIncome effect: lifetime resources fall, so (if \\(c_0\\) is a normal good) consume less now and save more\n\n\n\n\n\nFuture consumption falls in both cases. The target saver is the extreme income-effect case: someone saving for a fixed goal, like a down payment or a set retirement income, has to save more when the after-tax return falls."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#case-ii-nondeductible-interest-payments",
+    "href": "slides/taxbehaviour/index.html#case-ii-nondeductible-interest-payments",
+    "title": "EC313 - Taxation",
+    "section": "Case II: Nondeductible Interest Payments",
+    "text": "Case II: Nondeductible Interest Payments\n\n\n\n\n\nSavers earn \\((1 - t)r\\); borrowers still pay \\(r\\)\nThe line kinks at the endowment point\n\nFlatter to the left, where people save: slope \\(-[1 + (1 - t)r]\\)\nUnchanged to the right, where people borrow: slope \\(-(1 + r)\\)\n\nPeople who borrowed before the tax are unaffected\nSavers face the same two effects as in Case I, so the result is still ambiguous\nThis is the usual Canadian case for consumer and mortgage loans"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#some-additional-considerations",
+    "href": "slides/taxbehaviour/index.html#some-additional-considerations",
+    "title": "EC313 - Taxation",
+    "section": "Some Additional Considerations",
+    "text": "Some Additional Considerations\n\nWhat matters is the real after-tax return, not the nominal one (Chapter 17)\nThere are many assets, taxed at different rates, so there is no single after-tax return\nSocial saving = private saving + government saving\n\nIf the government saves the revenue from taxing interest, social saving can rise even when private saving falls\n\nSome people are myopic, and some can’t borrow\n\nStill, the model is a reasonable approximation"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#empirical-findings-on-saving",
+    "href": "slides/taxbehaviour/index.html#empirical-findings-on-saving",
+    "title": "EC313 - Taxation",
+    "section": "Empirical Findings on Saving",
+    "text": "Empirical Findings on Saving\n\nStudies regress saving on the after-tax return, income and other controls\n\nThe estimates have been hard to pin down\n\nBeach, Boadway and Bruce (1988) find a small effect in Canada\n\nTheir elasticity averages about 0.5, but it is positive for younger cohorts and negative for older ones\n\n\n\n\n\n\n\n\nBottom Line\n\n\nA long-run elasticity of saving of about 0.29 (Joint Committee on Taxation, 2005): saving responds, but not much"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#do-tax-assisted-plans-create-new-saving",
+    "href": "slides/taxbehaviour/index.html#do-tax-assisted-plans-create-new-saving",
+    "title": "EC313 - Taxation",
+    "section": "Do Tax-Assisted Plans Create New Saving?",
+    "text": "Do Tax-Assisted Plans Create New Saving?\n\nRecap: RRSP and RPP contributions are deductible and grow untaxed until withdrawn; TFSA contributions come from after-tax income and are never taxed again (Chapter 17)\nRaising the contribution limits is often proposed as a way to boost saving\nBut a contribution can come from three places\n\nCutting consumption: new saving\nMoving saving you already had: not new saving\nThe tax saving itself\n\n\n\n2026 limits: RRSP 18% of last year’s earned income up to $33,810; TFSA $7,000. In 2017, Canadians put $68B into RRSPs and RPPs.\nThe third source: the deduction cuts your tax, and if you put that tax saving into the plan, private saving rises, but government revenue falls by the same amount."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#rrsps-and-saving-the-evidence",
+    "href": "slides/taxbehaviour/index.html#rrsps-and-saving-the-evidence",
+    "title": "EC313 - Taxation",
+    "section": "RRSPs and Saving: The Evidence",
+    "text": "RRSPs and Saving: The Evidence\n\n\n\n\n\n\n\nStudy\nFinding\n\n\n\n\nJump (1982)\nPeople already saving more than the limit just move money: revenue falls, and total (private plus government) saving may fall\n\n\nCarroll and Summers (1987)\nSheltered plans raised Canada’s private saving rate in the 1970s\n\n\nBeach, Boadway and Bruce (1988)\nSheltering may have kept Canada’s saving rate from falling the way the US rate did\n\n\nEngelhardt (1996)\nRHOSP: each $1 contributed was 56–93¢ of new household saving and 20–57¢ of new national saving\n\n\n\n\nMost of the evidence says the plans raised saving, though by less than the amount contributed\n\n\nThe RHOSP (Registered Home Ownership Savings Plan) ran from 1974 to 1985: deductible contributions toward a first home, up to $1,000 a year and $10,000 in total. Engelhardt’s national saving figure is lower because it nets out the revenue the government gave up."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#taxes-and-the-capital-shortage",
+    "href": "slides/taxbehaviour/index.html#taxes-and-the-capital-shortage",
+    "title": "EC313 - Taxation",
+    "section": "Taxes and the Capital Shortage",
+    "text": "Taxes and the Capital Shortage\n\nThe claim: saving funds investment, which builds capital and productivity, so taxing capital income slows growth and capital taxes should be cut\nThe responses\n\nTaxes may not have cut saving much: see the evidence on the last few slides\nIn a competitive capital market there is no “gap”: the interest rate adjusts, and foreign saving fills part of any shortfall\nThe efficiency question is whether taxes on capital income carry bigger excess burdens than other taxes (Chapter 20); high investment is not a goal in itself\n\n\n\n\n\n\n\n\nSaving and Investment\n\n\n\nClosed economy: national saving equals national investment\nOpen economy: saving can go abroad and foreign saving can come in, so saving incentives may not raise domestic investment\nSaving and investment are correlated across countries (Kho, Stulz and Warnock, 2009), so the link exists, but it is weaker than in a closed economy"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#tax-treatment-of-owner-occupied-housing",
+    "href": "slides/taxbehaviour/index.html#tax-treatment-of-owner-occupied-housing",
+    "title": "EC313 - Taxation",
+    "section": "Tax Treatment of Owner-Occupied Housing",
+    "text": "Tax Treatment of Owner-Occupied Housing\n\nCapital is more than business machinery\n\nIt includes public infrastructure and household capital, mostly owner-occupied housing\nSo a tax can leave total saving unchanged and still change where it goes\n\n\n\n\n\n\n\n\nImputed Rent\n\n\nThe rental value of living in a home you own: every owner-occupier receives it, in kind\n\n\n\n\n\n\n\n\n\nCanada’s Treatment\n\n\nCanada taxes neither imputed rent nor capital gains on a principal residence"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#housing-versus-other-assets",
+    "href": "slides/taxbehaviour/index.html#housing-versus-other-assets",
+    "title": "EC313 - Taxation",
+    "section": "Housing Versus Other Assets",
+    "text": "Housing Versus Other Assets\n\n\nInvest \\(K\\) in stock\n\nEarn \\(R'\\) in money income and \\(C'\\) in capital gains\nBoth are taxed, so the return is \\(\\frac{(1-t)(R' + C')}{K}\\)\n\n\nInvest \\(K\\) in a home you live in\n\nEarn imputed rent \\(R\\), net of property taxes and maintenance, and capital gains \\(C\\)\nNeither is taxed, so the return is \\(\\frac{R + C}{K}\\)\n\n\n\nFor equal after-tax returns, the pre-tax return on stock must be \\(\\frac{1}{1-t}\\) times the return on housing\n\n\\[\\frac{R' + C'}{K} = \\frac{1}{1-t} \\times \\frac{R + C}{K}\\]\n\nAt \\(t\\) = 40%, a 10% return on housing matches a 16.67% pre-tax return elsewhere\n\n\nCheck: 16.67% × (1 − 0.4) = 10%. At t = 25%, the stock has to return 1/0.75 = 1.33 times what housing returns."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#effects-of-the-tax-preference",
+    "href": "slides/taxbehaviour/index.html#effects-of-the-tax-preference",
+    "title": "EC313 - Taxation",
+    "section": "Effects of the Tax Preference",
+    "text": "Effects of the Tax Preference\n\nSaving is pulled into housing even though its pre-tax return is lower\nRevenue forgone\n\nExempting gains on principal residences: $8.5B federally in 2026\nProvinces forgo about half as much again\nExempting imputed rent isn’t estimated, but is likely larger\n\nOwnership: the preference affects both how much housing people buy and whether they own\n\nOwner-occupancy was 66.5% in 2021, close to its 1951 level\nThe US also lets owners deduct mortgage interest and property taxes, yet its ownership rate is similar\n\nHome Buyers’ Plan: an interest-free loan from your own RRSP, up to $60,000, repaid over 15 years\nRental housing: past subsidies to landlords, such as accelerated depreciation and losses deductible against other income, lowered rents (Chapter 21)\n\n\nThe book has $8B federally for 2021 and about 65% ownership, both now and in 1951. The 2021 Census figure is 66.5%, down from a peak of 69.0% in 2011. The $8.5B is from the 2026 Report on Federal Tax Expenditures. The Home Buyers’ Plan limit was $25,000 when the book was written; it has been $60,000 since April 2024."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#proposals-for-change",
+    "href": "slides/taxbehaviour/index.html#proposals-for-change",
+    "title": "EC313 - Taxation",
+    "section": "Proposals for Change",
+    "text": "Proposals for Change\n\n\nTax net imputed rent?\n\nHard to administer, though the Netherlands and Belgium tax part of it\nPolitically unlikely: homeowners are more than half the electorate\nFull taxation isn’t necessarily efficient, since efficient rates depend on elasticities (Chapter 16)\n\nBut the efficient rate is almost certainly not zero\n\n\n\nThe principal residence exemption\n\nSince the 2016 tax year, a sale must be reported, with the year acquired and the proceeds\nSince 2023, a home sold within 365 days of buying it is a flipped property\n\nThe gain is business income, with no exemption\n\n\n\n\nReporting is on Schedule 3, with Form T2091(IND); without it, there’s no exemption. Nothing is reported until you sell, and the purchase price isn’t required. The flipping rule has exceptions for life events, such as a death, a separation or a new job."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#taxes-and-risk-taking",
+    "href": "slides/taxbehaviour/index.html#taxes-and-risk-taking",
+    "title": "EC313 - Taxation",
+    "section": "Taxes and Risk-Taking",
+    "text": "Taxes and Risk-Taking\n\nTobin (1958): investors like a high expected return and dislike risk\nTwo assets\n\nSafe asset: a return of zero\nRisky bond: a positive return on average, but it can lose\n\nNow tax the bond’s return at rate \\(t\\), with full loss offset\n\n\n\n\n\n\n\nFull Loss Offset\n\n\nLosses can be deducted in full from taxable income\n\n\n\n\nTwo effects: a lower expected return makes the bond less attractive, but lower risk makes it more attractive\nThe government is a silent partner: lose $100 at a 40% rate and your tax falls $40, so you lose $60"
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#the-net-effect",
+    "href": "slides/taxbehaviour/index.html#the-net-effect",
+    "title": "EC313 - Taxation",
+    "section": "The Net Effect",
+    "text": "The Net Effect\n\nSo the net effect on how much of the risky asset people hold is ambiguous\nA truly safe asset is an idealization (with inflation, even cash is risky), but the logic holds\nWithout loss offset, the tax likely makes the risky asset less attractive\nEvidence is thin, because people misreport what they hold\n\nPoterba and Samwick (2003): investors in higher brackets hold more stock, tentative support for taxes raising risk-taking\n\n\n\nOne way to see why risk-taking can rise: with full loss offset and a safe asset that earns nothing, the tax takes the same share of every gain and gives back the same share of every loss. An investor who wants the old mix of return and risk can get it back by holding more of the bond."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question",
+    "href": "slides/taxbehaviour/index.html#iclicker-question",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA province cuts its flat income tax rate. Leisure is a normal good. What happens to hours of work?\nA) They rise, because each hour of work now pays more\nB) They fall, because people are better off and take more leisure\nC) Either way: the substitution effect lowers hours and the income effect raises them\nD) Either way: the substitution effect raises hours and the income effect lowers them\nE) Nothing, because the two effects cancel out\n\nAnswer: D. A cut raises the net wage (1 − t)w. Substitution effect: an hour of leisure now costs more, so work more. Income effect: the person is better off and, with leisure a normal good, takes more leisure, so works less. The net effect is ambiguous.\nC is the trap. It copies the directions from the slides, which were for a tax increase, without flipping them for a cut. A is the substitution effect alone and B the income effect alone. E: the effects pull in opposite directions, but nothing makes them cancel exactly; which is bigger is an empirical question."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-1",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-1",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nPrime-age men’s hours barely respond to the after-tax wage: the elasticity is close to zero. What does that tell us about taxing their earnings?\nA) The tax causes no excess burden, because their hours don’t change\nB) The substitution effect may still be large, offset by the income effect\nC) Their income and substitution effects must both be zero\nD) Leisure must be an inferior good for them\nE) Cutting their tax rate would pay for itself\n\nAnswer: B. The measured elasticity is the net of the two effects. A total near zero can hide a large substitution effect offset by an income effect pushing the other way.\nA is the trap. Excess burden comes from the substitution effect, the compensated response from the efficiency deck, not from the change in hours. So a tax on earnings can carry an excess burden even when hours don’t move. C: a zero total doesn’t need both effects to be zero. D: if leisure were inferior, both effects would push hours the same way, so hours would respond more, not less. E is backwards: with hours this unresponsive, a rate cut brings little extra work, so it can’t pay for itself through hours."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-2",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-2",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nMei is deciding whether to take a year off work to train. The only cost is the earnings she gives up, and training raises her earnings afterward. Her hours won’t change. The flat tax on all earnings rises from 20% to 30%. How does this change her decision?\nA) It doesn’t: the tax shrinks the payoff and the cost by the same share\nB) She’s more likely to train, because the earnings she gives up are worth less after tax\nC) It depends on whether the substitution or the income effect is larger\nD) She’s less likely to train, because the tax cuts the payoff but not the cost\nE) She’s more likely to train, to make up for the income lost to the tax\n\nAnswer: A. The cost is all forgone earnings, the same flat rate applies to the earnings she gives up and to the higher earnings later, and her hours are fixed. So the condition goes from B − C &gt; 0 to (1 − t)(B − C) &gt; 0: the same decision.\nD sees only the payoff side. It’s the right answer if the cost were tuition, which the tax doesn’t shrink. B sees only the cost side. C carries the hours result over to training; here the tax changes training only through hours. E sounds like an income effect, but the decision compares a benefit and a cost that the tax scales by the same factor.\nProgressive rates would change the answer: the higher earnings after training would be taxed at a higher rate than the earnings given up."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-3",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA province’s top combined rate is above \\(t_A\\), the revenue-maximizing rate, for its highest earners. Which statement is right?\nA) A small cut would lower revenue, since the province collects less on each dollar\nB) The best top rate is \\(t_A\\), because it raises the most revenue\nC) A small cut would raise the province’s revenue from those earners\nD) A federal top rate at the same level must also be past its peak\nE) Top earners must be working fewer hours\n\nAnswer: C. Above t_A, the extra taxable income a cut brings out more than makes up for the lower rate.\nA is static scoring: it ignores the behavioural response, which is the whole point of the Laffer curve. B: t_A maximizes revenue, not welfare. The best rate is never above t_A, since a cut there raises revenue and leaves taxpayers better off, but once equity and excess burden are weighed it can be below t_A. D: a province’s top earners can shift income to other provinces, so the provincial elasticity is bigger and the provincial peak lower. A federal rate at the same level faces a smaller response and may be below its peak. E: the response at the top is mostly in taxable income (timing, untaxed pay, shifting, avoidance), not hours."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-4",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nAva is saving to have exactly $50,000 for a down payment in five years. The government starts taxing interest income. What does Ava do now?\nA) Saves less, because saving pays less\nB) Saves the same, because her target hasn’t changed\nC) Nothing changes, since a tax on interest affects only borrowers\nD) Borrows, because borrowing is now cheaper\nE) Saves more now, so she still reaches $50,000\n\nAnswer: E. Ava is a target saver. Her future consumption is fixed at $50,000, so a lower after-tax return means she has to put more aside now. That’s the income effect winning outright.\nA is the substitution effect alone, and the most common answer. It’s true for many savers, but not for one with a fixed target. B forgets that each dollar saved now grows to less. C reverses Case II: without deductibility, it’s borrowers the tax leaves alone, not savers. D: in Case II the cost of borrowing doesn’t change, and even in Case I it falls only because interest is deductible."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-5",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-5",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nOttawa raises the RRSP limit by $5,000. Lee already saves far more than the new limit each year in an ordinary account. Lee moves $5,000 of that saving into the RRSP and spends the tax refund. What happens to total (private plus government) saving this year?\nA) It rises by $5,000, the amount contributed\nB) It falls, because the government loses revenue\nC) It doesn’t change, because Lee was already saving that money\nD) It rises, but by less than $5,000\nE) It rises, because the money now grows untaxed\n\nAnswer: B. This is Jump’s case. Lee’s private saving doesn’t change: the $5,000 was saved anyway, just in a different account, and the refund is spent. But the deduction cuts Lee’s tax, so government revenue, and with it government saving, falls. Total saving falls by the tax Lee saved.\nC is the trap: it gets private saving right but forgets government saving. A treats every contribution as new saving. D is the average finding in the evidence (Engelhardt: each dollar contributed was partly new saving), but it doesn’t apply to someone already saving above the limit. E: the untaxed growth is why Lee moves the money; it isn’t new saving."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-6",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-6",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nSam’s marginal tax rate is 30%. The home Sam owns and lives in returns 7% a year (net imputed rent plus gains), all untaxed. What pre-tax return would a taxable investment need to match it?\nA) 4.9%\nB) 7%\nC) 9.1%\nD) 10%\nE) 23.3%\n\nAnswer: D. The taxable investment has to return 7% after tax: r(1 − 0.3) = 7%, so r = 7%/0.7 = 10%.\nEach wrong answer is a named slip. A (7% × 0.7) taxes the housing return, which isn’t taxed. B ignores the tax. C (7% × 1.3) multiplies by 1 + t instead of dividing by 1 − t; it’s close, which is what makes it tempting. E (7%/0.3) divides by t instead of 1 − t."
+  },
+  {
+    "objectID": "slides/taxbehaviour/index.html#iclicker-question-7",
+    "href": "slides/taxbehaviour/index.html#iclicker-question-7",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nLena keeps part of her savings in a risky bond and the rest in a safe asset that earns nothing. A tax on the bond’s returns arrives, with full loss offset. If she wants the same expected return and the same risk as before, what should she do?\nA) Hold more of the bond\nB) Move everything into the safe asset\nC) Keep the same mix, since the tax doesn’t affect her\nD) Hold less of the bond, since it now pays less\nE) Nothing works: the tax lowers both return and risk, so some loss is unavoidable\n\nAnswer: A. With full loss offset, the tax takes the same share t of every gain and gives back the same share of every loss, so it scales every outcome of the bond by (1 − t). Holding 1/(1 − t) times as much of the bond restores both the expected return and the risk. With a 40% tax, $100 in the bond becomes about $167.\nD is the return effect alone. E is the tempting one: the tax does lower both return and risk, but because it lowers them in proportion, holding more of the bond undoes both. This is Tobin’s result, and the reason the tax’s effect on risk-taking is ambiguous: people may end up holding more of the risky asset. It needs the safe asset to earn nothing and losses to be fully deductible."
   }
 ]
