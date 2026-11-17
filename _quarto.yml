@@ -54,9 +54,9 @@ website:
               file: content/equitable.qmd
             - text: "The Personal Income Tax"
               file: content/personaltax.qmd
+            - text: "Personal Taxation and Behaviour"
+              file: content/taxbehaviour.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "Personal Taxation and Behaviour"
-            #   file: content/taxbehaviour.qmd
             # - text: "Consumption Taxes"
             #   file: content/constax.qmd
             # - text: "Externalities and Pigouvian Taxes"
