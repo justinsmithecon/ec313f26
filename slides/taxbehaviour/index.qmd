@@ -787,10 +787,10 @@ C is the trap: it gets private saving right but forgets government saving. A tre
 
 ## Taxes and the Capital Shortage {.smaller}
 
-- [The claim]{.fg style="color: #555;"}: saving funds investment, which builds capital and productivity, so taxing capital income slows growth and capital taxes should be cut
+- [The claim]{.fg style="color: #555;"}: saving funds investment, which builds capital and productivity. Taxing capital income will leave saving short of the investment the economy needs (a "capital shortage"), slowing growth, so capital taxes should be cut
 - [The responses]{.fg style="color: #555;"}
   - Taxes may not have cut saving much: see the evidence on the last few slides
-  - In a competitive capital market there is no "gap": the interest rate adjusts, and foreign saving fills part of any&nbsp;shortfall
+  - In a competitive capital market a shortage can't persist: the interest rate rises until saving and investment match, and foreign saving fills part of any&nbsp;shortfall
   - The efficiency question is whether taxes on capital income carry bigger excess burdens than other taxes ([Chapter 20]{.fg style="color: #555;"}); high investment is not a goal in itself
 
 ::: {.callout-note}
