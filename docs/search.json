@@ -2752,7 +2752,7 @@
     "href": "slides/constax/index.html#types-of-consumption-taxes",
     "title": "EC313 - Taxation",
     "section": "Types of Consumption Taxes",
-    "text": "Types of Consumption Taxes\n\nValue Added Tax (VAT)\n\nCharged at each stage of production based on the value added at that stage\nUsed globally for taxation of consumption\n\nRetail Sales Tax (RST)\n\nCharged only at the point of sale to the final consumer\nUsed in some provinces in Canada\n\nExcise Taxes\n\nCharged on specific goods, often to discourage consumption (e.g., tobacco, alcohol)\nUsed in all provinces in Canada and by federal government\n\nCustom Duties (tariffs)\n\nCharged on goods imported into the country\nUsed by federal government only"
+    "text": "Types of Consumption Taxes\n\nThe income tax falls on what you could consume (Chapter 17); these taxes fall on what you do consume\n\n\n\n\n\n\n\nGeneral vs Selective\n\n\n\nGeneral sales taxes apply to a broad base: the GST/HST, Quebec’s QST, the provincial RSTs\nSelective sales taxes apply to particular goods: excises, customs duties\n\nAlso called excise taxes or differential commodity taxes\n\n\n\n\n\n\nA sales tax can be a unit tax (cents per litre) or an ad valorem tax (a percentage of the price) (Chapter 14)\nCanada has four kinds\n\nVATs: the GST/HST (Ottawa and five provinces) and the QST (Quebec)\nRSTs: BC, SK and MB\nExcise taxes: Ottawa and every province\nCustoms duties: Ottawa only\n\n\n\nAbout 170 countries use a VAT. The US is the only industrialized country without one."
   },
   {
     "objectID": "slides/constax/index.html#revenue-from-consumption-taxes",
@@ -2969,7 +2969,7 @@
     "href": "slides/constax/index.html#excise-taxes",
     "title": "EC313 - Taxation",
     "section": "Excise Taxes",
-    "text": "Excise Taxes\n\nExcise taxes are specific taxes levied on particular goods\nLevied by the federal government and all provinces\nItems listed on next slide\nReasons for excise taxes\n\nRaise revenue\nDiscourage consumption of harmful goods (e.g., tobacco, alcohol)\nCorrect for externalities (e.g., gasoline, smoking)\nSin taxes"
+    "text": "Excise Taxes\n\n\n\n\n\n\nExcise Taxes\n\n\nSelective taxes on particular goods, levied by Ottawa and every province. Most are unit taxes, but some are ad valorem\n\n\n\n\n\n\n\n\n\n\nGood\nFederal rate, 2026\n\n\n\n\nGasoline\n10¢/L, suspended since April 20, 2026; half rate February 1 – March 31, 2027\n\n\nCigarettes\n$38.92 per carton\n\n\nSpirits\n$14.12 per litre of alcohol\n\n\nWine over 7% alcohol\n74.5¢ per litre\n\n\nBeer over 2.5% alcohol\n$37.69 per hectolitre\n\n\nCannabis\nThe greater of $1/g or 10% (shared with the provinces)\n\n\nLuxury tax, cars over $100,000\nThe lesser of 10% of the price or 20% of the amount over $100,000\n\n\n\n\nThe last two rows include ad valorem rates; the rows above them are unit taxes\n\n\nDiesel and aviation fuel: 4¢/L, suspended on the same schedule, with full rates on both fuels from April 1, 2027 (Bill C-38). The suspension costs $5.3B in 2026–27.\nTobacco rates rise with the CPI each April. Alcohol rates rise 2% a year under a cap; extending the cap two more years is only proposed (Bill C-30, status not checked).\nThe federal share of cannabis revenue was capped at $100M for the first two years only. Vaping: $1.12 per 2 mL for the first 10 mL. The luxury tax dropped aircraft and boats from November 2025. The book’s 10% federal tax on insurance premiums is another ad valorem excise."
   },
   {
     "objectID": "slides/constax/index.html#excise-taxes-1",
@@ -3053,14 +3053,14 @@
     "href": "slides/constax/index.html#summary-1",
     "title": "EC313 - Taxation",
     "section": "Summary",
-    "text": "Summary\n\nConsumption taxes are an important source of government revenue\nValue added taxes (e.g., GST, HST) are the most common form of consumption tax globally\nRetail sales taxes are simpler but can lead to tax cascading\nExcise taxes and custom duties are other forms of consumption taxes\nConsumption taxes are often more efficient than income taxes\nPersonal consumption taxes are an alternative way to tax consumption directly"
+    "text": "Summary\n\nGeneral sales taxes (GST/HST, QST, RSTs) raise most of the money; selective taxes (excises, customs duties) the rest\nTaxing consumption puts no wedge in the price of present consumption, but it still distorts work: not necessarily more efficient, though the evidence leans that way\nRegressive on annual income, less clearly so over a lifetime; savers and spenders are treated alike\nA VAT taxes value added stage by stage through invoice credits; zero-rating removes tax, exemption can raise it\nRSTs and VATs can be equivalent, but RSTs tax inputs and leave no paper trail; only BC, SK and MB still use them\nExcise taxes target particular goods for revenue, externalities, distribution, road use and paternalism; customs duties now serve trade policy\nA personal consumption tax taxes income minus saving, and Canada’s system is already a hybrid"
   },
   {
     "objectID": "slides/constax/index.html#references-1",
     "href": "slides/constax/index.html#references-1",
     "title": "EC313 - Taxation",
     "section": "References",
-    "text": "References\n\nRosen, Harvey S., and Lindsay M. Tedds, and Trevor Tombe, and Jean-Francois Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw-Hill Ryerson, 2023.\nGruber, Jonathan. Public Finance and Public Policy. 7th edition. Worth Publishers, 2022.\nBazel, Philip. Marginal Effective Tax Rates for Working Families in Canada. Fraser Institute, 2024.\nHansen, Jeff, and Devan Mescall, and Graham Purse. “Policy Forum: The Effects of Indexation and Inflation on Tax System Design.” Canadian Tax Journal 71, no. 2 (2023): 398-404."
+    "text": "References\n\nRosen, Harvey S., Lindsay M. Tedds, Trevor Tombe, Jean-François Wen, and Tracy Snoddon. Public Finance in Canada. 6th Canadian edition. McGraw Hill, 2023.\nStatistics Canada. Table 10-10-0016-01, Canadian government finance statistics for the federal government; Table 10-10-0017-01, for the provincial and territorial governments.\nDepartment of Finance Canada. Fiscal Reference Tables 2026; federal fuel excise tax relief (October 2026); Canada’s response to U.S. tariffs; SOR/2026-186.\nCanada Revenue Agency. GST/HST rates; Excise duty rates; Canada Groceries and Essentials Benefit; Notice 340, the GST/HST break.\nParliamentary Budget Officer. Implementing a two-month GST/HST break.\nProvincial sales tax pages: British Columbia; Manitoba, Bulletins 001 and 029; Ontario point-of-sale rebates.\nBamford, Allison. “Did the two-month GST holiday make a difference for Canadian businesses?” CTV News, February 14, 2025.\nStudies cited by author and year on the slides are as reported in Rosen et al. (2023), Chapter 19."
   },
   {
     "objectID": "slides/efficiency/index.html#goals-of-this-section-1",
@@ -4971,5 +4971,285 @@
     "title": "EC313 - Taxation",
     "section": "The Elasticity of Taxable Income",
     "text": "The Elasticity of Taxable Income\n\n\n\n\n\n\nElasticity of Taxable Income\n\n\nThe percentage change in taxable income when the net-of-tax rate, \\(1 - t\\), rises by 1%\n\n\n\n\nIt counts every way people cut their taxable income, not just hours\n\nHours: elasticities are modest, so a higher rate cuts hours only a little\nOther margins: untaxed pay, TFSAs, effort, training and evasion\nThe underground economy was 2.3% of GDP in 2011 (Morissette, 2014)\n\nFeldstein (2008) puts it at about 0.5: a 10% fall in \\(1 - t\\) cuts taxable income by about 5%\nIt is measured against \\(1 - t\\), the share of each extra dollar people keep, not against \\(t\\) itself\n\n\nWhy 1 − t and not t: people respond to what they keep. Raising t from 30% to 40% is a 33% rise in t but a 14.3% fall in what people keep, and the second is what drives behaviour. The book’s example uses the first; see the next slide’s notes.\nThe elasticity of taxable income picks up hours, untaxed pay, deductible spending, timing and evasion at once. Feldstein’s point is that all of these respond to the same marginal rate, so this one elasticity is enough to measure both the revenue response and the excess burden: the income people stop reporting is where the excess burden comes from. A large response at the top means both less revenue and a larger excess burden."
+  },
+  {
+    "objectID": "slides/constax/index.html#goals-of-this-section-1",
+    "href": "slides/constax/index.html#goals-of-this-section-1",
+    "title": "EC313 - Taxation",
+    "section": "Goals of This Section",
+    "text": "Goals of This Section\nIn this section we will:\n\nDescribe the main types of consumption taxes in Canada\nAnalyze the case for taxing consumption rather than income: administration, efficiency and equity\nExplain how a value-added tax works, including zero-rating and exemption\nDistinguish a retail sales tax from a value-added tax\nSummarize Canada’s federal and provincial excise taxes and customs duties\nWeigh the advantages and disadvantages of a personal consumption tax over an income tax\n\n\nThe income tax base is potential consumption: Haig-Simons income is what you could consume plus what you add to your wealth (personal income tax deck). This deck is about taxing what people actually consume.\nThe finance minister who brought in the GST made the point that swapping a hidden tax for a visible, broad one would be unpopular, but that it had to be done. Keep that in mind for the “Improving the GST” slides: the visibility was deliberate, and it’s part of why the GST is still unpopular."
+  },
+  {
+    "objectID": "slides/constax/index.html#consumption-tax-revenue",
+    "href": "slides/constax/index.html#consumption-tax-revenue",
+    "title": "EC313 - Taxation",
+    "section": "Consumption Tax Revenue",
+    "text": "Consumption Tax Revenue\n\n\nGeneral sales taxes are most of the money, and the provinces collect more of it than Ottawa\nOnly Ottawa levies customs duties; monopoly profits and motor vehicle taxes are almost all provincial\n\n\nSource: Statistics Canada, tables 10-10-0016-01 (federal) and 10-10-0017-01 (provincial and territorial), reference year 2024, which is fiscal year 2024/25. The figures are preliminary. Import duties here are StatCan’s $6.2B; the tariffs slide uses Finance’s Fiscal Reference Tables, which give $6.3B for the same year. In all, about $238B: $95B federal and $143B provincial and territorial. General sales taxes are $151B of it, and the provinces collect 59% of that.\nHow the categories map: liquor and tobacco are the excise taxes only; liquor board, cannabis store and lottery profits are in monopoly profits ($15.1B provincial, about $0.1B federal). “Other” is cannabis excise, other excises, taxes on specific services such as insurance premiums and the air travellers charge, and other taxes on the use of goods. On the federal side most of “other” is a $13.8B line for taxes on the use of goods, probably the federal fuel charge (not checked). StatCan doesn’t report a federal motor vehicle line.\nCaveat: StatCan’s federal sales tax figure ($61.4B) is about $9B above the GST in the Public Accounts ($52.5B). I haven’t reconciled the two; StatCan’s may be gross of the GST credit.\nThe book’s picture is 2020/21: consumption taxes raised $160B, and their share of consolidated government revenue has fallen from about 35% in 1965/66 to under a fifth. Monopoly profits were $9.6B (2020). Cannabis brought in over $100M federally and about $400M provincially. Import duties were $4.3B, down from about $7B in 2018."
+  },
+  {
+    "objectID": "slides/constax/index.html#administrative-considerations",
+    "href": "slides/constax/index.html#administrative-considerations",
+    "title": "EC313 - Taxation",
+    "section": "Administrative Considerations",
+    "text": "Administrative Considerations\n\nThe appeal is the small number of collection points\n\nCustoms duties: at the border\nExcise taxes: from a few producers\nThe old federal sales tax (1924): from manufacturers\n\nRSTs are collected from retailers: many more taxpayers, but far fewer than the income tax\nThe base still needs arbitrary lines: one plain croissant is untaxed, one chocolate croissant is taxed, and six or more are untaxed (House of Commons, 1994)\nEvasion is real: the GST pushed some service work underground\nThe case is strongest in less-developed countries, weaker where people keep good records\n\n\nNew in 2026: Manitoba (July 1) and Quebec (July 15) stopped applying provincial tax to single-serving sweet baked goods sold at grocery stores. The GST rule hasn’t changed (CRA Memorandum 4.3)."
+  },
+  {
+    "objectID": "slides/constax/index.html#efficiency-the-saving-decision",
+    "href": "slides/constax/index.html#efficiency-the-saving-decision",
+    "title": "EC313 - Taxation",
+    "section": "Efficiency: The Saving Decision",
+    "text": "Efficiency: The Saving Decision\n\n\n\n\n\n\nThe two-period model from last deck (Chapter 18): one more dollar of \\(c_0\\) costs \\(1 + r\\) of \\(c_1\\)\nA 30% income tax, with interest deductible\n\nSavers keep \\(0.70r\\); borrowers pay \\(0.70r\\)\nThe price of \\(c_0\\) falls to \\(1 + 0.70r\\)\nThat wedge between the market return and what people act on means an excess burden (Chapter 15)\n\nA consumption tax raising the same revenue leaves the price at \\(1 + r\\): interest isn’t taxed, only spending\n\n\n\n\n\n\n\nWhere the Excess Burden Comes From\n\n\nThe wedge, whether or not saving falls. Last deck showed saving can go either way\n\n\n\n\n\nThe figure is Case I from the last deck: the black line is before the tax, the red line after it, rotating through the endowment point.\nThe book builds this on the life-cycle model (Chapter 11), with labour supply held fixed. The next slide drops that assumption. A consumption tax shifts the budget line in without changing its slope."
+  },
+  {
+    "objectID": "slides/constax/index.html#efficiency-the-work-decision",
+    "href": "slides/constax/index.html#efficiency-the-work-decision",
+    "title": "EC313 - Taxation",
+    "section": "Efficiency: The Work Decision",
+    "text": "Efficiency: The Work Decision\n\nA consumption tax still taxes work\n\nAt a $5 wage and a $1 good, an hour of work buys 5 units; with a 25% sales tax, it buys 4\nThat’s the same as a wage cut (Chapter 18)\n\nThe substitution effect toward leisure creates an excess burden, even if hours don’t fall\nOnce labour supply is a choice, both taxes distort something, so a consumption tax is not necessarily more efficient\n\nOnly evidence can say which one costs more\n\n\n\n\n\n\n\n\nWhat the Evidence Says\n\n\n\nMost studies find the consumption tax has the smaller excess burden, even counting labour supply (Feldstein, 2006)\nSwitching to a broad proportional consumption tax raises long-run income about 7% in Canada (Economic Council of Canada, 1987) and about 9% in the US (Altig et al., 2001)\nConsumption is the least distorting provincial tax base (Dahlby and Ferede, 2015)\n\n\n\n\n\nDahlby and Ferede’s Saskatchewan estimate: replacing $10M of income tax with $10M more sales tax gives a welfare gain of $9.98M.\nA tax at the same rate on every good still distorts the choice between goods and leisure (Chapter 15). That’s why Corlett-Hague (Chapter 16) asks for higher rates on goods that go with leisure."
+  },
+  {
+    "objectID": "slides/constax/index.html#equity-progressiveness-and-gender",
+    "href": "slides/constax/index.html#equity-progressiveness-and-gender",
+    "title": "EC313 - Taxation",
+    "section": "Equity: Progressiveness and Gender",
+    "text": "Equity: Progressiveness and Gender\n\n\nProgressiveness\n\nOn annual income, sales taxes look regressive: lower-income households spend a larger share of what they earn\nThree caveats\n\nOver a lifetime, the picture changes (two slides on)\nThe usual calculation assumes buyers bear the whole tax (Chapter 14)\nExemptions and refundable credits offset part of it\n\nThe net effect is an open question\n\n\nGender\n\nWomen and men buy different things\n\nThe GST came off feminine hygiene products on July 1, 2015\n\nThe “pink tax”: women paid more for 42% of comparable items and men for 18%, about 7% more on average (Bessendorf, 2015)\nA tax on the price carries that gap through\n\n\n\nThe book’s example: a high-income person who consumes 70% of income pays a 10% consumption tax equal to 7% of income; a low-income person who draws down saving to consume 110% of income pays 11%. One study has consumption taxes falling from 14.0% of income in the lowest decile to 5.9% in the highest (Vermaeten, Gillespie and Vermaeten).\nThe credit: the GST credit became the Canada Groceries and Essentials Benefit in July 2026, raised 25% for five years. For 2026–27 the maximum is $679 for a single person, $890 for a couple and $234 per child."
+  },
+  {
+    "objectID": "slides/constax/index.html#equity-ability-to-pay",
+    "href": "slides/constax/index.html#equity-ability-to-pay",
+    "title": "EC313 - Taxation",
+    "section": "Equity: Ability to Pay",
+    "text": "Equity: Ability to Pay\n\nFor the income base: what matters is the power to consume\n\nUnder a consumption tax, a miserly millionaire could owe less than a poorer person who spends everything\n\nThe reply: tax people on what they take out of the economy, not on what they put in\n\nThe miser’s unspent income funds capital\n\nA related question: does the income tax tax saving twice, once when the income is earned and again on the interest?\n\nWhether that’s unfair is a value judgment"
+  },
+  {
+    "objectID": "slides/constax/index.html#equity-annual-versus-lifetime",
+    "href": "slides/constax/index.html#equity-annual-versus-lifetime",
+    "title": "EC313 - Taxation",
+    "section": "Equity: Annual versus Lifetime",
+    "text": "Equity: Annual versus Lifetime\n\n\n\nHomer and Marge each earn 100 now and nothing later, and \\(r\\) = 10%\n\nHomer spends it all now; Marge spreads her spending evenly over both periods\n\nCompare a 50% income tax with a 100% consumption tax\n\nA tax of 100% of the pre-tax price is half of total spending, so both take half of what Homer earns\n\nIncome tax: Marge pays more in present value (51.11 vs 50.00), only because she saves\nConsumption tax: both pay 50.00, so savers and spenders get equal treatment over a lifetime: horizontal equity\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomer, income tax\nMarge, income tax\nHomer, consumption tax\nMarge, consumption tax\n\n\n\n\nIncome in period 1\n100.00\n100.00\n100.00\n100.00\n\n\nTaxes in period 1\n50.00\n50.00\n50.00\n26.19\n\n\nConsumption in period 1\n50.00\n25.61\n50.00\n26.19\n\n\nSavings in period 1\n0.00\n24.39\n0.00\n47.62\n\n\nInterest in period 2\n0.00\n2.44\n0.00\n4.76\n\n\nTaxes in period 2\n0.00\n1.22\n0.00\n26.19\n\n\nConsumption in period 2\n0.00\n25.61\n0.00\n26.19\n\n\nPDV of taxes\n50.00\n51.11\n50.00\n50.00\n\n\n\n\n\n\nWhere Marge’s numbers come from. Income tax: she keeps 50 and earns 5% after tax on what she saves, so 50 = c + c/1.05 and c = 25.61. Consumption tax: each unit of consumption costs 2 with the tax, so 100 = 2c + 2c/1.1 and c = 26.19. PDVs: 50 + 1.22/1.1 = 51.11, and 26.19 + 26.19/1.1 = 50.00.\nThe book makes the same point with Ash and Brooklyn (Eqs 19.1–19.4): the present value of lifetime consumption tax is t_c·I₀ whatever the timing of consumption.\nMore on lifetime: income fluctuates more than consumption, so annual income is a poor guide to who is well off. Davies, St-Hilaire and Whalley (1984) find general sales taxes roughly proportional to lifetime income. If bequests count as consumption at death, a consumption tax becomes a tax on lifetime income (fn 5). Uncertainty and borrowing limits weaken the lifetime argument.\nExercise 3 asks for the same comparison with different numbers."
+  },
+  {
+    "objectID": "slides/constax/index.html#from-the-fst-to-the-gst",
+    "href": "slides/constax/index.html#from-the-fst-to-the-gst",
+    "title": "EC313 - Taxation",
+    "section": "From the FST to the GST",
+    "text": "From the FST to the GST\n\nThe federal sales tax (FST), often called the MST, was levied on manufacturers\n\nIts base was about a third of consumption, so it needed a high rate: 13.5% by 1990\nTaxing inputs led to tax cascading\n\n\n\n\n\n\n\n\nTax Cascading\n\n\nTax on inputs, then tax again on the goods made from them: the steel is taxed, then the car made with it\n\n\n\n\nIt also taxed exports through their inputs, and markups after manufacturing made effective rates vary\nThe GST (1991, 7%): a broader base that includes services, with credits that end cascading and refund the tax on exports\nCut to 6% (2006) and 5% (2008); six provinces later folded their RSTs into it, but BC voted its HST out in 2011\n\n\nThe FST also needed lines between manufacturing and distribution, which worked against domestic producers. Estimates of the gain from the switch (fn 8): Finance put GDP 1.5% higher; Hamilton and Whalley put the gain at 0.31% of GDP.\nBC: former premier Bill Vander Zalm led the campaign against the HST, arguing it taxed more things than the PST did. That’s the base-broadening point, from the other side."
+  },
+  {
+    "objectID": "slides/constax/index.html#how-a-value-added-tax-works",
+    "href": "slides/constax/index.html#how-a-value-added-tax-works",
+    "title": "EC313 - Taxation",
+    "section": "How a Value-Added Tax Works",
+    "text": "How a Value-Added Tax Works\n\n\n\n\n\n\nValue Added\n\n\nSales minus purchases of material (intermediate) inputs. Wages, interest, rent and profit are all part of value added\n\n\n\n\n\n\n\n\n\n\n\n\n\nProducer\nPurchases ($)\nSales ($)\nValue added ($)\nVAT at 10% ($)\n\n\n\n\nFarmer\n0\n400\n400\n40\n\n\nMiller\n400\n700\n300\n30\n\n\nBaker\n700\n950\n250\n25\n\n\nGrocer\n950\n1,000\n50\n5\n\n\nTotal\n\n\n1,000\n100\n\n\n\n\nA value-added tax (VAT) is a percentage tax on each stage’s value added\n\nTotal value added is $1,000, the retail price, so the VAT raises $100: the same as a 10% tax on the final sale"
+  },
+  {
+    "objectID": "slides/constax/index.html#implementation-issues-investment-goods-and-collection",
+    "href": "slides/constax/index.html#implementation-issues-investment-goods-and-collection",
+    "title": "EC313 - Taxation",
+    "section": "Implementation Issues: Investment Goods and Collection",
+    "text": "Implementation Issues: Investment Goods and Collection\n\n\nInvestment goods\n\n\n\n\n\n\nThree Types of VAT\n\n\nWhat can a firm deduct when it buys investment goods?\n\nThe full cost: a consumption-type VAT\nDepreciation only: a net income-type VAT\nNothing: a gross income-type VAT\n\n\n\n\n\nThe GST is consumption-type: GST paid on equipment is credited right away\n\n\nCollection\n\nThe invoice-credit method: each firm owes tax on its total sales, less a credit for the tax on its purchases, backed by invoices\n\nThe baker: 10% × $950 = $95, less $70 = $25, which is 10% of its value added\n\nBuyers police their sellers: no invoice, no credit\nCollusion and false invoices still happen, though collecting at every stage has cut fraud\n\n\n\nTait (1988) is sceptical that the invoice system enforces itself (fn 11). There’s also less to gain from evading on the final sale, since most of the tax has been collected by then.\nThe credits aren’t free: they add compliance work, especially for small firms. More on that under Improving the GST."
+  },
+  {
+    "objectID": "slides/constax/index.html#implementation-issues-the-rate-structure",
+    "href": "slides/constax/index.html#implementation-issues-the-rate-structure",
+    "title": "EC313 - Taxation",
+    "section": "Implementation Issues: The Rate Structure",
+    "text": "Implementation Issues: The Rate Structure\n\nZero-rated (taxed at 0%): basic groceries, prescription drugs, medical devices, feminine hygiene products, and exports\n\nZero-rating exports makes the GST destination-based\n\nLighter treatment: childcare, dental care\nSmall suppliers, with under $30,000 in sales, need not register; they can register to claim credits\nHard to tax: financial services (value added is hard to measure) and owner-occupied housing (Chapter 17)\nUneven rates add complexity. Can they be justified?\n\n\nThe $30,000 threshold hasn’t changed; it’s $50,000 for public service bodies.\nNew housing: the first-time home buyers’ GST rebate is up to $50,000 on new homes up to $1M, phased out by $1.5M (Bill C-4, 2026). CRA and Finance give different start dates. The older new-housing rebate is in the book’s fn 16."
+  },
+  {
+    "objectID": "slides/constax/index.html#should-rates-differ",
+    "href": "slides/constax/index.html#should-rates-differ",
+    "title": "EC313 - Taxation",
+    "section": "Should Rates Differ?",
+    "text": "Should Rates Differ?\n\n\n\n\n\n\nAtkinson and Stiglitz (1980)\n\n\nIf the income tax is set optimally, and leisure is separable from goods, differential commodity taxes can’t raise welfare\n\n\n\n\nIf the income tax isn’t optimal, taxing luxuries more and necessities less can help on equity grounds\n\nThat may be why food is zero-rated\n\nBut many high-income families spend a lot on food, and equity is better handled by the income tax and a refundable credit\n\nThat was the finance minister’s own case for the GST credit, which offset the GST’s added regressivity\nToday’s version is the Canada Groceries and Essentials Benefit\n\nUniform rates aren’t optimal either when goods differ in how they go with leisure: Corlett-Hague (Chapter 16)\n\n\nSeparability (fn 12): how people trade off one good against another doesn’t depend on how much leisure they have.\nThe minister’s argument (Wilson, Department of Finance, 1987, p. 64), roughly: exempting food helps everyone who buys food, rich or poor, while a refundable credit can be aimed at low-income families."
+  },
+  {
+    "objectID": "slides/constax/index.html#zero-rated-versus-exempt",
+    "href": "slides/constax/index.html#zero-rated-versus-exempt",
+    "title": "EC313 - Taxation",
+    "section": "Zero-Rated versus Exempt",
+    "text": "Zero-Rated versus Exempt\n\n\n\n\n\n\nZero-Rated vs Exempt\n\n\n\nZero-rated: taxed at 0%, and the seller still claims credits for the tax on its inputs\nExempt: no tax charged, and no credits\n\n\n\n\n\n\n\nCase\nTotal tax\n\n\n\n\nEverything taxed\n$100\n\n\nGroceries zero-rated\n$0\n\n\nGroceries exempt\n$95\n\n\nFlour (the miller) exempt\n$140\n\n\n\n\nZero-rating removes all the tax; exempting the last stage leaves the $95 collected earlier in the price\nExempting a middle stage breaks the chain: the baker gets no credit and is taxed on the full $950, so the farmer’s $40 is taxed again (cascading)\nExempt under the GST: residential rent, most health and dental care, daycare, municipal transit, most education, many financial services\n\n\nThe three panels of the book’s table, using the bread example.\nZero-rated groceries: the grocer charges no tax and claims a $95 refund of the tax paid earlier, so the total is $0.\nExempt groceries: the grocer charges nothing and claims nothing, so the $95 paid at earlier stages stays in the price.\nExempt flour: the farmer remits $40. The miller charges nothing and claims nothing. The baker charges $95 and has no credit to claim, so remits all $95. The grocer remits $5. Total: $40 + $95 + $5 = $140."
+  },
+  {
+    "objectID": "slides/constax/index.html#improving-the-gst-harmonization-and-compliance",
+    "href": "slides/constax/index.html#improving-the-gst-harmonization-and-compliance",
+    "title": "EC313 - Taxation",
+    "section": "Improving the GST: Harmonization and Compliance",
+    "text": "Improving the GST: Harmonization and Compliance\n\nEconomists like the GST; voters don’t\n\nThe Liberals promised to repeal it\n\nHarmonization: one base and one return, which lowers compliance costs\n\nThe HST came to NL, NS and NB (1997), ON (2010) and PE (2013)\nBC had it from 2010 to 2013\nQuebec integrated its QST with the GST but runs it itself\n\nCompliance: tracking credits and exempt items is costly, and hardest on small firms\n\n\nThe repeal promise came in the 1993 campaign. The book says the Liberals were “elected in 1994”; the election was October 1993.\nPublic bodies (municipalities, universities, schools and hospitals, the MUSH sector) get rebates of part of the GST they pay. The HST is collected federally and the QST by Quebec, nearly fully harmonized with the GST since 2013 (fn 17).\n2026 HST rates: 15% in NL, PE and NB; 14% in NS since April 1, 2025; 13% in ON."
+  },
+  {
+    "objectID": "slides/constax/index.html#improving-the-gst-other-proposals",
+    "href": "slides/constax/index.html#improving-the-gst-other-proposals",
+    "title": "EC313 - Taxation",
+    "section": "Improving the GST: Other Proposals",
+    "text": "Improving the GST: Other Proposals\n\nBroaden the base: taxing groceries would cut compliance costs and allow a lower rate, but it’s politically hard\nTax-inclusive pricing: consumers say they prefer it; economists want the tax visible\n\nThe GST was made visible on purpose, and that’s part of why it’s unpopular\n\nDoes a VAT help government grow, since it raises a lot of money with little notice?\n\n\nThe book’s footnote 21 discusses Denmark on the growth-of-government question.\nOther issues: cross-border shopping; GST/HST on imported digital subscriptions since 2021. Canada’s 3% digital services tax was rescinded in June 2025 and repealed by Bill C-15 (March 2026)."
+  },
+  {
+    "objectID": "slides/constax/index.html#the-202425-gsthst-holiday",
+    "href": "slides/constax/index.html#the-202425-gsthst-holiday",
+    "title": "EC313 - Taxation",
+    "section": "The 2024–25 GST/HST Holiday",
+    "text": "The 2024–25 GST/HST Holiday\n\nDecember 14, 2024 to February 15, 2025: no GST/HST on\n\nFood and restaurant meals, children’s clothing, diapers, car seats and toys\nBooks and newspapers, video games and consoles, Christmas trees, and beer and wine\n\nCost: about $1.6B federally (Finance; the PBO says $1.5B), plus up to $1.3B of provincial HST\nIt ran the other way from the last two slides: a narrower base, with new lines to draw\n\nRetailers reprogrammed their tills and checked inventory line by line (CTV News, February 2025)\n\n\n\nLink back to the croissant rule: the holiday drew a new set of lines, such as beer and wine in but spirits out.\nThe CTV News report (Allison Bamford, February 14, 2025): some stores spent hundreds of hours going through inventory item by item, some spent over $1,000 on IT help, and owners said customers thought the break applied to everything. Its verdict was that the holiday may have helped some consumers but was a flop for many small businesses."
+  },
+  {
+    "objectID": "slides/constax/index.html#rst-versus-vat",
+    "href": "slides/constax/index.html#rst-versus-vat",
+    "title": "EC313 - Taxation",
+    "section": "RST versus VAT",
+    "text": "RST versus VAT\n\nRSTs came first: Alberta in 1936 (repealed in 1937), Saskatchewan in 1937, and every province but Alberta by 1967\nToday only BC, SK and MB have retail sales taxes\n\nQuebec’s QST and the HST are VATs integrated with the GST\nAlberta and the territories have no general sales tax\n\n\n\n\n\n\n\n\nEquivalence Conditions\n\n\nAn RST and a VAT are the same if they have the same rate and base, the RST falls only on final sales, and the VAT is consumption-type\n\n\n\n\nThe bread: a 10% RST at the grocer raises $100, the same as the four VAT payments\n\n\nThe first RSTs were 2%. BC, Quebec, Newfoundland and Nova Scotia had RSTs by 1950."
+  },
+  {
+    "objectID": "slides/constax/index.html#where-rsts-and-vats-differ",
+    "href": "slides/constax/index.html#where-rsts-and-vats-differ",
+    "title": "EC313 - Taxation",
+    "section": "Where RSTs and VATs Differ",
+    "text": "Where RSTs and VATs Differ\n\nA VAT collects small amounts from many firms; an RST collects one large amount at the till\nThe VAT’s invoices leave a paper trail; the RST leaves none\nExempting a small grocer costs a VAT only that grocer’s $5 (10% of its $50 value added), but costs an RST the whole $100\nThe RST is easier to understand and has fewer collection points\nBut RSTs fall on business inputs, which brings back tax cascading\n\nBird and Smart (2009): investment rose in QC, NL, NS and NB after they switched to a VAT\n\n\n\nThe small-grocer numbers are mine, from the bread example: under a VAT, the $95 collected at earlier stages is still collected if the grocer is exempt; under an RST, the grocer is the only collection point."
+  },
+  {
+    "objectID": "slides/constax/index.html#rates-and-revenues-2026",
+    "href": "slides/constax/index.html#rates-and-revenues-2026",
+    "title": "EC313 - Taxation",
+    "section": "Rates and Revenues, 2026",
+    "text": "Rates and Revenues, 2026\n\n\n\n\nTax\nProvincial rate\nWith GST\n\n\n\n\nNL, PE, NB\nHST\n10%\n15%\n\n\nNS\nHST\n9%\n14%\n\n\nON\nHST\n8%\n13%\n\n\nQC\nQST\n9.975%\n14.975%\n\n\nBC\nPST (RST)\n7%\n12%\n\n\nMB\nRST\n7%\n12%\n\n\nSK\nPST (RST)\n6%\n11%\n\n\nAB, territories\nnone\n—\n5%\n\n\n\n\nThe first RSTs charged 2%\n\n\nNS cut its provincial part from 10% to 9% on April 1, 2025.\nThe book’s 2020/21 revenue figures: consumption tax revenue per person ranged from $2,139 in NL to $1,475 in BC; Alberta, with no sales tax, still raised $4.4B from consumption taxes; consumption taxes were about 20% of provincial revenue.\nGas taxes in 2026 (¢/L): NL 7.5 (cut made permanent in April 2026; a bill to go to zero is unconfirmed); ON 9.0; MB 12.5; AB 0 for October–December 2026; PE suspended to January 31, 2027 (news reports only); NS, NB, QC and SK unchanged, on one secondary source. Territories not checked.\nTobacco rates are left off: PE and NL aren’t verified, and the sources for AB and QC disagree."
+  },
+  {
+    "objectID": "slides/constax/index.html#provincial-sales-tax-bases",
+    "href": "slides/constax/index.html#provincial-sales-tax-bases",
+    "title": "EC313 - Taxation",
+    "section": "Provincial Sales Tax Bases",
+    "text": "Provincial Sales Tax Bases\n\nFood: every province exempts most food; prepared meals are taxed in MB and SK, not in BC\nChildren’s clothing: exempt in BC, and in MB up to $150; taxed in SK since April 2017\n\nThe book says it’s exempt everywhere, which is out of date\n\nServices: mostly left out of RST bases, which saves administration and compliance costs, but has no basis in theory and tilts spending toward services\nBusiness inputs: RSTs, like the old FST, still tax many, so tax cascading remains\nHST and QST provinces use the broader GST base\n\nOntario rebates its 8% at the till on children’s clothing, books, diapers, car seats, newspapers and prepared food of $4 or less\n\nBC widened its base on October 1, 2026: cable, landlines and clothing repair\n\n\nBC’s planned PST on professional services was paused in September 2026. The book’s list of services usually in RST bases: phone service, cable TV, hotel rooms and dry cleaning.\nQuebec is left off this slide: the QST is a VAT, not an RST, and its treatment of children’s clothing is only partly verified."
+  },
+  {
+    "objectID": "slides/constax/index.html#customs-import-duties",
+    "href": "slides/constax/index.html#customs-import-duties",
+    "title": "EC313 - Taxation",
+    "section": "Customs Import Duties",
+    "text": "Customs Import Duties\n\n\n\n\n\n\nCustoms Duties\n\n\nTaxes on imports. Only Ottawa can levy them (Constitution Act, 1867)\n\n\n\n\nAt Confederation they raised $9M, 75% of federal revenue; in 2020–21, $4.3B, or 1.4%\nTrade agreements (GATT/WTO, NAFTA, CPTPP, CETA)\n\nThe average tariff is 3.4%\n\nEven without a trade agreement, about half of agricultural products and nearly 40% of others can enter duty-free\nTariffs now serve development or foreign-policy goals, not revenue\n\nDairy shows it: tariffs averaging 249% (2019) keep imports out\n\n\n\nThe WTO figures (3.4%, 249%, 2019) are the book’s and weren’t rechecked."
+  },
+  {
+    "objectID": "slides/constax/index.html#tariffs-return-202526",
+    "href": "slides/constax/index.html#tariffs-return-202526",
+    "title": "EC313 - Taxation",
+    "section": "Tariffs Return, 2025–26",
+    "text": "Tariffs Return, 2025–26\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025: counter-tariffs on US goods\n\n25% on $30B in March, then $29.8B more, then autos\nMost came off on September 1, 2025, except steel, aluminum and autos\n\nCustoms revenue went from $6.3B (2024–25) to $10.3B (2025–26), up 64%\nSeptember 8, 2026: new surtaxes of 15–50% on $27.6B of US goods; steel and aluminum surtaxes up to 50%\nA tariff is a tax on imports, and who bears it depends on elasticities (Chapter 14)\n\n\n\nSource for the chart: Department of Finance, Fiscal Reference Tables 2026.\nThe September 2026 surtaxes (SOR/2026-186) match the US tariffs dollar for dollar. Steel tariff-rate quotas were extended to June 27, 2027."
+  },
+  {
+    "objectID": "slides/constax/index.html#why-tax-particular-goods",
+    "href": "slides/constax/index.html#why-tax-particular-goods",
+    "title": "EC313 - Taxation",
+    "section": "Why Tax Particular Goods?",
+    "text": "Why Tax Particular Goods?\n\nRevenue and ease: there are only a few producers to collect from\n\nBut high rates invite smuggling: tobacco taxes rose 48% in four years, smuggling took off in 1993–94, and rates were cut\n\nExternalities: gasoline, tobacco, alcohol (Chapter 5, next deck)\n\nSmokers’ earlier deaths offset part of their health costs, and second-hand smoke may be better handled by limits on where people smoke\n\nLuxuries: tax what the rich buy, for distribution, as the luxury tax does\nUser charges: the gas tax stands in for a fee for using the roads\nSin taxes: the state imposing its own preferences\n\nThat’s outside standard welfare economics, and the flip side of merit goods"
+  },
+  {
+    "objectID": "slides/constax/index.html#in-the-news-taxing-gasoline",
+    "href": "slides/constax/index.html#in-the-news-taxing-gasoline",
+    "title": "EC313 - Taxation",
+    "section": "In the News: Taxing Gasoline",
+    "text": "In the News: Taxing Gasoline\n\nFederal gas tax money goes to cities: the Canada Community-Building Fund, over $2B a year to about 3,600 communities\n\nTransLink, Metro Vancouver’s transit authority, levies its own 18.5¢/L\n\nWood (2015): an efficient gas tax for the Toronto region would be about 15¢/L above the existing 40.57¢ (2006 prices), to cover congestion, pollution and other costs\nGas taxes are easy to cut and hard to raise\n\nFrance’s protests in 2018\nCanada’s consumer carbon charge, at zero since April 2025\nThe federal fuel excise, suspended since April 2026\n\nNext deck: how to set a tax on an externality (Chapter 5)\n\n\nPart 1 of the Greenhouse Gas Pollution Pricing Act, the consumer fuel charge, was repealed by Bill C-4 (March 2026). Industrial carbon pricing continues."
+  },
+  {
+    "objectID": "slides/constax/index.html#the-basics",
+    "href": "slides/constax/index.html#the-basics",
+    "title": "EC313 - Taxation",
+    "section": "The Basics",
+    "text": "The Basics\n\nSales taxes have their legal (statutory) incidence on firms (Chapter 14), so they can’t take a person’s circumstances into account\nA personal consumption tax, also called a personal expenditure tax: each household files a return on its annual consumption\n\nExemptions, deductions (say, for large medical bills) and rising rates are all possible\n\n\n\n\n\n\n\n\nThe Personal Consumption Tax Base\n\n\nConsumption = income − change in net wealth. Compare Haig-Simons: income = consumption + change in net wealth (Chapter 17). Saving is left out\n\n\n\n\nThe best-known version is the Hall-Rabushka flat tax (two slides on)\n\n\nSome argue Canada could get there by extending the rules for RPPs and RRSPs (fn 24)."
+  },
+  {
+    "objectID": "slides/constax/index.html#measuring-the-base",
+    "href": "slides/constax/index.html#measuring-the-base",
+    "title": "EC313 - Taxation",
+    "section": "Measuring the Base",
+    "text": "Measuring the Base\n\n\nAdd\n\nWages and other income (not capital gains)\nProceeds from selling assets\nBorrowing\nGifts and bequests received\nWithdrawals from saving\n\n\nSubtract\n\nAssets bought\nCapital put into a business\nLoan repayments\nDeposits to saving\nAllowed deductions, such as large medical bills\n\n\n\nThen apply the rate schedule\n\n\nCapital gains aren’t added separately because the full proceeds from selling an asset are already in."
+  },
+  {
+    "objectID": "slides/constax/index.html#the-hall-rabushka-flat-tax",
+    "href": "slides/constax/index.html#the-hall-rabushka-flat-tax",
+    "title": "EC313 - Taxation",
+    "section": "The Hall-Rabushka Flat Tax",
+    "text": "The Hall-Rabushka Flat Tax\n\n\nBusinesses\n\nSales, less purchases from other firms (investment included), less wages paid\nOne flat rate\n\n\nIndividuals\n\nPay for work only, less a family exemption\nNo other deductions, and no capital income at the individual level\nThe same flat rate\n\n\n\nWhy it’s a consumption tax: a consumption-type VAT taxes wages at the firm, since firms can’t deduct them; H&R lets firms deduct wages and taxes them at the individual\n\nThe total is the same; only the point of collection moves\n\nSo it’s a VAT except for the family exemption, which adds progressivity\nNo country has run a personal consumption tax successfully; India and Sri Lanka tried and dropped it\n\n\nThe book works an example with a 20% rate.\nExercise 10 asks students to evaluate the claim that H&R leaves investment income untaxed. It doesn’t: capital income is taxed at the business level, because firms can’t deduct what they pay to the owners of capital."
+  },
+  {
+    "objectID": "slides/constax/index.html#administrative-issues",
+    "href": "slides/constax/index.html#administrative-issues",
+    "title": "EC313 - Taxation",
+    "section": "Administrative Issues",
+    "text": "Administrative Issues\n\nAdding up every purchase is infeasible; instead, measure cash flow: receipts minus net saving\nSaving would be tracked through qualified accounts at banks and brokers\n\nDeposits are deducted, and returns are untaxed while inside\nRRSPs and RPPs already work this way (Chapter 17); a TFSA works like prepayment, below\n\nDurables: buying a house or car is saving, but its services are consumption, and they’re hard to value\nThe tax prepayment approach: tax the purchase price up front and ignore the later services\n\nThe price equals the present value of the services, so the tax is the same in present value, as long as the rate doesn’t change\n\n\n\nEqs 19.5–19.6 write the yearly services as c₁, …, c_T and the price as V; here they’re simplified to a constant S. If the services are worth S a year, the price of the house is the present value of the S’s. A tax of t on the price up front equals, in present value, a tax of t on each year’s S. If the rate changes over the house’s life, the two differ.\nOne way to see Canada’s accounts: an RRSP works like a qualified account (deduct now, pay tax on withdrawal), and a TFSA works like prepayment (pay tax now, nothing later)."
+  },
+  {
+    "objectID": "slides/constax/index.html#advantages-of-a-personal-consumption-tax",
+    "href": "slides/constax/index.html#advantages-of-a-personal-consumption-tax",
+    "title": "EC313 - Taxation",
+    "section": "Advantages of a Personal Consumption Tax",
+    "text": "Advantages of a Personal Consumption Tax\n\nNo need to measure capital gains or depreciation, the hardest parts of an income tax\nFewer problems with inflation: only this year’s transactions count\n\nA sale reinvested in the same year doesn’t change the base, so there’s no lock-in\n\nNo need for a separate corporation tax, at least in theory\n\nThe corporation tax exists to reach income kept inside corporations (Chapter 21, later in the course)\nWithholding on foreign-owned firms would still be needed\n\n\n\nThe book’s inflation example is in fn 27. Steve Forbes campaigned for a flat tax in the US (fn 26)."
+  },
+  {
+    "objectID": "slides/constax/index.html#overall-assessment",
+    "href": "slides/constax/index.html#overall-assessment",
+    "title": "EC313 - Taxation",
+    "section": "Overall Assessment",
+    "text": "Overall Assessment\n\nCanada’s income tax already looks partly like a consumption tax\n\nSaving in RRSPs, RPPs and TFSAs is sheltered (Chapter 17)\nUnrealized gains on financial assets, and almost all gains on housing, go untaxed\nAccelerated depreciation lets firms deduct investment sooner, closer to expensing it\n\nSo today’s system is a hybrid, and the GST/HST already taxes consumption: the gain from switching is limited\nAgainst switching: it has never been done, durables are hard, the transition would be messy, and the ability-to-pay objection remains"
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question",
+    "href": "slides/constax/index.html#iclicker-question",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA province replaces its income tax with a permanent sales tax that raises the same revenue. Which choices does the sales tax still distort?\nA) Neither: a sales tax only falls on spending\nB) Saving only: spending now costs more than spending later\nC) Both: spending in each period is taxed\nD) Work only: an hour of work buys fewer goods\nE) Work only, but with no excess burden if hours don’t change\n\nAnswer: D. A permanent sales tax, at the same rate now and later, leaves the price of spending now, relative to spending later, at 1 + r, so saving isn’t distorted. But it cuts what an hour of work buys, just like a wage cut, so the choice between work and leisure is still distorted.\nE is the trap: the excess burden comes from the substitution effect toward leisure, so it’s there even if hours don’t change (last deck). A is the “no distortion” overclaim. B gets the saving distortion backwards: it’s the income tax that changes the relative price, and it makes spending now cheaper, not dearer (1 + 0.70r, two slides back). C: taxing spending in both periods at the same rate leaves their relative price alone."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-1",
+    "href": "slides/constax/index.html#iclicker-question-1",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nPriya and Sam each earn $1,000 now and nothing later, and \\(r\\) = 10%. A 25% sales tax is added to every price. Priya spends all $1,000 now. Sam spends $500 now (tax included) and the rest, with interest, next year. What is the present value of the tax each pays?\nA) Priya $200; Sam about $191\nB) Priya $200; Sam $200\nC) Priya $200; Sam $210\nD) Priya $250; Sam $250\nE) It depends on how much Sam values next year’s spending\n\nAnswer: B. With a 25% tax on the pre-tax price, a fifth of every dollar spent is tax. Priya: $200 now. Sam: $100 now; his other $500 grows to $550, of which $110 is tax, worth $110/1.1 = $100 today. Total $200. A consumption tax takes the same present value whatever the timing of spending.\nC is the trap: it adds $100 and $110 without discounting. D is the tax-exclusive slip: a 25% tax on the price is a fifth of what is spent, not a quarter. A discounts Sam’s second $100 without letting his saving earn interest, so it treats putting off spending as a tax saving. E: his preferences decide when he spends, not the present value of the tax."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-2",
+    "href": "slides/constax/index.html#iclicker-question-2",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWith a 5% GST, a furniture maker buys $2,000 of wood (plus GST) and sells $5,000 of tables (plus GST). How much GST does the furniture maker send to the government?\nA) $0, since only the store that sells to consumers remits\nB) $100\nC) $150\nD) $250\nE) $350\n\nAnswer: C. It remits 5% of its $3,000 of value added: $150. In practice it gets there by charging $250 on its sales and claiming a credit for the $100 it paid on the wood (the invoice-credit method, next slide).\nD is the trap: it taxes all $5,000 of sales, forgetting that the $2,000 of wood was already taxed, so tax would pile on tax at each stage. A confuses the GST with a retail sales tax. B is the credit itself. E adds the tax paid to the tax charged instead of subtracting it."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-3",
+    "href": "slides/constax/index.html#iclicker-question-3",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA 10% VAT. A farmer sells wool to a spinner for $200, the spinner sells yarn to a knitter for $500, and the knitter sells sweaters to shoppers for $800. If yarn is made exempt, how much VAT is collected in total?\nA) $20\nB) $50\nC) $80\nD) $100\nE) $150\n\nAnswer: D. The farmer remits $20. The exempt spinner charges nothing and can’t claim back the $20 it paid. The knitter charges $80 and, with no VAT on the yarn invoice, has no credit to claim, so remits all $80. Total $100, against $80 with no exemption: exempting a middle stage raises the tax because it breaks the credit chain.\nB is the trap: it assumes the exemption just removes the spinner’s $30 of tax on its value added, giving $80 − $30. C assumes a VAT always collects 10% of the final price. E taxes every sale in full, with no credits: $20 + $50 + $80. A assumes an exempt input makes everything after it exempt too."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-4",
+    "href": "slides/constax/index.html#iclicker-question-4",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nA province with a 10% sales tax exempts small retailers. A corner store buys $150,000 of goods from wholesalers and sells them for $200,000. How much revenue does the province lose on this store?\nA) $20,000 under either tax\nB) $5,000 under either tax\nC) $20,000 under a VAT; $5,000 under an RST\nD) $15,000 under a VAT; $20,000 under an RST\nE) $5,000 under a VAT; $20,000 under an RST\n\nAnswer: E. Under a VAT, the $15,000 on the store’s purchases was already collected at earlier stages, and the exempt store can’t claim it back; only the tax on its $50,000 of value added is lost. Under an RST, the retail sale is the only point of collection, so the whole $20,000 goes.\nA is the trap: the two taxes raise the same revenue on the same base, but they collect it at different points, so an exemption costs different amounts. D counts the $15,000 already collected as lost. C reverses the two. B misses that an RST collects nothing before the retail sale."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-5",
+    "href": "slides/constax/index.html#iclicker-question-5",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich argument supports a tax on gasoline but not a tax on cigarettes?\nA) It is cheap to collect from a few producers\nB) It charges people for using the roads\nC) It makes buyers pay for harm they do to others\nD) It discourages a habit the government disapproves of\nE) It collects more from high-income households\n\nAnswer: B. The gas tax stands in for a user charge on the roads; nothing like that applies to cigarettes.\nC is the trap: both goods harm others (pollution and congestion, second-hand smoke), so the externality argument fits both. A fits both too. D is a sin tax, which fits cigarettes rather than gasoline, and sits outside standard welfare economics. E is the luxury argument, which fits neither: neither good is a luxury."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-6",
+    "href": "slides/constax/index.html#iclicker-question-6",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nUnder the Hall-Rabushka flat tax, a retiree lives on dividends from shares she owns. Where is that income taxed?\nA) At the firm, before the dividends are paid\nB) Nowhere: the flat tax reaches only wages\nC) On her own return, just like wages\nD) On her own return, but only the part she spends\nE) At the firm, and again on her own return\n\nAnswer: A. Firms deduct wages and purchases from other firms, but not what they pay to the owners of capital, so the return to capital is taxed at the business level before it’s paid out.\nB is the trap: individuals report only pay for work, so capital income looks untaxed, but it was taxed at the firm. C describes today’s income tax. D confuses H&R with a personal consumption tax that individuals file, where each person reports spending. E is how today’s corporate and personal income taxes treat dividends."
+  },
+  {
+    "objectID": "slides/constax/index.html#iclicker-question-7",
+    "href": "slides/constax/index.html#iclicker-question-7",
+    "title": "EC313 - Taxation",
+    "section": "iClicker Question",
+    "text": "iClicker Question\nWhich change would move Canada’s tax system closer to a personal consumption tax?\nA) Taxing capital gains every year as they accrue\nB) Taxing homeowners on the rent they save by owning\nC) Taxing all gains on a principal residence\nD) Raising the TFSA contribution limit\nE) Raising the basic personal amount\n\nAnswer: D. A TFSA leaves the return to saving untaxed, as a consumption tax does (it works like prepayment), so a higher limit shelters more saving.\nA, B and C each move toward taxing the return to saving, which is the Haig-Simons income base. B is the trap: housing services are consumption, but a house is bought with after-tax money and its services go untaxed, which is already the prepayment approach. Taxing the imputed rent as well would tax the return to owning. E lowers everyone’s tax but doesn’t change what’s taxed."
+  },
+  {
+    "objectID": "slides/constax/index.html#sales-tax-rates-2026",
+    "href": "slides/constax/index.html#sales-tax-rates-2026",
+    "title": "EC313 - Taxation",
+    "section": "Sales Tax Rates, 2026",
+    "text": "Sales Tax Rates, 2026\n\n\n\n\nTax\nProvincial rate\nWith GST\n\n\n\n\nNL, PE, NB\nHST\n10%\n15%\n\n\nNS\nHST\n9%\n14%\n\n\nON\nHST\n8%\n13%\n\n\nQC\nQST\n9.975%\n14.975%\n\n\nBC\nPST (RST)\n7%\n12%\n\n\nMB\nRST\n7%\n12%\n\n\nSK\nPST (RST)\n6%\n11%\n\n\nAB, territories\nnone\n—\n5%\n\n\n\n\nThe first RSTs charged 2%\n\n\nNS cut its provincial part from 10% to 9% on April 1, 2025.\nThe book’s 2020/21 revenue figures: RST/HST revenue per person (Table 19.3) ranged from $2,139 in NL to $1,475 in BC; Alberta, with no sales tax, still raised $4.4B from consumption taxes; consumption taxes were about 20% of provincial revenue.\nGas taxes in 2026 (¢/L): NL 7.5 (cut made permanent in April 2026; a bill to go to zero is unconfirmed); ON 9.0; MB 12.5; AB 0 for October–December 2026; PE suspended to January 31, 2027 (news reports only); NS, NB, QC and SK unchanged, on one secondary source. Territories not checked.\nTobacco rates are left off: PE and NL aren’t verified, and the sources for AB and QC disagree."
   }
 ]
