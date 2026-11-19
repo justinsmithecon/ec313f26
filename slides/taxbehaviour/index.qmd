@@ -509,16 +509,15 @@ The general rule for a small increase in a flat rate: the shrinking base takes b
 Feldstein's own example: a 1% across-the-board increase in US rates (25% to 25.25%, and so on) has a static estimate of \$7.5 billion. With the behavioural response it raises \$5.0 billion in income tax, two-thirds of the static figure, and \$4.6 billion once lost payroll tax is counted.
 :::
 
-## The Top Bracket {.smaller}
+## The Top Bracket
 
 :::: columns
 :::: {.column width="45%"}
 - At the top, taxable income responds much more (Milligan and Smart,&nbsp;2014)
-  - Top 1%: elasticity 0.689, so total revenue peaks at a combined rate of about&nbsp;44%
-  - Top 0.1%: 1.451, a peak of about 28%
-- 2026 top combined rates are 44.5% to 54.8%: at or past that&nbsp;peak
-- At Ontario's 53.5%, a higher rate costs \$1.44 in lost base per \$1 of static&nbsp;gain
-- A province raising its rate still gains, but Ottawa loses more; a federal increase can't push income to other provinces, so its peak is&nbsp;higher
+- Total revenue peaks at a combined top rate of about:
+  - 44% for the top 1%
+  - 28% for the top 0.1%
+- 2026 top combined rates are 44.5% to 54.8%: at or past the&nbsp;peak
 - $t_A$ maximizes revenue; the best rate also weighs equity ([Chapter 16]{.fg style="color: #555;"})
 ::::
 
@@ -558,7 +557,7 @@ Federal plus provincial or territorial top rates on ordinary income, 2026 (BDO T
 
 Where the peaks come from: Milligan and Smart use τ* = 1/(1 + a·e), where a ≈ 1.81 measures how thick the top tail of the income distribution is and e is the elasticity of taxable income. With e = 0.689 for the top 1%, τ* = 44.4%. With e = 1.451 for the top 0.1%, τ* = 27.5%. For the rest of the top 1% (the 99th to 99.9th percentiles) e = 0.364, which gives 60.3%.
 
-The \$1.44: the rule from the last slide, adjusted for the top tail, says a small increase in the top rate loses a × e × τ/(1 − τ) to the smaller base for each dollar of static gain. The a is there because the higher rate collects extra only on income above the threshold, about 55% (1/1.81) of top earners' income, while the response is to all of it. At Ontario's 53.53%: 1.81 × 0.689 × 0.5353/0.4647 ≈ 1.44. At Nunavut's 44.5% it's 1.0, right at the peak. For the top 0.1% at Ontario's rate it's about 3.
+If asked why an elasticity below 1 doesn't put the peak near 1/(1 + 0.689) ≈ 59%, the flat-tax rule from the last slide: the top rate taxes only the income above the threshold, about 55% (1/1.81) of top earners' income, but the whole response comes off that slice. So the slice's elasticity is a × e ≈ 1.25. At Ontario's 53.53%, a small increase loses about \$1.44 of base for each \$1 of static gain.
 
 The book says these estimates put the peak for the top 1% at "about 60 percent". That is the third figure, for the top 1% excluding the top 0.1%. For the top 1% as a whole, the paper's own calculation is 44.4%.
 
