@@ -56,9 +56,9 @@ website:
               file: content/personaltax.qmd
             - text: "Personal Taxation and Behaviour"
               file: content/taxbehaviour.qmd
+            - text: "Consumption Taxes"
+              file: content/constax.qmd
             # Hidden until material is checked — uncomment to restore
-            # - text: "Consumption Taxes"
-            #   file: content/constax.qmd
             # - text: "Externalities and Pigouvian Taxes"
             #   file: content/externalities.qmd
             # - text: "The Corporation Tax"
