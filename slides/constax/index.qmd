@@ -154,7 +154,7 @@ New in 2026: Manitoba (July 1) and Quebec (July 15) stopped applying provincial 
 
 ::: {.callout-note}
 ## Where the Excess Burden Comes From
-The wedge, whether or not saving falls. Last deck showed saving can go either way
+The substitution toward present consumption that the wedge causes, whether or not saving falls. Last deck showed saving can go either&nbsp;way
 :::
 ::::
 ::::
@@ -169,9 +169,9 @@ The book builds this on the life-cycle model (Chapter 11), with labour supply he
 
 - A consumption tax still taxes work
   - At a \$5 wage and a \$1 good, an hour of work buys 5 units; with a 25% sales tax, it buys 4
-  - That's the same as a wage cut ([Chapter 18]{.fg style="color: #555;"})
+  - That's a wage cut, the same as a 20% income tax on wages ([Chapter 18]{.fg style="color: #555;"})
 - The [substitution effect]{.fg style="color: #2780e3;"} toward leisure creates an excess burden, even if hours don't fall
-- Once labour supply is a choice, both taxes distort something, so a consumption tax is not *necessarily* more&nbsp;efficient
+- Both taxes distort something, so a consumption tax is not *necessarily* more&nbsp;efficient
   - Only evidence can say which one costs more
 
 ::: {.callout-note}
@@ -182,6 +182,8 @@ The book builds this on the life-cycle model (Chapter 11), with labour supply he
 :::
 
 ::: {.notes}
+Why 20% and not 25%: the sales tax rate is quoted on the price before tax, the income tax rate on the wage before tax. A sales tax at rate τ works like a tax on wages at τ/(1 + τ), here 0.25/1.25 = 0.20. It's the same arithmetic as the lifetime tax iClicker question (slide 15): a 25% tax on the price is a fifth of what is spent.
+
 Dahlby and Ferede's Saskatchewan estimate: replacing \$10M of income tax with \$10M more sales tax gives a welfare gain of \$9.98M.
 
 A tax at the same rate on every good still distorts the choice between goods and leisure (Chapter 15). That's why Corlett-Hague (Chapter 16) asks for higher rates on goods that go with leisure.
@@ -233,47 +235,73 @@ The book's example: a high-income person who consumes 70% of income pays a 10% c
 The credit: the GST credit became the Canada Groceries and Essentials Benefit in July 2026, raised 25% for five years. For 2026–27 the maximum is \$679 for a single person, \$890 for a couple and \$234 per child.
 :::
 
-## Equity: Ability to Pay
+## Equity: Ability to Pay {.smaller}
 
-- For the income base: what matters is the *power* to consume
-  - Under a consumption tax, a miserly millionaire could owe less than a poorer person who spends everything
-- The reply: tax people on what they take out of the economy, not on what they put in
-  - The miser's unspent income funds capital
-- A related question: does the income tax tax saving twice, once when the income is earned and again on the interest?
-  - Whether that's unfair is a value judgment
+:::: columns
+:::: {.column width="40%"}
+| | Alex | Jordan |
+|----------|----------:|----------:|
+| Earns | \$200,000 | \$80,000 |
+| Spends | \$60,000 | \$80,000 |
+
+- At the same rate, an income tax takes 2.5 times as much from Alex as from&nbsp;Jordan
+- A consumption tax takes *less* from Alex than from&nbsp;Jordan
+::::
+
+:::: {.column width="60%"}
+- [For taxing income]{.fg style="color: #2780e3;"}: ability to pay is the *power* to consume
+  - Alex could spend \$200,000, so Alex can afford to pay more
+- [For taxing consumption]{.fg style="color: #2780e3;"}: tax what people take out of the economy, not what they put in
+  - Jordan's spending uses up goods; Alex's saving pays for new&nbsp;capital
+::::
+::::
+
+- Is saving taxed twice? Under an income tax, Alex's saved dollars are taxed when earned, and their interest is taxed&nbsp;again
+  - Some call that double taxation; others say interest is new income like any other. It's a value judgment
+
+::: {.notes}
+The book's version (p. 379): a millionaire who saves most of their income could owe less consumption tax than a poorer person who spends everything.
+
+"What they put in": income measures what people contribute to the economy through their work and saving. Consumption measures what they use up.
+
+The double-taxation question is the next slide in numbers: under the income tax, Marge pays more than Homer in present value only because she saves.
+:::
 
 ## Equity: Annual versus Lifetime {.smaller}
 
 :::: columns
 :::: {.column width="40%"}
-- Homer and Marge each earn 100 now and nothing later, and $r$ = 10%
-  - Homer spends it all now; Marge spreads her spending evenly over both periods
-- Compare a 50% [income tax]{.fg style="color: #2780e3;"} with a 100% [consumption tax]{.fg style="color: #2780e3;"}
-  - A tax of 100% of the pre-tax price is half of total spending, so both take half of what Homer earns
-- Income tax: Marge pays more in present value (51.11 vs 50.00), only because she&nbsp;saves
-- Consumption tax: both pay 50.00, so savers and spenders get equal treatment over a lifetime: [horizontal equity]{.fg style="color: #2780e3;"}
+- Homer and Marge each earn 100 now and nothing later; $r$ = 10%
+  - Homer spends it all now; Marge consumes the same amount now and&nbsp;later
+  - Both taxes take 50 from Homer
+- A 50% [income tax]{.fg style="color: #2780e3;"}: Marge pays 51.11
+  - The extra 1.11 (= 1.22/1.1) is the tax on her interest, which only savers&nbsp;pay
+- A 100% [consumption tax]{.fg style="color: #2780e3;"} on the pre-tax price: half of every dollar spent is tax, now or later
+  - Marge's spending is worth 100 today, so she pays 50.00, like Homer: [horizontal&nbsp;equity]{.fg style="color: #2780e3;"}
 ::::
 
 :::: {.column width="60%"}
 ::: {style="font-size: 0.8em;"}
 | | Homer, income&nbsp;tax | Marge, income&nbsp;tax | Homer, consumption&nbsp;tax | Marge, consumption&nbsp;tax |
 |------------------------------|--------------:|--------------:|--------------:|--------------:|
-| Income in period 1 | 100.00 | 100.00 | 100.00 | 100.00 |
-| Taxes in period 1 | 50.00 | 50.00 | 50.00 | 26.19 |
-| Consumption in period&nbsp;1 | 50.00 | 25.61 | 50.00 | 26.19 |
-| Savings in period 1 | 0.00 | 24.39 | 0.00 | 47.62 |
-| Interest in period 2 | 0.00 | 2.44 | 0.00 | 4.76 |
-| Taxes in period 2 | 0.00 | 1.22 | 0.00 | 26.19 |
-| Consumption in period&nbsp;2 | 0.00 | 25.61 | 0.00 | 26.19 |
+| Income now | 100.00 | 100.00 | 100.00 | 100.00 |
+| Tax now | 50.00 | 50.00 | 50.00 | 26.19 |
+| Consumption&nbsp;now | 50.00 | 25.61 | 50.00 | 26.19 |
+| Saving now | 0.00 | 24.39 | 0.00 | 47.62 |
+| Interest later | 0.00 | 2.44 | 0.00 | 4.76 |
+| Tax later | 0.00 | 1.22 | 0.00 | 26.19 |
+| Consumption&nbsp;later | 0.00 | 25.61 | 0.00 | 26.19 |
 | PDV of taxes | 50.00 | 51.11 | 50.00 | 50.00 |
 :::
 ::::
 ::::
 
 ::: {.notes}
-Where Marge's numbers come from. Income tax: she keeps 50 and earns 5% after tax on what she saves, so 50 = c + c/1.05 and c = 25.61. Consumption tax: each unit of consumption costs 2 with the tax, so 100 = 2c + 2c/1.1 and c = 26.19. PDVs: 50 + 1.22/1.1 = 51.11, and 26.19 + 26.19/1.1 = 50.00.
+Where Marge's numbers come from. Income tax: she keeps 50 and earns 5% after tax on what she saves, so 50 = c + c/1.05 and c = 25.61. Consumption tax: each unit of consumption costs 2 with the tax, so 100 = 2c + 2c/1.1 and c = 26.19. PDVs: 50 + 1.22/1.1 = 51.11, and 26.19 + 26.19/1.1 = 50.00. "Now" and "later" here are c₀ and c₁ on slide 9.
 
-The book makes the same point with Ash and Brooklyn (Eqs 19.1–19.4): the present value of lifetime consumption tax is t_c·I₀ whatever the timing of consumption.
+A check students can run: for each person, the present value of consumption plus the present value of tax is 100. Marge under the income tax: 25.61 + 25.61/1.1 = 48.89, and 48.89 + 51.11 = 100. Under the consumption tax: 50.00 + 50.00. She also consumes more each period under the consumption tax (26.19 vs 25.61), because her saving earns the full 10%.
+
+The book makes the same point with Ash and Brooklyn (Eqs 19.1–19.4): the present value of lifetime consumption tax doesn't depend on when people consume. With a rate t on the pre-tax price, as here, it's t/(1 + t) of lifetime income: 1/2 × 100 = 50.
 
 More on lifetime: income fluctuates more than consumption, so annual income is a poor guide to who is well off. Davies, St-Hilaire and Whalley (1984) find general sales taxes roughly proportional to lifetime income. If bequests count as consumption at death, a consumption tax becomes a tax on lifetime income (fn 5). Uncertainty and borrowing limits weaken the lifetime argument.
 
