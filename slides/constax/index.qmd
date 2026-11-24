@@ -455,7 +455,7 @@ Separability (fn 12): how people trade off one good against another doesn't depe
 The minister's argument (Wilson, Department of Finance, 1987, p. 64), roughly: exempting food helps everyone who buys food, rich or poor, while a refundable credit can be aimed at low-income families.
 :::
 
-## Zero-Rated versus Exempt {.smaller}
+## Zero-Rated versus Exempt
 
 ::: {.callout-important}
 ## Zero-Rated vs Exempt
@@ -463,27 +463,11 @@ The minister's argument (Wilson, Department of Finance, 1987, p. 64), roughly: e
 - [Exempt]{.fg style="color: #2780e3;"}: no tax charged, and no credits
 :::
 
-:::: columns
-:::: {.column width="58%"}
-| Bread, 10% GST (\$) | Taxed | Zero&#8209;rated | Exempt |
-|------------------------|------:|------:|------:|
-| Farmer, miller, baker remit | 95 | 95 | 95 |
-| Grocer charges the shopper | 100 | 0 | 0 |
-| Grocer's credit for GST paid | 95 | 95 | 0 |
-| Grocer remits | 5 | −95 | 0 |
-| **Total GST** | **100** | **0** | **95** |
-| Shopper pays | 1,100 | 1,000 | 1,095 |
-::::
-
-:::: {.column width="42%"}
-- The farmer, miller and baker are unaffected: they remit \$95 in all three&nbsp;cases
-- [Zero-rated]{.fg style="color: #2780e3;"}: the grocer's −95 is a refund of the GST it paid the baker. It still keeps its \$50 of value added, just as when bread is&nbsp;taxed
-- [Exempt]{.fg style="color: #2780e3;"}: the grocer can't claim back the \$95, so it passes it on in the price of&nbsp;bread
-::::
-::::
+- Either way, the shopper sees no GST on the final sale: the difference is whether the seller gets its credits
+- The next three slides follow the bread from slide 18 through each case, at the book's prices: zero-rated groceries, exempt groceries, and exempt flour
 
 ::: {.notes}
-The first two panels of the book's table, using the bread example. Each upstream stage charges GST, claims a credit for the GST it paid, and remits the difference: 40 + 30 + 25 = \$95, whatever happens at the grocer. The next two slides follow the cash in each case.
+As in the book, each firm's price before tax stays the same in every case, so a firm that can't claim back tax absorbs it.
 :::
 
 ## Zero-Rated Groceries {.smaller}
@@ -493,7 +477,7 @@ The first two panels of the book's table, using the bread example. Each upstream
 | Farmer | 0 | 400 + 40 | 40 | 400 |
 | Miller | 400 + 40 | 700 + 70 | 70 − 40 = 30 | 300 |
 | Baker | 700 + 70 | 950 + 95 | 95 − 70 = 25 | 250 |
-| Grocer | 950 + 95 | 1,000 + **0** | 0 − 95 = **−95** | 50 |
+| Grocer&nbsp;(zero&#8209;rated) | 950 + 95 | 1,000 + **0** | 0 − 95 = **−95** | 50 |
 | **Total** | | | **0** | **1,000** |
 
 - Only the grocer's row changes from slide 18: it charges no GST but still claims the \$95 it paid the baker, so CRA refunds it
@@ -513,16 +497,18 @@ Zero-rating isn't free to run: zero-rated sellers are always owed refunds, which
 | Farmer | 0 | 400 + 40 | 40 | 400 |
 | Miller | 400 + 40 | 700 + 70 | 70 − 40 = 30 | 300 |
 | Baker | 700 + 70 | 950 + 95 | 95 − 70 = 25 | 250 |
-| Grocer | 950 + 95 | **1,095** + 0 | **0** | 50 |
-| **Total** | | | **95** | **1,000** |
+| Grocer&nbsp;(exempt) | 950 + 95 | 1,000 + **0** | **0** | [**−45**]{.fg style="color: #c7254e;"} |
+| **Total** | | | **95** | **905** |
 
 - The grocer charges no GST and claims nothing, so the \$95 it paid is a cost, like its rent
-- To keep its \$50, it charges \$1,095: the \$95 is hidden in the&nbsp;price
-- Exempting the last stage untaxes only the grocer's own \$50 of value added: the shopper saves \$5, not&nbsp;\$100
+- The book holds prices before tax fixed, so the grocer absorbs the \$95: it keeps −\$45 instead of&nbsp;\$50
+- Exempting the last stage costs CRA only \$5, the tax on the grocer's own \$50 of value added: the other \$95 was collected&nbsp;earlier
 - Exempt under the GST: residential rent, most health and dental care, daycare, municipal transit, most education, many financial services
 
 ::: {.notes}
-The shopper's \$5 saving is 10% of the grocer's \$50 of value added: the rest of the tax was collected before the grocer. The same arithmetic is behind the small-grocer point under "Where RSTs and VATs Differ".
+Like the book, the slides hold each firm's price before tax fixed, so whoever can't claim back tax absorbs it: the grocer here, the miller on the next slide. In practice an exempt firm would try to raise its price; if the grocer passed the \$95 on, it would charge \$1,095 and keep \$50.
+
+The \$5 CRA loses is 10% of the grocer's \$50 of value added. The same arithmetic is behind the small-grocer point under "Where RSTs and VATs Differ".
 :::
 
 ## Exempting a Middle Stage {.smaller}
@@ -535,7 +521,7 @@ The shopper's \$5 saving is 10% of the grocer's \$50 of value added: the rest of
 | Grocer | 950 + 95 | 1,000 + 100 | 100 − 95 = 5 | 50 |
 | **Total** | | | [**140**]{.fg style="color: #c7254e;"} | **960** |
 
-- The exempt miller can't claim back the \$40 it paid, so at the book's prices it keeps \$260, not&nbsp;\$300
+- Like the exempt grocer, the miller can't claim back the \$40 it paid, so it keeps \$260, not&nbsp;\$300
 - The baker's flour invoice shows no GST, so it has no credit: it remits 10% of its full \$950
 - That \$95 covers the farmer's, the miller's and the baker's value added, so the farmer's is taxed twice:&nbsp;[cascading]{.fg style="color: #c7254e;"}
 - Exempting the miller doesn't even untax the miller: its value added is taxed at the baker&nbsp;instead
@@ -544,6 +530,33 @@ The shopper's \$5 saving is 10% of the grocer's \$50 of value added: the rest of
 The third panel of the book's table, flour exempt. The \$140 is the shopper's \$100 plus the \$40 the miller absorbs. Like the book, it holds each stage's price before tax fixed, so the miller absorbs the \$40. If every firm instead passed on what it couldn't claim back, flour would cost \$740, bread \$1,040 before GST, and the total would be \$144 (40 + 0 + 99 + 5): the \$40 itself gets taxed again at the baker. The iClicker question that follows uses the book's convention.
 
 The real-world middle-stage case is financial services sold to businesses: the bank can't claim credits, so the GST it pays is buried in its fees, and its business customers can't claim it back.
+:::
+
+## Zero-Rated versus Exempt Groceries Compared {.smaller}
+
+:::: columns
+:::: {.column width="58%"}
+| Bread, 10% GST (\$) | Taxed | Zero&#8209;rated | Exempt |
+|------------------------|------:|------:|------:|
+| Farmer, miller, baker remit | 95 | 95 | 95 |
+| Grocer charges the shopper | 100 | 0 | 0 |
+| Grocer's credit for GST paid | 95 | 95 | 0 |
+| Grocer remits | 5 | −95 | 0 |
+| **Total GST** | **100** | **0** | **95** |
+| Grocer keeps | 50 | 50 | [−45]{.fg style="color: #c7254e;"} |
+::::
+
+:::: {.column width="42%"}
+- The farmer, miller and baker remit \$95 in all three&nbsp;cases
+- [Zero-rated]{.fg style="color: #2780e3;"}: CRA gives up all \$100, and the grocer is made whole by its \$95&nbsp;refund
+- [Exempt]{.fg style="color: #2780e3;"}: CRA gives up only \$5, and the grocer is stuck with the \$95 it&nbsp;paid
+::::
+::::
+
+::: {.notes}
+The first two panels of the book's table, using the bread example. Each upstream stage charges GST, claims a credit for the GST it paid, and remits the difference: 40 + 30 + 25 = \$95, whatever happens at the grocer. As in the book, prices before tax don't change, so the shopper pays \$1,100 when bread is taxed and \$1,000 in the other two cases.
+
+This is why a seller would rather be zero-rated than exempt.
 :::
 
 ## iClicker Question {background-color="#f0f4f8"}
