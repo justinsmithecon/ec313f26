@@ -243,16 +243,27 @@ The credit: the GST credit became the Canada Groceries and Essentials Benefit in
 |----------|----------:|----------:|
 | Earns | \$200,000 | \$80,000 |
 | Spends | \$60,000 | \$80,000 |
-
-- At the same rate, an income tax takes 2.5 times as much from Alex as from&nbsp;Jordan
-- A consumption tax takes *less* from Alex than from&nbsp;Jordan
 ::::
 
 :::: {.column width="60%"}
-- [For taxing income]{.fg style="color: #2780e3;"}: ability to pay is the *power* to consume
-  - Alex could spend \$200,000, so Alex can afford to pay more
-- [For taxing consumption]{.fg style="color: #2780e3;"}: tax what people take out of the economy, not what they put in
-  - Jordan's spending uses up goods; Alex's saving pays for new&nbsp;capital
+- At the same rate, an income tax takes 2.5 times as much from Alex as from&nbsp;Jordan
+- A consumption tax takes *less* from Alex than from&nbsp;Jordan
+::::
+::::
+
+:::: columns
+:::: {.column width="50%"}
+**The case for taxing income**
+
+- Ability to pay is the *power* to consume
+- Alex could spend \$200,000, so Alex can afford to pay&nbsp;more
+::::
+
+:::: {.column width="50%"}
+**The case for taxing consumption**
+
+- Tax what people take out of the economy, not what they put in
+- Jordan's spending uses up goods; Alex's saving pays for new&nbsp;capital
 ::::
 ::::
 
