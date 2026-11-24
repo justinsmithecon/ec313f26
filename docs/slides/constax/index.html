@@ -213,8 +213,8 @@ Fall 2026
 <li>A sales tax can be a <span class="fg" style="color: #2780e3;">unit tax</span> (cents per litre) or an <span class="fg" style="color: #2780e3;">ad valorem tax</span> (a percentage of the price) (<span class="fg" style="color: #555;">Chapter 14</span>)</li>
 <li>Canada has four kinds
 <ul>
-<li><span class="fg" style="color: #555;">VATs</span>: the GST/HST (Ottawa and five provinces) and the QST (Quebec)</li>
-<li><span class="fg" style="color: #555;">RSTs</span>: BC, SK and MB</li>
+<li><span class="fg" style="color: #555;">VATs</span> (value-added taxes), collected from every firm along the chain: the GST/HST (Ottawa and five provinces) and the QST (Quebec)</li>
+<li><span class="fg" style="color: #555;">RSTs</span> (retail sales taxes), collected once, at the sale to the final buyer: BC, SK and&nbsp;MB</li>
 <li><span class="fg" style="color: #555;">Excise taxes</span>: Ottawa and every province</li>
 <li><span class="fg" style="color: #555;">Customs duties</span>: Ottawa only</li>
 </ul></li>
@@ -722,48 +722,48 @@ E) It depends on how much Sam values next year’s spending</p>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Producer</th>
-<th style="text-align: right;">Purchases ($)</th>
-<th style="text-align: right;">Sales ($)</th>
-<th style="text-align: right;">Value added ($)</th>
-<th style="text-align: right;">VAT at 10% ($)</th>
+<th>10% VAT ($)</th>
+<th style="text-align: right;">Pays its supplier</th>
+<th style="text-align: right;">Charges its buyer</th>
+<th style="text-align: right;">Remits</th>
+<th style="text-align: right;">Keeps (value&nbsp;added)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Farmer</td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">400</td>
-<td style="text-align: right;">400</td>
+<td style="text-align: right;">400 + 40</td>
 <td style="text-align: right;">40</td>
+<td style="text-align: right;">400</td>
 </tr>
 <tr class="even">
 <td>Miller</td>
-<td style="text-align: right;">400</td>
-<td style="text-align: right;">700</td>
+<td style="text-align: right;">400 + 40</td>
+<td style="text-align: right;">700 + 70</td>
+<td style="text-align: right;">70 − 40 = 30</td>
 <td style="text-align: right;">300</td>
-<td style="text-align: right;">30</td>
 </tr>
 <tr class="odd">
 <td>Baker</td>
-<td style="text-align: right;">700</td>
-<td style="text-align: right;">950</td>
+<td style="text-align: right;">700 + 70</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">95 − 70 = 25</td>
 <td style="text-align: right;">250</td>
-<td style="text-align: right;">25</td>
 </tr>
 <tr class="even">
 <td>Grocer</td>
-<td style="text-align: right;">950</td>
-<td style="text-align: right;">1,000</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">1,000 + 100</td>
+<td style="text-align: right;">100 − 95 = 5</td>
 <td style="text-align: right;">50</td>
-<td style="text-align: right;">5</td>
 </tr>
 <tr class="odd">
-<td>Total</td>
+<td><strong>Total</strong></td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"></td>
-<td style="text-align: right;">1,000</td>
-<td style="text-align: right;">100</td>
+<td style="text-align: right;"><strong>100</strong></td>
+<td style="text-align: right;"><strong>1,000</strong></td>
 </tr>
 </tbody>
 </table>
@@ -772,8 +772,21 @@ E) It depends on how much Sam values next year’s spending</p>
 <ul>
 <li>Total value added is $1,000, the retail price, so the VAT raises $100: the same as a 10% tax on the final sale</li>
 </ul></li>
-<li>Sales and purchases are before tax: each firm charges 10% on top, and gets back what it paid on its purchases as a&nbsp;credit</li>
+<li>Each firm adds 10% to its price and claims back the tax on its purchases, so it keeps exactly its value&nbsp;added</li>
 </ul>
+<aside class="notes">
+<p>The book’s Table 19.1 lists only the amounts before tax (purchases, sales, value added and the VAT on it). This table adds the tax on top so the cash is visible: the farmer gets $440 from the miller, remits $40 and keeps $400. The tax a firm pays on its purchases comes back as a credit, which is why the book’s purchases column shows it without tax.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="iclicker-question-2" class="slide level2" data-background-color="#f0f4f8">
 <h2>iClicker Question</h2>
@@ -995,10 +1008,161 @@ E) $350</p>
 </ul>
 </div></div>
 <aside class="notes">
-<p>The first two panels of the book’s table, using the bread example. Each upstream stage charges GST, claims a credit for the GST it paid, and remits the difference: 40 + 30 + 25 = $95, whatever happens at the grocer.</p>
-<p>Zero-rated: the grocer charges no GST but still claims the $95 it paid the baker, so CRA refunds it and the total is $0. The refund isn’t a windfall. When bread is taxed the grocer charges $1,100, pays the baker $1,045 and remits $5, keeping $50. Zero-rated, it charges $1,000, pays $1,045 and gets $95 back: still $50. The whole $100 goes to the shopper.</p>
-<p>Exempt: the grocer charges nothing and claims nothing, so the $95 is a cost like any other input. Passed on, bread costs $1,095.</p>
+<p>The first two panels of the book’s table, using the bread example. Each upstream stage charges GST, claims a credit for the GST it paid, and remits the difference: 40 + 30 + 25 = $95, whatever happens at the grocer. The next two slides follow the cash in each case.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="zero-rated-groceries" class="slide level2 smaller">
+<h2>Zero-Rated Groceries</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>10% GST ($)</th>
+<th style="text-align: right;">Pays its supplier</th>
+<th style="text-align: right;">Charges its buyer</th>
+<th style="text-align: right;">Remits</th>
+<th style="text-align: right;">Keeps</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Farmer</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">400 + 40</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">400</td>
+</tr>
+<tr class="even">
+<td>Miller</td>
+<td style="text-align: right;">400 + 40</td>
+<td style="text-align: right;">700 + 70</td>
+<td style="text-align: right;">70 − 40 = 30</td>
+<td style="text-align: right;">300</td>
+</tr>
+<tr class="odd">
+<td>Baker</td>
+<td style="text-align: right;">700 + 70</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">95 − 70 = 25</td>
+<td style="text-align: right;">250</td>
+</tr>
+<tr class="even">
+<td>Grocer</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">1,000 + <strong>0</strong></td>
+<td style="text-align: right;">0 − 95 = <strong>−95</strong></td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>0</strong></td>
+<td style="text-align: right;"><strong>1,000</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Only the grocer’s row changes from slide 18: it charges no GST but still claims the $95 it paid the baker, so CRA refunds it</li>
+<li>The refund isn’t a windfall: the grocer keeps $50, just as when bread is taxed. It only gets back GST it&nbsp;paid</li>
+<li>The shopper pays $1,000, so the whole $100 of tax comes off the price</li>
+</ul>
+<aside class="notes">
+<p>Taxed versus zero-rated for the grocer: taxed, it charges $1,100, pays the baker $1,045 and remits $5, keeping $50. Zero-rated, it charges $1,000, pays $1,045 and gets $95 back: still $50. Whether the full $100 shows up in the shelf price is an incidence question (Chapter 14).</p>
 <p>Zero-rating isn’t free to run: zero-rated sellers are always owed refunds, which ties up their cash and draws CRA’s attention, since refund claims are a common target for fraud.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="exempt-groceries" class="slide level2 smaller">
+<h2>Exempt Groceries</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>10% GST ($)</th>
+<th style="text-align: right;">Pays its supplier</th>
+<th style="text-align: right;">Charges its buyer</th>
+<th style="text-align: right;">Remits</th>
+<th style="text-align: right;">Keeps</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Farmer</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">400 + 40</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">400</td>
+</tr>
+<tr class="even">
+<td>Miller</td>
+<td style="text-align: right;">400 + 40</td>
+<td style="text-align: right;">700 + 70</td>
+<td style="text-align: right;">70 − 40 = 30</td>
+<td style="text-align: right;">300</td>
+</tr>
+<tr class="odd">
+<td>Baker</td>
+<td style="text-align: right;">700 + 70</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">95 − 70 = 25</td>
+<td style="text-align: right;">250</td>
+</tr>
+<tr class="even">
+<td>Grocer</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;"><strong>1,095</strong> + 0</td>
+<td style="text-align: right;"><strong>0</strong></td>
+<td style="text-align: right;">50</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>95</strong></td>
+<td style="text-align: right;"><strong>1,000</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The grocer charges no GST and claims nothing, so the $95 it paid is a cost, like its rent</li>
+<li>To keep its $50, it charges $1,095: the $95 is hidden in the&nbsp;price</li>
+<li>Exempting the last stage untaxes only the grocer’s own $50 of value added: the shopper saves $5, not&nbsp;$100</li>
+<li>Exempt under the GST: residential rent, most health and dental care, daycare, municipal transit, most education, many financial services</li>
+</ul>
+<aside class="notes">
+<p>The shopper’s $5 saving is 10% of the grocer’s $50 of value added: the rest of the tax was collected before the grocer. The same arithmetic is behind the small-grocer point under “Where RSTs and VATs Differ”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1013,57 +1177,69 @@ E) $350</p>
 </section>
 <section id="exempting-a-middle-stage" class="slide level2 smaller">
 <h2>Exempting a Middle Stage</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
 <table class="caption-top">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 21%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>GST remitted ($)</th>
-<th style="text-align: right;">Everything taxed</th>
-<th style="text-align: right;">Flour exempt</th>
+<th>10% GST ($)</th>
+<th style="text-align: right;">Pays its supplier</th>
+<th style="text-align: right;">Charges its buyer</th>
+<th style="text-align: right;">Remits</th>
+<th style="text-align: right;">Keeps</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Farmer</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">400 + 40</td>
 <td style="text-align: right;">40</td>
-<td style="text-align: right;">40</td>
+<td style="text-align: right;">400</td>
 </tr>
 <tr class="even">
-<td>Miller</td>
-<td style="text-align: right;">70 − 40 = 30</td>
-<td style="text-align: right;">0</td>
+<td>Miller&nbsp;(exempt)</td>
+<td style="text-align: right;">400 + 40</td>
+<td style="text-align: right;">700 + <strong>0</strong></td>
+<td style="text-align: right;"><strong>0</strong></td>
+<td style="text-align: right;"><strong>260</strong></td>
 </tr>
 <tr class="odd">
 <td>Baker</td>
-<td style="text-align: right;">95 − 70 = 25</td>
-<td style="text-align: right;">95 − 0 = 95</td>
+<td style="text-align: right;">700 + <strong>0</strong></td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">95 − <strong>0</strong> = <strong>95</strong></td>
+<td style="text-align: right;">250</td>
 </tr>
 <tr class="even">
 <td>Grocer</td>
+<td style="text-align: right;">950 + 95</td>
+<td style="text-align: right;">1,000 + 100</td>
 <td style="text-align: right;">100 − 95 = 5</td>
-<td style="text-align: right;">100 − 95 = 5</td>
+<td style="text-align: right;">50</td>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
-<td style="text-align: right;"><strong>100</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
 <td style="text-align: right;"><span class="fg" style="color: #c7254e;"><strong>140</strong></span></td>
+<td style="text-align: right;"><strong>960</strong></td>
 </tr>
 </tbody>
 </table>
-</div><div class="column" style="width:50%;">
 <ul>
-<li>The exempt miller charges no GST and can’t claim back the $40 it paid</li>
-<li>The baker’s flour invoice shows no GST, so it has no credit: it remits 10% of its full $950 of&nbsp;sales</li>
+<li>The exempt miller can’t claim back the $40 it paid, so at the book’s prices it keeps $260, not&nbsp;$300</li>
+<li>The baker’s flour invoice shows no GST, so it has no credit: it remits 10% of its full $950</li>
 <li>That $95 covers the farmer’s, the miller’s and the baker’s value added, so the farmer’s is taxed twice:&nbsp;<span class="fg" style="color: #c7254e;">cascading</span></li>
-</ul>
-</div></div>
-<ul>
-<li>Exempting the miller doesn’t even untax the miller: its value added is taxed at the baker instead</li>
-<li>Exempt under the GST: residential rent, most health and dental care, daycare, municipal transit, most education, many financial services</li>
+<li>Exempting the miller doesn’t even untax the miller: its value added is taxed at the baker&nbsp;instead</li>
 </ul>
 <aside class="notes">
-<p>The third panel of the book’s table. Like the book, it holds each stage’s pre-tax price fixed. If the miller passed its $40 on, flour would cost $740 and the total would be $144, since the $40 itself gets taxed again at the baker.</p>
+<p>The third panel of the book’s table, flour exempt. The $140 is the shopper’s $100 plus the $40 the miller absorbs. Like the book, it holds each stage’s price before tax fixed, so the miller absorbs the $40. If every firm instead passed on what it couldn’t claim back, flour would cost $740, bread $1,040 before GST, and the total would be $144 (40 + 0 + 99 + 5): the $40 itself gets taxed again at the baker. The iClicker question that follows uses the book’s convention.</p>
 <p>The real-world middle-stage case is financial services sold to businesses: the bank can’t claim credits, so the GST it pays is buried in its fees, and its business customers can’t claim it back.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -1193,8 +1369,9 @@ E) $150</p>
 <section id="rst-versus-vat" class="slide level2">
 <h2>RST versus VAT</h2>
 <ul>
+<li>A <span class="fg" style="color: #2780e3;">retail sales tax (RST)</span> is charged once, on the full price, when a retailer sells, with no credits for tax paid&nbsp;earlier</li>
 <li>RSTs came first: Alberta in 1936 (repealed in 1937), Saskatchewan in 1937, and every province but Alberta by 1967</li>
-<li>Today only BC, SK and MB have <span class="fg" style="color: #2780e3;">retail sales taxes</span>
+<li>Today only BC, SK and MB have them
 <ul>
 <li>Quebec’s QST and the HST are VATs integrated with the GST</li>
 <li>Alberta and the territories have no general sales tax</li>

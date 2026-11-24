@@ -61,8 +61,8 @@ The finance minister who brought in the GST made the point that swapping a hidde
 
 - A sales tax can be a [unit tax]{.fg style="color: #2780e3;"} (cents per litre) or an [ad valorem tax]{.fg style="color: #2780e3;"} (a percentage of the price) ([Chapter 14]{.fg style="color: #555;"})
 - Canada has four kinds
-  - [VATs]{.fg style="color: #555;"}: the GST/HST (Ottawa and five provinces) and the QST (Quebec)
-  - [RSTs]{.fg style="color: #555;"}: BC, SK and MB
+  - [VATs]{.fg style="color: #555;"} (value-added taxes), collected from every firm along the chain: the GST/HST (Ottawa and five provinces) and the QST (Quebec)
+  - [RSTs]{.fg style="color: #555;"} (retail sales taxes), collected once, at the sale to the final buyer: BC, SK and&nbsp;MB
   - [Excise taxes]{.fg style="color: #555;"}: Ottawa and every province
   - [Customs duties]{.fg style="color: #555;"}: Ottawa only
 
@@ -354,17 +354,21 @@ BC: former premier Bill Vander Zalm led the campaign against the HST, arguing it
 Sales minus purchases of material (intermediate) inputs. Wages, interest, rent and profit are all part of value&nbsp;added
 :::
 
-| Producer | Purchases (\$) | Sales (\$) | Value added (\$) | VAT at 10% (\$) |
+| 10% VAT (\$) | Pays its supplier | Charges its buyer | Remits | Keeps (value&nbsp;added) |
 |---|---:|---:|---:|---:|
-| Farmer | 0 | 400 | 400 | 40 |
-| Miller | 400 | 700 | 300 | 30 |
-| Baker | 700 | 950 | 250 | 25 |
-| Grocer | 950 | 1,000 | 50 | 5 |
-| Total | | | 1,000 | 100 |
+| Farmer | 0 | 400 + 40 | 40 | 400 |
+| Miller | 400 + 40 | 700 + 70 | 70 − 40 = 30 | 300 |
+| Baker | 700 + 70 | 950 + 95 | 95 − 70 = 25 | 250 |
+| Grocer | 950 + 95 | 1,000 + 100 | 100 − 95 = 5 | 50 |
+| **Total** | | | **100** | **1,000** |
 
 - A [value-added tax (VAT)]{.fg style="color: #2780e3;"} is a percentage tax on each stage's value added
   - Total value added is \$1,000, the retail price, so the VAT raises \$100: the same as a 10% tax on the final sale
-- Sales and purchases are before tax: each firm charges 10% on top, and gets back what it paid on its purchases as a&nbsp;credit
+- Each firm adds 10% to its price and claims back the tax on its purchases, so it keeps exactly its value&nbsp;added
+
+::: {.notes}
+The book's Table 19.1 lists only the amounts before tax (purchases, sales, value added and the VAT on it). This table adds the tax on top so the cash is visible: the farmer gets \$440 from the miller, remits \$40 and keeps \$400. The tax a firm pays on its purchases comes back as a credit, which is why the book's purchases column shows it without tax.
+:::
 
 ## iClicker Question {background-color="#f0f4f8"}
 
@@ -479,40 +483,65 @@ The minister's argument (Wilson, Department of Finance, 1987, p. 64), roughly: e
 ::::
 
 ::: {.notes}
-The first two panels of the book's table, using the bread example. Each upstream stage charges GST, claims a credit for the GST it paid, and remits the difference: 40 + 30 + 25 = \$95, whatever happens at the grocer.
+The first two panels of the book's table, using the bread example. Each upstream stage charges GST, claims a credit for the GST it paid, and remits the difference: 40 + 30 + 25 = \$95, whatever happens at the grocer. The next two slides follow the cash in each case.
+:::
 
-Zero-rated: the grocer charges no GST but still claims the \$95 it paid the baker, so CRA refunds it and the total is \$0. The refund isn't a windfall. When bread is taxed the grocer charges \$1,100, pays the baker \$1,045 and remits \$5, keeping \$50. Zero-rated, it charges \$1,000, pays \$1,045 and gets \$95 back: still \$50. The whole \$100 goes to the shopper.
+## Zero-Rated Groceries {.smaller}
 
-Exempt: the grocer charges nothing and claims nothing, so the \$95 is a cost like any other input. Passed on, bread costs \$1,095.
+| 10% GST (\$) | Pays its supplier | Charges its buyer | Remits | Keeps |
+|---|---:|---:|---:|---:|
+| Farmer | 0 | 400 + 40 | 40 | 400 |
+| Miller | 400 + 40 | 700 + 70 | 70 − 40 = 30 | 300 |
+| Baker | 700 + 70 | 950 + 95 | 95 − 70 = 25 | 250 |
+| Grocer | 950 + 95 | 1,000 + **0** | 0 − 95 = **−95** | 50 |
+| **Total** | | | **0** | **1,000** |
+
+- Only the grocer's row changes from slide 18: it charges no GST but still claims the \$95 it paid the baker, so CRA refunds it
+- The refund isn't a windfall: the grocer keeps \$50, just as when bread is taxed. It only gets back GST it&nbsp;paid
+- The shopper pays \$1,000, so the whole \$100 of tax comes off the price
+
+::: {.notes}
+Taxed versus zero-rated for the grocer: taxed, it charges \$1,100, pays the baker \$1,045 and remits \$5, keeping \$50. Zero-rated, it charges \$1,000, pays \$1,045 and gets \$95 back: still \$50. Whether the full \$100 shows up in the shelf price is an incidence question (Chapter 14).
 
 Zero-rating isn't free to run: zero-rated sellers are always owed refunds, which ties up their cash and draws CRA's attention, since refund claims are a common target for fraud.
 :::
 
-## Exempting a Middle Stage {.smaller}
+## Exempt Groceries {.smaller}
 
-:::: columns
-:::: {.column width="50%"}
-| GST remitted (\$) | Everything taxed | Flour exempt |
-|------------|------------:|------------:|
-| Farmer | 40 | 40 |
-| Miller | 70 − 40 = 30 | 0 |
-| Baker | 95 − 70 = 25 | 95 − 0 = 95 |
-| Grocer | 100 − 95 = 5 | 100 − 95 = 5 |
-| **Total** | **100** | [**140**]{.fg style="color: #c7254e;"} |
-::::
+| 10% GST (\$) | Pays its supplier | Charges its buyer | Remits | Keeps |
+|---|---:|---:|---:|---:|
+| Farmer | 0 | 400 + 40 | 40 | 400 |
+| Miller | 400 + 40 | 700 + 70 | 70 − 40 = 30 | 300 |
+| Baker | 700 + 70 | 950 + 95 | 95 − 70 = 25 | 250 |
+| Grocer | 950 + 95 | **1,095** + 0 | **0** | 50 |
+| **Total** | | | **95** | **1,000** |
 
-:::: {.column width="50%"}
-- The exempt miller charges no GST and can't claim back the \$40 it paid
-- The baker's flour invoice shows no GST, so it has no credit: it remits 10% of its full \$950 of&nbsp;sales
-- That \$95 covers the farmer's, the miller's and the baker's value added, so the farmer's is taxed twice:&nbsp;[cascading]{.fg style="color: #c7254e;"}
-::::
-::::
-
-- Exempting the miller doesn't even untax the miller: its value added is taxed at the baker instead
+- The grocer charges no GST and claims nothing, so the \$95 it paid is a cost, like its rent
+- To keep its \$50, it charges \$1,095: the \$95 is hidden in the&nbsp;price
+- Exempting the last stage untaxes only the grocer's own \$50 of value added: the shopper saves \$5, not&nbsp;\$100
 - Exempt under the GST: residential rent, most health and dental care, daycare, municipal transit, most education, many financial services
 
 ::: {.notes}
-The third panel of the book's table. Like the book, it holds each stage's pre-tax price fixed. If the miller passed its \$40 on, flour would cost \$740 and the total would be \$144, since the \$40 itself gets taxed again at the baker.
+The shopper's \$5 saving is 10% of the grocer's \$50 of value added: the rest of the tax was collected before the grocer. The same arithmetic is behind the small-grocer point under "Where RSTs and VATs Differ".
+:::
+
+## Exempting a Middle Stage {.smaller}
+
+| 10% GST (\$) | Pays its supplier | Charges its buyer | Remits | Keeps |
+|---|---:|---:|---:|---:|
+| Farmer | 0 | 400 + 40 | 40 | 400 |
+| Miller&nbsp;(exempt) | 400 + 40 | 700 + **0** | **0** | **260** |
+| Baker | 700 + **0** | 950 + 95 | 95 − **0** = **95** | 250 |
+| Grocer | 950 + 95 | 1,000 + 100 | 100 − 95 = 5 | 50 |
+| **Total** | | | [**140**]{.fg style="color: #c7254e;"} | **960** |
+
+- The exempt miller can't claim back the \$40 it paid, so at the book's prices it keeps \$260, not&nbsp;\$300
+- The baker's flour invoice shows no GST, so it has no credit: it remits 10% of its full \$950
+- That \$95 covers the farmer's, the miller's and the baker's value added, so the farmer's is taxed twice:&nbsp;[cascading]{.fg style="color: #c7254e;"}
+- Exempting the miller doesn't even untax the miller: its value added is taxed at the baker&nbsp;instead
+
+::: {.notes}
+The third panel of the book's table, flour exempt. The \$140 is the shopper's \$100 plus the \$40 the miller absorbs. Like the book, it holds each stage's price before tax fixed, so the miller absorbs the \$40. If every firm instead passed on what it couldn't claim back, flour would cost \$740, bread \$1,040 before GST, and the total would be \$144 (40 + 0 + 99 + 5): the \$40 itself gets taxed again at the baker. The iClicker question that follows uses the book's convention.
 
 The real-world middle-stage case is financial services sold to businesses: the bank can't claim credits, so the GST it pays is buried in its fees, and its business customers can't claim it back.
 :::
@@ -583,8 +612,9 @@ The CTV News report (Allison Bamford, February 14, 2025): some stores spent hund
 
 ## RST versus VAT
 
+- A [retail sales tax (RST)]{.fg style="color: #2780e3;"} is charged once, on the full price, when a retailer sells, with no credits for tax paid&nbsp;earlier
 - RSTs came first: Alberta in 1936 (repealed in 1937), Saskatchewan in 1937, and every province but Alberta by 1967
-- Today only BC, SK and MB have [retail sales taxes]{.fg style="color: #2780e3;"}
+- Today only BC, SK and MB have them
   - Quebec's QST and the HST are VATs integrated with the GST
   - Alberta and the territories have no general sales tax
 
