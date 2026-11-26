@@ -2,66 +2,114 @@
 title: "Assignment 2"
 ---
 
-
 ## Description
 
-In this assignment you will create an infographic that effectively communicates key information about a topic related to taxation and public economics. Infographics are becoming a popular way to communicate complex information in a visually appealing and easy-to-understand format. You should aim to make your infographic engaging and informative, using a combination of text, images, and data visualizations to convey your message. The scope is broad: you can choose any topic that relates to taxation and public economics.  I encourage you to be creative and try to have fun with it (to the extent that is possible for a academic assignment at the end of term).
+The GST is often called regressive, because lower-income households
+spend a larger share of what they earn. But some of what they spend the
+most on, such as groceries and rent, is not taxed, and the Canada
+Groceries and Essentials Benefit pays lower-income families a benefit
+that does not depend on what they buy. In this assignment you will use
+the spending records of over 5,000 Canadian households from Statistics
+Canada's Survey of Household Spending to work out how much GST
+households pay at each level of income. You will measure it against
+their income and against their spending, simulate the benefit, and ask
+what would happen if the government taxed food and gave the money back
+through the benefit instead.
 
+The assignment is designed to give you practice working with survey
+microdata in R, and to show how the answer to "who bears a tax?" depends
+on how you measure it. It is graded pass or
+fail.
+
+**Due: Friday, December 4, 2026 at 9:00pm.**
+
+::: callout-important
+## Download both files into the same folder
+
+[{{< fa solid file-export >}} `ec313assign2.qmd`](/assignments/files/ec313assign2.qmd){download="ec313assign2.qmd"}
+— the assignment questions, as a Quarto document you write your answers
+into
+
+[{{< fa solid file-export >}} `ec313assign2.csv`](/assignments/files/ec313assign2.csv){download="ec313assign2.csv"}
+— the data
+:::
 
 ## Instructions
 
-The specific instructions for the assignment are as follows:
+The questions are in the Quarto document above. Open it in RStudio and
+press **Render** before you change anything: it should produce a PDF. If
+it does not, fix that first, using the [Introduction to R and
+Quarto](/content/introtor.qmd) page.
 
-- The content of the infographic should be related to the public economics of taxation
-- You should use data to support your points (any dataset you like), and include at least one chart or graph that you create from the data
-- Submit as a PDF file (which means no animations, even though that would be fun)
-- You can use any software you like.  Some suggestions that are free:
+Then read the description of the data in the document carefully, and
+work through the three questions, writing your R code in the chunks
+provided and your answers in the text below each question. The hints
+under each question point to sections of the [Introduction to R and
+Quarto](/content/introtor.qmd) page, which has a worked example of each
+step. The sections "Groups of equal size", "Keeping a value from going
+below zero" and "Bar graphs" are new since Assignment 1. Each question has a **Comment on the results** prompt,
+just above the answer space, that says what your written answer must
+cover. Tables must be made with `datasummary_df()`, and graphs must have
+readable axis labels. Do not copy and paste, or screenshot, console
+output.
 
-    - Vennage (<https://venngage.com/>)
-    - Piktochart (<https://piktochart.com/>)
-    - Adobe Express (<https://www.adobe.com/express/>)
-    - Vista Create (<https://create.vista.com/>)
-    - Mind the Graph (<https://mindthegraph.com/>)
-    - Microsoft PowerPoint or Word
-    - Stata (for data analysis and graphics that you put into your infographic)
-    - R (advanced; using packages like ggplot2 for visualizations and patchwork or cowplot for layout)
-    - Python (advanced; using libraries like Matplotlib, Seaborn, and Plotly for visualizations and PIL or ReportLab for layout)
+## The data
 
+The data are an extract from the public use microdata file of
+Statistics Canada's [Survey of Household
+Spending](https://www150.statcan.gc.ca/n1/en/catalogue/62M0004X), 2023.
+Each row is one household: 5,485 households in all, with 59 of the
+file's 398 variables. The variables keep Statistics Canada's own names
+and codes. They cover the household's province, type, size and age, its
+income and income taxes, and its spending, split into 52 categories. The Quarto document describes every variable, and says how
+to treat each spending category when you calculate the GST.
 
+Source: Adapted from Statistics Canada, Survey of Household Spending,
+2023, Public Use Microdata File (catalogue 62M0004X). This does not
+constitute an endorsement by Statistics Canada of this product.
 
-### Examples
+## Submission
 
-Most of you will have never made an infographic before, so here are some examples to give you an idea of what is possible:
+Submit **the PDF produced by rendering your `.qmd` file** to the
+Gradescope assignment called **Assignment 2**, by the due date. When you
+upload it, match each question to the page it is on. Only the PDF is
+marked, so check that your code, tables, graphs and written answers all
+appear in it.
 
-- 2025 Winner of Finances of the Nation Infographic Competition: <https://financesofthenation.ca/wp-content/uploads/2025/07/FON_infographic_2025_winner.pdf>
-- 2024 Winner of Finances of the Nation Infographic Competition: <https://financesofthenation.ca/wp-content/uploads/2024/07/Revised_v2_FONC.pdf>
-- Statistics Canada Collection of Infographics: <https://www150.statcan.gc.ca/n1/pub/11-627-m/index-eng.htm>
-- Venngage Gallery of Economics Infographics: <https://venngage.com/blog/economic-infographic/>
+A document that does not render cannot produce a PDF, so render after
+every question, not only at the end.
 
-Most of these infographics are of professional quality.  Because you have one week to complete the assignment, and because it's worth only 5% of your grade, you are not expected to produce work up to this level.  However, you should aim to produce something visually appealing that effectively communicates your chosen topic.
+## Marking
 
+The assignment is worth 5% of your final grade, and it is graded **pass
+or fail**. A pass earns the full 5%; a fail earns 0.
 
-### Evaluation
+To pass, your PDF must:
 
-- Economic Content (50%)
+-   be rendered from the assignment's Quarto document, with your R code
+    showing;
+-   include every table and graph the questions ask for, made from the
+    data in R;
+-   answer all three **Comment on the results** prompts, covering each
+    point they ask about, with reasons that draw on your results and on
+    what we covered in class;
+-   include your statement on the use of generative AI.
 
-  - Title appeal
-  - Clarity of message
-  - Significance of the insight
-  - Proper identification of sources and notes
+Small mistakes in the numbers do not mean a fail, as long as the work is
+complete and the answers engage with the questions. A question left
+blank, a missing table or graph, or a written answer that does not
+address the prompt does.
 
-- Visual Appeal (50%)
+## Generative AI
 
-  - Clarity of presentation
-  - Visual appeal of design
-  - Appropriateness of graphics and data displays
-  
-  
-### Submission
+You may use generative AI for this assignment, but you must say how you
+used it. The document has a section at the end for this. Failing to
+disclose its use is academic misconduct.
 
-When you are finished, submit your infographic as a PDF file to Gradescope
+## Plagiarism
 
-
-### Plagiarism
-
-This is an independent assignment, which I expect you to complete on your own. It is plagiarism to copy someone else's work. However, you are encouraged to talk to each other to try to figure out how to do the assignment and bounce ideas off each other.
+This is an independent assignment, which I expect you to complete on
+your own. It is plagiarism to copy someone else's work verbatim, which
+includes R code. Any work you submit should be yours only. However, you
+are encouraged to talk to each other to try to figure out how to do the
+assignment.

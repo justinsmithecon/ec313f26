@@ -1,0 +1,430 @@
+---
+title: "EC313 Assignment 2: Who Pays the GST?"
+author: "Your name, your student number"
+date: today
+format:
+  pdf:
+    fig-width: 6
+    fig-height: 3.5
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \floatplacement{figure}{H}
+execute:
+  message: false
+  warning: false
+---
+
+<!--
+  HOW TO USE THIS FILE
+  --------------------
+  1. Put this file and ec313assign2.csv in the SAME folder.
+  2. Open this file in RStudio and press Render. It should produce a PDF
+     before you have written anything. If it does not, fix that first.
+  3. Write your code in the chunks provided and your answers where it
+     says "Write your answer here." Render after every question.
+  4. When you are finished, upload the PDF this file produces to the
+     Gradescope assignment "Assignment 2". Only the PDF is marked.
+-->
+
+## Background
+
+The GST is a 5% value-added tax on most of what households buy. In the
+five provinces with an HST, it is combined with a provincial sales tax
+into one tax at a higher rate. This assignment looks only at the federal
+5%, which is charged on the same goods and services in every province.
+
+Not everything is taxed. Some goods and services are **zero-rated**: no
+GST is charged when they are sold, and the seller can claim back the GST
+it paid on its own inputs. Basic groceries, prescription drugs and
+medical devices are zero-rated. Others are **exempt**: no GST is charged
+when they are sold, but the seller cannot claim back the GST it paid on
+its inputs. Residential rent, most health and dental services, child
+care, education, insurance and financial services are exempt.
+
+Consumption taxes are often called regressive. Lower-income households
+spend a larger share of what they earn, so a tax on spending takes a
+larger share of their income. In class we saw three reasons to be
+careful with that claim:
+
+-   a household's income in one year can be a poor guide to how well
+    off it is over its lifetime;
+-   zero-rating and exemptions take the GST off some of what
+    lower-income households spend the most on;
+-   the Canada Groceries and Essentials Benefit (called the GST/HST
+    credit until July 2026) gives lower-income families a payment that
+    does not depend on what they buy.
+
+In this assignment you will use the spending records of over 5,000
+Canadian households to work out how much GST households pay at each
+level of income, measured against their income and against their
+spending. You will then simulate the benefit, and ask what would happen
+if the government taxed food and gave the money back through the
+benefit instead. Throughout, assume that buyers bear the whole tax, so
+that prices are higher by the full amount of the GST. This is the usual
+assumption in calculations like these, and it is the one we questioned
+in class when we covered tax incidence.
+
+## The data
+
+The data come from Statistics Canada's Survey of Household Spending
+(SHS) for 2023. Each row is one household. The file is an extract from
+the survey's public use microdata file: it keeps 59 of its 398
+variables, with Statistics Canada's own variable names and codes. One
+variable has been changed to keep things simple: in this file, `FD003`
+(food bought in stores) leaves out candy and snack foods, which are in
+`FD821` and `FD883`. The
+spending variables are what the household spent in the year, in
+dollars, including sales taxes.
+
+Read these notes before you start. They are adapted from Statistics
+Canada's user guide for the file.
+
+-   **No weights.** The survey sampled some kinds of households more
+    heavily than others, older households in particular, and Statistics
+    Canada provides weights to correct for that. To keep things simple,
+    this file leaves the weights out, and you will treat every household
+    the same. Your results will show the same patterns as Statistics
+    Canada's published figures, but some numbers will differ, and older
+    households will make up more of the file than they do of the
+    population.
+-   **Provinces only.** Statistics Canada's estimates for Canada cover
+    the ten provinces. The file also has households from the three
+    territorial capitals (`PROV` = 63), which you will drop.
+-   **Diary spending.** Some spending, such as gasoline, was recorded in
+    a one-week diary and multiplied by 52 to make it annual. One
+    household's figure for such an item can be far off: a household that
+    happened not to buy gas that week shows \$0 for the year. Averages
+    over many households are accurate.
+-   **Confidentiality.** To protect the households in the survey,
+    Statistics Canada has capped some very large values and slightly
+    altered others. A handful of households report income taxes larger
+    than their income.
+
+**Household variables**
+
+| Variable | Description |
+|:-------------|:--------------------------------------------------------|
+| `CASEID` | Household identifier |
+| `PROV` | Province: 10 Newfoundland and Labrador, 11 Prince Edward Island, 12 Nova Scotia, 13 New Brunswick, 24 Quebec, 35 Ontario, 46 Manitoba, 47 Saskatchewan, 48 Alberta, 59 British Columbia, 63 territorial capitals |
+| `HHTYPE6` | Household type: 1 one person, 2 couple without children, 3 couple with children, 4 couple with other related or unrelated people, 5 lone-parent family, 6 other household |
+| `HHSIZE` | Number of people in the household (4 means 4 or more) |
+| `RP_AGEGP` | Age of the household's reference person: 1 under 30, 2 30 to 39, 3 40 to 54, 4 55 to 64, 5 65 to 74, 6 75 and over |
+| `HHTOTINC` | Total household income before tax, from all sources, including government transfers |
+| `TX010` | Income taxes paid by the household |
+| `TC001` | Total current consumption: the sum of all the spending variables below |
+
+**Spending variables**
+
+The table lists the spending variables in the data. Its last column,
+**Treat as**, is not in the data. It is a guide, for Question 2, to how
+the GST treats each kind of spending. Most categories mix goods and
+services that are treated differently, so the guide goes by what most of
+the spending is.
+
+| Variable | Spending on | Treat as |
+|:-----------|:---------------------------------------------|:-------------------|
+| `FD003` | Food bought in stores, except candy and snack foods | Zero-rated |
+| `FD821` | Candy and chocolate bought in stores | Taxed |
+| `FD883` | Snack foods bought in stores, such as chips | Taxed |
+| `FD990` | Food bought in restaurants | Taxed |
+| `FD1100` | Ready-to-cook meal kits | Taxed |
+| `SH004` | Rent | Exempt |
+| `SH990` | Renters' other costs: repairs, tenant insurance and parking | **You decide** |
+| `SH011` | Mortgage payments on the household's home | Untaxed |
+| `SH015` | Home insurance | Exempt |
+| `SH016` | Other costs of owning the home: mortgage insurance, legal fees, real estate commissions, land transfer taxes and registration fees | **You decide** |
+| `SH082` | Repairs and maintenance of the home | Taxed |
+| `SH991` | Condominium fees, property taxes and school taxes | Untaxed |
+| `SH030_A` | Water and sewage | Exempt |
+| `SH030_B` | Electricity | Taxed |
+| `SH030_C` | Natural gas | Taxed |
+| `SH034` | Other heating fuel | Taxed |
+| `SH041` | Owned second homes, such as cottages: mortgage, taxes, insurance and utilities | Untaxed |
+| `SH047` | Other owned properties | Untaxed |
+| `SH050` | Hotels and other accommodation away from home | Taxed |
+| `CS030` | Phone, internet and postal services | Taxed |
+| `HO002` | Domestic help and cleaning services | Taxed |
+| `HO003` | Pet food, pets and veterinarians | Taxed |
+| `HO010` | Household cleaning supplies | Taxed |
+| `HO014` | Paper, plastic and foil supplies | Taxed |
+| `HO018` | Garden supplies and services | Taxed |
+| `HO022` | Other household supplies | Taxed |
+| `CC001` | Child care | Exempt |
+| `HF001` | Furniture, appliances and other household furnishings and equipment | Taxed |
+| `CL030` | Clothing, footwear and accessories | Taxed |
+| `TR003` | Buying and leasing vehicles, and vehicle accessories | Taxed |
+| `TR020` | Renting vehicles | Taxed |
+| `TR031` | Vehicle registration fees | Untaxed |
+| `TR033` | Tires, batteries and other vehicle parts and supplies | Taxed |
+| `TR034` | Vehicle maintenance and repairs | Taxed |
+| `TR036` | Gasoline and other fuels | Taxed |
+| `TR043` | Charging electric vehicles | Taxed |
+| `TR038` | Parking | Taxed |
+| `TR039` | Driver's licences, tests and driving lessons | Untaxed |
+| `TR071` | Vehicle security and communication services | Taxed |
+| `TR085` | Vehicle insurance | Exempt |
+| `TR070` | Public transportation: transit, taxis, air travel, intercity bus and train, and moving | **You decide** |
+| `HC001` | Health care: medicines, dental and eye care, and health insurance premiums | Zero-rated or exempt |
+| `PC001` | Personal care products and services | Taxed |
+| `RE001` | Recreation: equipment, toys, electronics, entertainment, package trips and recreational vehicles | Taxed |
+| `ED003` | Tuition fees | Exempt |
+| `ED030` | Textbooks and school supplies | Taxed |
+| `RO001` | Books, newspapers and magazines | Taxed |
+| `TA018` | Alcohol, tobacco and cannabis | Taxed |
+| `GC001` | Lotteries and other games of chance | Untaxed |
+| `ME039` | Bank charges and other financial services | Exempt |
+| `ME040` | Other goods and services: legal services, union and club dues, funeral services, government services, store memberships and others | **You decide** |
+
+Source: Adapted from Statistics Canada, Survey of Household Spending,
+2023, Public Use Microdata File (catalogue 62M0004X). This does not
+constitute an endorsement by Statistics Canada of this product.
+
+## Instructions
+
+-   Write your R code in the chunks provided. You can add more chunks if
+    you need them.
+-   Tables and graphs must be presentable: use `datasummary_df()` for
+    tables, and give every graph readable axis labels.
+-   The hints under each question point to sections of the R tutorial,
+    the Introduction to R and Quarto page on the course website. Each
+    section has a worked example of the step the hint describes, using
+    different data.
+-   Render the document after each question, not only at the end.
+-   Every written answer goes under **Answer:**, and what it must cover
+    is set out just above, under **Comment on the results**.
+-   The assignment is graded pass or fail. The assignment page on the
+    course website says what a pass requires.
+
+## Setup
+
+Do not change this chunk or the next one.
+
+```{r}
+#| label: setup
+library(tidyverse)
+library(modelsummary)
+```
+
+```{r}
+#| label: load-data
+hh <- read_csv("ec313assign2.csv")
+
+head(hh)
+```
+
+## Question 1: Income and Spending
+
+**(a)** Prepare the data. Save each step back into `hh`.
+
+-   Keep only the households in the ten provinces.
+-   Create `atinc`, after-tax income: `HHTOTINC` minus `TX010`.
+-   Create `quintile`, the household's after-tax income quintile, from 1
+    (the fifth of households with the lowest `atinc`) to 5 (the fifth
+    with the highest). Use this code, after the first two steps:
+    `hh <- hh |> mutate(quintile = ntile(atinc, 5))`
+
+*Hints.*
+
+-   `filter()` keeps rows; `!=` means "is not equal to". See
+    "`filter()` — keep some rows" in the R tutorial.
+-   `ntile()` ranks the households by `atinc` and splits them into five
+    groups with the same number of households. See "Groups of equal
+    size" in the R tutorial.
+-   To check your work, `count(hh, quintile)` should show five
+    quintiles of 1,038 or 1,039 households each.
+
+```{r}
+#| label: q1a
+# Prepare hh here.
+
+```
+
+**(b)** For each quintile, calculate the average of `atinc`, the average
+of `TC001`, and the share of households whose reference person is 65 or
+older. Store the result in a data frame called `q1`.
+Then add `cons_share` to `q1`: average consumption divided by average
+after-tax income.
+
+Present `q1` as a table.
+
+*Hints.*
+
+-   `group_by()` followed by `summarise()` calculates averages for each
+    quintile. See "`group_by()` — do it separately for each group" in
+    the R tutorial.
+-   For the share of older households, first create a variable in `hh`
+    that is 1 if `RP_AGEGP` is 5 or 6 and 0 otherwise. The average of a
+    variable like this is the share of households for which it is 1. See
+    "Vectors have a type" and "Groups of equal size" in the R tutorial.
+-   Calculate `cons_share` from the two averages, in a `mutate()` after
+    `summarise()`. Do not average each household's own ratio: a few
+    households with very low incomes would swamp that average.
+
+```{r}
+#| label: q1b
+
+```
+
+**Comment on the results.** Describe how `cons_share` changes from the
+lowest quintile to the highest, and what a value above 1 means. Using
+the life-cycle model from Personal Taxation and Behaviour, explain why
+households in the lowest quintile might spend more than their income,
+and say whether the ages in your table support that explanation.
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 2: The GST in Each Quintile
+
+**(a)** Use the **Treat as** column in the table of spending variables
+above to calculate each household's GST. For the four variables marked **You
+decide**, decide whether most of the spending is taxed or untaxed. You
+will explain your choices in your comment. Then create, for each
+household in `hh`:
+
+-   `untaxed`: spending on everything that is zero-rated, exempt or
+    otherwise untaxed;
+-   `taxable`: total consumption, `TC001`, minus `untaxed`;
+-   `gst`: the GST included in taxable spending. The GST is 5% of
+    pre-tax spending, so
+
+    $$
+    \text{post-tax spending} = 1.05 \times \text{pre-tax spending}
+    $$
+
+    The amounts in the data are what households paid, so `taxable` is
+    post-tax spending. Pre-tax spending is therefore `taxable` / 1.05,
+    and the GST is 5% of that:
+
+    $$
+    \text{gst} = 0.05 \times \frac{\text{taxable}}{1.05}
+    $$
+
+    For example, \$105 of taxed spending is \$100 of pre-tax spending
+    plus \$5 of GST.
+
+*Hints.*
+
+-   There are fewer untaxed variables than taxed ones, so it is quicker
+    to add up the untaxed ones and subtract their sum from `TC001`.
+-   To check your work, `summary(hh$taxable)` should show no negative
+    values.
+
+```{r}
+#| label: q2a
+
+```
+
+**(b)** For each quintile, calculate the averages of `gst`,
+`atinc` and `TC001`. Store the result in a data frame called `q2`, and
+add to it:
+
+-   `gst_income`: average GST as a percentage of average after-tax
+    income;
+-   `gst_cons`: average GST as a percentage of average consumption.
+
+Present `q2` as a table, and make a bar graph of `gst_income` with one
+bar for each quintile.
+
+*Hints.*
+
+-   The table works the same way as in Question 1(b). A proportion
+    becomes a percentage when you multiply it by 100.
+-   For the graph, `geom_col()` draws one bar for each row of the data,
+    as high as the variable you give as `y`. Use `labs()` to give the
+    axes readable titles. See "Bar graphs" in the R tutorial.
+
+```{r}
+#| label: q2b-table
+
+```
+
+```{r}
+#| label: q2b-graph
+
+```
+
+**Comment on the results.** Say briefly how you treated the four **You
+decide** variables. Is the GST regressive, proportional or progressive
+when it is measured against income, and when it is measured against
+consumption? Using your results from Question 1, explain why the two
+differ, and which you think gives the better picture of who bears the
+GST.
+
+**Answer:**
+
+*Write your answer here.*
+
+## Question 3: The Benefit and Zero-Rated Food
+
+The Canada Groceries and Essentials Benefit for July 2026 to
+June 2027 pays up to \$679 a year to a single person and \$890 to a
+couple, plus \$234 for each child. It is reduced by 5% of family net
+income above \$46,432. Simulate it for each household in `hh`, using
+these simplified rules:
+
+-   count one adult in one-person households and lone-parent families
+    (`HHTYPE6` 1 or 5), and two adults in every other household;
+-   the maximum benefit is \$679 with one adult or \$890 with two, plus
+    \$234 for each other person in the household (`HHSIZE` minus the
+    number of adults);
+-   `benefit` is the maximum benefit minus 5% of the part of `HHTOTINC`
+    above \$46,432, but it cannot be less than 0.
+
+Also create `food_gst`, the GST households would pay if the zero-rated
+food they buy in stores were taxed at 5%. Assume they would buy the same
+food at the same prices before tax. Food is not taxed now, so the
+amounts are already prices before tax, and `food_gst` is 0.05 times
+`FD003`.
+
+Then, for each quintile, calculate the averages of `benefit`,
+`food_gst`, `gst` and `atinc`, and store the result in a data frame
+called `q3`. Add two variables to it:
+
+-   `gst_income`: average GST as a percentage of average after-tax
+    income, as in Question 2;
+-   `net_income`: average GST minus average benefit, as a percentage of
+    average after-tax income.
+
+Present `q3` as a table.
+
+*Hints.*
+
+-   `if_else()` gives one value where a condition is true and another
+    where it is false, and `|` combines two conditions with "or". See
+    "`mutate()` — create variables" and "`filter()` — keep some rows" in
+    the R tutorial.
+-   `pmax(0, x)` gives the larger of 0 and `x`, row by row. You need it
+    twice: once for the part of income above \$46,432 (which is 0 for a
+    household below it), and once to stop the benefit falling below 0.
+    See "Keeping a value from going below zero" in the R tutorial.
+
+```{r}
+#| label: q3
+
+```
+
+**Comment on the results.** In your answer, consider:
+
+-   How does the benefit change the burden of the GST? Compare
+    `net_income` with `gst_income`.
+-   Who gets the most from zero-rating food in dollars?
+-   Suppose the government charged the GST on food and spent the money
+    it raised on a larger benefit. Using your table, who would be better
+    off and who worse off? Is that a better way to help lower-income
+    households than a zero rate on food?
+
+**Answer:**
+
+*Write your answer here.*
+
+## Use of generative AI
+
+If you used a generative AI tool for any part of this assignment, name
+the tool and describe what you used it for. If you did not use one, say
+so.
+
+*Write your statement here.*

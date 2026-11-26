@@ -5,7 +5,6 @@ project:
   render:
     - "*.qmd"
     - "!assignments/files/"
-    - "!assignments/assign2.qmd"   # Fall 2025 version; remove once A2 is updated
     - "!files/tutorials/"
   resources:
     - files/tutorials/ec313-r-template.qmd
@@ -14,6 +13,8 @@ project:
     - assignments/files/ec313assign1.csv
     - assignments/files/ec313assign1-key.qmd
     - assignments/files/ec313assign1-key.pdf
+    - assignments/files/ec313assign2.qmd
+    - assignments/files/ec313assign2.csv
 
 website:
   title: "EC313 - Taxation"
@@ -77,6 +78,8 @@ website:
           contents:
             - text: "Assignment 1"
               file: assignments/assign1.qmd
+            - text: "Assignment 2"
+              file: assignments/assign2.qmd
 
 format:
   html:

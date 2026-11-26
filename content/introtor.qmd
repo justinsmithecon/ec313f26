@@ -829,6 +829,60 @@ count(cis, educ)
 ```
 :::
 
+### Groups of equal size
+
+A common way to compare people at different levels of income is to
+rank them and split them into groups of the same size, such as
+quartiles (quarters) or quintiles (fifths). `ntile(x, n)` does this: it
+ranks the rows by `x` and splits them into `n` groups with the same
+number of rows, numbered from 1 (the lowest values of `x`) to `n`.
+Here are income quartiles:
+
+```{r}
+cis_q <- cis |>
+  mutate(quartile = ntile(totinc, 4))
+
+cis_q |>
+  group_by(quartile) |>
+  summarise(
+    n          = n(),
+    max_inc    = max(totinc),
+    mean_inc   = mean(totinc),
+    share_univ = mean(as.numeric(educ == "University"))
+  )
+```
+
+Each quartile has 125 of the 500 people, and `max_inc` shows where
+each one ends. `share_univ` uses a handy fact: the average of a
+variable that is 1 or 0 is the share of the group for which it is 1.
+Here it is the share of each quartile with a university degree: about
+one in six in the bottom quartile, and more than two in five in the top
+one.
+
+### Keeping a value from going below zero
+
+`pmax()` compares values row by row and keeps the larger. Its most
+common use is to stop a calculation from going below zero. Here is an
+imaginary benefit of \$2,000 that is reduced by 10% of income above
+\$30,000, but cannot be negative:
+
+```{r}
+cis |>
+  mutate(
+    above   = pmax(0, totinc - 30000),
+    benefit = pmax(0, 2000 - 0.10 * above)
+  ) |>
+  select(totinc, above, benefit) |>
+  arrange(totinc) |>
+  slice(c(1, 100, 200, 300, 400))
+```
+
+`above` is the part of income above \$30,000, which is 0 for anyone
+with less than that. The benefit is \$2,000 for incomes up to \$30,000,
+falls as income rises, and is 0 from \$50,000 on. (To show a range of
+incomes, `arrange()` sorts the rows from the lowest income to the
+highest, and `slice()` picks out rows by their position.)
+
 ## Graphs
 
 Graphs in R are built with **ggplot2**, loaded as part of the tidyverse.
@@ -928,6 +982,58 @@ Three things to notice:
 -   `scale_colour_discrete(labels = ...)` replaces the 0 and 1 in the
     legend with words, in the same order. In `labs()`, `colour = NULL`
     removes the legend's title.
+
+### Bar graphs
+
+When each group has a single number to show, such as a total or an
+average, a bar graph is often the clearest picture. Here is a question
+about the progressivity of the income tax: does each education group
+pay a larger or a smaller share of all income tax than its share of all
+income? First add up tax and income within each group, then turn the
+totals into shares:
+
+```{r}
+tax_educ <- cis |>
+  group_by(educ) |>
+  summarise(tax = sum(inctax), inc = sum(totinc)) |>
+  mutate(
+    tax_share = 100 * tax / sum(tax),
+    inc_share = 100 * inc / sum(inc),
+    ratio     = tax_share / inc_share
+  )
+
+tax_educ
+```
+
+`sum()` adds up all the values of a variable. Inside `summarise()`, after
+`group_by()`, it adds them up within each group. The `mutate()` that
+follows works on the four rows of the summary, so there `sum(tax)` is
+the total over all four groups, and `tax / sum(tax)` is each group's
+share of the total. Multiplying by 100 turns a proportion into a
+percentage. `ratio` is above 1 for a group that pays a larger share of
+the tax than it earns of the income.
+
+`geom_col()` draws one bar for each row of the data, as high as the
+variable given as `y`:
+
+```{r}
+#| label: fig-tax-ratio
+#| fig-cap: "Share of income tax paid relative to share of income"
+#| fig-width: 6
+#| fig-height: 3.5
+ggplot(tax_educ, aes(x = educ, y = ratio)) +
+  geom_col() +
+  geom_hline(yintercept = 1, linetype = "dashed") +
+  labs(x = NULL, y = "Share of tax / share of income")
+```
+
+`geom_hline()` draws a horizontal line at the value given as
+`yintercept`, the same way `geom_vline()` draws a vertical one. Here it
+marks 1, where a group's share of the tax would equal its share of the
+income. University graduates are above the line, college graduates are
+almost exactly on it, and the two groups with less education are below
+it: the groups with higher incomes pay a larger share of the tax than
+of the income, which is what a progressive tax does.
 
 ::: callout-important
 ## Assignment graphs need labels
