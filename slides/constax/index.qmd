@@ -590,7 +590,7 @@ B is the trap: it assumes the exemption just removes the spinner's \$30 of tax o
 ## Improving the GST: Harmonization and Compliance
 
 - Economists like the GST; voters don't
-  - The Liberals promised to repeal it
+  - The Liberals promised to replace it
 - [Harmonization]{.fg style="color: #2780e3;"}: one base and one return, which lowers compliance costs
   - The HST came to NL, NS and NB (1997), ON (2010) and PE (2013)
   - BC had it from 2010 to 2013
@@ -598,7 +598,7 @@ B is the trap: it assumes the exemption just removes the spinner's \$30 of tax o
 - [Compliance]{.fg style="color: #2780e3;"}: tracking credits and exempt items is costly, and hardest on small&nbsp;firms
 
 ::: {.notes}
-The repeal promise came in the 1993 campaign. The book says the Liberals were "elected in 1994"; the election was October 1993.
+The promise came in the 1993 campaign. The Red Book said a Liberal government would replace the GST with a fairer tax raising the same revenue, harmonized with the provinces. On the trail Chrétien and Sheila Copps talked of scrapping it, and Copps resigned in 1996 when it stayed. The replacement turned out to be the HST (1997). The book says the Liberals were "elected in 1994"; the election was October 1993.
 
 Public bodies (municipalities, universities, schools and hospitals, the MUSH sector) get rebates of part of the GST they pay. The HST is collected federally and the QST by Quebec, nearly fully harmonized with the GST since 2013 (fn 17).
 
