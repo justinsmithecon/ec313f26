@@ -47,9 +47,9 @@ provided and your answers in the text below each question. The hints
 under each question point to sections of the [Introduction to R and
 Quarto](/content/introtor.qmd) page, which has a worked example of each
 step. The sections "Groups of equal size", "Keeping a value from going
-below zero" and "Bar graphs" are new since Assignment 1. Each question has a **Comment on the results** prompt,
-just above the answer space, that says what your written answer must
-cover. Tables must be made with `datasummary_df()`, and graphs must have
+below zero" and "Bar graphs" are new since Assignment 1. Each question
+has a **Comment on the results** paragraph, just above the answer
+space, that says what your written answer must cover. Tables must be made with `datasummary_df()`, and graphs must have
 readable axis labels. Do not copy and paste, or screenshot, console
 output.
 
@@ -98,11 +98,11 @@ The assignment is worth 5% of your final grade.
 
 An honest attempt at a question has two parts. First, R code that tries
 to do what the question asks; it counts even if it gives an error or the
-wrong table or graph. Second, a written answer that responds to the
-**Comment on the results** prompt. Mistakes in your code, numbers or
-reasoning don't cost you anything. Empty code chunks, placeholder text,
-or a written answer that doesn't address the prompt do not count as an
-attempt. Your statement on the use of generative AI is required.
+wrong table or graph. Second, a written answer that responds to what
+the question's **Comment on the results** paragraph asks. Mistakes in
+your code, numbers or reasoning don't cost you anything. Empty code
+chunks, placeholder text, or a written answer that doesn't respond to
+what the question asks do not count as an attempt. Your statement on the use of generative AI is required.
 
 ## Generative AI
 
