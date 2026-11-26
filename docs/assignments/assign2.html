@@ -213,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="description" class="level2">
 <h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>The GST is often called regressive, because lower-income households spend a larger share of what they earn. But some of what they spend the most on, such as groceries and rent, is not taxed, and the Canada Groceries and Essentials Benefit pays lower-income families a benefit that does not depend on what they buy. In this assignment you will use the spending records of over 5,000 Canadian households from Statistics Canada’s Survey of Household Spending to work out how much GST households pay at each level of income. You will measure it against their income and against their spending, simulate the benefit, and ask what would happen if the government taxed food and gave the money back through the benefit instead.</p>
-<p>The assignment is designed to give you practice working with survey microdata in R, and to show how the answer to “who bears a tax?” depends on how you measure it. It is graded pass or fail.</p>
+<p>The assignment is designed to give you practice working with survey microdata in R, and to show how the answer to “who bears a tax?” depends on how you measure it. It is marked on whether you make an honest attempt at each question, not on whether your answers are right.</p>
 <p><strong>Due: Friday, December 4, 2026 at 9:00pm.</strong></p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -243,19 +243,19 @@ Download both files into the same folder
 <section id="submission" class="level2">
 <h2 class="anchored" data-anchor-id="submission">Submission</h2>
 <p>Submit <strong>the PDF produced by rendering your <code>.qmd</code> file</strong> to the Gradescope assignment called <strong>Assignment 2</strong>, by the due date. When you upload it, match each question to the page it is on. Only the PDF is marked, so check that your code, tables, graphs and written answers all appear in it.</p>
-<p>A document that does not render cannot produce a PDF, so render after every question, not only at the end.</p>
+<p>A document that does not render cannot produce a PDF, so render after every question, not only at the end. If you cannot get a chunk to work, add this line at the top of the chunk, just below its label:</p>
+<pre><code>#| error: true</code></pre>
+<p>The document will then render, with the error showing in your PDF. Code that tries to answer the question still counts as an attempt (see Marking), so submit what you have.</p>
 </section>
 <section id="marking" class="level2">
 <h2 class="anchored" data-anchor-id="marking">Marking</h2>
-<p>The assignment is worth 5% of your final grade, and it is graded <strong>pass or fail</strong>. A pass earns the full 5%; a fail earns 0.</p>
-<p>To pass, your PDF must:</p>
+<p>The assignment is worth 5% of your final grade.</p>
 <ul>
-<li>be rendered from the assignment’s Quarto document, with your R code showing;</li>
-<li>include every table and graph the questions ask for, made from the data in R;</li>
-<li>answer all three <strong>Comment on the results</strong> prompts, covering each point they ask about, with reasons that draw on your results and on what we covered in class;</li>
-<li>include your statement on the use of generative AI.</li>
+<li><strong>5%</strong>: an honest attempt at all three questions.</li>
+<li><strong>2.5%</strong>: an honest attempt at one or two of the questions.</li>
+<li><strong>0</strong>: no honest attempt at any question.</li>
 </ul>
-<p>Small mistakes in the numbers do not mean a fail, as long as the work is complete and the answers engage with the questions. A question left blank, a missing table or graph, or a written answer that does not address the prompt does.</p>
+<p>An honest attempt at a question has two parts. First, R code that tries to do what the question asks; it counts even if it gives an error or the wrong table or graph. Second, a written answer that responds to the <strong>Comment on the results</strong> prompt. Mistakes in your code, numbers or reasoning don’t cost you anything. Empty code chunks, placeholder text, or a written answer that doesn’t address the prompt do not count as an attempt. Your statement on the use of generative AI is required.</p>
 </section>
 <section id="generative-ai" class="level2">
 <h2 class="anchored" data-anchor-id="generative-ai">Generative AI</h2>

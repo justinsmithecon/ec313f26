@@ -191,11 +191,16 @@ constitute an endorsement by Statistics Canada of this product.
     the Introduction to R and Quarto page on the course website. Each
     section has a worked example of the step the hint describes, using
     different data.
--   Render the document after each question, not only at the end.
+-   Render the document after each question, not only at the end. If
+    you cannot get a chunk to work, add the line `#| error: true` at
+    the top of the chunk, just below its label. The document will then
+    render with the error showing, and code that tries to answer the
+    question still counts as an attempt.
 -   Every written answer goes under **Answer:**, and what it must cover
     is set out just above, under **Comment on the results**.
--   The assignment is graded pass or fail. The assignment page on the
-    course website says what a pass requires.
+-   The assignment is marked on whether you make an honest attempt at
+    each question, not on whether your answers are right. The
+    assignment page on the course website gives the details.
 
 ## Setup
 

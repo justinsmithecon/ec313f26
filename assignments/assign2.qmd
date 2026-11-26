@@ -18,8 +18,8 @@ through the benefit instead.
 
 The assignment is designed to give you practice working with survey
 microdata in R, and to show how the answer to "who bears a tax?" depends
-on how you measure it. It is graded pass or
-fail.
+on how you measure it. It is marked on whether you make an honest
+attempt at each question, not on whether your answers are right.
 
 **Due: Friday, December 4, 2026 at 9:00pm.**
 
@@ -77,28 +77,32 @@ marked, so check that your code, tables, graphs and written answers all
 appear in it.
 
 A document that does not render cannot produce a PDF, so render after
-every question, not only at the end.
+every question, not only at the end. If you cannot get a chunk to work,
+add this line at the top of the chunk, just below its label:
+
+```
+#| error: true
+```
+
+The document will then render, with the error showing in your PDF. Code
+that tries to answer the question still counts as an attempt (see
+Marking), so submit what you have.
 
 ## Marking
 
-The assignment is worth 5% of your final grade, and it is graded **pass
-or fail**. A pass earns the full 5%; a fail earns 0.
+The assignment is worth 5% of your final grade.
 
-To pass, your PDF must:
+-   **5%**: an honest attempt at all three questions.
+-   **2.5%**: an honest attempt at one or two of the questions.
+-   **0**: no honest attempt at any question.
 
--   be rendered from the assignment's Quarto document, with your R code
-    showing;
--   include every table and graph the questions ask for, made from the
-    data in R;
--   answer all three **Comment on the results** prompts, covering each
-    point they ask about, with reasons that draw on your results and on
-    what we covered in class;
--   include your statement on the use of generative AI.
-
-Small mistakes in the numbers do not mean a fail, as long as the work is
-complete and the answers engage with the questions. A question left
-blank, a missing table or graph, or a written answer that does not
-address the prompt does.
+An honest attempt at a question has two parts. First, R code that tries
+to do what the question asks; it counts even if it gives an error or the
+wrong table or graph. Second, a written answer that responds to the
+**Comment on the results** prompt. Mistakes in your code, numbers or
+reasoning don't cost you anything. Empty code chunks, placeholder text,
+or a written answer that doesn't address the prompt do not count as an
+attempt. Your statement on the use of generative AI is required.
 
 ## Generative AI
 
